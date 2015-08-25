@@ -1,0 +1,10 @@
+#page .uf-text-team-position.upfront-plain_txt {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#page .uf-text-team-position.upfront-plain_txt h4 {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.389em;
+}

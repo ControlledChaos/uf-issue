@@ -1,0 +1,23 @@
+#page .uf-text-block-heading.upfront-plain_txt h1 {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.334em;
+    position: relative;
+}
+#page .uf-text-block-heading.upfront-plain_txt h1:before, #page .uf-text-block-heading.upfront-plain_txt h1:after {
+    background-color: #ufc1;
+    content: "";
+    display: block;
+    height: 40px;
+    width: 100%;
+}
+#page .uf-text-block-heading.upfront-plain_txt h1:before {
+    float: left;
+    margin-right: 30px;
+    max-width: 60px;
+}
+#page .uf-text-block-heading.upfront-plain_txt h1:after {
+    float: right;
+    max-width: 560px;
+}

@@ -1,0 +1,17 @@
+#page .uf-text-team-social-pinterest.upfront-plain_txt {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#page .uf-text-team-social-pinterest.upfront-plain_txt p a {
+    font-size: 0;
+    position: relative;
+}
+#page .uf-text-team-social-pinterest.upfront-plain_txt p a:before {
+    background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-position: -870px -711px;
+    content: "";
+    display: block;
+    height: 20px;
+    pointer-events: none;
+    width: 20px;
+}

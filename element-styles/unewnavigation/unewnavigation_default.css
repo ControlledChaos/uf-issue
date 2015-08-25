@@ -1,0 +1,60 @@
+.upfront-navigation ul.menu, .upfront-navigation ul.sub-menu {
+    background-color: transparent;
+}
+.upfront-navigation ul.menu > li.new_menu_item a.menu_item {
+    color: #ufc6;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.429em;
+    padding: 0;
+}
+div[data-style='horizontal'] ul > li.menu-item > a,  div[data-style='vertical'] ul > li.menu-item > a,  div[data-style='burger'] ul > li.menu-item > a {
+    color: #ufc6;
+    font-size: 14px;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.429em;
+    padding: 0;
+    position: relative;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item {
+    margin-left: 30px;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item:first-child {
+    margin-left: 0;
+}
+div[data-style='horizontal'] ul > li.menu-item > a:hover,  div[data-style='vertical'] ul > li.menu-item > a:hover,  div[data-style='burger'] ul > li.menu-item > a:hover {
+    color: #ufc1;
+}
+div[data-style='horizontal'] ul > li.current-menu-item > a,  div[data-style='vertical'] ul > li.current-menu-item > a,  div[data-style='burger'] ul > li.current-menu-item > a {
+    color: #ufc1;
+}
+ div.responsive_nav_toggler {
+    background-color: #ufc3;
+    border: none;
+    border-radius: 0;
+    float: none;
+    height: 60px;
+    padding: 22px 0 0;
+    -moz-transition: background .4s;
+    -o-transition: background .4s;
+    -webkit-transition: background .4s;
+    transition: background .4s;
+    width: 60px;
+}
+ div.responsive_nav_toggler > div {
+    border-radius: 0;
+    height: 2px;
+    margin: 5px auto auto;
+    width: 20px;
+}
+ div.responsive_nav_toggler > div:first-child {
+    margin-top: 0;
+}
+ div.responsive_nav_toggler:hover {
+    background-color: #ufc1;
+}
+ div.responsive_nav_toggler:hover > div {
+    background: #ufc6;
+}

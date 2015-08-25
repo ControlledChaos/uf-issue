@@ -1,0 +1,35 @@
+.widget_search .search-form {
+    display: table;
+}
+.widget_search .search-form > label {
+    display: table-cell;
+    position: relative;
+}
+.widget_search .search-form > label:before {
+    background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-position: -391px -232px;
+    content: "";
+    height: 18px;
+    left: 10px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    width: 18px;
+}
+.widget_search .screen-reader-text {
+    display: none;
+}
+.widget_search .search-form .search-field {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 33px;
+}
+.widget_search .search-form .upfront-search-submit_group {
+    display: table-cell;
+    width: 1%;
+    position: relative;
+}
+.widget_search .search-form .search-submit {
+    min-width: auto;
+}

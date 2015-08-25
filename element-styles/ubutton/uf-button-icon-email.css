@@ -1,0 +1,18 @@
+#page .uf-button-icon-email.upfront-button a.upfront_cta {
+    display: block;
+    font-weight: 300;
+    line-height: 1.389em;
+    padding: 0;
+}
+#page .uf-button-icon-email.upfront-button a.upfront_cta:before {
+    background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-position: -535px -217px;
+    content: "";
+    display: block;
+    height: 48px;
+    margin: auto auto 30px;
+    width: 50px;
+}
+#page .uf-button-icon-email.upfront-button a.upfront_cta:hover:before {
+    background-position: -695px -217px;
+}

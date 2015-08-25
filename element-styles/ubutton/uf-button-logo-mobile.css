@@ -1,0 +1,23 @@
+#page .uf-button-logo-mobile.upfront-button {
+    padding-right: 0;
+    padding-left: 0;
+}
+#page .uf-button-logo-mobile.upfront-button a.upfront_cta {
+    display: block;
+    height: 60px;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width: 60px;
+}
+#page .uf-button-logo-mobile.upfront-button a.upfront_cta:before {
+    background: url("UPFRONT_THEME_BASE/ui/logo.png");
+    content: "";
+    display: block;
+    height: 15px;
+    margin: auto;
+    pointer-events: none;
+    position: relative;
+    top: 22px;
+    width: 17px;
+}

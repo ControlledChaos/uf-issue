@@ -1,0 +1,42 @@
+#page .uf-contact-join-the-team .ucontact-label-over {
+    margin-bottom: 15px;
+}
+#page .uf-contact-join-the-team/*.ucontact-label-over:after {
+    background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-position: -75px -1037px;
+    content: "";
+    height: 8px;
+    margin-top: -4px;
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+}
+#page .uf-contact-join-the-team */
+input.ucontact-input {
+    color: #ufc4;
+    min-height: auto;
+}
+#page .uf-contact-join-the-team textarea.ucontact-input {
+    border-color: transparent;
+}
+#page .uf-contact-join-the-team textarea.ucontact-input:focus {
+    border-color: #ufc2;
+}
+#page .uf-contact-join-the-team input[type="text"], #page .uf-contact-join-the-team input[type="email"], #page .uf-contact-join-the-team textarea {
+    background: #edf3f2;
+}
+#page .uf-contact-join-the-team .upfront-submit-container {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+#page .uf-contact-join-the-team .upfront-submit-container button[type="submit"] {
+    background-color: #ufc1;
+    border-radius: 4px;
+    margin-top: 0;
+    min-width: 150px;
+    padding: 0 10px;
+}
+#page .uf-contact-join-the-team .upfront-submit-container button[type="submit"]:hover {
+    background-color: #ufc0;
+}
