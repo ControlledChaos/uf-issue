@@ -1,0 +1,20 @@
+#page .uf-text-logo-tagline.upfront-plain_txt {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#page .uf-text-logo-tagline.upfront-plain_txt h2 {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.667em;
+    position: relative;
+}
+#page .uf-text-logo-tagline.upfront-plain_txt h2:before {
+    background: #ufc1;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 0 auto 5px auto;
+    overflow: hidden;
+    width: 100%;
+}

@@ -115,7 +115,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '7',
   'margin_left' => '3',
   'margin_right' => '0',
-  'margin_top' => '18',
+  'margin_top' => '15',
   'margin_bottom' => '0',
   'class' => 'module-1440493909973-1292',
   'id' => 'module-1440493909973-1292',
@@ -193,7 +193,7 @@ $main->add_element("Code", array (
   'columns' => '11',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '22',
+  'margin_top' => '18',
   'margin_bottom' => '0',
   'class' => 'module-1440495254361-1236',
   'id' => 'module-1440495254361-1236',
@@ -276,7 +276,7 @@ $main->add_element("Code", array (
     color: #ufc8;
     font-size: 12px;
     line-height: 2.084em;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .upfront-subscribe-notes p:last-child {
     margin-bottom: 0;

@@ -24,9 +24,7 @@ div[data-style='horizontal'] ul.menu > li.menu-item {
 div[data-style='horizontal'] ul.menu > li.menu-item:first-child {
     margin-left: 0;
 }
-div[data-style='horizontal'] ul > li.menu-item > a:hover,  div[data-style='vertical'] ul > li.menu-item > a:hover,  div[data-style='burger'] ul > li.menu-item > a:hover {
-    color: #ufc1;
-}
+div[data-style='horizontal'] ul > li.menu-item > a:hover,  div[data-style='vertical'] ul > li.menu-item > a:hover,  div[data-style='burger'] ul > li.menu-item > a:hover,
 div[data-style='horizontal'] ul > li.current-menu-item > a,  div[data-style='vertical'] ul > li.current-menu-item > a,  div[data-style='burger'] ul > li.current-menu-item > a {
     color: #ufc1;
 }

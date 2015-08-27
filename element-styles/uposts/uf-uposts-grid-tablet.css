@@ -1,0 +1,43 @@
+#page .uf-uposts-grid-tablet.uposts-object {
+    padding: 0;
+}
+#page .uf-uposts-grid-tablet .upfront_posts-list > ul, #page .uf-uposts-grid-tablet .uf-posts {
+    overflow: hidden;
+}
+#page .uf-uposts-grid-tablet .upfront_posts-list .uf-post, #page .uf-uposts-grid-tablet .uf-posts .uf-post {
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+#page .uf-uposts-grid-tablet .uf-post .uposts-part {
+    margin-bottom: 15px;
+}
+#page .uf-uposts-grid-tablet .uf-post .thumbnail {
+    float: none;
+    height: 150px;
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+#page .uf-uposts-grid-tablet .uf-post .title h3, #page .uf-uposts-grid-tablet .uf-post .title a {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.136em;
+}
+#page .uf-uposts-grid-tablet .uf-post .content {
+    margin-bottom: 5px;
+}
+#page .uf-uposts-grid-tablet .uf-post .content, #page .uf-uposts-grid-tablet .uf-post .content p {
+    color: #838e8d;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.786em;
+}
+#page .uf-uposts-grid-tablet .uf-post .comment_count {
+    color: #ufc2;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.786em;
+    margin-bottom: 0;
+}

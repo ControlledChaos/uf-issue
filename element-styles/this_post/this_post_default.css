@@ -1,0 +1,10 @@
+.upfront-postpart-title .post_title,
+.upfront-postpart-title .post_title a {
+    color: #ufc0;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 1.333em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}

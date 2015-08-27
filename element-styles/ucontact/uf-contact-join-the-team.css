@@ -1,7 +1,7 @@
 #page .uf-contact-join-the-team .ucontact-label-over {
     margin-bottom: 15px;
 }
-#page .uf-contact-join-the-team/*.ucontact-label-over:after {
+#page .uf-contact-join-the-team .upfront-field-name-container:after, #page .uf-contact-join-the-team .upfront-field-email-container:after, #page .uf-contact-join-the-team .upfront-field-message-container:after {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
     background-position: -75px -1037px;
     content: "";
@@ -12,13 +12,19 @@
     top: 50%;
     width: 10px;
 }
-#page .uf-contact-join-the-team */
-input.ucontact-input {
+#page .uf-contact-join-the-team .upfront-field-message-container:after {
+    margin-top: 0;
+    top: 15px;
+}
+#page .uf-contact-join-the-team input.ucontact-input {
     color: #ufc4;
     min-height: auto;
+    padding: 0 25px 0 10px;
 }
 #page .uf-contact-join-the-team textarea.ucontact-input {
     border-color: transparent;
+    color: #ufc4;
+    padding: 5px 25px 5px 10px;
 }
 #page .uf-contact-join-the-team textarea.ucontact-input:focus {
     border-color: #ufc2;
@@ -33,8 +39,9 @@ input.ucontact-input {
 #page .uf-contact-join-the-team .upfront-submit-container button[type="submit"] {
     background-color: #ufc1;
     border-radius: 4px;
+    color: #ufc6;
     margin-top: 0;
-    min-width: 150px;
+    min-width: 120px;
     padding: 0 10px;
 }
 #page .uf-contact-join-the-team .upfront-submit-container button[type="submit"]:hover {

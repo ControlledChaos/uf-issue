@@ -3209,11 +3209,11 @@ $team->add_element("Ucontact", array (
     'has_settings' => 1,
     'id_slug' => 'ucontact',
     'element_id' => 'ucontact-object-1440515271994-1663',
-    'row' => 79,
+    'row' => 67,
     'anchor' => '',
     'theme_style' => 'uf-contact-join-the-team',
   ),
-  'row' => 6,
+  'row' => 67,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1440515449924-1609',
   'breakpoint' => 

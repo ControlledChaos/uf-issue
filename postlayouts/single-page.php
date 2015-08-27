@@ -7,11 +7,11 @@
       array (
         0 => 
         array (
-          'classes' => ' post-part c24',
-          'slug' => 'date',
+          'classes' => 'post-part c18 ml0 mt0',
+          'slug' => 'title',
         ),
       ),
-      'classes' => 'c6 part-date',
+      'classes' => 'c18 clr part-title',
     ),
     1 => 
     array (
@@ -19,35 +19,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c24',
-          'slug' => 'featured_image',
-        ),
-      ),
-      'classes' => 'c24 clr part-featured_image',
-    ),
-    2 => 
-    array (
-      'objects' => 
-      array (
-        0 => 
-        array (
-          'classes' => 'post-part c24',
-          'slug' => 'title',
-        ),
-      ),
-      'classes' => 'c24 clr part-title',
-    ),
-    3 => 
-    array (
-      'objects' => 
-      array (
-        0 => 
-        array (
-          'classes' => ' post-part c24',
+          'classes' => ' post-part c18 ml0 mt6',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c24 clr part-contents',
+      'classes' => 'c18 clr part-contents',
     ),
   ),
   'partOptions' => 
@@ -63,6 +39,10 @@
       array (
         'style' => 'min-height: 40px',
       ),
+    ),
+    'title' => 
+    array (
+      'anchor' => '',
     ),
   ),
 );

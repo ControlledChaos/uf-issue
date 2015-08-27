@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_187741 = upfront_create_region(
+$region_c2c521 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'header',
@@ -37,7 +37,7 @@ $region_187741 = upfront_create_region(
 )
 			);
 
-$region_187741->add_element("Button", array (
+$region_c2c521->add_element("Button", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -114,7 +114,7 @@ $region_187741->add_element("Button", array (
   ),
 ));
 
-$region_187741->add_element("Unewnavigation", array (
+$region_c2c521->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -147,27 +147,15 @@ $region_187741->add_element("Unewnavigation", array (
       (array)(array(
          'menu-item-db-id' => 13,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'Issues',
-         'menu-item-url' => '{{upfront:home_url}}/issues',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '13',
+         'menu-item-url' => '{{upfront:home_url}}/gallery/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '22',
          'menu-item-target' => '_self',
          'menu-item-position' => 2,
       )),
       2 => 
-      (array)(array(
-         'menu-item-db-id' => 14,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'FAQ',
-         'menu-item-url' => '{{upfront:home_url}}/faq',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '14',
-         'menu-item-target' => '_self',
-         'menu-item-position' => 3,
-      )),
-      3 => 
       (array)(array(
          'menu-item-db-id' => 15,
          'menu-item-parent-id' => '0',
@@ -177,17 +165,29 @@ $region_187741->add_element("Unewnavigation", array (
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '15',
          'menu-item-target' => '_self',
+         'menu-item-position' => 3,
+      )),
+      3 => 
+      (array)(array(
+         'menu-item-db-id' => 14,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'post_type',
+         'menu-item-title' => 'FAQ',
+         'menu-item-url' => '{{upfront:home_url}}/faq/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '31',
+         'menu-item-target' => '_self',
          'menu-item-position' => 4,
       )),
       4 => 
       (array)(array(
          'menu-item-db-id' => 16,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'Contacts',
-         'menu-item-url' => '{{upfront:home_url}}/contacts',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '16',
+         'menu-item-type' => 'post_type',
+         'menu-item-title' => 'Contact',
+         'menu-item-url' => '{{upfront:home_url}}/contact/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '21',
          'menu-item-target' => '_self',
          'menu-item-position' => 5,
       )),
@@ -291,9 +291,9 @@ $region_187741->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_187741->add_element("PlainTxt", array (
+$region_c2c521->add_element("PlainTxt", array (
   'columns' => '2',
-  'margin_left' => '5',
+  'margin_left' => '4',
   'margin_right' => '0',
   'margin_top' => '1',
   'margin_bottom' => '0',
@@ -363,6 +363,6 @@ $region_187741->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_187741);
+$regions->add($region_c2c521);
 
 /* END_REGION_OUTPUT */

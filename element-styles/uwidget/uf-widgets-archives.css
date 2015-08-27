@@ -1,0 +1,27 @@
+#page .uf-widgets-archives .widget_search .upfront-search-fields {
+    position: relative;
+}
+#page .uf-widgets-archives .widget_search .upfront-search-fields:before {
+    background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-position: -55px -217px;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    height: 48px;
+    margin-right: 30px;
+    width: 50px;
+}
+#page .uf-widgets-archives .widget_search .upfront-search-input_group {
+    padding-left: 80px;
+}
+#page .uf-widgets-archives .widget_search .upfront-search-input_group:before {
+    content: "";
+    display: none;
+}
+#page .uf-widgets-archives .widget_search .search-form .search-field {
+    background: #ecf5f3;
+    color: #ufc2;
+    padding: 0 15px;
+}

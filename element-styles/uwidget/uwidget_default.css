@@ -1,11 +1,11 @@
-.widget_search .search-form {
+.widget_search .upfront-searc-fields {
     display: table;
 }
-.widget_search .search-form > label {
+.widget_search .upfront-search-input_group {
     display: table-cell;
     position: relative;
 }
-.widget_search .search-form > label:before {
+.widget_search .upfront-search-input_group:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
     background-position: -391px -232px;
     content: "";
@@ -25,7 +25,7 @@
     box-sizing: border-box;
     padding-left: 33px;
 }
-.widget_search .search-form .upfront-search-submit_group {
+.widget_search .upfront-search-submit_group {
     display: table-cell;
     width: 1%;
     position: relative;
