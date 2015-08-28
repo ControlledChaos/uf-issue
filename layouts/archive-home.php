@@ -192,6 +192,7 @@ $top_blocks->add_element("Uwidget", array (
       )),
     )),
     'title' => '',
+    'theme_style' => 'uf-widgets-alt',
   ),
   'row' => 6,
   'sticky' => false,

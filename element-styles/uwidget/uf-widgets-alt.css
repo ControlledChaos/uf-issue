@@ -1,0 +1,13 @@
+#page .uf-widgets-alt .widget_search .search-form .search-field::-moz-input-placeholder {
+    color: #fafafa;
+}
+#page .uf-widgets-alt .widget_search .search-form .search-field::-ms-input-placeholder {
+    color: #fafafa;
+}
+#page .uf-widgets-alt .widget_search .search-form .search-field::-webkit-input-placeholder {
+    color: #fafafa;
+}
+#page .uf-widgets-alt .widget_search .search-form .search-field {
+    background: #bcccc9;
+    color: #ufc6;
+}

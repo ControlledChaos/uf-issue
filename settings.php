@@ -64,38 +64,38 @@ html {
 /* forms */
 .upfront-object input::-moz-input-placeholder,
 .upfront-output-object input::-moz-input-placeholder {
-    color: #fafafa;
+    color: #ufc4;
     font-family: \\\'Titillium Web\\\', Arial, sans-serif;
     font-weight: 300;
 }
 .upfront-object textarea::-moz-input-placeholder,
 .upfront-output-object textarea::-moz-input-placeholder {
-    color: #fafafa;
+    color: #ufc4;
     font-family: \\\'Titillium Web\\\', Arial, sans-serif;
     font-weight: 300;
 }
 .upfront-object input::-ms-input-placeholder,
 .upfront-output-object input::-ms-input-placeholder {
-    color: #fafafa;
+    color: #ufc4;
     font-family: \\\'Titillium Web\\\', Arial, sans-serif;
     font-weight: 300;
 }
 .upfront-object textarea::-ms-input-placeholder,
 .upfront-output-object textarea::-ms-input-placeholder {
-    color: #fafafa;
+    color: #ufc4;
     font-family: \\\'Titillium Web\\\', Arial, sans-serif;
     font-weight: 300;
 }
 .upfront-object input::-webkit-input-placeholder,
 .upfront-output-object input::-webkit-input-placeholder {
-    color: #fafafa;
+    color: #ufc4;
     font-family: \\\'Titillium Web\\\', Arial, sans-serif;
     font-weight: 300;
 
 }
 .upfront-object textarea::-webkit-input-placeholder,
 .upfront-output-object textarea::-webkit-input-placeholder {
-    color: #fafafa;
+    color: #ufc4;
     font-family: \\\'Titillium Web\\\', Arial, sans-serif;
     font-weight: 300;
 }
@@ -109,9 +109,9 @@ html {
 .upfront-output-object input[type="password"],
 .upfront-output-object input[type="search"],
 .upfront-output-object textarea {
-    background: #bcccc9;
+    background: #edf3f2;
     border: 1px solid transparent;
-    color: #ufc6;
+    color: #ufc2;
     display: inline-block;
     font-family: \\\'Titillium Web\\\', Arial, sans-serif;
     font-weight: 300;

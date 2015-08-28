@@ -250,6 +250,7 @@ $main->add_element("Uwidget", array (
          'row' => 13,
       )),
     )),
+    'theme_style' => 'uf-widgets-alt',
   ),
   'row' => 6,
   'sticky' => false,

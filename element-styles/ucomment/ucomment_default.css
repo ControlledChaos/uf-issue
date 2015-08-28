@@ -1,0 +1,149 @@
+.upfront-comment ol.upfront-comments {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.upfront-comment ol.upfront-comments .children {
+    list-style-type: none;
+    margin: 25px 0 25px 90px;
+    padding: 0;
+}
+.upfront-comments li.comment {
+    margin-top: 30px;
+}
+.upfront-comments li.comment:first-child {
+    margin-top: 0;
+}
+.upfront-comments li.comment article {
+    overflow: hidden;
+}
+.upfront-comments .comment-meta {
+    float: left;
+    margin-right: 30px;
+}
+.upfront-comments .comment-meta .avatar {
+    border-radius: 50%;
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+.upfront-comments .comment-content-wrapper {
+    display: block;
+    float: left;
+    max-width: 550px;
+    margin-top: 5px;
+    position: relative;
+    width: 100%;
+}
+.upfront-comments .comment-author {
+    margin-bottom: 10px;
+}
+.upfront-comments .comment-author .fn {
+    color: #ufc3;
+    display: block;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.111em;
+    font-weight: 300;
+    font-style: normal;
+}
+.upfront-comments .comment-author .fn a {
+    color: #ufc1;
+    font-weight: 300;
+}
+.upfront-comments .comment-author .fn a:hover {
+    color: #ufc7;
+}
+.upfront-comments .comment-time {
+    color: #ufc5;
+    display: block;
+    font-size: 14px;
+    line-height: 1.429em;
+    margin-bottom: 10px;
+}
+.upfront-comments .comment-time a {
+    color: #ufc5;
+}
+.upfront-comments .comment-time a:hover {
+    color: #ufc3;
+}
+.upfront-comments .comment-content {
+    clear: both;
+    overflow: hidden;
+}
+.upfront-comments .comment .edit-link {
+    font-size: 14px;
+    line-height: 1.429em;
+    margin: 10px 0;
+}
+.upfront-comments .comment .edit-link a {
+    color: #ufc1;
+    font-weight: 400;
+}
+.upfront-comments .comment .edit-link a:hover {
+    color: #ufc3;
+}
+.upfront-comments .reply {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.upfront-comments .reply .comment-reply-link {
+    display: block;
+    position: relative;
+}
+.upfront-comments .reply .comment-reply-link:before {
+    background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-position: -234px -1035px;
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+}
+.upfront-comments .comment-content p {
+    -ms-word-break: break-word;
+    word-break: break-word;
+    color: #ufc3;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.667em;
+}
+.upfront-comments .comment-content p:last-child {
+    margin-bottom: 0;
+}
+.comment-respond {
+    margin: 45px auto 0;
+    overflow: hidden;
+}
+.comment-respond .comment-reply-title {
+    color: #ufc0;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.167em;
+    margin-bottom: 15px;
+}
+.comment-respond .logged-in-as, .comment-respond .comment-notes {
+    color: #ufc3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.875em;
+}
+.comment-respond .logged-in-as a, .comment-respond .comment-notes a {
+    color: #ufc1;
+}
+.comment-respond .logged-in-as a:hover, .comment-respond .comment-notes a:hover {
+    color: #ufc0;
+}
+.comment-form .comment-form-author label, .comment-form .comment-form-email label, .comment-form .comment-form-url label, .comment-form .comment-form-comment label {
+    color: #ufc0;
+    display: block;
+    font-size: 16px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.875em;
+    margin-bottom: 5px;
+}
+.comment-form .form-submit {
+    margin-bottom: 0;
+}

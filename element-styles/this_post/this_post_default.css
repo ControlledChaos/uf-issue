@@ -1,5 +1,4 @@
-.upfront-postpart-title .post_title,
-.upfront-postpart-title .post_title a {
+.upfront-postpart-title .post_title, .upfront-postpart-title .post_title a {
     color: #ufc0;
     font-family: "Lato", Arial, sans-serif;
     font-weight: 400;
@@ -7,4 +6,89 @@
     line-height: 1.333em;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
+}
+.upfront-postpart-author_gravatar span.author_gravatar {
+    display: block;
+    float: right;
+    overflow: hidden;
+}
+.upfront-postpart-author_gravatar .author_gravatar img {
+    border-radius: 50%;
+    display: block;
+    height: 90px;
+    width: 90px;
+}
+.upfront-postpart-author {
+    text-align: right;
+}
+.upfront-postpart-author span, .upfront-postpart-author a.post_author {
+    color: #ufc0;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.429em;
+}
+.upfront-postpart-author a.post_author:hover {
+    color: #ufc1;
+}
+.upfront-postpart-date .updated, .upfront-postpart-date .updated-text {
+    font-size: 14px;
+    line-height: 1.429em;
+    text-align: right;
+}
+.upfront-postpart-date .updated {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+}
+.upfront-postpart-date .updated-text {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.upfront-postpart-author a.post_author:hover {
+    color: #ufc1;
+}
+.post_comments {
+    position: relative;
+}
+.post_comments:before {
+    background: #ufc1;
+    content: "";
+    display: block;
+    height: 4px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.post_comments .post_comments_total {
+    color: #ufc0;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.167em;
+}
+.post_content img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.post_content .alignnone, .post_content .aligncenter, .post_content .alignright, .post_content .alignleft {
+    max-width: 100%;
+}
+.post_content .alignnone, .post_content div.alignnone, .post_content .aligncenter, .post_content div.aligncenter, .post_content img.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+.post_content .alignright, .post_content img.alignright {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.post_content .alignleft, .post_content img.alignleft {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.post_content h1, .post_content h2, .post_content h3, .post_content h4, .post_content h5, .post_content h6, .post_content p, .post_content address, .post_content table, .post_content pre, .post_content cite, .post_content q, .post_content iframe, .post_content embed {
+    margin: 0 0 15px;
+}
+.post_content p {
+    -ms-word-break: break-word;
+    word-break: break-word;
 }

@@ -1,0 +1,12 @@
+#page .uf-ucomment-mobile.upfront-comment ol.upfront-comments .children {
+    margin: 25px 0 25px 30px;
+}
+#page .uf-ucomment-mobile .upfront-comments .comment-meta {
+    float: none;
+    margin: 0 0 15px;
+    width: 100%;
+}
+#page .uf-ucomment-mobile .upfront-comments .comment-content-wrapper {
+    float: none;
+    width: 100%;
+}
