@@ -92,3 +92,15 @@
     -ms-word-break: break-word;
     word-break: break-word;
 }
+.post_content blockquote p {
+    color: #ufc2;
+    display: inline-block;
+    font-family: "Lato", Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.250em;
+}
+.post_content blockquote p:last-child {
+    margin-bottom: 0;
+}
