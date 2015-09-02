@@ -60,7 +60,6 @@
 }
 .uf-post .title h3, .uf-post .title a {
     color: #ufc2;
-    font-family: 'Lato', Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.667em;
@@ -68,9 +67,11 @@
 .uf-post .title a:hover {
     color: #ufc1;
 }
+.uf-post .content {
+    margin-left: 90px;
+}
 .uf-post .content, .uf-post .content p {
     color: #ufc3;
-    font-family: 'Lato', Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.786em;
@@ -89,6 +90,7 @@
     line-height: 2.083em;
 }
 .uf-post .date_posted {
+    clear: left;
     margin-left: 90px;
 }
 .uf-post .author {
@@ -103,6 +105,9 @@
 .uf-post .author a:hover {
     color: #ufc2;
 }
+.uf-post.noFeature .content {
+    margin-left: 0;
+}
 .uf-post.noFeature .date_posted {
     margin-left: 0;
 }
@@ -115,7 +120,6 @@
 .uf-pagination .page-numbers {
     color: #ufc2;
     display: inline-block;
-    font-family: 'Lato', Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.444em;

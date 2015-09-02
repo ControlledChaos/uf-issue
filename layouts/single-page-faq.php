@@ -53,7 +53,7 @@ $main->add_element("PlainTxt", array (
     'element_id' => 'text-object-1440493809336-1467',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 13,
+    'row' => 4,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -73,7 +73,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 4,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1440493909945-1155',
   'new_line' => true,
@@ -243,7 +243,7 @@ $main->add_element("Uwidget", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '14',
+  'margin_top' => '12',
   'margin_bottom' => '0',
   'class' => 'module-1440580161537-1821',
   'id' => 'module-1440580161537-1821',
@@ -325,7 +325,7 @@ $main->add_element("Uwidget", array (
       'col' => 10,
       'order' => 3,
       'row' => 13,
-      'top' => 6
+      'top' => 6,
     ),
     'mobile' => 
     array (

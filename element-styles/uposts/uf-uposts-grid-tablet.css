@@ -25,6 +25,7 @@
 }
 #page .uf-uposts-grid-tablet .uf-post .content {
     margin-bottom: 5px;
+    margin-left: 0;
 }
 #page .uf-uposts-grid-tablet .uf-post .content, #page .uf-uposts-grid-tablet .uf-post .content p {
     color: #838e8d;

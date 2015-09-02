@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_c2c521 = upfront_create_region(
+$region_a1ef44 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'header',
@@ -37,7 +37,7 @@ $region_c2c521 = upfront_create_region(
 )
 			);
 
-$region_c2c521->add_element("Button", array (
+$region_a1ef44->add_element("Button", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -114,7 +114,7 @@ $region_c2c521->add_element("Button", array (
   ),
 ));
 
-$region_c2c521->add_element("Unewnavigation", array (
+$region_a1ef44->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -238,7 +238,7 @@ $region_c2c521->add_element("Unewnavigation", array (
          'theme_style' => 'uf-menu-mobile',
       )),
     )),
-    'row' => 11,
+    'row' => 5,
     'menu_slug' => 'issue-menu',
     'menu_id' => false,
     'burger_menu' => 
@@ -251,7 +251,7 @@ $region_c2c521->add_element("Unewnavigation", array (
     ),
     'anchor' => '',
   ),
-  'row' => 6,
+  'row' => 5,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1440429825150-1157',
   'wrapper_breakpoint' => 
@@ -291,7 +291,7 @@ $region_c2c521->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_c2c521->add_element("PlainTxt", array (
+$region_a1ef44->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '4',
   'margin_right' => '0',
@@ -363,6 +363,6 @@ $region_c2c521->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_c2c521);
+$regions->add($region_a1ef44);
 
 /* END_REGION_OUTPUT */

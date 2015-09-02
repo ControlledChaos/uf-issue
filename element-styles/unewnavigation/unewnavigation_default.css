@@ -9,6 +9,10 @@
     line-height: 1.429em;
     padding: 0;
 }
+.upfront-navigation ul.menu {
+    font-size: 14px;
+    line-height: 1.429em;
+}
 div[data-style='horizontal'] ul > li.menu-item > a,  div[data-style='vertical'] ul > li.menu-item > a,  div[data-style='burger'] ul > li.menu-item > a {
     color: #ufc6;
     font-size: 14px;
@@ -24,8 +28,7 @@ div[data-style='horizontal'] ul.menu > li.menu-item {
 div[data-style='horizontal'] ul.menu > li.menu-item:first-child {
     margin-left: 0;
 }
-div[data-style='horizontal'] ul > li.menu-item > a:hover,  div[data-style='vertical'] ul > li.menu-item > a:hover,  div[data-style='burger'] ul > li.menu-item > a:hover,
-div[data-style='horizontal'] ul > li.current-menu-item > a,  div[data-style='vertical'] ul > li.current-menu-item > a,  div[data-style='burger'] ul > li.current-menu-item > a {
+div[data-style='horizontal'] ul > li.menu-item > a:hover,  div[data-style='vertical'] ul > li.menu-item > a:hover,  div[data-style='burger'] ul > li.menu-item > a:hover, div[data-style='horizontal'] ul > li.current-menu-item > a,  div[data-style='vertical'] ul > li.current-menu-item > a,  div[data-style='burger'] ul > li.current-menu-item > a {
     color: #ufc1;
 }
  div.responsive_nav_toggler {
