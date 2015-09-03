@@ -10,6 +10,10 @@
     margin: 0;
     padding: 0;
 }
+#page .uf-widget-sidebar .widget ul li:before {
+    content: "";
+    display: none;
+}
 #page .uf-widget-sidebar .widget ul a {
     color: #ufc2;
     display: inline-block;

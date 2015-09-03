@@ -1,0 +1,9 @@
+#page .uf-menu-header.upfront-navigation ul.menu > li.new_menu_item a.menu_item {
+    color: #ufc6;
+}
+#page .uf-menu-header div[data-style='horizontal'] ul > li.menu-item > a, #page .uf-menu-header div[data-style='vertical'] ul > li.menu-item > a, #page .uf-menu-header div[data-style='burger'] ul > li.menu-item > a {
+    color: #ufc6;
+}
+#page .uf-menu-header div[data-style='horizontal'] ul > li.menu-item > a:hover, #page .uf-menu-header div[data-style='vertical'] ul > li.menu-item > a:hover, #page .uf-menu-header div[data-style='burger'] ul > li.menu-item > a:hover, #page .uf-menu-header div[data-style='horizontal'] ul > li.current-menu-item > a, #page .uf-menu-header div[data-style='vertical'] ul > li.current-menu-item > a, #page .uf-menu-header div[data-style='burger'] ul > li.current-menu-item > a {
+    color: #ufc1;
+}

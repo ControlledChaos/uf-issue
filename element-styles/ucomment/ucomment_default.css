@@ -14,6 +14,10 @@
 .upfront-comments li.comment:first-child {
     margin-top: 0;
 }
+.upfront-comments li.comment:before {
+    content: "";
+    display: none;
+}
 .upfront-comments li.comment article {
     overflow: hidden;
 }
@@ -109,6 +113,121 @@
 }
 .upfront-comments .comment-content p:last-child {
     margin-bottom: 0;
+}
+.upfront-comments h1, .upfront-comments h2, .upfront-comments h3, .upfront-comments h4, .upfront-comments h5, .upfront-comments h6, .upfront-comments p, .upfront-comments blockquote, .upfront-comments address, .upfront-comments table, .upfront-comments pre, .upfront-comments cite, .upfront-comments q, .upfront-comments iframe, .upfront-comments embed {
+    margin: 0 0 15px;
+}
+.upfront-comments blockquote p {
+    color: #ufc2;
+    font-family: "Lato", Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.250em;
+}
+.upfront-comments blockquote p:last-child {
+    margin-bottom: 0;
+}
+.upfront-comments blockquote cite {
+    display: block;
+    margin-bottom: 0;
+}
+.comment-content > ul, .comment-content > ol {
+    margin-bottom: 15px;
+}
+.upfront-comments .comment-content > ol {
+    margin-left: 0;
+}
+.upfront-comments dl {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.667em;
+    margin-bottom: 15px;
+}
+.upfront-comments dt {
+    font-weight: 700;
+    text-decoration: underline;
+}
+.upfront-comments dd {
+    font-weight: 300;
+    margin: 0 0 10px;
+    padding-left: 10px;
+}
+.upfront-comments div.wp-caption {
+    margin-bottom: 20px;
+}
+.upfront-comments div.wp-caption a {
+    display: inline-block;
+    position: relative;
+}
+.upfront-comments .wp-caption-text p,
+.upfront-comments p.wp-caption-text {
+    color: #ufc3;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.563em;
+    margin: 0;
+    padding: 10px 0;
+}
+.upfront-comments iframe,
+.upfront-comments embed {
+    display: block;
+    max-width: 100%;
+}
+.upfront-comments address {
+    font-family: 'Lato', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.upfront-comments pre {
+    background: #ufc1;
+    color: #ufc6;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+    padding: 15px !important;
+    white-space: pre-wrap;
+}
+.upfront-comments q,
+.upfront-comments cite {
+    color: #ufc1;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.750em;
+}
+.upfront-comments table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+}
+.upfront-comments table > thead tr th {
+    color: #ufc1;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: top;
+}
+.upfront-comments table tr th,
+.upfront-comments table tr td {
+    color: #ufc0;
+    font-weight: 400;
+    padding: 10px;
+}
+.upfront-comments table > tbody tr:nth-child(odd) {
+    background: #ufc6;
+}
+.upfront-comments table > tbody tr:nth-child(even) {
+    background: #ufc8;
+}
+.upfront-comments table tr a,
+.upfront-comments table tr a:hover {
+    font-weight: 400;
 }
 .comment-respond {
     margin: 45px auto 0;

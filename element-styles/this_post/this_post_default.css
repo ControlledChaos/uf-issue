@@ -100,3 +100,191 @@
 .post_content blockquote p:last-child {
     margin-bottom: 0;
 }
+.post_content > ul, .post_content > ol {
+    margin-bottom: 15px;
+}
+.upfront-postpart-contents .post_content > ol {
+    margin-left: 0;
+}
+.post_content dl {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.667em;
+    margin-bottom: 15px;
+}
+.post_content dt {
+    font-weight: 700;
+    text-decoration: underline;
+}
+.post_content dd {
+    font-weight: 300;
+    margin: 0 0 10px;
+    padding-left: 10px;
+}
+.post_content div.wp-caption {
+    margin-bottom: 20px;
+}
+.post_content div.wp-caption a {
+    display: inline-block;
+    position: relative;
+}
+.post_content div.wp-caption a:before {
+    background: #ufc1;
+    content: "";
+    display: block;
+    height: 100%;
+    outline: 0;
+    opacity: 0;
+    position: absolute;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
+    width: 100%;
+}
+.post_content div.wp-caption a:hover:before {
+    opacity: .7;
+}
+.post_content .wp-caption-text p,
+.post_content p.wp-caption-text {
+    color: #ufc3;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.563em;
+    margin: 0;
+    padding: 10px 0;
+}
+.post_content .wp-caption-text a:hover:before{
+    content: "";
+    display: none;
+}
+.post_content .ueditor-insert {
+    margin-bottom: 0;
+}
+.post_content .wp-caption-text > * {
+    margin: 0;
+}
+.post_content .upfront-wrapper.uinsert-image-wrapper {
+    padding: 0;
+}
+.post_content .upfront-wrapper.wp-caption-text {
+    padding: 0;
+}
+.post_content iframe,
+.post_content embed {
+    display: block;
+    max-width: 100%;
+}
+.post_content address {
+    font-family: 'Lato', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.post_content pre {
+    background: #ufc1;
+    color: #ufc6;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+    padding: 15px !important;
+    white-space: pre-wrap;
+}
+.post_content q,
+.post_content cite {
+    color: #ufc1;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.750em;
+}
+.post_content table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+}
+.post_content table > thead tr th {
+    color: #ufc1;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: top;
+}
+.post_content table tr th,
+.post_content table tr td {
+    color: #ufc0;
+    font-weight: 400;
+    padding: 10px;
+}
+.post_content table > tbody tr:nth-child(odd) {
+    background: #ufc6;
+}
+.post_content table > tbody tr:nth-child(even) {
+    background: #ufc8;
+}
+.post_content table tr a,
+.post_content table tr a:hover {
+    font-weight: 400;
+}
+.post_content .post-password-form label {
+    display: inline-block;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+}
+.post_content .post-password-form input[type="submit"] {
+    margin-left: 10px;
+}
+.post_content .gallery .gallery-item .gallery-icon {
+    text-align: left;
+}
+.post_content .gallery .gallery-item .gallery-icon a {
+    display: inline-block;
+    position: relative;
+}
+.post_content .gallery .gallery-item .gallery-icon a:before,
+.post_content .gallery .gallery-item .gallery-icon a:after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: opacity 0.4s ease;
+    -moz-transition: opacity 0.4s ease;
+    -o-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+}
+.post_content .gallery .gallery-item .gallery-icon a:before {
+    background: #ufc1;
+    z-index: 2;
+}
+.post_content .gallery .gallery-item .gallery-icon a:after {
+    background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-position: -215px -217px;
+    content: "";
+    height: 48px;
+    width: 50px;
+    z-index: 3;
+}
+.post_content .gallery .gallery-item .gallery-icon a:hover:before {
+    opacity: .85;
+}
+.post_content .gallery .gallery-item .gallery-icon a:hover:after {
+    opacity: 1;
+}
+.post_content .gallery .gallery-item .gallery-caption {
+    font-size: 14px;
+    max-width: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
