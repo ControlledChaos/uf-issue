@@ -54,3 +54,17 @@ div.ugallery_items {
 .ugallery_item .ugallery_link.ugallery_lightbox_link:hover:after {
     opacity: 1;
 }
+.ugallery_link.ugallery_lightbox_link {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+.ugallery-thumb-title, .ugallery-thumb-title p {
+    color: #ufc6;
+    font-size: 16px;
+    line-height: 1.875em;
+}
+.ugallery-thumb-title p:last-child {
+    margin-bottom: 0;
+}

@@ -10,34 +10,20 @@
           'classes' => 'c3 post-part ml1 mt0',
           'slug' => 'author_gravatar',
         ),
-      ),
-      'classes' => 'c4',
-    ),
-    1 => 
-    array (
-      'objects' => 
-      array (
-        0 => 
+        1 => 
         array (
           'classes' => 'c4 post-part ml0 mt1',
           'slug' => 'author',
         ),
-      ),
-      'classes' => 'c4 clr',
-    ),
-    2 => 
-    array (
-      'objects' => 
-      array (
-        0 => 
+        2 => 
         array (
-          'classes' => 'post-part c4 ml0 mt6',
+          'classes' => 'c4 post-part ml0 mt6',
           'slug' => 'date',
         ),
       ),
-      'classes' => 'c4 clr',
+      'classes' => 'c4 clr part-author_gravatar part-author part-date',
     ),
-    3 => 
+    1 => 
     array (
       'objects' => 
       array (
@@ -46,32 +32,25 @@
           'classes' => 'c15 post-part ml1 mt0',
           'slug' => 'title',
         ),
-      ),
-      'classes' => 'c16',
-    ),
-    4 => 
-    array (
-      'objects' => 
-      array (
-        0 => 
+        1 => 
         array (
-          'classes' => 'post-part c15 ml1 mt3',
+          'classes' => 'c15 post-part ml1 mt6',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c16',
+      'classes' => 'c16 part-title part-contents',
     ),
-    5 => 
+    2 => 
     array (
       'objects' => 
       array (
         0 => 
         array (
-          'classes' => 'c15 post-part ml5 mt6',
+          'classes' => 'c15 post-part ml5 mt3',
           'slug' => 'comments_count',
         ),
       ),
-      'classes' => 'c20 clr',
+      'classes' => 'c20 clr part-comments_count',
     ),
   ),
   'partOptions' => 

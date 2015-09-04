@@ -1,0 +1,59 @@
+ .uyoutube-thumb-mask {
+    position: relative;
+}
+ .uyoutube-thumb-mask:before,  .uyoutube-thumb-mask:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
+ .uyoutube-thumb-mask:before {
+    background: #ufc2;
+    z-index: 2;
+}
+ .uyoutube-thumb-mask:after {
+    content: "h";
+    color: #ufc6;
+    font-family: "icomoon";
+    font-size: 28px;
+    margin-top: -14px;
+    speak: none;
+    text-align: center;
+    top: 50%;
+    z-index: 3;
+}
+ .uyoutube-gallery-item:hover .uyoutube-thumb-mask:before,  .uyoutube-list-item:hover .uyoutube-thumb-mask:before {
+    opacity: 0.7;
+}
+ .uyoutube-gallery-item:hover .uyoutube-thumb-mask:after,  .uyoutube-list-item:hover .uyoutube-thumb-mask:after {
+    opacity: 1;
+}
+.upfront-youtube .uyoutube-single h3, .upfront-youtube .uyoutube-main-video h3 {
+    margin-top: 5px;
+}
+ .uyoutube-multiple-gallery .uyoutube-thumbnails,  .uyoutube-multiple-list .uyoutube-thumbnails {
+    margin-top: 20px;
+}
+ .uyoutube-multiple-gallery .uyoutube-gallery-item .uyoutube-title,  .uyoutube-multiple-list .uyoutube-list-item .uyoutube-title {
+    color: #ufc2;
+    font-size: 14px;
+    line-height: 1.429em;
+    margin-bottom: 0;
+    -moz-transition: color .4s;
+    -ms-transition: color .4s;
+    -o-transition: color .4s;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+ .uyoutube-multiple-gallery .uyoutube-gallery-item:hover .uyoutube-title,  .uyoutube-multiple-list .uyoutube-list-item:hover .uyoutube-title {
+    color: #ufc3;
+}

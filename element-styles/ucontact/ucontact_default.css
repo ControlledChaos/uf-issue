@@ -8,3 +8,34 @@
     line-height: 1.786em;
     padding: 15px;
 }
+.upfront-field-container.ucontact-label-above > label,  .upfront-field-container.ucontact-label-inline > label {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.upfront-field-container.ucontact-label-above > label {
+    line-height: 1.667em;
+    margin-bottom: 5px;
+}
+ .upfront-field-container.ucontact-label-inline > label {
+    line-height: 45px;
+}
+.upfront-contact-form .upfront-field-container {
+    margin: 0 0 15px;
+    overflow: hidden;
+}
+.upfront-contact-form .textarea-field.ucontact-input {
+    border-color: transparent;
+}
+.upfront-contact-form .textarea-field.ucontact-input:focus {
+    border-color: #ufc2;
+}
+.upfront-contact-form button[type="submit"].submit-field {
+    background: #ufc1;
+    margin-top: 0;
+    min-width: 90px;
+    padding: 0 10px;
+}
+.upfront-contact-form .upfront-submit-container {
+    margin-bottom: 0;
+}

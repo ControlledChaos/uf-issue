@@ -103,9 +103,6 @@
 .post_content > ul, .post_content > ol {
     margin-bottom: 15px;
 }
-.upfront-postpart-contents .post_content > ol {
-    margin-left: 0;
-}
 .post_content dl {
     font-family: 'Lato', Arial, sans-serif;
     font-weight: 300;

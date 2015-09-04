@@ -66,8 +66,24 @@ html {
 .upfront-object ol,
 .upfront-output-object ol {
     list-style-type: none;
+}
+.upfront-object ol ol,
+.upfront-output-object ol ol {
+    margin-left: 25px;
+}
+.upfront-object ol ul,
+.upfront-output-object ol ul {
+    margin-left: 45px;
+}
+.upfront-object ul,
+.upfront-output-object ul,
+.upfront-object ul ol,
+.upfront-output-object ul ol,
+.upfront-object ul ol ul,
+.upfront-output-object ul ol ul {
     margin-left: 20px;
 }
+
 .upfront-object ul li,
 .upfront-output-object ul li {
     list-style: none;
@@ -108,10 +124,6 @@ html {
     color: #ufc2;
     content:\\\'\\\\25A0\\\';
     margin-right: 0;
-}
-.upfront-object ol ul,
-.upfront-output-object ol ul {
-    margin-left: 45px;
 }
 /* blockquote */
 .upfront-object blockquote,
