@@ -1,11 +1,27 @@
-.widget_search .upfront-searc-fields {
+.upfront-widget h2.widgettitle {
+    display: block;
+    font-size: 22px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.591em;
+    margin-bottom: 10px;
+}
+.upfront-widget .widget li a {
+    color: #ufc2;
+    display: inline-block;
+    font-family: 'Lato', Arial, sans-serif;
+}
+.upfront-widget .widget li a:hover {
+    color: #ufc1;
+}
+ .widget_search .upfront-searc-fields {
     display: table;
 }
-.widget_search .upfront-search-input_group {
+ .widget_search .upfront-search-input_group {
     display: table-cell;
     position: relative;
 }
-.widget_search .upfront-search-input_group:before {
+ .widget_search .upfront-search-input_group:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
     background-position: -391px -232px;
     content: "";
@@ -16,20 +32,100 @@
     top: 50%;
     width: 18px;
 }
-.widget_search .screen-reader-text {
+ .widget_search .screen-reader-text {
     display: none;
 }
-.widget_search .search-form .search-field {
+ .widget_search .search-form .search-field {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 33px;
 }
-.widget_search .upfront-search-submit_group {
+ .widget_search .upfront-search-submit_group {
     display: table-cell;
     width: 1%;
     position: relative;
 }
-.widget_search .search-form .search-submit {
+ .widget_search .search-form .search-submit {
     min-width: auto;
+}
+ .widget_text .textwidget p:last-child {
+    margin-bottom: 0;
+}
+ .widget_recent_comments .recentcomments {
+    font-style: italic;
+}
+ .widget_recent_comments li.recentcomments:before {
+    font-style: normal;
+}
+ .widget_recent_comments .comment-author-link .url {
+    color: #ufc1;
+}
+ .widget_recent_comments .comment-author-link .url:hover {
+    color: #ufc7;
+}
+.widget_rss .rss-date {
+    color: #ufc1;
+}
+.widget_rss .rss-date:hover {
+    color: #ufc7;
+}
+.widget_rss .widgettitle a {
+    color: #ufc3;
+}
+.widget_rss .widgettitle a:hover {
+    color: #ufc1;
+}
+.widget_rss .widgettitle a:hover {
+    color: #ufc7;
+}
+ .widget_tag_cloud a {
+    color: #ufc3;
+}
+ .widget_tag_cloud a:hover {
+    color: #ufc1;
+}
+ .widget_calendar table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    color: #ufc3;
+    font-size: 16px;
+    font-family: 'Lato', Arial, sans-serif;
+    line-height: 1.667em;
+    max-width: 100%;
+    width: 100%;
+}
+.upfront-widget .widget_calendar table td a {
+    font-weight: 400;
+}
+ .widget_calendar table > tbody > tr > td,  .widget_calendar table > tbody > tr > th,  .widget_calendar table > tfoot > tr > td,  .widget_calendar table > tfoot > tr > th,  .widget_calendar table > thead > tr > td,  .widget_calendar table > thead > tr > th {
+    border-top: 1px solid #ufc2;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+ .widget_calendar table > thead > tr > th {
+    border-top: none;
+    border-bottom: 2px solid #ufc1;
+    color: #ufc1;
+    font-size: 18px;
+    line-height: 1.667em;
+    vertical-align: middle;
+}
+ .widget_nav_menu .menu {
+    background: transparent;
+    list-style-type: none;
+    padding: 0;
+}
+ .widget_nav_menu .menu li {
+    display: block;
+    margin-bottom: 15px;
+}
+ .widget_nav_menu .menu li:last-child {
+    margin-bottom: 0;
+}
+ .widget_nav_menu .menu li a {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.389em;
 }
