@@ -6,13 +6,14 @@
 }
 #page .uf-button-icon-twitter.upfront-button a.upfront_cta:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -696px -56px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 76.374% 5.224%;
     content: "";
     display: block;
     height: 49px;
     margin: auto auto 30px;
-    width: 49px;
+    width: 50px;
 }
 #page .uf-button-icon-twitter.upfront-button a.upfront_cta:hover:before {
-    background-position: -856px -56px;
+    background-position: 93.956% 5.224%;
 }

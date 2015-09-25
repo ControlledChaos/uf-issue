@@ -1,5 +1,6 @@
-#page .uf-text-subscribe-sidebar.upfront-plain_txt h4, #page .uf-text-subscribe-sidebar.upfront-plain_txt h4 a {
+#page .uf-text-subscribe-sidebar.upfront-plain_txt h4 a {
     color: #838e8d;
+    display: block;
     font-weight: 300;
     font-size: 24px;
     line-height: 1.250em;
@@ -10,10 +11,11 @@
 }
 #page .uf-text-subscribe-sidebar.upfront-plain_txt h4 a:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -855px -217px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 93.956% 20.149%;
     content: "";
     display: block;
-    height: 48px;
+    height: 49px;
     margin: auto auto 15px;
     width: 50px;
 }
@@ -21,5 +23,5 @@
     color: #ufc1;
 }
 #page .uf-text-subscribe-sidebar.upfront-plain_txt h4 a:hover:before {
-    background-position: -695px -217px;
+    background-position: 76.374% 20.149%;
 }

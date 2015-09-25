@@ -4,7 +4,8 @@
 }
 #page .uf-accordion-faq.upfront-accordion .upfront-accordion-container .accordion-panel .accordion-panel-title:after {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -67px -68px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 7.173% 6.204%;
     content: "";
     display: block;
     font-size: inherit;
@@ -16,5 +17,5 @@
     width: 26px;
 }
 #page .uf-accordion-faq.upfront-accordion .upfront-accordion-container .accordion-panel-active .accordion-panel-title:after {
-    background-position: -227px -68px;
+    background-position: 24.304% 6.204%;
 }

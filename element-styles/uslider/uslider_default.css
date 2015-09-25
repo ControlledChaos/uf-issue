@@ -1,26 +1,27 @@
 .uslides .upfront-default-slider-nav-prev, .uslides .upfront-default-slider-nav-next {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png");
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
     border-radius: 0;
     color: inherit;
     font-size: inherit;
-    height: 22px;
+    height: 23px;
     line-height: inherit;
     -webkit-transition: opacity .4s;
     -moz-transition: opacity .4s;
     -o-transition: opacity .4s;
     transition: opacity .4s;
-    width: 12px;
+    width: 14px;
 }
 .uslides .upfront-default-slider-nav-prev:before, .uslides .upfront-default-slider-nav-next:before {
     content: "";
     display: none;
 }
 .uslides .upfront-default-slider-nav-prev {
-    background-position: -74px -710px;
+    background-position: 7.717% 64.572%;
     left: 20px;
 }
 .uslides .upfront-default-slider-nav-next {
-    background-position: -234px -710px;
+    background-position: 24.63% 64.572%;
     right: 20px;
 }
 .uslides .upfront-default-slider-nav-prev:hover, .uslides .upfront-default-slider-nav-next:hover {

@@ -135,11 +135,12 @@ html {
 .upfront-object blockquote:before,
 .upfront-output-object blockquote:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -55px -377px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 6.044% 35.075%;
     content: "";
     display: block;
     float: left;
-    height: 48px;
+    height: 49px;
     margin-right: 15px;
     width: 50px;
 }
@@ -306,6 +307,7 @@ div.mfp-title p > span {
 button.mfp-arrow.mfp-arrow-right,
 button.mfp-arrow.mfp-arrow-left {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
     height: 49px;
     margin: 0;
     opacity: 0.5;
@@ -313,14 +315,14 @@ button.mfp-arrow.mfp-arrow-left {
     -o-transition: opacity .4s;
     -webkit-transition: opacity .4s;
     transition: opacity .4s;
-    width: 49px;
+    width: 50px;
 }
 button.mfp-arrow.mfp-arrow-left {
-    background-position: -376px -536px;
+    background-position: 41.209% 50%;
     margin-left: 2em;
 }
 button.mfp-arrow.mfp-arrow-right {
-    background-position: -536px -536px;
+    background-position: 58.791% 50%;
     margin-right: 2em;
 }
 button.mfp-arrow.mfp-arrow-left:hover,
@@ -329,7 +331,8 @@ button.mfp-arrow.mfp-arrow-right:hover {
 }
 div.mfp-image-holder .mfp-close {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -215px -536px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 23.626% 50%;;
     font-size: 0;
     height: 49px;
     opacity: .5;

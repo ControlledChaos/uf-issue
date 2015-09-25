@@ -11,10 +11,11 @@
 }
 #page .uf-text-required-note.upfront-plain_txt p:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -75px -1037px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 7.895% 93.165%;
     content: "";
     display: inline-block;
-    height: 8px;
+    height: 9px;
     margin-right: 15px;
     margin-left: 15px;
     width: 10px;

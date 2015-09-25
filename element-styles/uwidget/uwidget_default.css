@@ -14,39 +14,40 @@
 .upfront-widget .widget li a:hover {
     color: #ufc1;
 }
- .widget_search .upfront-searc-fields {
+.widget_search .upfront-searc-fields {
     display: table;
 }
- .widget_search .upfront-search-input_group {
+.widget_search .upfront-search-input_group {
     display: table-cell;
     position: relative;
 }
- .widget_search .upfront-search-input_group:before {
+.widget_search .upfront-search-input_group:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -391px -232px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 41.507% 21.014%;
     content: "";
-    height: 18px;
+    height: 17px;
     left: 10px;
     margin-top: -9px;
     position: absolute;
     top: 50%;
     width: 18px;
 }
- .widget_search .screen-reader-text {
+.widget_search .screen-reader-text {
     display: none;
 }
- .widget_search .search-form .search-field {
+.widget_search .search-form .search-field {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 33px;
 }
- .widget_search .upfront-search-submit_group {
+.widget_search .upfront-search-submit_group {
     display: table-cell;
     width: 1%;
     position: relative;
 }
- .widget_search .search-form .search-submit {
+.widget_search .search-form .search-submit {
     min-width: auto;
 }
  .widget_text .textwidget p:last-child {
@@ -64,19 +65,19 @@
  .widget_recent_comments .comment-author-link .url:hover {
     color: #ufc7;
 }
-.widget_rss .rss-date {
+ .widget_rss .rss-date {
     color: #ufc1;
 }
-.widget_rss .rss-date:hover {
+ .widget_rss .rss-date:hover {
     color: #ufc7;
 }
-.widget_rss .widgettitle a {
+ .widget_rss .widgettitle a {
     color: #ufc3;
 }
-.widget_rss .widgettitle a:hover {
+ .widget_rss .widgettitle a:hover {
     color: #ufc1;
 }
-.widget_rss .widgettitle a:hover {
+ .widget_rss .widgettitle a:hover {
     color: #ufc7;
 }
  .widget_tag_cloud a {

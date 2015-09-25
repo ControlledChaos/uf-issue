@@ -3,9 +3,10 @@
 }
 #page .uf-contact-contacts .upfront-field-name-container:after, #page .uf-contact-contacts .upfront-field-email-container:after, #page .uf-contact-contacts .upfront-field-message-container:after {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -75px -1037px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 7.895% 93.165%;
     content: "";
-    height: 8px;
+    height: 9px;
     margin-top: -4px;
     right: 10px;
     position: absolute;

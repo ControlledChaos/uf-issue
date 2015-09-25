@@ -3,15 +3,20 @@
     padding-bottom: 0;
 }
 #page .uf-text-team-social-pinterest.upfront-plain_txt p a {
+    display: block;
     font-size: 0;
+    height: 21px;
+    line-height: 0;
     position: relative;
+    width: 22px;
 }
 #page .uf-text-team-social-pinterest.upfront-plain_txt p a:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -870px -711px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 92.644% 64.545%;
     content: "";
     display: block;
-    height: 20px;
+    height: 21px;
     pointer-events: none;
-    width: 20px;
+    width: 22px;
 }

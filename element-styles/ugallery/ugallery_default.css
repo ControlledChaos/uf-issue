@@ -42,9 +42,10 @@ div.ugallery_items {
 }
 .ugallery_item .ugallery_link.ugallery_lightbox_link:after {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -215px -217px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 23.626% 20.149%;
     content: "";
-    height: 48px;
+    height: 49px;
     width: 50px;
     z-index: 3;
 }

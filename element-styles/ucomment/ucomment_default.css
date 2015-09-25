@@ -97,11 +97,12 @@
 }
 .upfront-comments .reply .comment-reply-link:before {
     background: url("UPFRONT_THEME_BASE/ui/issue-sprite.png") no-repeat;
-    background-position: -234px -1035px;
+    background-image: url("UPFRONT_THEME_BASE/ui/issues-sprite.svg"), none;
+    background-position: 24.63% 93.243%;
     content: "";
     display: block;
-    height: 12px;
-    width: 12px;
+    height: 11px;
+    width: 14px;
 }
 .upfront-comments .comment-content p {
     -ms-word-break: break-word;
