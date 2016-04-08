@@ -1,9 +1,0 @@
-#page .uf-text-cover-title.upfront-plain_txt {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-#page .uf-text-cover-title.upfront-plain_txt h1, #page .uf-text-cover-title.upfront-plain_txt h2, #page .uf-text-cover-title.upfront-plain_txt h3, #page .uf-text-cover-title.upfront-plain_txt h4, #page .uf-text-cover-title.upfront-plain_txt p {
-    font-size: 50px;
-    font-weight: 300;
-    line-height: 1.1em;
-}

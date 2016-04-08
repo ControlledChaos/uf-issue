@@ -1,7 +1,0 @@
-#page .uf-accordion-border.upfront-accordion .upfront-accordion-container .accordion-panel .accordion-panel-title {
-    border-bottom: none;
-    border: 2px solid #ufc1;
-}
-#page .uf-accordion-border.upfront-accordion .upfront-accordion-container .accordion-panel-active .accordion-panel-title {
-    border-color: transparent;
-}

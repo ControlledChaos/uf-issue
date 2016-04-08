@@ -1,18 +1,21 @@
 <?php
+$layout_version = '1.0.0';
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$top_blocks = upfront_create_region(
+$main_content = upfront_create_region(
 			array (
-  'name' => 'top-blocks',
-  'title' => 'Top Blocks',
+  'name' => 'main-content',
+  'title' => 'Main Content',
   'type' => 'clip',
   'scope' => 'local',
-  'container' => 'top-blocks',
-  'position' => 1,
+  'container' => 'main-content',
+  'position' => 10,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 11,
+  'version' => '1.0.0',
+  'row' => 60,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -32,218 +35,210 @@ $top_blocks = upfront_create_region(
   array (
     0 => false,
   ),
-  'background_color' => '#ffffff',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => '60',
+  'top_bg_padding_num' => '60',
+  'bottom_bg_padding_slider' => '40',
+  'bottom_bg_padding_num' => '40',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
+  'background_color' => '#ufc6',
 )
 			);
 
-$top_blocks->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '2',
-  'margin_right' => '0',
-  'margin_top' => '5',
-  'margin_bottom' => '0',
-  'class' => 'module-1440681380087-1170',
-  'id' => 'module-1440681380087-1170',
+$main_content->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460093975296-1475',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;"><span style="color:rgb(93, 102, 100)" rel="color:rgb(93, 102, 100)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(93, 102, 100)">ISSUE</span></h1>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440681380087-1817',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 28,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'anchor' => '',
-    'theme_style' => 'uf-text-logo',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 22,
-      )),
-    )),
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460093975296-1193',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
   ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440680360965-1105',
+  'wrapper_id' => 'wrapper-1460093975295-1915',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
   'new_line' => true,
+));
+
+$main_content->add_group(array (
+  'columns' => '6',
+  'class' => '',
+  'id' => 'module-group-1460094615706-1684',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1460093972596-1616',
+  'original_col' => 6,
+  'top_padding_num' => 0,
+  'bottom_padding_num' => 0,
+  'use_padding' => 'yes',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 9,
-      'order' => 0,
+      'edited' => false,
+      'col' => 12,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
-      'clear' => false,
+      'order' => 1,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 6,
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
       'order' => 0,
-      'row' => 22,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
     ),
   ),
-  'close_wrapper' => false,
 ));
 
-$top_blocks->add_element("PlainTxt", array (
+$main_content->add_element("PlainTxt", array (
   'columns' => '6',
-  'margin_left' => '2',
-  'margin_right' => '0',
+  'margin_left' => '0',
   'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1440681683811-1394',
-  'id' => 'module-1440681683811-1394',
+  'class' => '',
+  'id' => 'module-1460079592372-1662',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span style="color:rgb(162, 178, 175)">AN UPFRONT MAGAZINE</span></h2>',
+    'content' => '<h1 style="text-align: center;">ISSUE<span></span></h1>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440681683811-1956',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1460079592266-1883',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 5,
+    'id_slug' => 'plain_text',
+    'preset' => 'text-logo',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '0',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
     'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'lock_padding' => '',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
     'anchor' => '',
-    'theme_style' => 'uf-text-logo-tagline',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440680360965-1105',
-  'new_line' => true,
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 6,
-      'order' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 1,
-    ),
-  ),
-  'close_wrapper' => false,
-));
-
-$top_blocks->add_element("Uwidget", array (
-  'columns' => '6',
-  'margin_left' => '2',
-  'margin_right' => '0',
-  'margin_top' => '37',
-  'margin_bottom' => '0',
-  'class' => 'module-1440676116437-1250',
-  'id' => 'module-1440676116437-1250',
-  'options' => 
-  array (
-    'id_slug' => 'uwidget',
-    'type' => 'UwidgetModel',
-    'view_class' => 'UwidgetView',
-    'class' => 'c24 upfront-widget',
-    'has_settings' => 1,
-    'widget' => 'search-2',
-    'element_id' => 'uwidget-object-1440676116436-1237',
-    'row' => 7,
-    'selected_widget' => 'search-2',
-    'anchor' => '',
-    'widget_specific_fields' => 
+    'breakpoint_presets' => 
     (array)(array(
-       'widget-search-__i__-title' => 
+       'desktop' => 
       (array)(array(
-         'label' => 'Title: ',
-         'name' => 'title',
-         'type' => 'text',
-         'value' => '',
+         'preset' => 'text-logo',
       )),
     )),
-    'title' => '',
-    'theme_style' => 'uf-widgets-alt',
+    'bottom_padding_use' => 'yes',
   ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440680360965-1105',
+  'row' => 15,
+  'wrapper_id' => 'wrapper-1460094615711-1111',
+  'edited' => true,
   'new_line' => true,
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 6,
-      'order' => 2,
-      'top' => 6,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 2,
-      'top' => 6,
-    ),
-  ),
-));
-
-$top_blocks->add_group(array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '5',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1440678728828-1619',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1440678728831-1078',
-  'original_col' => 5,
-  'background_color' => '#ufc1',
-  'background_style' => 'full',
-  'background_position_y' => 50,
-  'background_position_x' => 50,
-  'use_padding' => 1,
-  'background_type' => 'color',
-  'anchor' => '',
-  'row' => 46,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 9,
+      'edited' => false,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1460094615706-1684',
+));
+
+$main_content->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1460093973093-1612',
+  'options' => 
+  array (
+    'content' => '<h4 style="text-align: center;">AN UPFRONT MAGAZINE</h4>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1460093973092-1541',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'text-logo',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'lock_padding' => '',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'text-logo',
+      )),
+    )),
+    'row' => 6,
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '15',
+  ),
+  'row' => 6,
+  'wrapper_id' => 'wrapper-1460094615714-1101',
+  'edited' => true,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
       'order' => 2,
       'clear' => true,
     ),
@@ -251,301 +246,17 @@ $top_blocks->add_group(array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
-      'clear' => false,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 6,
-      'order' => 0,
-      'row' => 54,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'close_wrapper' => false,
-));
-
-$top_blocks->add_element("PlainTxt", array (
-  'columns' => '2',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '3',
-  'margin_bottom' => '0',
-  'class' => 'module-1440676367433-1082',
-  'id' => 'module-1440676367433-1082',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">NO.</span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440676367433-1444',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 17,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'anchor' => '',
-    'theme_style' => 'uf-text-block-mag-sup',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440679155861-1819',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 2,
-      'order' => 0,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 3,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 2,
-      'order' => 3,
-      'top' => 3,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 2,
-      'order' => 3,
-    ),
-  ),
-  'group' => 'module-group-1440678728828-1619',
-));
-
-$top_blocks->add_element("PlainTxt", array (
-  'columns' => '3',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '3',
-  'margin_bottom' => '0',
-  'class' => 'module-1440678579609-1665',
-  'id' => 'module-1440678579609-1665',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">02</span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440678579608-1512',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 27,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-block-mag-number',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440679151070-1251',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 4,
-      'order' => 1,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 3,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 4,
-      'order' => 4,
-      'top' => 3,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'order' => 7,
-    ),
-  ),
-  'group' => 'module-group-1440678728828-1619',
-));
-
-$top_blocks->add_element("Uimage", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '1',
-  'margin_bottom' => '0',
-  'class' => 'module-1440676367440-1571',
-  'id' => 'module-1440676367440-1571',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/archive-home/block-pattern-239x200-4833.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/block-pattern.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/block-pattern.jpg',
-    'image_title' => '',
-    'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 239,
-       'height' => 200,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 234,
-       'height' => 196,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => 0,
-       'left' => -0.5,
-    )),
-    'marginTop' => 0,
-    'element_size' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 200,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '1712',
-    'align' => 'center',
-    'stretch' => false,
-    'vstretch' => true,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'element_id' => 'image-1440676367435-1010',
-    'row' => 46,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 47,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440678728831-1078',
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 6,
-      'order' => 5,
-      'row' => 47,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 4,
-    ),
-  ),
-));
-
-$top_blocks->add_group(array (
-  'columns' => '8',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '5',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1440680770291-1441',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1440680190745-1891',
-  'original_col' => 8,
-  'background_color' => '#ufc3',
-  'background_style' => 'full',
-  'background_position_y' => 50,
-  'background_position_x' => 50,
-  'use_padding' => 1,
-  'background_type' => 'color',
-  'anchor' => '',
-  'row' => 93,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 10,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-      'clear' => false,
-    ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
-      'left' => 2,
-      'col' => 8,
+      'left' => 0,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -556,152 +267,46 @@ $top_blocks->add_group(array (
       'order' => 0,
     ),
   ),
+  'group' => 'module-group-1460094615706-1684',
 ));
 
-$top_blocks->add_element("PlainTxt", array (
-  'columns' => '8',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '25',
-  'margin_bottom' => '0',
-  'class' => 'module-1440678638825-1239',
-  'id' => 'module-1440678638825-1239',
+$main_content->add_element("Uspacer", array (
+  'columns' => '17',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460093987952-1049',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: justify;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>"NEIL ARMSTRONG, THAT SPACEMAN, HE WENTO TO THE MOON BUT HE AIN\'T BEEN BACK. IT CAN\'T HAVE BEEN THAT GOOD."<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span> </p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440678638825-1817',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 45,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-block-quote',
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460093987952-1486',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
   ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440680778406-1366',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 8,
-      'order' => 6,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 5,
-    ),
-  ),
-  'group' => 'module-group-1440680770291-1441',
+  'wrapper_id' => 'wrapper-1460093987950-1808',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
 ));
 
-$top_blocks->add_element("PlainTxt", array (
-  'columns' => '8',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '5',
-  'margin_bottom' => '0',
-  'class' => 'module-1440680190818-1826',
-  'id' => 'module-1440680190818-1826',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;"><em data-redactor-tag="em" data-verified="redactor"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">KARL PILKINGTON</span></em></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440680190816-1334',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'anchor' => '',
-    'theme_style' => 'uf-text-block-quote-author',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440680778410-1828',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 8,
-      'order' => 7,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 6,
-    ),
-  ),
-  'group' => 'module-group-1440680770291-1441',
-));
+$regions->add($main_content);
 
-$regions->add($top_blocks);
-
-$main_blocks = upfront_create_region(
+$content = upfront_create_region(
 			array (
-  'name' => 'main-blocks',
-  'title' => 'Main Blocks',
+  'name' => 'content',
+  'title' => 'Content Area',
   'type' => 'clip',
   'scope' => 'local',
-  'container' => 'main-blocks',
+  'container' => 'content',
   'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 28,
+  'row' => 394,
+  'background_type' => 'color',
+  'background_color' => '#ufc6',
+  'version' => '1.0.0',
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -715,1298 +320,109 @@ $main_blocks = upfront_create_region(
        'col' => 24,
     )),
   )),
-  'background_type' => 'color',
   'use_padding' => 0,
   'sub_regions' => 
   array (
     0 => false,
   ),
-  'background_color' => '#ffffff',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
-$main_blocks->add_group(array (
-  'columns' => '6',
-  'margin_left' => '2',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1440668063056-1436',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1440668063059-1945',
-  'original_col' => 6,
-  'background_color' => '#ffffff',
-  'background_style' => 'full',
-  'background_position_y' => '50',
-  'background_position_x' => '50',
-  'use_padding' => 1,
-  'background_type' => 'image',
-  'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/block-tv.jpg',
-  'background_image_ratio' => 1,
-  'background_repeat' => 'no-repeat',
-  'background_position' => '50% 50%',
-  'row' => 48,
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 9,
-      'order' => 0,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '5',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '18',
-  'margin_bottom' => '0',
-  'class' => 'module-1440667450980-1765',
-  'id' => 'module-1440667450980-1765',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_6">TV</span></h2>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440667450980-1820',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440668063083-1887',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440668063056-1436',
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '5',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1440668050211-1378',
-  'id' => 'module-1440668050211-1378',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="upfront_theme_color_6">Water cooler goss</span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1440668050211-1052',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 5,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-sub-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440668063084-1292',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440668063056-1436',
-));
-
-$main_blocks->add_group(array (
-  'columns' => '14',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1440670377452-1739',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1440675043254-1497',
-  'original_col' => 11,
-  'background_color' => '#ffffff',
-  'background_style' => 'full',
-  'background_position_y' => '50',
-  'background_position_x' => '50',
-  'use_padding' => 1,
-  'background_type' => 'image',
-  'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/photography-block.jpg',
-  'background_image_ratio' => 0.38000000000000000444089209850062616169452667236328125,
-  'row' => 48,
-  'background_repeat' => 'repeat',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 1,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '18',
-  'margin_bottom' => '0',
-  'class' => 'module-1440668590817-1414',
-  'id' => 'module-1440668590817-1414',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_6">PHOTOGRAPHY</span></h2>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440668590817-1605',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 7,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'is_edited' => true,
-    'theme_style' => 'uf-text-home-block-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440670547777-1880',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440670377452-1739',
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1440670371107-1174',
-  'id' => 'module-1440670371107-1174',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="upfront_theme_color_6">Hipster cameras</span></p>
-',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440670371106-1749',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 5,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-sub-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440670551138-1587',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440670377452-1739',
-));
-
-$main_blocks->add_group(array (
-  'columns' => '6',
-  'margin_left' => '2',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1440670857692-1936',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1440675014763-1763',
-  'original_col' => 6,
-  'background_color' => '#ffffff',
-  'background_style' => 'full',
-  'background_position_y' => '50',
-  'background_position_x' => '50',
-  'use_padding' => 1,
-  'background_type' => 'image',
-  'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/block-tech.jpg',
-  'background_image_ratio' => 0.95999999999999996447286321199499070644378662109375,
-  'row' => 48,
-  'background_repeat' => 'no-repeat',
-  'background_position' => '50% 50%',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 6,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '12',
-  'margin_bottom' => '0',
-  'class' => 'module-1440670373698-1937',
-  'id' => 'module-1440670373698-1937',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_6">TECH<br>NEWS</span></h2>
-',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440670373698-1902',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440670857714-1548',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440670857692-1936',
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1440670797326-1046',
-  'id' => 'module-1440670797326-1046',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="upfront_theme_color_6">10 Must see features</span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1440670797326-1545',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-sub-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440670857716-1360',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440670857692-1936',
-));
-
-$main_blocks->add_group(array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1440671082523-1705',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1440675017305-1500',
-  'original_col' => 6,
-  'background_color' => '#ffffff',
-  'background_style' => 'full',
-  'background_position_y' => '50',
-  'background_position_x' => '50',
-  'use_padding' => 1,
-  'background_type' => 'image',
-  'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/block-gallery.jpg',
-  'background_image_ratio' => 0.95999999999999996447286321199499070644378662109375,
-  'row' => 48,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 6,
-      'order' => 3,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '18',
-  'margin_bottom' => '0',
-  'class' => 'module-1440670848494-1785',
-  'id' => 'module-1440670848494-1785',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">GALLERY</span></h2>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1440670848495-1300',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440671106181-1730',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440671082523-1705',
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1440670852206-1314',
-  'id' => 'module-1440670852206-1314',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">The Latest Creations</span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1440670852206-1762',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-sub-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440671106184-1018',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440671082523-1705',
-));
-
-$main_blocks->add_group(array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1440671234049-1468',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1440675019309-1192',
-  'original_col' => 6,
-  'row' => 48,
-  'background_color' => '#ufc0',
-  'background_style' => 'full',
-  'background_position_y' => '50',
-  'background_position_x' => '50',
-  'use_padding' => 1,
-  'background_type' => 'image',
-  'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/block-music.jpg',
-  'background_image_ratio' => 0.95999999999999996447286321199499070644378662109375,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 8,
-      'order' => 4,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 2,
-      'col' => 6,
-      'order' => 0,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '18',
-  'margin_bottom' => '0',
-  'class' => 'module-1440671019562-1675',
-  'id' => 'module-1440671019562-1675',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">MUSIC</span></h2>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1440671019562-1101',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440671234069-1369',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440671234049-1468',
-));
-
-$main_blocks->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1440671016715-1291',
-  'id' => 'module-1440671016715-1291',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">...For the love of</span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1440671016716-1893',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 4,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-home-block-sub-title',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440671532595-1536',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1440671234049-1468',
-));
-
-$main_blocks->add_element("Uimage", array (
+$content->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1440675569073-1723',
-  'id' => 'module-1440675569073-1723',
+  'class' => 'module-1459894244468-1647 upfront-module-spacer',
+  'id' => 'module-1459894244468-1647',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive-home/block-sep-58x210-6546.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/block-sep.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/block-sep.jpg',
-    'image_title' => '',
-    'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 58,
-       'height' => 225,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 58,
-       'height' => 225,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => 0,
-       'left' => -1,
-    )),
-    'marginTop' => 0,
-    'element_size' => 
-    (array)(array(
-       'width' => 60,
-       'height' => 210,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '1711',
-    'align' => 'center',
-    'stretch' => false,
-    'vstretch' => true,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'element_id' => 'image-1440675569071-1560',
-    'row' => 48,
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1459894244467-1662',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1440675813988-1538',
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1459894244464-1982',
+  'edited' => true,
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
       'col' => 2,
-      'order' => 5,
-      'clear' => false,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
       'col' => 2,
-      'order' => 1,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 3,
-      'order' => 0,
-      'hide' => 1,
     ),
   ),
 ));
 
-$regions->add($main_blocks);
-
-$articles = upfront_create_region(
-			array (
-  'name' => 'articles',
-  'title' => 'Articles',
-  'type' => 'clip',
-  'scope' => 'local',
-  'container' => 'articles',
-  'position' => 1,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 57,
-  'breakpoint' => 
-  (array)(array(
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'background_type' => 'color',
-  'use_padding' => 0,
-  'sub_regions' => 
-  array (
-    0 => false,
-  ),
-  'background_color' => '#ffffff',
-)
-			);
-
-$articles->add_element("PlainTxt", array (
-  'columns' => '20',
-  'margin_left' => '2',
+$content->add_element("PlainTxt", array (
+  'columns' => '22',
+  'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1440682090346-1826',
-  'id' => 'module-1440682090346-1826',
+  'class' => 'module-1459822223627-1695',
+  'id' => 'module-1459822223627-1695',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_1">FEATURED ARTICLES</span></h2>
-',
+    'content' => '<h1>Lato Light 45px #2d2d2d</h1>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1440682090345-1137',
+    'element_id' => 'text-object-1459822223626-1176',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 5,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
     'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'row' => 7,
+    'lock_padding' => '',
+    'padding_number' => 15,
+    'left_padding_num' => 15,
+    'right_padding_num' => 15,
     'anchor' => '',
-    'theme_style' => 'uf-text-block-heading',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'theme_style' => 'uf-text-block-heading-tablet',
-      )),
-       'mobile' => 
-      (array)(array(
-         'theme_style' => 'uf-text-block-heading-mobile',
-      )),
-    )),
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1440683947298-1527',
-  'new_line' => true,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459822720406-1415',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
     'mobile' => 
     array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'top' => 0,
-    ),
-  ),
-));
-
-$articles->add_element("Posts", array (
-  'columns' => '20',
-  'margin_left' => '2',
-  'margin_right' => '0',
-  'margin_top' => '6',
-  'margin_bottom' => '0',
-  'class' => 'module-1440681380132-1390',
-  'id' => 'module-1440681380132-1390',
-  'options' => 
-  array (
-    'type' => 'PostsModel',
-    'view_class' => 'PostsView',
-    'has_settings' => 1,
-    'class' => 'c24 uposts-object',
-    'id_slug' => 'posts',
-    'display_type' => 'list',
-    'list_type' => 'generic',
-    'offset' => 1,
-    'taxonomy' => '',
-    'term' => '',
-    'content' => 'excerpt',
-    'limit' => '4',
-    'pagination' => '',
-    'sticky' => '',
-    'posts_list' => '',
-    'post_parts' => 
-    array (
-      0 => 'featured_image',
-      1 => 'title',
-      2 => 'content',
-      3 => 'comment_count',
-    ),
-    'enabled_post_parts' => 
-    array (
-      0 => 'comment_count',
-      1 => 'featured_image',
-      2 => 'title',
-      3 => 'content',
-    ),
-    'default_parts' => 
-    array (
-      0 => 'date_posted',
-      1 => 'author',
-      2 => 'gravatar',
-      3 => 'comment_count',
-      4 => 'featured_image',
-      5 => 'title',
-      6 => 'content',
-      7 => 'read_more',
-      8 => 'tags',
-      9 => 'categories',
-      10 => 'meta',
-    ),
-    'date_posted_format' => 'F j, Y g:i a',
-    'categories_limit' => 3,
-    'tags_limit' => 3,
-    'comment_count_hide' => 0,
-    'content_length' => '13',
-    'resize_featured' => '1',
-    'gravatar_size' => 200,
-    'post-part-date_posted' => '<div class="uposts-part date_posted">
-	Posted on <span class="date">{{date_1}}</span>, at <span class="time">{{date_2}}</span></div>',
-    'post-part-author' => '<div class="uposts-part author">
-	By <a href="{{url}}">{{name}}</a></div>',
-    'post-part-gravatar' => '<div class="uposts-part gravatar">
-	{{gravatar}}
-</div>',
-    'post-part-comment_count' => '<div class="uposts-part comment_count">
-	{{comment_count||No comments}}
-</div>',
-    'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}">
-	<a href="{{permalink}}">{{thumbnail}}</a>
-</div>',
-    'post-part-title' => '<div class="uposts-part title">
-	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
-</div>',
-    'post-part-content' => '<div class="uposts-part content">
-	{{content}}
-</div>',
-    'post-part-read_more' => '<div class="uposts-part read_more">
-	<a href="{{permalink}}">Read more</a></div>',
-    'post-part-tags' => '<div class="uposts-part post_tags">
-	{{tags}}
-</div>',
-    'post-part-categories' => '<div class="uposts-part post_categories">
-	{{categories}}
-</div>',
-    'post-part-meta' => '<div class="uposts-part meta">
-	
-</div>
-',
-    'element_id' => 'posts-object-1440681380127-1857',
-    'row' => 38,
-    'anchor' => '',
-    'theme_style' => 'uf-uposts-grid',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'theme_style' => 'uf-uposts-grid-tablet',
-      )),
-       'mobile' => 
-      (array)(array(
-         'theme_style' => 'uf-uposts-mobile',
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1440685816117-1542',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
       'edited' => false,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
       'col' => 7,
       'order' => 1,
       'clear' => true,
@@ -2031,9 +447,1244 @@ $articles->add_element("Posts", array (
   ),
 ));
 
-$regions->add($articles);
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459894267106-1866 upfront-module-spacer',
+  'id' => 'module-1459894267106-1866',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1459894267106-1324',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1459894267105-1109',
+  'edited' => true,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
+));
 
-if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'contacts-callout.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'contacts-callout.php');
+$content->add_element("PlainTxt", array (
+  'columns' => '22',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459822720566-1261',
+  'id' => 'module-1459822720566-1261',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h2>OSWALD REGULAR 30PX/40PX #B96446</h2>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459822720565-1496',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 9,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459822749416-1583',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
 
-if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459987700898-1506 upfront-module-spacer',
+  'id' => 'module-1459987700898-1506',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1459987700897-1040',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1459987700896-1020',
+  'edited' => true,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459822749580-1417',
+  'id' => 'module-1459822749580-1417',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h3 class="">LATO LIGHT 22PX/25PX #6ACECB</h3>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459822749580-1112',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 5,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459822946749-1981',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 3,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 3,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459987704411-1251 upfront-module-spacer',
+  'id' => 'module-1459987704411-1251',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1459987704410-1536',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1459987704410-1830',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084311341-1455',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084311340-1256',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084311337-1226',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459823643481-1054',
+  'id' => 'module-1459823643481-1054',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h4>Lato Regular 18PX #7c8a87</h4>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459823643480-1775',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 5,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459823989475-1895',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 4,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 4,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084316717-1884',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084316717-1801',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084316716-1029',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084322808-1145',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084322807-1946',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084322806-1326',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459823989692-1255',
+  'id' => 'module-1459823989692-1255',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h5>Lato Regular 14PX #838e8d</h5>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459823989691-1505',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 6,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459824136633-1319',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 5,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 5,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084325384-1103',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084325383-1425',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084325382-1579',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084328028-1635',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084328027-1325',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084328027-1568',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459824136844-1354',
+  'id' => 'module-1459824136844-1354',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h6>Lato Light 14px #6acecb</h6>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459824136844-1558',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 4,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459824313112-1115',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 6,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 6,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084330956-1852',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084330956-1097',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084330955-1882',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084333364-1549',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084333363-1775',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084333362-1570',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459824313378-1799',
+  'id' => 'module-1459824313378-1799',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p>Lato Light 22px/30px - #2d2d2d</p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459824313377-1791',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 6,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459824580191-1598',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 7,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 7,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084340911-1714',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084340910-1849',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084340909-1854',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084344902-1214',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084344902-1443',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084344901-1907',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459870969195-1020',
+  'id' => 'module-1459870969195-1020',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<blockquote>Quote Style 1 - Lato Light Italic 22px #5aadaa - Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</blockquote>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459870969194-1243',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459874518582-1405',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 8,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 8,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084342671-1262',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084342668-1566',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084342667-1095',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084346613-1686',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084346612-1300',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084346612-1596',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459874518995-1903',
+  'id' => 'module-1459874518995-1903',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<blockquote class="upfront-quote-alternative">"QUOTE STYLE 2 - LATO HAIRLINE 25PX #FFFFFF OR #373D3C"</blockquote>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459874518994-1485',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 4,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459874726264-1495',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 9,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 9,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084348716-1892',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084348714-1470',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084348714-1301',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084351479-1050',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084351479-1630',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084351478-1178',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459874726574-1025',
+  'id' => 'module-1459874726574-1025',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<ul><li><span>Unordered List - Improve an existing product</span><br></li><li><span>Create a new </span><span>product</span><br></li><li><span>Create deman</span><br></li></ul><p></p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459874726573-1470',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 18,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459875168192-1664',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 10,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 10,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084353780-1459',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084353779-1088',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084353778-1607',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084356146-1317',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084356146-1389',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084356144-1454',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$content->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1459875168602-1313',
+  'id' => 'module-1459875168602-1313',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<ol><li><span>Ordered List</span><br></li><li><span>Create a new product</span><br></li><li><span>Create demand</span><br></li></ol>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1459875168602-1468',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'preset' => 'default',
+    'padding_slider' => 15,
+    'top_padding_num' => 15,
+    'bottom_padding_num' => 15,
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1459875510119-1001',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 11,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 11,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460084358797-1132',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460084358797-1665',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460084358796-1803',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$content->add_element("Ugallery", array (
+  'columns' => '24',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => 'upfront-ugallery_module',
+  'id' => 'module-1460079592398-1736',
+  'options' => 
+  array (
+    'type' => 'UgalleryModel',
+    'view_class' => 'UgalleryView',
+    'has_settings' => 0,
+    'class' => 'c24 upfront-gallery',
+    'id_slug' => 'ugallery',
+    'preset' => 'default',
+    'status' => 'starting',
+    'images' => 
+    array (
+    ),
+    'elementSize' => 
+    (array)(array(
+       'width' => 0,
+       'height' => 0,
+    )),
+    'labelFilters' => 
+    array (
+    ),
+    'thumbProportions' => '1',
+    'thumbWidth' => 140,
+    'thumbHeight' => 140,
+    'thumbWidthNumber' => 140,
+    'captionType' => 'none',
+    'captionColor' => '#ffffff',
+    'captionUseBackground' => 0,
+    'captionBackground' => '#000000',
+    'showCaptionOnHover' => 0,
+    'fitThumbCaptions' => false,
+    'thumbCaptionsHeight' => 20,
+    'linkTo' => 'image',
+    'even_padding' => 
+    array (
+      0 => 'false',
+    ),
+    'thumbPadding' => 15,
+    'sidePadding' => 15,
+    'bottomPadding' => 15,
+    'thumbPaddingNumber' => 15,
+    'thumbSidePaddingNumber' => 15,
+    'thumbBottomPaddingNumber' => 15,
+    'lockPadding' => 'yes',
+    'lightbox_show_close' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_show_image_count' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_click_out_close' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_active_area_bg' => 'rgba(255,255,255,1)',
+    'lightbox_overlay_bg' => 'rgba(0,0,0,0.2)',
+    'styles' => '',
+    'element_id' => 'ugallery-object-1460079592392-1737',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+  ),
+  'row' => 48,
+  'wrapper_id' => 'wrapper-1460088889096-1120',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 12,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 12,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$regions->add($content);
 
