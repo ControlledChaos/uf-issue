@@ -1,28 +1,11 @@
-.upfront_login-form {
-    border: 0;
-    background: red;
+.upfront_login-form form input {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
 }
-.upfront_login-trigger {
-    display: block !important;
-    color: #ufc6;
-    font: 400 14px/20px "Lato", sans-serif;
-    text-align: right;
-}
-.upfront_login-form-wrapper {
-    top: 20px !important;
-    left: 0 !important;
-}
-.upfront_login-form {
-    border: 0 !important;
-    border-radius: 0 !important;
-    background: #373d3c !important;
-}
-.upfront_login-form:before {
-    display: none !important;
-}
-.upfront_login-form p {
-    display: block;
-    margin-top: 0 !important;
-    color: #ufc6;
-    font-weight: 400;
+.upfront_login-form form input:not([type=submit]):not([type=checkbox]) {
+    color: #65808c;
+    color: rgba(101, 128, 140, 0.7);
+    border: 1px solid #d1ccc4;
+    background: #fbf8f2;
 }
