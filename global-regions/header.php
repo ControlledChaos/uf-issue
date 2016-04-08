@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_3a67d4 = upfront_create_region(
+$region_013c2c = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_3a67d4 = upfront_create_region(
 )
 			);
 
-$region_3a67d4->add_element("Uimage", array (
+$region_013c2c->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -136,7 +136,6 @@ $region_3a67d4->add_element("Uimage", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1459891163893-1741',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -174,11 +173,13 @@ $region_3a67d4->add_element("Uimage", array (
   ),
 ));
 
-$region_3a67d4->add_element("Unewnavigation", array (
-  'columns' => '16',
+$region_013c2c->add_element("Unewnavigation", array (
+  'columns' => '21',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-newnavigation_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1460079592426-1517',
   'id' => 'module-1460079592426-1517',
   'options' => 
   array (
@@ -382,111 +383,26 @@ $region_3a67d4->add_element("Unewnavigation", array (
     'bottom_padding_use' => 'yes',
     'left_padding_use' => 'yes',
   ),
-  'row' => 7,
-  'wrapper_id' => 'wrapper-1460079733641-1153',
-  'edited' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$region_3a67d4->add_element("Login", array (
-  'columns' => '5',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1459888698683-1486',
-  'id' => 'module-1459888698683-1486',
-  'options' => 
-  array (
-    'style' => 'dropdown',
-    'behavior' => 'click',
-    'appearance' => 'icon',
-    'label_image' => 'Login',
-    'label_text' => 'Sign In',
-    'logout_link' => 'Sign out',
-    'trigger_text' => 'Sign in',
-    'logged_in_preview' => 
-    array (
-    ),
-    'type' => 'LoginModel',
-    'view_class' => 'LoginView',
-    'class' => 'c24 upfront-login_element-object',
-    'has_settings' => 1,
-    'id_slug' => 'upfront-login_element',
-    'logout_style' => 'link',
-    'element_id' => 'upfront-login_element-object-1459888698681-1646',
-    'padding_slider' => '10',
-    'top_padding_num' => '20',
-    'bottom_padding_num' => '20',
-    'use_padding' => 'yes',
-    'usingNewAppearance' => true,
-    'lock_padding' => '',
-    'padding_number' => '10',
-    'left_padding_num' => '10',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'row' => 8,
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '20',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '20',
-    'right_padding_use' => 'yes',
-    'left_padding_use' => 'yes',
-  ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1459891754389-1028',
-  'edited' => true,
+  'wrapper_id' => 'wrapper-1460079733641-1153',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
   ),
@@ -509,26 +425,42 @@ $region_3a67d4->add_element("Login", array (
   ),
 ));
 
-$region_3a67d4->add_element("Uspacer", array (
+$region_013c2c->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1460090054780-1968 upfront-module-spacer',
   'id' => 'module-1460090054780-1968',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1460090054779-1606',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1460090054779-1606',
   ),
-  'wrapper_id' => 'wrapper-1460090054777-1975',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1460090054777-1975',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
-$regions->add($region_3a67d4);
+$regions->add($region_013c2c);
 
 /* END_REGION_OUTPUT */
