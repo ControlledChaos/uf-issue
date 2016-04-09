@@ -1,11 +1,141 @@
-.upfront_login-form form input {
+.upfront_login-form {
+    position: relative;
+    padding: 25px 30px;
+    background: #ufc3;
+}
+.upfront_login-form form > p {
+    margin-top: 10px !important;
+}
+.upfront_login-form form > p:first-child {
+    margin-top: 0 !important;
+}
+.upfront_login-form form, .upfront_login-form form > p {
+    display: block !important;
+}
+.upfront_login-form form:before, .upfront_login-form form:after, .upfront_login-form form > p:before, .upfront_login-form form > p:after {
+    content: "";
+    display: table;
+}
+.upfront_login-form form:after, .upfront_login-form form > p:after {
+    clear: both;
+}
+.upfront_login-form form .login-username, .upfront_login-form form .login-password {
+    width: 100%;
+    display: block;
+}
+.upfront_login-form form .login-username label, .upfront_login-form form .login-password label {
+    height: 27px;
+    margin-bottom: 0 !important;
+    color: #ufc6;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300 !important;
+}
+.upfront_login-form form .login-username input, .upfront_login-form form .login-password input {
+    height: 27px;
+    border: 1px solid #edf3f2 !important;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
+    background: #edf3f2;
+    color: #7c8a87;
+    font-size: 18px;
+    line-height: 25px !important;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
 }
-.upfront_login-form form input:not([type=submit]):not([type=checkbox]) {
-    color: #65808c;
-    color: rgba(101, 128, 140, 0.7);
-    border: 1px solid #d1ccc4;
-    background: #fbf8f2;
+.upfront_login-form form .login-username input:hover, .upfront_login-form form .login-password input:hover, .upfront_login-form form .login-username input:focus, .upfront_login-form form .login-password input:focus {
+    border-color: #ufc2 !important;
+    color: #ufc3;
+}
+.upfront_login-form form .login-username label, .upfront_login-form form .login-password label, .upfront_login-form form .login-username input, .upfront_login-form form .login-password input {
+    float: left;
+    display: inline-block !important;
+}
+.upfront_login-form form .login-username label, .upfront_login-form form .login-password label {
+    width: 10%;
+    margin-right: 2%;
+}
+.upfront_login-form form .login-username input, .upfront_login-form form .login-password input {
+    width: 88% !important;
+}
+.upfront_login-form form .login-remember label {
+    height: 14px;
+    display: block !important;
+    margin-bottom: 0 !important;
+    vertical-align: middle;
+    color: #6acecb;
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: 300 !important;
+    font-style: normal;
+}
+.upfront_login-form form .login-remember #rememberme {
+    width: 14px;
+    height: 14px;
+    top: -1px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+.upfront_login-form form .login-remember #rememberme:before {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #6acecb;
+    background: #ufc3;
+}
+.upfront_login-form form .login-submit {
+    display: inline-block;
+}
+.upfront_login-form form .login-submit input {
+    width: 78px !important;
+    height: 30px;
+    display: block;
+    padding: 0px 10px !important;
+    border: 2px solid #4b9e9b !important;
+    background: #ufc2 !important;
+    color: #ufc6 !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.upfront_login-form form p.login-remember, .upfront_login-form form p.login-submit {
+    display: inline-block !important;
+}
+.upfront_login-form form p.login-remember {
+    float: left;
+    margin-top: 19px !important;
+}
+.upfront_login-form form p.login-submit {
+    float: right;
+}
+.upfront_login-form .login-lostpassword {
+    position: absolute;
+    right: 120px;
+    bottom: 24px;
+}
+.upfront_login-form .login-lostpassword small {
+    display: block;
+    position: relative;
+    color: #6acecb;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.upfront_login-form .login-lostpassword a.login-lostpassword-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-indent: -9999px;
 }
