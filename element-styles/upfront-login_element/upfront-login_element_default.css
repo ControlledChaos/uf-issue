@@ -60,10 +60,10 @@
 }
 .upfront_login-form form .login-username label, .upfront_login-form form .login-password label {
     width: 10%;
-    margin-right: 2%;
+    margin-right: 4%;
 }
 .upfront_login-form form .login-username input, .upfront_login-form form .login-password input {
-    width: 88% !important;
+    width: 86% !important;
 }
 .upfront_login-form form .login-remember label {
     height: 14px;
