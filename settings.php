@@ -6,6 +6,10 @@ body.upfront #page {
     text-rendering: geometricPrecision;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+}
+.upfront-layout .upfront-region-container-clip > div, .upfront-output-layout .upfront-region-container-clip > div {
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
 }',
 	'layout_properties' => '[{"name":"version","value":"1.0.0"},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":1080},{"name":"background_color","value":"rgba(243,243,243,1)"},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}}]',
 	'theme_colors' => '{"colors":[{"color":"#2e3332","prev":"#2e3332","highlight":"#2e3332","shade":"#2e3332","alpha":"1","selected":"","luminance":""},{"color":"#de7854","prev":"#de7854","highlight":"#de7854","shade":"#de7854","alpha":"1","selected":"","luminance":""},{"color":"#5aadaa","prev":"#5aadaa","highlight":"#5aadaa","shade":"#5aadaa","alpha":"1","selected":"","luminance":""},{"color":"#373d3c","prev":"#373d3c","highlight":"#373d3c","shade":"#373d3c","alpha":"1","selected":"","luminance":""},{"color":"#7c8a87","prev":"#7c8a87","highlight":"#7c8a87","shade":"#7c8a87","alpha":"1","selected":"","luminance":""},{"color":"#a4b2b0","prev":"#a4b2b0","highlight":"#a4b2b0","shade":"#a4b2b0","alpha":"1","selected":"","luminance":""},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","alpha":"1","selected":"","luminance":""},{"color":"#b96446","prev":"#b96446","highlight":"#b96446","shade":"#b96446","alpha":"1","selected":"","luminance":""},{"color":"#c5d6d3","prev":"#c5d6d3","highlight":"#c5d6d3","shade":"#c5d6d3","alpha":"1","selected":"","luminance":""}],"range":"0"}',
