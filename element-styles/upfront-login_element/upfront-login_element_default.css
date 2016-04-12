@@ -1,29 +1,24 @@
-.upfront_login-form {
+/* Global Settings */
+.upfront_login .upfront_login-form {
     position: relative;
-    padding: 25px 30px;
-    background: #ufc3;
 }
-.upfront_login-form form > p {
-    margin-top: 10px !important;
-}
-.upfront_login-form form > p:first-child {
-    margin-top: 0 !important;
-}
-.upfront_login-form form, .upfront_login-form form > p {
-    display: block !important;
-}
-.upfront_login-form form:before, .upfront_login-form form:after, .upfront_login-form form > p:before, .upfront_login-form form > p:after {
+.upfront_login .upfront_login-form form:before, .upfront_login .upfront_login-form form:after, .upfront_login .upfront_login-form form > p:before, .upfront_login .upfront_login-form form > p:after {
     content: "";
     display: table;
 }
-.upfront_login-form form:after, .upfront_login-form form > p:after {
-    clear: both;
+.upfront_login .upfront_login-form form:after, .upfront_login .upfront_login-form form > p:after {
+	clear: both;
 }
-.upfront_login-form form .login-username, .upfront_login-form form .login-password {
-    width: 100%;
-    display: block;
+.upfront_login .upfront_login-form form, .upfront_login .upfront_login-form form > p {
+    display: block !important;
 }
-.upfront_login-form form .login-username label, .upfront_login-form form .login-password label {
+.upfront_login .upfront_login-form form > p {
+    margin-top: 10px !important;
+}
+.upfront_login .upfront_login-form form > p:first-child {
+    margin-top: 0 !important;
+}
+.upfront_login .upfront_login-form form .login-username label, .upfront_login .upfront_login-form form .login-password label {
     height: 27px;
     margin-bottom: 0 !important;
     color: #ufc6;
@@ -32,7 +27,7 @@
     font-family: "Lato", sans-serif;
     font-weight: 300 !important;
 }
-.upfront_login-form form .login-username input, .upfront_login-form form .login-password input {
+.upfront_login .upfront_login-form form .login-username input, .upfront_login .upfront_login-form form .login-password input {
     height: 27px;
     border: 1px solid #edf3f2 !important;
     border-radius: 4px;
@@ -50,22 +45,25 @@
     -moz-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
 }
-.upfront_login-form form .login-username input:hover, .upfront_login-form form .login-password input:hover, .upfront_login-form form .login-username input:focus, .upfront_login-form form .login-password input:focus {
+.upfront_login .upfront_login-form form .login-username input:hover, .upfront_login .upfront_login-form form .login-password input:hover, .upfront_login .upfront_login-form form .login-username input:focus, .upfront_login .upfront_login-form form .login-password input:focus {
     border-color: #ufc2 !important;
     color: #ufc3;
 }
-.upfront_login-form form .login-username label, .upfront_login-form form .login-password label, .upfront_login-form form .login-username input, .upfront_login-form form .login-password input {
+.upfront_login .upfront_login-form form .login-username label, .upfront_login .upfront_login-form form .login-password label, .upfront_login .upfront_login-form form .login-username input, .upfront_login .upfront_login-form form .login-password input {
     float: left;
     display: inline-block !important;
 }
-.upfront_login-form form .login-username label, .upfront_login-form form .login-password label {
-    width: 10%;
-    margin-right: 4%;
+.upfront_login .upfront_login-form form p.login-remember, .upfront_login .upfront_login-form form p.login-submit {
+    display: inline-block !important;
 }
-.upfront_login-form form .login-username input, .upfront_login-form form .login-password input {
-    width: 86% !important;
+.upfront_login .upfront_login-form form p.login-remember {
+    float: left;
+    margin-top: 19px !important;
 }
-.upfront_login-form form .login-remember label {
+.upfront_login .upfront_login-form form p.login-submit {
+    float: right;
+}
+.upfront_login .upfront_login-form form .login-remember label {
     height: 14px;
     display: block !important;
     margin-bottom: 0 !important;
@@ -76,24 +74,31 @@
     font-weight: 300 !important;
     font-style: normal;
 }
-.upfront_login-form form .login-remember #rememberme {
+.upfront_login .upfront_login-form form .login-remember #rememberme {
     width: 14px;
     height: 14px;
     top: -1px;
     margin-right: 5px;
     margin-bottom: 0;
 }
-.upfront_login-form form .login-remember #rememberme:before {
+.upfront_login .upfront_login-form form .login-remember #rememberme:before {
     cursor: pointer;
     width: 12px;
     height: 12px;
     border: 1px solid #6acecb;
     background: #ufc3;
 }
-.upfront_login-form form .login-submit {
+.upfront_login .upfront_login-form form .login-remember #rememberme:before {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #6acecb;
+    background: #ufc3;
+}
+.upfront_login .upfront_login-form form .login-submit {
     display: inline-block;
 }
-.upfront_login-form form .login-submit input {
+.upfront_login .upfront_login-form form .login-submit input {
     width: 78px !important;
     height: 30px;
     display: block;
@@ -107,22 +112,12 @@
     font-weight: 600;
     font-style: normal;
 }
-.upfront_login-form form p.login-remember, .upfront_login-form form p.login-submit {
-    display: inline-block !important;
-}
-.upfront_login-form form p.login-remember {
-    float: left;
-    margin-top: 19px !important;
-}
-.upfront_login-form form p.login-submit {
-    float: right;
-}
-.upfront_login-form .login-lostpassword {
+.upfront_login .upfront_login-form .login-lostpassword {
     position: absolute;
     right: 120px;
     bottom: 24px;
 }
-.upfront_login-form .login-lostpassword small {
+.upfront_login .upfront_login-form .login-lostpassword small {
     display: block;
     position: relative;
     color: #6acecb;
@@ -131,11 +126,121 @@
     font-weight: 300;
     font-style: normal;
 }
-.upfront_login-form .login-lostpassword a.login-lostpassword-link {
+.upfront_login .upfront_login-form .login-lostpassword a.login-lostpassword-link {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     text-indent: -9999px;
+}
+ /* Form on Page */
+.upfront_login-block .upfront_login-form {
+    padding: 25px 30px;
+    background: #ufc3;
+}
+ .upfront_login-block .upfront_login-form form .login-username,  .upfront_login-block .upfront_login-form form .login-password {
+    width: 100%;
+    display: block;
+}
+ .upfront_login-block .upfront_login-form form .login-username label,  .upfront_login-block .upfront_login-form form .login-password label {
+    width: 10%;
+    margin-right: 4%;
+}
+ .upfront_login-block .upfront_login-form form .login-username input,  .upfront_login-block .upfront_login-form form .login-password input {
+    width: 86% !important;
+}
+ /* Drop Down Form – On Hover */
+.upfront_login-hover .upfront_login-trigger,  .upfront_login-hover:hover .upfront_login-trigger {
+    display: block !important;
+    text-align: right;
+}
+ .upfront_login-hover .upfront_login-label {
+    height: 30px;
+    padding: 15px;
+    background: #ufc0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    color: #ufc6;
+    font: 400 14px/30px "Lato", sans-serif;
+}
+ .upfront_login-hover .upfront_login-form {
+    width: 380px;
+    padding: 25px 30px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #ufc3 !important;
+}
+ .upfront_login-hover:hover .upfront_login-form:before {
+    display: none !important;
+}
+ .upfront_login-hover .upfront_login-form-wrapper {
+	width: 380px !important;
+    top: 25px !important;
+	right: -15px !important;
+	left: auto !important;
+}
+ .upfront_login-hover .upfront_login-form form .login-username,  .upfront_login-hover .upfront_login-form form .login-password {
+    width: 100%;
+    display: block;
+}
+ .upfront_login-hover .upfront_login-form form .login-username label,  .upfront_login-hover .upfront_login-form form .login-password label {
+    width: 80px !important;
+}
+ .upfront_login-hover .upfront_login-form form .login-username input,  .upfront_login-hover .upfront_login-form form .login-password input {
+    width: 240px !important;
+}
+/* Drop Down Form – On Click */
+.upfront_login-click .upfront_login-trigger,  .upfront_login-click.active .upfront_login-trigger {
+    display: block !important;
+    text-align: right;
+}
+.upfront_login-click .upfront_login-label {
+    height: 30px;
+    padding: 15px;
+    background: #ufc0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    color: #ufc6;
+    font: 400 14px/30px "Lato", sans-serif;
+}
+.upfront_login-click .upfront_login-form {
+    width: 380px;
+    padding: 25px 30px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #ufc3 !important;
+}
+ .upfront_login-click.active .upfront_login-form:before {
+    display: none !important;
+}
+.upfront_login-click .upfront_login-form-wrapper {
+	width: 380px !important;
+	top: 25px !important;
+	right: -15px !important;
+	left: auto !important;
+}
+.upfront_login-click .upfront_login-form form .login-username, .upfront_login-click .upfront_login-form form .login-password {
+    width: 100%;
+    display: block;
+}
+.upfront_login-click .upfront_login-form form .login-username label, .upfront_login-click .upfront_login-form form .login-password label {
+    width: 80px !important;
+}
+.upfront_login-click .upfront_login-form form .login-username input, .upfront_login-click .upfront_login-form form .login-password input {
+    width: 240px !important;
 }
