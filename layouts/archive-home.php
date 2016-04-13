@@ -2414,13 +2414,13 @@ $categories_two->add_element("Uspacer", array (
 
 $regions->add($categories_two);
 
-$latest_articles = upfront_create_region(
+$featured_articles = upfront_create_region(
 			array (
-  'name' => 'latest-articles',
-  'title' => 'Latest Articles',
+  'name' => 'featured-articles',
+  'title' => 'Featured Articles',
   'type' => 'clip',
   'scope' => 'local',
-  'container' => 'latest-articles',
+  'container' => 'featured-articles',
   'position' => 1,
   'allow_sidebar' => true,
 ),
@@ -2457,7 +2457,7 @@ $latest_articles = upfront_create_region(
 )
 			);
 
-$latest_articles->add_element("Uspacer", array (
+$featured_articles->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
   'id' => 'module-1460516507600-1854',
@@ -2478,7 +2478,7 @@ $latest_articles->add_element("Uspacer", array (
   'new_line' => true,
 ));
 
-$latest_articles->add_element("PlainTxt", array (
+$featured_articles->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '0',
   'margin_top' => '0',
@@ -2541,7 +2541,7 @@ $latest_articles->add_element("PlainTxt", array (
   ),
 ));
 
-$latest_articles->add_element("Uspacer", array (
+$featured_articles->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
   'id' => 'module-1460516510320-1515',
@@ -2561,7 +2561,7 @@ $latest_articles->add_element("Uspacer", array (
   'edited' => true,
 ));
 
-$latest_articles->add_element("Uspacer", array (
+$featured_articles->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
   'id' => 'module-1460516542288-1275',
@@ -2582,7 +2582,7 @@ $latest_articles->add_element("Uspacer", array (
   'new_line' => true,
 ));
 
-$latest_articles->add_element("Posts", array (
+$featured_articles->add_element("Posts", array (
   'columns' => '20',
   'margin_left' => '0',
   'margin_top' => '0',
@@ -2724,7 +2724,7 @@ $latest_articles->add_element("Posts", array (
   ),
 ));
 
-$latest_articles->add_element("Uspacer", array (
+$featured_articles->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
   'id' => 'module-1460516545263-1449',
@@ -2744,7 +2744,7 @@ $latest_articles->add_element("Uspacer", array (
   'edited' => true,
 ));
 
-$regions->add($latest_articles);
+$regions->add($featured_articles);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php');
 
