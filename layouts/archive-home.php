@@ -1074,7 +1074,7 @@ $categories_one = upfront_create_region(
 			array (
   'name' => 'categories-one',
   'title' => 'Categories One',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'categories-one',
   'position' => 10,
@@ -1096,6 +1096,20 @@ $categories_one = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
+  'background_color' => '#ufc6',
 )
 			);
 
@@ -1569,7 +1583,7 @@ $categories_two = upfront_create_region(
 			array (
   'name' => 'categories-two',
   'title' => 'Categories Two',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'categories-two',
   'position' => 10,
@@ -1591,6 +1605,20 @@ $categories_two = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
+  'background_color' => '#ufc6',
 )
 			);
 
@@ -2398,7 +2426,7 @@ $latest_articles = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 110,
+  'row' => 39,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -2428,6 +2456,293 @@ $latest_articles = upfront_create_region(
   'background_color' => '#ufc6',
 )
 			);
+
+$latest_articles->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460516507600-1854',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460516507600-1714',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460516507599-1305',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$latest_articles->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1460513739046-1201',
+  'options' => 
+  array (
+    'content' => '<p class="">FEATURED ARTICLES</p>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1460513739045-1724',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'row' => 8,
+  ),
+  'row' => 8,
+  'wrapper_id' => 'wrapper-1460516501035-1631',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$latest_articles->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460516510320-1515',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460516510320-1149',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460516510318-1302',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
+$latest_articles->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460516542288-1275',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460516542288-1926',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460516542287-1759',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$latest_articles->add_element("Posts", array (
+  'columns' => '20',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => 'upfront-posts_module',
+  'id' => 'module-1460501941498-1527',
+  'options' => 
+  array (
+    'type' => 'PostsModel',
+    'view_class' => 'PostsView',
+    'has_settings' => 1,
+    'class' => 'c24 uposts-object',
+    'id_slug' => 'posts',
+    'display_type' => 'list',
+    'list_type' => 'generic',
+    'offset' => 1,
+    'taxonomy' => '',
+    'term' => '',
+    'content' => 'excerpt',
+    'limit' => 5,
+    'pagination' => '',
+    'sticky' => '',
+    'posts_list' => '',
+    'post_parts' => 
+    array (
+      0 => 'featured_image',
+      1 => 'title',
+      2 => 'content',
+      3 => 'comment_count',
+    ),
+    'enabled_post_parts' => 
+    array (
+      0 => 'comment_count',
+      1 => 'featured_image',
+      2 => 'title',
+      3 => 'content',
+    ),
+    'default_parts' => 
+    array (
+      0 => 'date_posted',
+      1 => 'author',
+      2 => 'gravatar',
+      3 => 'comment_count',
+      4 => 'featured_image',
+      5 => 'title',
+      6 => 'content',
+      7 => 'read_more',
+      8 => 'tags',
+      9 => 'categories',
+      10 => 'meta',
+    ),
+    'date_posted_format' => 'F j, Y g:i a',
+    'categories_limit' => 3,
+    'tags_limit' => 3,
+    'comment_count_hide' => 0,
+    'content_length' => 0,
+    'resize_featured' => '1',
+    'gravatar_size' => 200,
+    'preset' => 'default',
+    'post-part-date_posted' => '<div class="uposts-part date_posted">
+	Posted on <span class="datetime">{{datetime}}</span></div>',
+    'post-part-author' => '<div class="uposts-part author">
+	By <a href="{{url}}">{{name}}</a></div>',
+    'post-part-gravatar' => '<div class="uposts-part gravatar">
+	{{gravatar}}
+</div>',
+    'post-part-comment_count' => '<div class="uposts-part comment_count">
+	{{comment_count||No comments}}
+</div>',
+    'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}">
+	{{thumbnail}}
+</div>',
+    'post-part-title' => '<div class="uposts-part title">
+	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
+</div>',
+    'post-part-content' => '<div class="uposts-part content {{content_type}}">
+	{{content}}
+</div>',
+    'post-part-read_more' => '<div class="uposts-part read_more">
+	<a href="{{permalink}}">Read more</a></div>',
+    'post-part-tags' => '<div class="uposts-part post_tags">
+	{{tags}}
+</div>',
+    'post-part-categories' => '<div class="uposts-part post_categories">
+	{{categories}}
+</div>',
+    'post-part-meta' => '<div class="uposts-part meta">
+	
+</div>
+',
+    'element_id' => 'posts-object-1460501941494-1123',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'lock_padding' => '',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'row' => 21,
+  ),
+  'row' => 21,
+  'wrapper_id' => 'wrapper-1460516539557-1114',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$latest_articles->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460516545263-1449',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460516545262-1726',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460516545262-1949',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
 
 $regions->add($latest_articles);
 
