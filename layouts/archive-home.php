@@ -2460,17 +2460,17 @@ $featured_articles = upfront_create_region(
 $featured_articles->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
-  'id' => 'module-1460516507600-1854',
+  'id' => 'module-1460517086376-1584',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1460516507600-1714',
+    'element_id' => 'spacer-object-1460517086375-1153',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
   ),
-  'wrapper_id' => 'wrapper-1460516507599-1305',
+  'wrapper_id' => 'wrapper-1460517086375-1055',
   'default_hide' => 1,
   'toggle_hide' => 0,
   'hide' => 0,
@@ -2483,27 +2483,40 @@ $featured_articles->add_element("PlainTxt", array (
   'margin_left' => '0',
   'margin_top' => '0',
   'class' => '',
-  'id' => 'module-1460513739046-1201',
+  'id' => 'module-1460516501326-1430',
   'options' => 
   array (
-    'content' => '<p class="">FEATURED ARTICLES</p>',
+    'content' => '<h3 class="">FEATURED ARTICLES</h3>',
     'type' => 'PlainTxtModel',
     'view_class' => 'PlainTxtView',
-    'element_id' => 'text-object-1460513739045-1724',
+    'element_id' => 'text-object-1460516501323-1236',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'id_slug' => 'plain_text',
-    'preset' => 'default',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
+    'lock_padding' => '',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'textbox-alternative',
+      )),
+    )),
     'row' => 8,
   ),
   'row' => 8,
-  'wrapper_id' => 'wrapper-1460516501035-1631',
+  'wrapper_id' => 'wrapper-1460517079746-1502',
   'edited' => true,
   'wrapper_breakpoint' => 
   array (
@@ -2544,17 +2557,17 @@ $featured_articles->add_element("PlainTxt", array (
 $featured_articles->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
-  'id' => 'module-1460516510320-1515',
+  'id' => 'module-1460517088606-1000',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1460516510320-1149',
+    'element_id' => 'spacer-object-1460517088605-1057',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
   ),
-  'wrapper_id' => 'wrapper-1460516510318-1302',
+  'wrapper_id' => 'wrapper-1460517088605-1305',
   'default_hide' => 1,
   'toggle_hide' => 0,
   'hide' => 0,
