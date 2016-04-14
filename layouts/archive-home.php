@@ -15,7 +15,7 @@ $main_content = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 60,
+  'row' => 103,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -38,8 +38,8 @@ $main_content = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => '60',
   'top_bg_padding_num' => '60',
-  'bottom_bg_padding_slider' => '45',
-  'bottom_bg_padding_num' => '45',
+  'bottom_bg_padding_slider' => '0',
+  'bottom_bg_padding_num' => '0',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc6',
@@ -674,7 +674,7 @@ $main_content->add_group(array (
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1460434654609-1461',
   'original_col' => 8,
-  'top_padding_num' => '30',
+  'top_padding_num' => '45',
   'bottom_padding_num' => '40',
   'use_padding' => 'yes',
   'background_color' => '#ufc3',
@@ -685,11 +685,11 @@ $main_content->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'top_padding_use' => 'yes',
-  'top_padding_slider' => '30',
+  'top_padding_slider' => '45',
   'bottom_padding_use' => 'yes',
   'bottom_padding_slider' => '40',
   'lock_padding' => '',
-  'row' => 69,
+  'row' => 52,
   'edited' => true,
   'wrapper_breakpoint' => 
   array (
@@ -809,7 +809,7 @@ $main_content->add_element("Uimage", array (
     'valign' => 'center',
     'isDotAlign' => true,
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -925,7 +925,7 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 50,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1016,7 +1016,7 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 9,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1206,7 +1206,7 @@ $categories_one->add_group(array (
   'background_position_x' => '50',
   'background_type' => 'image',
   'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-tv.png',
+  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-tv.jpg',
   'background_image_ratio' => 1,
   'wrapper_breakpoint' => 
   array (
@@ -1446,7 +1446,7 @@ $categories_one->add_group(array (
   'background_position_x' => '50',
   'background_type' => 'image',
   'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-photography.png',
+  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-photography.jpg',
   'background_image_ratio' => 0.40000000000000002220446049250313080847263336181640625,
   'wrapper_breakpoint' => 
   array (
@@ -2043,7 +2043,7 @@ $categories_two->add_group(array (
   'background_position_x' => '50',
   'background_type' => 'image',
   'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-gallery.png',
+  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-gallery.jpg',
   'background_image_ratio' => 1,
   'wrapper_breakpoint' => 
   array (
@@ -2281,7 +2281,7 @@ $categories_two->add_group(array (
   'background_position_x' => '50',
   'background_type' => 'image',
   'anchor' => '',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-music.png',
+  'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-music.jpg',
   'background_image_ratio' => 1,
   'wrapper_breakpoint' => 
   array (
