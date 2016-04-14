@@ -2695,8 +2695,8 @@ $featured_articles = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => '15',
   'top_bg_padding_num' => '15',
-  'bottom_bg_padding_slider' => '120',
-  'bottom_bg_padding_num' => '120',
+  'bottom_bg_padding_slider' => '90',
+  'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc6',
@@ -2997,7 +2997,7 @@ $featured_articles->add_element("Posts", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'row' => 65,
+    'row' => 58,
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
@@ -3010,7 +3010,7 @@ $featured_articles->add_element("Posts", array (
     'right_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
   ),
-  'row' => 65,
+  'row' => 58,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
