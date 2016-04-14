@@ -2672,7 +2672,7 @@ $featured_articles = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 39,
+  'row' => 56,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -2915,7 +2915,7 @@ $featured_articles->add_element("Posts", array (
     'taxonomy' => '',
     'term' => '',
     'content' => 'excerpt',
-    'limit' => 5,
+    'limit' => '4',
     'pagination' => '',
     'sticky' => '',
     'posts_list' => '',
@@ -2951,10 +2951,10 @@ $featured_articles->add_element("Posts", array (
     'categories_limit' => 3,
     'tags_limit' => 3,
     'comment_count_hide' => 0,
-    'content_length' => 0,
+    'content_length' => '12',
     'resize_featured' => '1',
     'gravatar_size' => 200,
-    'preset' => 'default',
+    'preset' => 'posts-featured',
     'post-part-date_posted' => '<div class="uposts-part date_posted">
 	Posted on <span class="datetime">{{datetime}}</span></div>',
     'post-part-author' => '<div class="uposts-part author">
@@ -2997,9 +2997,20 @@ $featured_articles->add_element("Posts", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'row' => 21,
+    'row' => 65,
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'posts-featured',
+      )),
+    )),
+    'top_padding_use' => 'yes',
+    'left_padding_use' => 'yes',
+    'right_padding_use' => 'yes',
+    'bottom_padding_use' => 'yes',
   ),
-  'row' => 6,
+  'row' => 65,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
