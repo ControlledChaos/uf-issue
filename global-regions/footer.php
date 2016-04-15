@@ -46,8 +46,10 @@ $footer = upfront_create_region(
 $footer->add_element("Unewnavigation", array (
   'columns' => '24',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-newnavigation_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1460602751853-1023',
   'id' => 'module-1460602751853-1023',
   'options' => 
   array (
@@ -60,13 +62,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 132,
-         'menu-item-parent-id' => '0',
+         'menu-item-db-id' => 172,
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => '© 2013',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '132',
+         'menu-item-object-id' => '172',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -78,15 +80,15 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 128,
-         'menu-item-parent-id' => '0',
+         'menu-item-db-id' => 173,
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ARCHIVE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '128',
+         'menu-item-object-id' => '173',
          'menu-item-target' => '',
-         'menu-item-position' => 2,
+         'menu-item-position' => 0,
          'link' => 
         (array)(array(
            'type' => 'unlink',
@@ -96,15 +98,15 @@ $footer->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 129,
-         'menu-item-parent-id' => '0',
+         'menu-item-db-id' => 174,
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '129',
+         'menu-item-object-id' => '174',
          'menu-item-target' => '',
-         'menu-item-position' => 3,
+         'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'unlink',
@@ -114,15 +116,15 @@ $footer->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 130,
-         'menu-item-parent-id' => '0',
+         'menu-item-db-id' => 175,
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '130',
+         'menu-item-object-id' => '175',
          'menu-item-target' => '',
-         'menu-item-position' => 4,
+         'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'unlink',
@@ -132,15 +134,15 @@ $footer->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 131,
-         'menu-item-parent-id' => '0',
+         'menu-item-db-id' => 176,
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '131',
+         'menu-item-object-id' => '176',
          'menu-item-target' => '',
-         'menu-item-position' => 5,
+         'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'unlink',
@@ -184,7 +186,11 @@ $footer->add_element("Unewnavigation", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '5',
   ),
-  'row' => 2,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1460603110402-1751',
   'new_line' => true,
   'wrapper_breakpoint' => 
