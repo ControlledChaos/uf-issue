@@ -3010,7 +3010,7 @@ $featured_articles->add_element("Posts", array (
     'right_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
   ),
-  'row' => 58,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
