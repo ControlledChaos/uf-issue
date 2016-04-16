@@ -36,8 +36,8 @@ $breadcrumbs = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => '10',
-  'top_bg_padding_num' => '10',
+  'top_bg_padding_slider' => '4',
+  'top_bg_padding_num' => '4',
   'bottom_bg_padding_slider' => '15',
   'bottom_bg_padding_num' => '15',
   'bg_padding_slider' => 0,
@@ -303,8 +303,8 @@ $block_title->add_element("PlainTxt", array (
     'has_settings' => 1,
     'preset' => 'textbox-alternative',
     'padding_slider' => '15',
-    'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '11',
+    'bottom_padding_num' => '58',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -322,6 +322,8 @@ $block_title->add_element("PlainTxt", array (
       )),
     )),
     'row' => 9,
+    'top_padding_use' => 'yes',
+    'bottom_padding_use' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,
@@ -630,7 +632,7 @@ $block_title->add_element("Uwidget", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '20',
   ),
-  'row' => 7,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -854,8 +856,7 @@ $block_content->add_element("Posts", array (
     'gravatar_size' => 200,
     'preset' => 'default',
     'post-part-date_posted' => '<div class="uposts-part date_posted"><span class="datetime">{{datetime}}</span></div>',
-    'post-part-author' => '<div class="uposts-part author">
-	By <a href="{{url}}">{{name}}</a></div>',
+    'post-part-author' => '<div class="uposts-part author">&nbsp;- By <a href="{{url}}">{{name}}</a></div>',
     'post-part-gravatar' => '<div class="uposts-part gravatar">
 	{{gravatar}}
 </div>',
@@ -895,8 +896,18 @@ $block_content->add_element("Posts", array (
     'right_padding_num' => '15',
     'anchor' => '',
     'top_padding_slider' => '15',
+    'usingNewAppearance' => true,
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
+    'row' => 119,
   ),
-  'row' => 6,
+  'row' => 119,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -965,6 +976,16 @@ $sidebar_right = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => '5',
+  'top_bg_padding_num' => '5',
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
+  'background_color' => '#ufc6',
 )
 			);
 
@@ -1025,11 +1046,11 @@ $sidebar_right->add_element("PlainTxt", array (
     'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '10',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 6,
+    'row' => 5,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -1043,8 +1064,10 @@ $sidebar_right->add_element("PlainTxt", array (
          'preset' => 'textbox-alternative',
       )),
     )),
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '10',
   ),
-  'row' => 6,
+  'row' => 5,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1062,7 +1085,7 @@ $sidebar_right->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 3,
+      'col' => 3.5,
       'order' => 1,
       'clear' => true,
     ),
@@ -1080,7 +1103,7 @@ $sidebar_right->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 3,
+      'col' => 3.5,
       'order' => 0,
     ),
   ),
@@ -1287,7 +1310,7 @@ $sidebar_right->add_element("Uwidget", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 4,
+      'col' => 3.5,
       'order' => 2,
       'clear' => false,
     ),
@@ -1305,7 +1328,7 @@ $sidebar_right->add_element("Uwidget", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 4,
+      'col' => 3.5,
       'order' => 1,
     ),
   ),
