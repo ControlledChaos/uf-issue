@@ -43,8 +43,29 @@ $footer = upfront_create_region(
 )
 			);
 
+$footer->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460769160054-1430',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460769160054-1369',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460769160053-1974',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
 $footer->add_element("Unewnavigation", array (
-  'columns' => '24',
+  'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -62,13 +83,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 172,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 252,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => '© 2013',
+         'menu-item-title' => 'ARCHIVE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '172',
+         'menu-item-object-id' => '252',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -80,49 +101,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 173,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'ARCHIVE',
-         'menu-item-url' => '#',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '173',
-         'menu-item-target' => '',
-         'menu-item-position' => 0,
-         'link' => 
-        (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
-           'target' => '',
-        )),
-      )),
-      2 => 
-      (array)(array(
-         'menu-item-db-id' => 174,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 253,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '174',
-         'menu-item-target' => '',
-         'menu-item-position' => 1,
-         'link' => 
-        (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
-           'target' => '',
-        )),
-      )),
-      3 => 
-      (array)(array(
-         'menu-item-db-id' => 175,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'CONTACT',
-         'menu-item-url' => '#',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '175',
+         'menu-item-object-id' => '253',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -132,17 +117,35 @@ $footer->add_element("Unewnavigation", array (
            'target' => '',
         )),
       )),
-      4 => 
+      2 => 
       (array)(array(
-         'menu-item-db-id' => 176,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 254,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'CONTACT',
+         'menu-item-url' => '#',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '254',
+         'menu-item-target' => '',
+         'menu-item-position' => 3,
+         'link' => 
+        (array)(array(
+           'type' => 'unlink',
+           'url' => '#',
+           'target' => '',
+        )),
+      )),
+      3 => 
+      (array)(array(
+         'menu-item-db-id' => 255,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '176',
+         'menu-item-object-id' => '255',
          'menu-item-target' => '',
-         'menu-item-position' => 3,
+         'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'unlink',
@@ -192,7 +195,7 @@ $footer->add_element("Unewnavigation", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1460603110402-1751',
-  'new_line' => true,
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -227,6 +230,26 @@ $footer->add_element("Unewnavigation", array (
       'order' => 0,
     ),
   ),
+));
+
+$footer->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1460769152005-1437',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1460769152005-1325',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1460769152003-1729',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $regions->add($footer);
