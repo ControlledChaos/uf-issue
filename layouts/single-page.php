@@ -120,17 +120,16 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461009814859-1147',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'col' => 4,
     ),
     'mobile' => 
     array (
-      'col' => 3,
+      'col' => 4,
     ),
   ),
 ));
@@ -217,7 +216,6 @@ $main->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461009640900-1518',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -330,16 +328,15 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461009818080-1227',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'col' => 4,
     ),
     'mobile' => 
     array (
-      'col' => 3,
+      'col' => 4,
     ),
   ),
 ));
@@ -367,17 +364,16 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461010235846-1373',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'col' => 2,
     ),
     'mobile' => 
     array (
-      'col' => 3,
+      'col' => 2,
     ),
   ),
 ));
@@ -399,7 +395,7 @@ $main->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
     'preset' => 'content-only',
-    'row' => 40,
+    'row' => 107,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -458,13 +454,12 @@ $main->add_element("PostData", array (
 ',
     'predefined_date_format' => 'M d Y',
   ),
-  'row' => 6,
+  'row' => 107,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461010115229-1475',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -517,7 +512,7 @@ $main->add_element("PostData", array (
       'element_id' => 'post-data-part-object-1461009834883-1540',
       'padding_slider' => '15',
       'use_padding' => 'yes',
-      'row' => 126,
+      'row' => 107,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
@@ -577,21 +572,24 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461010239148-1761',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'col' => 2,
     ),
     'mobile' => 
     array (
-      'col' => 3,
+      'col' => 2,
     ),
   ),
 ));
 
 $regions->add($main);
+
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php');
+
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 
