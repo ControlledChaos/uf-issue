@@ -404,10 +404,14 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 1,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 1,
+          'clear' => true,
         ),
       ),
       'new_line' => true,
@@ -613,10 +617,14 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 1,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 1,
+          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -789,10 +797,14 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 1,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 1,
+          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -996,10 +1008,14 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 1,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 1,
+          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1112,8 +1128,8 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'content-only',
-    'row' => 40,
+    'preset' => 'indent-content-only',
+    'row' => 71,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -1168,7 +1184,7 @@ $main->add_element("PostData", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'content-only',
+         'preset' => 'indent-content-only',
       )),
     )),
     'calculated_left_indent' => 0,
@@ -1232,16 +1248,20 @@ $main->add_element("PostData", array (
       'element_id' => 'post-data-part-object-1461596380851-1595',
       'padding_slider' => '15',
       'use_padding' => 'yes',
-      'row' => 102,
+      'row' => 71,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 1,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 1,
+          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1629,6 +1649,7 @@ $main->add_element("PostData", array (
     array (
       0 => 'comments_pagination',
     ),
+    'theme_preset' => 'true',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1693,10 +1714,14 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 1,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 1,
+          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1738,10 +1763,14 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 2,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 2,
+          'clear' => true,
         ),
       ),
       'new_line' => true,
@@ -1784,10 +1813,14 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'order' => 3,
+          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'order' => 3,
+          'clear' => true,
         ),
       ),
       'new_line' => true,
