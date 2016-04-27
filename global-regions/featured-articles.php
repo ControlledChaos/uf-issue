@@ -290,7 +290,9 @@ $featured_articles->add_element("Posts", array (
     'date_posted_format' => 'F j, Y g:i a',
     'categories_limit' => 3,
     'tags_limit' => 3,
-    'comment_count_hide' => 0,
+    'comment_count_hide' => 
+    array (
+    ),
     'content_length' => '12',
     'resize_featured' => '1',
     'gravatar_size' => 200,
@@ -303,7 +305,7 @@ $featured_articles->add_element("Posts", array (
 	{{gravatar}}
 </div>',
     'post-part-comment_count' => '<div class="uposts-part comment_count">
-	{{comment_count||No comments}}
+	{{comment_count||0}} Comments
 </div>',
     'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}">
 	{{thumbnail}}
