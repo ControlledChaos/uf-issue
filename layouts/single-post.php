@@ -120,7 +120,6 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461599976322-1901',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -405,14 +404,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'new_line' => true,
@@ -618,14 +613,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -798,14 +789,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -852,7 +839,6 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461599983922-1479',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -952,7 +938,6 @@ $main->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461599971282-1384',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1011,14 +996,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1065,7 +1046,6 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461602466611-1703',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1102,7 +1082,6 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461597148032-1688',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1201,7 +1180,6 @@ $main->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461597134732-1589',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1260,14 +1238,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1314,7 +1288,6 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461602340224-1985',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1330,40 +1303,59 @@ $main->add_element("Uspacer", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '7',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1461713685690-1273 upfront-module-spacer',
   'id' => 'module-1461713685690-1273',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1461713685690-1002',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1461713685690-1002',
   ),
-  'wrapper_id' => 'wrapper-1461713685689-1134',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1461713685689-1134',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 7,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
 ));
 
 $main->add_element("PostData", array (
   'columns' => '15',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-post_data_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1461713436497-1230',
   'id' => 'module-1461713436497-1230',
   'options' => 
   array (
-    'data_type' => 'comments',
-    'row' => 40,
     'type' => 'PostDataModel',
     'view_class' => 'PostDataView',
     'has_settings' => 1,
     'class' => 'c24 upost-data-object upost-data-object-comments',
     'id_slug' => 'post-data',
+    'data_type' => 'comments',
+    'preset' => 'default',
+    'row' => 40,
     'type_parts' => 
     array (
       0 => 'comment_count',
@@ -1397,7 +1389,6 @@ $main->add_element("PostData", array (
     'post-part-comment_form' => '<div class="upostdata-part comment_form">
 	{{comment_form}}
 </div>',
-    'preset' => 'default',
     'element_id' => 'post-data-object-1461713436496-1487',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1419,10 +1410,232 @@ $main->add_element("PostData", array (
       )),
     )),
     'theme_style' => '',
+    'static-comment_count-use-typography' => 'yes',
+    'static-comment_count-font-family' => 'Lato',
+    'static-comment_count-weight' => '300',
+    'static-comment_count-fontstyle' => '300 normal',
+    'static-comment_count-style' => 'normal',
+    'static-comment_count-font-size' => '30',
+    'static-comment_count-line-height' => '1',
+    'static-comment_count-font-color' => 'rgb(45, 45, 45)',
+    'static-comments-use-typography' => 'yes',
+    'static-comments-font-family' => 'Lato',
+    'static-comments-weight' => '300',
+    'static-comments-fontstyle' => '300 normal',
+    'static-comments-style' => 'normal',
+    'static-comments-font-size' => '18',
+    'static-comments-line-height' => '1.7',
+    'static-comments-font-color' => 'rgba(45,45,45,1)',
+    'static-comments_pagination-use-typography' => 'yes',
+    'static-comments_pagination-font-family' => 'Lato',
+    'static-comments_pagination-weight' => '300',
+    'static-comments_pagination-fontstyle' => '300 normal',
+    'static-comments_pagination-style' => 'normal',
+    'static-comments_pagination-font-size' => '18',
+    'static-comments_pagination-line-height' => '2',
+    'static-comments_pagination-font-color' => 'rgb(88, 172, 169)',
+    'static-comment_form-use-typography' => 'yes',
+    'static-comment_form-font-family' => 'Lato',
+    'static-comment_form-weight' => '300',
+    'static-comment_form-fontstyle' => '300 normal',
+    'static-comment_form-style' => 'normal',
+    'static-comment_form-font-size' => '30',
+    'static-comment_form-line-height' => '1.5',
+    'static-comment_form-font-color' => 'rgb(45, 45, 45)',
+    'preset_style' => '#page .default.upost-data-object-comments .upfront-wrapper:first-child:before, #page .default.upost-data-object-comments  .upfront-output-wrapper:first-child:before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: /*#ufc1*/#de7854;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments, #page .default.upost-data-object-comments .upfront-post_data-comments ol.children {
+    list-style: none;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments ol.children > li {
+    margin-left: 90px;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments article.comment {
+    position: relative;
+    padding-bottom: 20px;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .avatar {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .comment-meta .fn {
+    color: /*#ufc7*/#b96446;
+    font-style: normal;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .comment-meta .comment-time {
+    display: block;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .comment-meta .comment-time, #page .default.upost-data-object-comments .upfront-post_data-comments .comment-meta .comment-time time {
+    color: /*#ufc5*/#a4b2b0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .comment-content {
+    margin-left: 90px;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .comment-content, #page .default.upost-data-object-comments .upfront-post_data-comments .comment-content p {
+    color: #120e0f;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .comment-content p {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .edit-link, #page .default.upost-data-object-comments .upfront-post_data-comments .edit-link a {
+    color: /*#ufc7*/#b96446;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .edit-link a {
+    color: /*#ufc7*/#b96446;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .comment-reply a:hover {
+    color: /*#ufc1*/#de7854;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .reply {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .reply a {
+    color: #c5d6d3;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .reply a:before {
+    content: "";
+    width: 14px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url("//issue.upfront.demo/wp-content/themes/uf-issue/ui/sprite.png") no-repeat transparent;
+    background-image: url("//issue.upfront.demo/wp-content/themes/uf-issue/ui/sprite.svg"), none;
+    background-position: -234px -1035px;
+}
+#page .default.upost-data-object-comments .upfront-post_data-comments .reply span {
+    display: none;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-reply-title {
+    color: inherit;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-reply-title a {
+    color: /*#ufc7*/#b96446;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-reply-title a:hover {
+    color: /*#ufc1*/#de7854;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-reply-title small {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-reply-title small a {
+    display: block;
+    vertical-align: middle;
+    padding: 4px 10px 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: /*#ufc7*/#b96446;
+    color: /*#ufc6*/#ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-reply-title small a:hover {
+    background: /*#ufc1*/#de7854;
+    color: /*#ufc6*/#ffffff;
+}
+#page .default.upost-data-object-comments .comment-respond .logged-in-as, #page .default.upost-data-object-comments .comment-respond .logged-in-as a {
+    font-size: 18px;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-form > p.comment-form-author, #page .default.upost-data-object-comments .comment-respond .comment-form > p.comment-form-email, #page .default.upost-data-object-comments .comment-respond .comment-form > p.comment-form-url {
+    height: 30px;
+    position: relative;
+    line-height: 30px;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-form label {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: /*#ufc4*/#7c8a87;
+    font-size: 18px;
+    line-height: 20px;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-form-comment label {
+    display: none;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-form input, #page .default.upost-data-object-comments .comment-respond .comment-form textarea {
+    display: block;
+    padding: 5px 15px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #edf3f2;
+    color: /*#ufc4*/#7c8a87;
+    font-size: 18px;
+    line-height: 20px;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-form input {
+    width: 100%;
+    max-width: 280px;
+}
+#page .default.upost-data-object-comments .comment-respond .comment-form textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
+#page .default.upost-data-object-comments .comment-respond .form-submit input.submit {
+    max-width: 180px;
+    height: 45px;
+    padding: 9px 15px 11px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: /*#ufc1*/#de7854;
+    color: /*#ufc6*/#ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+#page .default.upost-data-object-comments .comment-respond .form-submit input.submit:hover {
+    background: /*#ufc7*/#b96446;
+}
+',
+    'hidden_parts' => 
+    array (
+      0 => 'comments_pagination',
+    ),
   ),
-  'row' => 40,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461713452376-1161',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1462,6 +1675,10 @@ $main->add_element("PostData", array (
     0 => 
     array (
       'columns' => '15',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-comment_count',
       'view_class' => 'PostDataPartView',
       'part_type' => 'comment_count',
@@ -1475,17 +1692,11 @@ $main->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'edited' => false,
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
-          'edited' => false,
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1509,6 +1720,10 @@ $main->add_element("PostData", array (
     1 => 
     array (
       'columns' => '24',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'comments',
@@ -1518,24 +1733,18 @@ $main->add_element("PostData", array (
       'element_id' => 'post-data-part-object-1461728623299-1620',
       'padding_slider' => '15',
       'use_padding' => 'yes',
-      'new_line' => true,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
-          'edited' => false,
           'col' => 12,
-          'order' => 2,
-          'clear' => true,
         ),
         'mobile' => 
         array (
-          'edited' => false,
           'col' => 7,
-          'order' => 2,
-          'clear' => true,
         ),
       ),
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1557,6 +1766,10 @@ $main->add_element("PostData", array (
     2 => 
     array (
       'columns' => '24',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'comment_form',
@@ -1566,24 +1779,18 @@ $main->add_element("PostData", array (
       'element_id' => 'post-data-part-object-1461728623389-1856',
       'padding_slider' => '15',
       'use_padding' => 'yes',
-      'new_line' => true,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
-          'edited' => false,
           'col' => 12,
-          'order' => 3,
-          'clear' => true,
         ),
         'mobile' => 
         array (
-          'edited' => false,
           'col' => 7,
-          'order' => 3,
-          'clear' => true,
         ),
       ),
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1607,25 +1814,43 @@ $main->add_element("PostData", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1461713687996-1883 upfront-module-spacer',
   'id' => 'module-1461713687996-1883',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1461713687996-1029',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1461713687996-1029',
   ),
-  'wrapper_id' => 'wrapper-1461713687996-1991',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1461713687996-1991',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
 ));
 
 $regions->add($main);
+
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 
