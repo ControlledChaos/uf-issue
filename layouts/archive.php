@@ -95,7 +95,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"></a><span class="upfront_theme_color_7"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">Home</a> /</span> Archive</h6>',
+    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"></a><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1">Home</span></a> /</span> Archive</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460688658057-1865',
     'class' => 'c24 upfront-plain_txt',
@@ -907,7 +907,7 @@ $block_content->add_element("Posts", array (
     )),
     'row' => 119,
   ),
-  'row' => 119,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1067,7 +1067,7 @@ $sidebar_right->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '10',
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1085,7 +1085,7 @@ $sidebar_right->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 3.5,
+      'col' => 3,
       'order' => 1,
       'clear' => true,
     ),
@@ -1103,7 +1103,7 @@ $sidebar_right->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 3.5,
+      'col' => 3,
       'order' => 0,
     ),
   ),
@@ -1310,7 +1310,7 @@ $sidebar_right->add_element("Uwidget", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 3.5,
+      'col' => 4,
       'order' => 2,
       'clear' => false,
     ),
@@ -1328,7 +1328,7 @@ $sidebar_right->add_element("Uwidget", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 3.5,
+      'col' => 4,
       'order' => 1,
     ),
   ),
