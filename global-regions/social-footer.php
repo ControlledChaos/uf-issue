@@ -59,6 +59,7 @@ $social_footer->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683136441-1829',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -191,6 +192,14 @@ $social_footer->add_element("Button", array (
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'row' => 2.399999999999999911182158029987476766109466552734375,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -274,6 +283,14 @@ $social_footer->add_element("PlainTxt", array (
       )),
     )),
     'row' => 9,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -335,6 +352,7 @@ $social_footer->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683163142-1636',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -455,6 +473,14 @@ $social_footer->add_element("Button", array (
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'row' => 5.4000000000000003552713678800500929355621337890625,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -538,6 +564,14 @@ $social_footer->add_element("PlainTxt", array (
       )),
     )),
     'row' => 7,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -599,6 +633,7 @@ $social_footer->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683191298-1297',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -719,6 +754,14 @@ $social_footer->add_element("Button", array (
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'row' => 3.79999999999999982236431605997495353221893310546875,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -802,6 +845,14 @@ $social_footer->add_element("PlainTxt", array (
       )),
     )),
     'row' => 8,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -863,6 +914,7 @@ $social_footer->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683140837-1594',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

@@ -59,6 +59,7 @@ $footer->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460769160054-1369',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -99,13 +100,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 319,
+         'menu-item-db-id' => 380,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '319',
+         'menu-item-object-id' => '380',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -117,13 +118,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 320,
+         'menu-item-db-id' => 381,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '320',
+         'menu-item-object-id' => '381',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -135,13 +136,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 321,
+         'menu-item-db-id' => 382,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '321',
+         'menu-item-object-id' => '382',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -186,6 +187,14 @@ $footer->add_element("Unewnavigation", array (
     'bottom_padding_slider' => '5',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '5',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -245,6 +254,7 @@ $footer->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460769152005-1325',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
