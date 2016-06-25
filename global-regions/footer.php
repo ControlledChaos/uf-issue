@@ -194,6 +194,10 @@ $footer->add_element("Unewnavigation", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,

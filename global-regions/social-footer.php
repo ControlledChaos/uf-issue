@@ -199,6 +199,10 @@ $social_footer->add_element("Button", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -290,6 +294,10 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -480,6 +488,10 @@ $social_footer->add_element("Button", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -571,6 +583,10 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -761,6 +777,10 @@ $social_footer->add_element("Button", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -852,6 +872,10 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,

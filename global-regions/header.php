@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_46e34e = upfront_create_region(
+$region_8f20a4 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_46e34e = upfront_create_region(
 )
 			);
 
-$region_46e34e->add_element("Uimage", array (
+$region_8f20a4->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -141,7 +141,17 @@ $region_46e34e->add_element("Uimage", array (
            'height' => 30,
         )),
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'element_size',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'row' => 12,
+         'element_size' => 
+        (array)(array(
+           'width' => 285,
+           'height' => 30,
+        )),
+      )),
     )),
   ),
   'row' => 6,
@@ -162,9 +172,9 @@ $region_46e34e->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 1,
+      'edited' => true,
+      'col' => 4,
+      'order' => 0,
       'clear' => true,
     ),
     'current_property' => 
@@ -185,19 +195,21 @@ $region_46e34e->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 4,
       'order' => 0,
+      'top' => 0,
+      'row' => 12,
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'row',
     ),
   ),
 ));
 
-$region_46e34e->add_element("Unewnavigation", array (
+$region_8f20a4->add_element("Unewnavigation", array (
   'columns' => '19',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -413,6 +425,10 @@ $region_46e34e->add_element("Unewnavigation", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -432,10 +448,10 @@ $region_46e34e->add_element("Unewnavigation", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
+      'edited' => true,
+      'col' => 3,
+      'order' => 1,
+      'clear' => false,
     ),
     'current_property' => 
     array (
@@ -454,10 +470,11 @@ $region_46e34e->add_element("Unewnavigation", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 3,
       'order' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
@@ -466,7 +483,7 @@ $region_46e34e->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_46e34e->add_element("Login", array (
+$region_8f20a4->add_element("Login", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -509,6 +526,10 @@ $region_46e34e->add_element("Login", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -528,7 +549,7 @@ $region_46e34e->add_element("Login", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 3,
       'clear' => true,
@@ -550,10 +571,11 @@ $region_46e34e->add_element("Login", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
     'current_property' => 
     array (
@@ -562,7 +584,7 @@ $region_46e34e->add_element("Login", array (
   ),
 ));
 
-$region_46e34e->add_element("Uspacer", array (
+$region_8f20a4->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -596,6 +618,7 @@ $region_46e34e->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 1,
+      'edited' => true,
     ),
     'current_property' => 
     array (
@@ -612,9 +635,13 @@ $region_46e34e->add_element("Uspacer", array (
     array (
       0 => 'edited',
     ),
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
   ),
 ));
 
-$regions->add($region_46e34e);
+$regions->add($region_8f20a4);
 
 /* END_REGION_OUTPUT */

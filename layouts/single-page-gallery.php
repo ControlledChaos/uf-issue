@@ -129,6 +129,10 @@ $breadcrumbs->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -341,6 +345,10 @@ $block_title->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -558,6 +566,10 @@ $block_banner->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -577,9 +589,9 @@ $block_banner->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
   ),
@@ -634,6 +646,10 @@ $block_banner->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -653,9 +669,9 @@ $block_banner->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 1,
       'clear' => true,
     ),
   ),
@@ -795,6 +811,7 @@ $main->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'current_property' => 
     array (
@@ -810,6 +827,10 @@ $main->add_element("Uspacer", array (
     'current_property' => 
     array (
       0 => 'edited',
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
     ),
   ),
 ));
@@ -846,6 +867,10 @@ $main->add_element("Uspacer", array (
     array (
       0 => 'edited',
     ),
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
   ),
   'breakpoint' => 
   array (
@@ -859,6 +884,10 @@ $main->add_element("Uspacer", array (
     'current_property' => 
     array (
       0 => 'edited',
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
     ),
   ),
 ));
@@ -1959,6 +1988,10 @@ $main->add_element("Ugallery", array (
       (array)(array(
          'preset' => 'gallery-alternative-tablet',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'gallery-alternative-mobile',
+      )),
     )),
     'theme_style' => '',
     'breakpoint' => 
@@ -1968,6 +2001,10 @@ $main->add_element("Ugallery", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -1987,9 +2024,9 @@ $main->add_element("Ugallery", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'current_property' => 
@@ -2008,10 +2045,11 @@ $main->add_element("Ugallery", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
@@ -2051,6 +2089,10 @@ $main->add_element("Uspacer", array (
     array (
       0 => 'edited',
     ),
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
   ),
   'breakpoint' => 
   array (
@@ -2064,6 +2106,10 @@ $main->add_element("Uspacer", array (
     'current_property' => 
     array (
       0 => 'edited',
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
     ),
   ),
 ));
@@ -2102,6 +2148,7 @@ $main->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'current_property' => 
     array (
@@ -2117,6 +2164,10 @@ $main->add_element("Uspacer", array (
     'current_property' => 
     array (
       0 => 'edited',
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
     ),
   ),
 ));
