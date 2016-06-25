@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_8f20a4 = upfront_create_region(
+$region_979775 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_8f20a4 = upfront_create_region(
 )
 			);
 
-$region_8f20a4->add_element("Uimage", array (
+$region_979775->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -209,7 +209,7 @@ $region_8f20a4->add_element("Uimage", array (
   ),
 ));
 
-$region_8f20a4->add_element("Unewnavigation", array (
+$region_979775->add_element("Unewnavigation", array (
   'columns' => '19',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -343,15 +343,15 @@ $region_8f20a4->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'FAQ',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/faq/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '377',
          'menu-item-target' => '',
          'menu-item-position' => 7,
          'link' => 
         (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/faq/',
            'target' => '',
         )),
       )),
@@ -483,7 +483,7 @@ $region_8f20a4->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_8f20a4->add_element("Login", array (
+$region_979775->add_element("Login", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -584,7 +584,7 @@ $region_8f20a4->add_element("Login", array (
   ),
 ));
 
-$region_8f20a4->add_element("Uspacer", array (
+$region_979775->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -642,6 +642,6 @@ $region_8f20a4->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($region_8f20a4);
+$regions->add($region_979775);
 
 /* END_REGION_OUTPUT */

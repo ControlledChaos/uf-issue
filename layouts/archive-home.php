@@ -2051,6 +2051,8 @@ $categories_two->add_group(array (
   'anchor' => '',
   'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-gallery.jpg',
   'background_image_ratio' => 1,
+  'href' => '{{upfront:home_url}}/gallery/',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
