@@ -1,5 +1,5 @@
 <?php
-$sidebar_right_container = ( !empty($region_container) ? $region_container : "block-content" );
+$sidebar_right_container = ( !empty($region_container) ? $region_container : "main-area" );
 $sidebar_right_sub = ( !empty($region_sub) ? $region_sub: "right" );
 
 /* START_REGION_OUTPUT */
@@ -441,8 +441,8 @@ $sidebar_right->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467494222316-1108 upfront-module-spacer',
-  'id' => 'module-1467494222316-1108',
+  'class' => 'module-1467504260088-1360 upfront-module-spacer',
+  'id' => 'module-1467504260088-1360',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -450,14 +450,14 @@ $sidebar_right->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467494222316-1359',
+    'element_id' => 'spacer-object-1467504260087-1084',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467494222315-1139',
+  'wrapper_id' => 'wrapper-1467504260087-1940',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -478,8 +478,8 @@ $sidebar_right->add_element("Uwidget", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467492399857-1587',
-  'id' => 'module-1467492399857-1587',
+  'class' => 'module-1467503864804-1605',
+  'id' => 'module-1467503864804-1605',
   'options' => 
   array (
     'id_slug' => 'uwidget',
@@ -488,38 +488,33 @@ $sidebar_right->add_element("Uwidget", array (
     'class' => 'c24 upfront-widget',
     'has_settings' => 1,
     'preset' => 'default',
-    'widget' => 'categories-2',
-    'element_id' => 'uwidget-object-1467492399857-1381',
-    'current_widget' => 'categories-2',
+    'widget' => 'nav_menu-1',
+    'element_id' => 'uwidget-object-1467503864803-1495',
+    'current_widget' => 'nav_menu-1',
     'current_widget_specific_settings' => 
     (array)(array(
-       'widget-categories-__i__-title' => 
+       'widget-nav_menu-__i__-title' => 
       (array)(array(
          'label' => 'Title:',
          'name' => 'title',
          'type' => 'text',
          'value' => '',
       )),
-       'widget-categories-__i__-dropdown' => 
+       'widget-nav_menu-__i__-nav_menu' => 
       (array)(array(
-         'name' => 'dropdown',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Display as dropdown',
-      )),
-       'widget-categories-__i__-count' => 
-      (array)(array(
-         'name' => 'count',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Show post counts',
-      )),
-       'widget-categories-__i__-hierarchical' => 
-      (array)(array(
-         'name' => 'hierarchical',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Show hierarchy',
+         'label' => 'Select Menu:',
+         'name' => 'nav_menu',
+         'type' => 'select',
+         'options' => 
+        (array)(array(
+           '0' => '— Select —',
+           '53' => '
+							Main Menu						',
+           '54' => '
+							Footer Menu						',
+           '59' => '
+							Section Menu						',
+        )),
       )),
     )),
     'padding_slider' => '15',
@@ -534,74 +529,58 @@ $sidebar_right->add_element("Uwidget", array (
     'anchor' => '',
     'current_widget_specific_fields' => 
     (array)(array(
-       'widget-categories-__i__-title' => 
+       'widget-nav_menu-__i__-title' => 
       (array)(array(
          'label' => 'Title:',
          'name' => 'title',
          'type' => 'text',
          'value' => '',
       )),
-       'widget-categories-__i__-dropdown' => 
+       'widget-nav_menu-__i__-nav_menu' => 
       (array)(array(
-         'name' => 'dropdown',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Display as dropdown',
-      )),
-       'widget-categories-__i__-count' => 
-      (array)(array(
-         'name' => 'count',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Show post counts',
-      )),
-       'widget-categories-__i__-hierarchical' => 
-      (array)(array(
-         'name' => 'hierarchical',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Show hierarchy',
+         'label' => 'Select Menu:',
+         'name' => 'nav_menu',
+         'type' => 'select',
+         'options' => 
+        (array)(array(
+           '0' => '— Select —',
+           '53' => '
+							Main Menu						',
+           '54' => '
+							Footer Menu						',
+           '59' => '
+							Section Menu						',
+        )),
       )),
     )),
     'title' => 'SECTION',
-    'dropdown' => 
-    array (
-    ),
-    'count' => 
-    array (
-    ),
-    'hierarchical' => 
-    array (
-    ),
+    'sortby' => '',
+    'exclude' => '',
+    'nav_menu' => '59',
     'widget_specific_fields' => 
     (array)(array(
-       'widget-categories-__i__-title' => 
+       'widget-nav_menu-__i__-title' => 
       (array)(array(
          'label' => 'Title:',
          'name' => 'title',
          'type' => 'text',
          'value' => '',
       )),
-       'widget-categories-__i__-dropdown' => 
+       'widget-nav_menu-__i__-nav_menu' => 
       (array)(array(
-         'name' => 'dropdown',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Display as dropdown',
-      )),
-       'widget-categories-__i__-count' => 
-      (array)(array(
-         'name' => 'count',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Show post counts',
-      )),
-       'widget-categories-__i__-hierarchical' => 
-      (array)(array(
-         'name' => 'hierarchical',
-         'type' => 'checkbox',
-         'value' => '',
-         'label' => 'Show hierarchy',
+         'label' => 'Select Menu:',
+         'name' => 'nav_menu',
+         'type' => 'select',
+         'options' => 
+        (array)(array(
+           '0' => '— Select —',
+           '53' => '
+							Main Menu						',
+           '54' => '
+							Footer Menu						',
+           '59' => '
+							Section Menu						',
+        )),
       )),
     )),
   ),
@@ -610,7 +589,7 @@ $sidebar_right->add_element("Uwidget", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467492806160-1664',
+  'wrapper_id' => 'wrapper-1467503875618-1655',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -653,8 +632,8 @@ $sidebar_right->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467492808150-1043 upfront-module-spacer',
-  'id' => 'module-1467492808150-1043',
+  'class' => 'module-1467504261570-1023 upfront-module-spacer',
+  'id' => 'module-1467504261570-1023',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -662,14 +641,14 @@ $sidebar_right->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467492808150-1423',
+    'element_id' => 'spacer-object-1467504261570-1459',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467492808150-1546',
+  'wrapper_id' => 'wrapper-1467504261570-1836',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

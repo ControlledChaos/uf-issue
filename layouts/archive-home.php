@@ -1452,6 +1452,8 @@ $categories_one->add_group(array (
   'anchor' => '',
   'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-photography.jpg',
   'background_image_ratio' => 0.40000000000000002220446049250313080847263336181640625,
+  'href' => '{{upfront:home_url}}/photography/',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
