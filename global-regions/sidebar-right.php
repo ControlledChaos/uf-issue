@@ -35,8 +35,8 @@ $sidebar_right = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '45',
+  'bottom_bg_padding_num' => '45',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
@@ -66,6 +66,7 @@ $sidebar_right->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1467494357534-1604',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -126,6 +127,7 @@ $sidebar_right->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1467494271576-1314',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -138,7 +140,7 @@ $sidebar_right->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 3,
+      'col' => 3.5,
       'order' => 1,
       'clear' => true,
     ),
@@ -156,7 +158,7 @@ $sidebar_right->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 3,
+      'col' => 3.5,
       'order' => 0,
     ),
   ),
@@ -185,6 +187,7 @@ $sidebar_right->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1467494361639-1409',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -221,6 +224,7 @@ $sidebar_right->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1467494220816-1261',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -363,6 +367,7 @@ $sidebar_right->add_element("Uwidget", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1466825510397-1171',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -375,7 +380,7 @@ $sidebar_right->add_element("Uwidget", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 4,
+      'col' => 3.5,
       'order' => 2,
       'clear' => false,
     ),
@@ -393,7 +398,7 @@ $sidebar_right->add_element("Uwidget", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 4,
+      'col' => 3.5,
       'order' => 1,
     ),
   ),
@@ -422,6 +427,7 @@ $sidebar_right->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1466825544791-1319',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -437,49 +443,31 @@ $sidebar_right->add_element("Uspacer", array (
 
 $sidebar_right->add_element("Uspacer", array (
   'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1467504260088-1360 upfront-module-spacer',
-  'id' => 'module-1467504260088-1360',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1467505555745-1021',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1467505555744-1693',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467504260087-1084',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1467505555744-1155',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467504260087-1940',
+  'hide' => 0,
+  'edited' => true,
   'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
 ));
 
 $sidebar_right->add_element("Uwidget", array (
   'columns' => '3',
   'margin_left' => '0',
-  'margin_right' => '0',
   'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1467503864804-1605',
-  'id' => 'module-1467503864804-1605',
+  'class' => 'upfront-widget_module',
+  'id' => 'module-1467505399526-1739',
   'options' => 
   array (
     'id_slug' => 'uwidget',
@@ -489,34 +477,9 @@ $sidebar_right->add_element("Uwidget", array (
     'has_settings' => 1,
     'preset' => 'default',
     'widget' => 'nav_menu-1',
-    'element_id' => 'uwidget-object-1467503864803-1495',
+    'element_id' => 'uwidget-object-1467505399525-1852',
     'current_widget' => 'nav_menu-1',
-    'current_widget_specific_settings' => 
-    (array)(array(
-       'widget-nav_menu-__i__-title' => 
-      (array)(array(
-         'label' => 'Title:',
-         'name' => 'title',
-         'type' => 'text',
-         'value' => '',
-      )),
-       'widget-nav_menu-__i__-nav_menu' => 
-      (array)(array(
-         'label' => 'Select Menu:',
-         'name' => 'nav_menu',
-         'type' => 'select',
-         'options' => 
-        (array)(array(
-           '0' => '— Select —',
-           '53' => '
-							Main Menu						',
-           '54' => '
-							Footer Menu						',
-           '59' => '
-							Section Menu						',
-        )),
-      )),
-    )),
+    'current_widget_specific_settings' => false,
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -544,19 +507,17 @@ $sidebar_right->add_element("Uwidget", array (
          'options' => 
         (array)(array(
            '0' => '— Select —',
-           '53' => '
+           '60' => '
 							Main Menu						',
-           '54' => '
+           '61' => '
 							Footer Menu						',
-           '59' => '
+           '62' => '
 							Section Menu						',
         )),
       )),
     )),
     'title' => 'SECTION',
-    'sortby' => '',
-    'exclude' => '',
-    'nav_menu' => '59',
+    'nav_menu' => '62',
     'widget_specific_fields' => 
     (array)(array(
        'widget-nav_menu-__i__-title' => 
@@ -574,22 +535,19 @@ $sidebar_right->add_element("Uwidget", array (
          'options' => 
         (array)(array(
            '0' => '— Select —',
-           '53' => '
+           '60' => '
 							Main Menu						',
-           '54' => '
+           '61' => '
 							Footer Menu						',
-           '59' => '
+           '62' => '
 							Section Menu						',
         )),
       )),
     )),
   ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467503875618-1655',
+  'row' => 30,
+  'wrapper_id' => 'wrapper-1467505542167-1127',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -628,38 +586,22 @@ $sidebar_right->add_element("Uwidget", array (
 
 $sidebar_right->add_element("Uspacer", array (
   'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1467504261570-1023 upfront-module-spacer',
-  'id' => 'module-1467504261570-1023',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1467505557037-1945',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1467505557037-1329',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467504261570-1459',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1467505557037-1893',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467504261570-1836',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $regions->add($sidebar_right);

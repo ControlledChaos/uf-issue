@@ -1815,6 +1815,8 @@ $categories_two->add_group(array (
   'background_image_ratio' => 1,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 50%',
+  'href' => '{{upfront:home_url}}/tech-news/',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2297,6 +2299,8 @@ $categories_two->add_group(array (
   'anchor' => '',
   'background_image' => '{{upfront:style_url}}/images/archive-home/issue-block-music.jpg',
   'background_image_ratio' => 1,
+  'href' => '{{upfront:home_url}}/music/',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
