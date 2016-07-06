@@ -298,7 +298,7 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3>FAQ</h3>',
+    'content' => '<h3>CONTACT</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
@@ -1015,7 +1015,7 @@ $sidebar_right->add_group(array (
   'bottom_padding_slider' => '25',
   'lock_padding' => '',
   'row' => 45,
-  'href' => '{{upfront:home_url}}/contact/',
+  'href' => '{{upfront:home_url}}',
   'linkTarget' => false,
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -1106,9 +1106,9 @@ $sidebar_right->add_element("Uimage", array (
   'id' => 'module-1466890533011-1850',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-faq/Issue_Sprites-105x50-4790.png',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-faq/Issue_Sprites.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-faq/Issue_Sprites.png',
+    'src' => '{{upfront:style_url}}/images/single-page-contact/Issue_Sprites-105x50-4790.png',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-contact/Issue_Sprites.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-contact/Issue_Sprites.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,
@@ -1273,7 +1273,7 @@ $sidebar_right->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h4 style="text-align: center;">CONTACT US NOW</h4>',
+    'content' => '<h4 style="text-align: center;">SUBSCRIBE T<span>ODAY</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1466890533010-1688',
     'class' => 'c24 upfront-plain_txt',
@@ -1395,9 +1395,9 @@ $sidebar_right->add_element("Uimage", array (
   'id' => 'module-1466893370411-1369',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-faq/issue-art-poster-190x240-5091.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-faq/issue-art-poster.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-faq/issue-art-poster.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-contact/issue-art-poster-190x240-5091.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-contact/issue-art-poster.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-contact/issue-art-poster.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,

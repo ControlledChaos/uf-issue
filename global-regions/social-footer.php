@@ -107,7 +107,7 @@ $social_footer->add_group(array (
   'top_padding_slider' => '15',
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
-  'row' => 19,
+  'row' => 22,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -123,6 +123,10 @@ $social_footer->add_group(array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -228,6 +232,10 @@ $social_footer->add_element("Button", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -261,12 +269,12 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 style="text-align: center;">SEND US AN EMAIL</h5>',
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6">SEND US AN EMAIL</span></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682864053-1557',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'alt-text',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -283,10 +291,10 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'alt-text',
       )),
     )),
-    'row' => 9,
+    'row' => 8,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -322,6 +330,10 @@ $social_footer->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -396,7 +408,7 @@ $social_footer->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
-  'row' => 20,
+  'row' => 23,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -412,6 +424,10 @@ $social_footer->add_group(array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -517,6 +533,10 @@ $social_footer->add_element("Button", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -550,12 +570,12 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 style="text-align: center;">FOLLOW US ON TWITTER</h5>',
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6">FOLLOW US ON TWITTER</span></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682946027-1860',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'alt-text',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -572,10 +592,10 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'alt-text',
       )),
     )),
-    'row' => 7,
+    'row' => 6,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -611,6 +631,10 @@ $social_footer->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -685,7 +709,7 @@ $social_footer->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
-  'row' => 20,
+  'row' => 19,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -701,6 +725,10 @@ $social_footer->add_group(array (
       'col' => 7,
       'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -806,6 +834,10 @@ $social_footer->add_element("Button", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -839,12 +871,12 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 style="text-align: center;">LIKE US ON FACEBOOK</h5>',
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6">LIKE US ON FACEBOOK</span></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460683021232-1759',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'alt-text',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -861,7 +893,7 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'alt-text',
       )),
     )),
     'row' => 8,
@@ -900,6 +932,10 @@ $social_footer->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 

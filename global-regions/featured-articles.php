@@ -59,6 +59,7 @@ $featured_articles->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460517086375-1153',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -118,6 +119,18 @@ $featured_articles->add_element("PlainTxt", array (
       )),
     )),
     'row' => 8,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -140,6 +153,10 @@ $featured_articles->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -177,6 +194,7 @@ $featured_articles->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460517088605-1057',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -213,6 +231,7 @@ $featured_articles->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460516542288-1926',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -349,11 +368,27 @@ $featured_articles->add_element("Posts", array (
       (array)(array(
          'preset' => 'posts-featured',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'posts-featured-tablet',
+      )),
     )),
     'top_padding_use' => 'yes',
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -376,6 +411,10 @@ $featured_articles->add_element("Posts", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -413,6 +452,7 @@ $featured_articles->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460516545262-1726',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

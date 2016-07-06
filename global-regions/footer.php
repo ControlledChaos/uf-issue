@@ -100,13 +100,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 514,
+         'menu-item-db-id' => 573,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '514',
+         'menu-item-object-id' => '573',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -118,31 +118,31 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 515,
+         'menu-item-db-id' => 574,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '515',
+         'menu-item-object-id' => '574',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/contact/',
            'target' => '',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 516,
+         'menu-item-db-id' => 575,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '516',
+         'menu-item-object-id' => '575',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -221,6 +221,10 @@ $footer->add_element("Unewnavigation", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
