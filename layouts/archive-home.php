@@ -62,6 +62,7 @@ $main_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460434661734-1004',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -115,6 +116,10 @@ $main_content->add_group(array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -127,10 +132,11 @@ $main_content->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 50,
     ),
   ),
 ));
@@ -172,6 +178,18 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
     'bottom_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -195,6 +213,10 @@ $main_content->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -260,6 +282,27 @@ $main_content->add_element("PlainTxt", array (
     'top_padding_slider' => '15',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '110',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'bottom_padding_num' => '30',
+         'bottom_padding_use' => 'yes',
+         'top_padding_num' => '15',
+         'top_padding_use' => 'yes',
+         'left_padding_num' => '15',
+         'left_padding_use' => 'yes',
+         'right_padding_num' => '15',
+         'right_padding_use' => 'yes',
+         'row' => 4,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -279,10 +322,11 @@ $main_content->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 4,
     ),
   ),
   'close_wrapper' => false,
@@ -353,6 +397,27 @@ $main_content->add_element("Uwidget", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '110',
     'bottom_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'top_padding_num' => '15',
+         'top_padding_use' => 'yes',
+         'left_padding_num' => '15',
+         'left_padding_use' => 'yes',
+         'right_padding_num' => '15',
+         'right_padding_use' => 'yes',
+         'bottom_padding_num' => '10',
+         'bottom_padding_use' => 'yes',
+         'row' => 8,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -372,10 +437,11 @@ $main_content->add_element("Uwidget", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 8,
     ),
   ),
   'group' => 'module-group-1460434623168-1194',
@@ -413,6 +479,10 @@ $main_content->add_group(array (
       'order' => 2,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -429,6 +499,7 @@ $main_content->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
   ),
 ));
@@ -511,6 +582,18 @@ $main_content->add_element("Uimage", array (
     'row' => 15,
     'valign' => 'center',
     'isDotAlign' => true,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -534,6 +617,10 @@ $main_content->add_element("Uimage", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -635,6 +722,18 @@ $main_content->add_element("Uimage", array (
     'row' => 15,
     'valign' => 'center',
     'isDotAlign' => true,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -706,6 +805,10 @@ $main_content->add_group(array (
       'col' => 7,
       'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -810,6 +913,18 @@ $main_content->add_element("Uimage", array (
     'isDotAlign' => true,
     'top_padding_use' => 'yes',
     'top_padding_slider' => '5',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -833,6 +948,10 @@ $main_content->add_element("Uimage", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -926,6 +1045,18 @@ $main_content->add_element("PlainTxt", array (
          'preset' => 'textbox-alternative',
       )),
     )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -949,6 +1080,10 @@ $main_content->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1017,6 +1152,18 @@ $main_content->add_element("PlainTxt", array (
          'preset' => 'textbox-alternative',
       )),
     )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1040,6 +1187,10 @@ $main_content->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1078,6 +1229,7 @@ $main_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460434687770-1091',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1159,6 +1311,7 @@ $categories_one->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460515943282-1828',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1172,10 +1325,26 @@ $categories_one->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -1193,7 +1362,7 @@ $categories_one->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '90',
   'bottom_padding_num' => '50',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -1216,9 +1385,9 @@ $categories_one->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 1,
+      'edited' => true,
+      'col' => 6,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
@@ -1227,16 +1396,25 @@ $categories_one->add_group(array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -1244,6 +1422,14 @@ $categories_one->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'use_padding',
     ),
   ),
 ));
@@ -1291,6 +1477,18 @@ $categories_one->add_element("PlainTxt", array (
     'top_padding_slider' => '20',
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1303,9 +1501,9 @@ $categories_one->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 1,
+      'edited' => true,
+      'col' => 6,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
@@ -1315,6 +1513,10 @@ $categories_one->add_element("PlainTxt", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -1322,7 +1524,7 @@ $categories_one->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -1377,6 +1579,18 @@ $categories_one->add_element("PlainTxt", array (
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
     'top_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1389,9 +1603,9 @@ $categories_one->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 2,
+      'edited' => true,
+      'col' => 6,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -1401,15 +1615,20 @@ $categories_one->add_element("PlainTxt", array (
       'order' => 2,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -1435,7 +1654,7 @@ $categories_one->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '90',
   'bottom_padding_num' => '65',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'row' => 11,
   'lock_padding' => '',
@@ -1458,10 +1677,10 @@ $categories_one->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
+      'edited' => true,
+      'col' => 6,
+      'order' => 1,
+      'clear' => false,
     ),
     'mobile' => 
     array (
@@ -1469,16 +1688,21 @@ $categories_one->add_group(array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -1486,6 +1710,14 @@ $categories_one->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'use_padding',
     ),
   ),
 ));
@@ -1533,6 +1765,18 @@ $categories_one->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '20',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1546,7 +1790,7 @@ $categories_one->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
+      'col' => 6,
       'order' => 1,
       'clear' => true,
     ),
@@ -1557,6 +1801,10 @@ $categories_one->add_element("PlainTxt", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -1564,7 +1812,7 @@ $categories_one->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -1620,6 +1868,18 @@ $categories_one->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1633,7 +1893,7 @@ $categories_one->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -1644,6 +1904,10 @@ $categories_one->add_element("PlainTxt", array (
       'order' => 2,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -1651,7 +1915,7 @@ $categories_one->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -1681,6 +1945,7 @@ $categories_one->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460515949234-1514',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1693,10 +1958,26 @@ $categories_one->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -1762,6 +2043,7 @@ $categories_two->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460516016999-1998',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1775,10 +2057,26 @@ $categories_two->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -1796,7 +2094,7 @@ $categories_two->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -1821,10 +2119,10 @@ $categories_two->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
       'order' => 1,
-      'clear' => true,
+      'clear' => false,
     ),
     'mobile' => 
     array (
@@ -1832,13 +2130,17 @@ $categories_two->add_group(array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 6,
       'order' => 0,
@@ -1849,6 +2151,14 @@ $categories_two->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'use_padding',
     ),
   ),
 ));
@@ -1895,6 +2205,18 @@ $categories_two->add_element("PlainTxt", array (
     'right_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1918,6 +2240,10 @@ $categories_two->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1982,6 +2308,18 @@ $categories_two->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2005,6 +2343,10 @@ $categories_two->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2040,7 +2382,7 @@ $categories_two->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -2063,10 +2405,10 @@ $categories_two->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
-      'order' => 2,
-      'clear' => false,
+      'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -2075,15 +2417,20 @@ $categories_two->add_group(array (
       'order' => 2,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 6,
       'order' => 1,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -2091,6 +2438,14 @@ $categories_two->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'use_padding',
     ),
   ),
 ));
@@ -2137,6 +2492,18 @@ $categories_two->add_element("PlainTxt", array (
     'right_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2160,6 +2527,10 @@ $categories_two->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2224,6 +2595,18 @@ $categories_two->add_element("PlainTxt", array (
     'row' => 7,
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2247,6 +2630,10 @@ $categories_two->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2282,7 +2669,7 @@ $categories_two->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -2305,9 +2692,9 @@ $categories_two->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -2316,16 +2703,22 @@ $categories_two->add_group(array (
       'col' => 7,
       'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 6,
       'order' => 0,
+      'top' => 0,
+      'row' => 51,
     ),
     'mobile' => 
     array (
@@ -2333,6 +2726,14 @@ $categories_two->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'use_padding',
     ),
   ),
 ));
@@ -2379,6 +2780,18 @@ $categories_two->add_element("PlainTxt", array (
     'right_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2402,6 +2815,10 @@ $categories_two->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2466,6 +2883,18 @@ $categories_two->add_element("PlainTxt", array (
     'row' => 7,
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2489,6 +2918,10 @@ $categories_two->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2589,6 +3022,35 @@ $categories_two->add_element("Uimage", array (
     'row' => 45,
     'valign' => 'center',
     'isDotAlign' => false,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'row' => 31,
+         'element_size' => 
+        (array)(array(
+           'width' => 60,
+           'height' => 225,
+        )),
+      )),
+       'current_property' => 'element_size',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'row' => 220,
+         'element_size' => 
+        (array)(array(
+           'width' => 285,
+           'height' => 1068,
+        )),
+      )),
+    )),
+    'lock_padding' => 0,
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2600,9 +3062,9 @@ $categories_two->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 4,
+      'edited' => true,
+      'col' => 2,
+      'order' => 3,
       'clear' => false,
     ),
     'mobile' => 
@@ -2612,15 +3074,21 @@ $categories_two->add_element("Uimage", array (
       'order' => 4,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 6,
+      'col' => 2,
       'order' => 1,
+      'row' => 51,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -2628,6 +3096,60 @@ $categories_two->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
+      'row' => 220,
+    ),
+    'current_property' => 
+    array (
+      0 => 'row',
+    ),
+  ),
+));
+
+$categories_two->add_element("Uspacer", array (
+  'columns' => '4',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1467783738046-1710',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1467783738046-1895',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'preset' => 'default',
+  ),
+  'wrapper_id' => 'wrapper-1467783738046-1719',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 1,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'clear' => false,
+      'order' => 3,
+      'col' => 4,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'hide' => 0,
+      'left' => 0,
+      'col' => 4,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -2648,6 +3170,7 @@ $categories_two->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460516004103-1181',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2660,10 +3183,26 @@ $categories_two->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));

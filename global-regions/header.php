@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_99ee7e = upfront_create_region(
+$region_7b3847 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_99ee7e = upfront_create_region(
 )
 			);
 
-$region_99ee7e->add_element("Uimage", array (
+$region_7b3847->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -137,7 +137,7 @@ $region_99ee7e->add_element("Uimage", array (
          'row' => 12,
          'element_size' => 
         (array)(array(
-           'width' => 60,
+           'width' => 330,
            'height' => 30,
         )),
       )),
@@ -148,7 +148,7 @@ $region_99ee7e->add_element("Uimage", array (
          'row' => 12,
          'element_size' => 
         (array)(array(
-           'width' => 285,
+           'width' => 60,
            'height' => 30,
         )),
       )),
@@ -166,14 +166,14 @@ $region_99ee7e->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 2,
-      'order' => 0,
-      'clear' => true,
+      'col' => 8,
+      'order' => 1,
+      'clear' => false,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 2,
       'order' => 0,
       'clear' => true,
     ),
@@ -188,28 +188,29 @@ $region_99ee7e->add_element("Uimage", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 2,
+      'col' => 8,
       'order' => 0,
       'row' => 12,
       'top' => 0,
+      'hide' => 1,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 4,
+      'col' => 2,
       'order' => 0,
       'top' => 0,
       'row' => 12,
     ),
     'current_property' => 
     array (
-      0 => 'row',
+      0 => 'edited',
     ),
   ),
 ));
 
-$region_99ee7e->add_element("Unewnavigation", array (
+$region_7b3847->add_element("Unewnavigation", array (
   'columns' => '19',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -450,9 +451,9 @@ $region_99ee7e->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 8,
-      'order' => 1,
-      'clear' => false,
+      'col' => 2,
+      'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -472,9 +473,10 @@ $region_99ee7e->add_element("Unewnavigation", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 8,
+      'col' => 2,
       'order' => 0,
       'top' => 0,
+      'hide' => 0,
     ),
     'mobile' => 
     array (
@@ -483,6 +485,7 @@ $region_99ee7e->add_element("Unewnavigation", array (
       'col' => 3,
       'order' => 0,
       'top' => 0,
+      'hide' => 1,
     ),
     'current_property' => 
     array (
@@ -491,7 +494,7 @@ $region_99ee7e->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_99ee7e->add_element("Login", array (
+$region_7b3847->add_element("Login", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -568,9 +571,9 @@ $region_99ee7e->add_element("Login", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 7,
-      'order' => 3,
-      'clear' => true,
+      'col' => 2,
+      'order' => 2,
+      'clear' => false,
     ),
     'current_property' => 
     array (
@@ -591,9 +594,10 @@ $region_99ee7e->add_element("Login", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
-      'hide' => 1,
+      'hide' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
@@ -602,7 +606,7 @@ $region_99ee7e->add_element("Login", array (
   ),
 ));
 
-$region_99ee7e->add_element("Uspacer", array (
+$region_7b3847->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -660,6 +664,6 @@ $region_99ee7e->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($region_99ee7e);
+$regions->add($region_7b3847);
 
 /* END_REGION_OUTPUT */
