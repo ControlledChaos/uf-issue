@@ -767,7 +767,7 @@ $main_content->add_group(array (
   'bottom_padding_use' => 'yes',
   'bottom_padding_slider' => '40',
   'lock_padding' => '',
-  'row' => 52,
+  'row' => 77,
   'edited' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1004,7 +1004,7 @@ $main_content->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460431100529-1656',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '2',
     'bottom_padding_num' => '0',
@@ -1028,7 +1028,7 @@ $main_content->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'breakpoint' => 
@@ -1118,7 +1118,7 @@ $main_content->add_element("PlainTxt", array (
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 9,
+    'row' => 5,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
@@ -1149,7 +1149,7 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 5,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1435,7 +1435,7 @@ $categories->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460501941395-1315',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '20',
     'bottom_padding_num' => '0',
@@ -1452,7 +1452,7 @@ $categories->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 12,
@@ -1722,7 +1722,7 @@ $categories->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2>PHOTOGRAPHY</h2>',
+    'content' => '<h2><span class="upfront_theme_color_6">PHOTOGRAPHY</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460513597565-1863',
     'class' => 'c24 upfront-plain_txt',
@@ -2118,7 +2118,7 @@ $categories->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460513624166-1542',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '0',
@@ -2135,7 +2135,7 @@ $categories->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 17,
@@ -2216,12 +2216,12 @@ $categories->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p>10 Must see features</p>',
+    'content' => '<p><span class="upfront_theme_color_6">10 Must see features</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460513666237-1258',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '15',
@@ -2238,7 +2238,7 @@ $categories->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'textbox-special',
       )),
     )),
     'row' => 7,
@@ -2399,7 +2399,7 @@ $categories->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460513683458-1769',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '0',
@@ -2416,7 +2416,7 @@ $categories->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 17,
@@ -2680,7 +2680,7 @@ $categories->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460513706426-1664',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '0',
@@ -2697,7 +2697,7 @@ $categories->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 17,

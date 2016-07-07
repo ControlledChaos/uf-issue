@@ -305,7 +305,7 @@ $social_footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460682864053-1557',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -322,7 +322,7 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 8,
@@ -687,7 +687,7 @@ $social_footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460682946027-1860',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -704,7 +704,7 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 6,
@@ -1068,7 +1068,7 @@ $social_footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460683021232-1759',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'alt-text',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1085,7 +1085,7 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'alt-text',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 8,
