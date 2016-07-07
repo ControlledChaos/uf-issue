@@ -23,11 +23,13 @@ $sidebar_right = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'hide' => 1,
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'hide' => 1,
     )),
   )),
   'background_type' => 'color',
@@ -59,6 +61,7 @@ $sidebar_right->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1467494357534-1953',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -119,6 +122,18 @@ $sidebar_right->add_element("PlainTxt", array (
       )),
     )),
     'bottom_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -130,9 +145,9 @@ $sidebar_right->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 4,
-      'order' => 1,
+      'edited' => true,
+      'col' => 12,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
@@ -151,10 +166,11 @@ $sidebar_right->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 4,
+      'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -182,6 +198,7 @@ $sidebar_right->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1467494361640-1132',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -218,6 +235,7 @@ $sidebar_right->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1467506592020-1434',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -360,6 +378,19 @@ $sidebar_right->add_element("Uwidget", array (
     'count' => 
     array (
     ),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'row' => 15,
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -371,10 +402,10 @@ $sidebar_right->add_element("Uwidget", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 4,
-      'order' => 2,
-      'clear' => false,
+      'edited' => true,
+      'col' => 6,
+      'order' => 1,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -392,10 +423,12 @@ $sidebar_right->add_element("Uwidget", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 4,
+      'col' => 6,
       'order' => 1,
+      'top' => 0,
+      'row' => 15,
     ),
     'mobile' => 
     array (
@@ -423,6 +456,7 @@ $sidebar_right->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1467506590522-1142',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -449,8 +483,8 @@ $sidebar_right->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467506615949-1077 upfront-module-spacer',
-  'id' => 'module-1467506615949-1077',
+  'class' => 'module-1467923734687-1421 upfront-module-spacer',
+  'id' => 'module-1467923734687-1421',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -458,14 +492,15 @@ $sidebar_right->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467506615948-1360',
+    'element_id' => 'spacer-object-1467923734686-1138',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467506615948-1640',
+  'wrapper_id' => 'wrapper-1467923734686-1547',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -486,8 +521,8 @@ $sidebar_right->add_element("Uwidget", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467506586475-1563',
-  'id' => 'module-1467506586475-1563',
+  'class' => 'module-1467923564801-1354',
+  'id' => 'module-1467923564801-1354',
   'options' => 
   array (
     'id_slug' => 'uwidget',
@@ -496,33 +531,38 @@ $sidebar_right->add_element("Uwidget", array (
     'class' => 'c24 upfront-widget',
     'has_settings' => 1,
     'preset' => 'default',
-    'widget' => 'nav_menu-1',
-    'element_id' => 'uwidget-object-1467506586474-1825',
-    'current_widget' => 'nav_menu-1',
+    'widget' => 'categories-2',
+    'element_id' => 'uwidget-object-1467923564801-1980',
+    'current_widget' => 'categories-2',
     'current_widget_specific_settings' => 
     (array)(array(
-       'widget-nav_menu-__i__-title' => 
+       'widget-categories-__i__-title' => 
       (array)(array(
          'label' => 'Title:',
          'name' => 'title',
          'type' => 'text',
          'value' => '',
       )),
-       'widget-nav_menu-__i__-nav_menu' => 
+       'widget-categories-__i__-dropdown' => 
       (array)(array(
-         'label' => 'Select Menu:',
-         'name' => 'nav_menu',
-         'type' => 'select',
-         'options' => 
-        (array)(array(
-           '0' => '— Select —',
-           '60' => '
-							Main Menu						',
-           '61' => '
-							Footer Menu						',
-           '62' => '
-							Section Menu						',
-        )),
+         'name' => 'dropdown',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Display as dropdown',
+      )),
+       'widget-categories-__i__-count' => 
+      (array)(array(
+         'name' => 'count',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Show post counts',
+      )),
+       'widget-categories-__i__-hierarchical' => 
+      (array)(array(
+         'name' => 'hierarchical',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Show hierarchy',
       )),
     )),
     'padding_slider' => '15',
@@ -537,56 +577,92 @@ $sidebar_right->add_element("Uwidget", array (
     'anchor' => '',
     'current_widget_specific_fields' => 
     (array)(array(
-       'widget-nav_menu-__i__-title' => 
+       'widget-categories-__i__-title' => 
       (array)(array(
          'label' => 'Title:',
          'name' => 'title',
          'type' => 'text',
          'value' => '',
       )),
-       'widget-nav_menu-__i__-nav_menu' => 
+       'widget-categories-__i__-dropdown' => 
       (array)(array(
-         'label' => 'Select Menu:',
-         'name' => 'nav_menu',
-         'type' => 'select',
-         'options' => 
-        (array)(array(
-           '0' => '— Select —',
-           '66' => '
-							Main Menu						',
-           '67' => '
-							Footer Menu						',
-           '68' => '
-							Section Menu						',
-        )),
+         'name' => 'dropdown',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Display as dropdown',
+      )),
+       'widget-categories-__i__-count' => 
+      (array)(array(
+         'name' => 'count',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Show post counts',
+      )),
+       'widget-categories-__i__-hierarchical' => 
+      (array)(array(
+         'name' => 'hierarchical',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Show hierarchy',
       )),
     )),
-    'title' => 'SECTION',
-    'nav_menu' => '68',
+    'title' => 'SECTIONS',
+    'sortby' => 'post_title',
+    'exclude' => '',
+    'dropdown' => 
+    array (
+    ),
+    'count' => 
+    array (
+    ),
+    'text' => '',
+    'filter' => 
+    array (
+    ),
+    'hierarchical' => 
+    array (
+    ),
     'widget_specific_fields' => 
     (array)(array(
-       'widget-nav_menu-__i__-title' => 
+       'widget-categories-__i__-title' => 
       (array)(array(
          'label' => 'Title:',
          'name' => 'title',
          'type' => 'text',
          'value' => '',
       )),
-       'widget-nav_menu-__i__-nav_menu' => 
+       'widget-categories-__i__-dropdown' => 
       (array)(array(
-         'label' => 'Select Menu:',
-         'name' => 'nav_menu',
-         'type' => 'select',
-         'options' => 
-        (array)(array(
-           '0' => '— Select —',
-           '66' => '
-							Main Menu						',
-           '67' => '
-							Footer Menu						',
-           '68' => '
-							Section Menu						',
-        )),
+         'name' => 'dropdown',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Display as dropdown',
+      )),
+       'widget-categories-__i__-count' => 
+      (array)(array(
+         'name' => 'count',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Show post counts',
+      )),
+       'widget-categories-__i__-hierarchical' => 
+      (array)(array(
+         'name' => 'hierarchical',
+         'type' => 'checkbox',
+         'value' => '',
+         'label' => 'Show hierarchy',
+      )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
       )),
     )),
   ),
@@ -595,22 +671,21 @@ $sidebar_right->add_element("Uwidget", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467506597101-1674',
+  'wrapper_id' => 'wrapper-1467923598863-1638',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 4,
-      'order' => 3,
       'clear' => false,
+      'col' => 6,
+      'order' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 7,
       'order' => 3,
-      'clear' => true,
     ),
     'current_property' => 
     array (
@@ -621,17 +696,10 @@ $sidebar_right->add_element("Uwidget", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
       'left' => 0,
-      'col' => 4,
-      'order' => 2,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
+      'top' => 0,
+      'col' => 6,
+      'edited' => true,
     ),
   ),
 ));
@@ -642,8 +710,8 @@ $sidebar_right->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467506614248-1902 upfront-module-spacer',
-  'id' => 'module-1467506614248-1902',
+  'class' => 'module-1467923736215-1691 upfront-module-spacer',
+  'id' => 'module-1467923736215-1691',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -651,14 +719,15 @@ $sidebar_right->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467506614248-1775',
+    'element_id' => 'spacer-object-1467923736215-1971',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467506614248-1755',
+  'wrapper_id' => 'wrapper-1467923736214-1637',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

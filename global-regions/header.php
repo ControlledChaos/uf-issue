@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_bf60f8 = upfront_create_region(
+$region_da19e2 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_bf60f8 = upfront_create_region(
 )
 			);
 
-$region_bf60f8->add_element("Uimage", array (
+$region_da19e2->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -148,7 +148,7 @@ $region_bf60f8->add_element("Uimage", array (
          'row' => 12,
          'element_size' => 
         (array)(array(
-           'width' => 60,
+           'width' => 105,
            'height' => 30,
         )),
       )),
@@ -173,9 +173,9 @@ $region_bf60f8->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 2,
-      'order' => 0,
-      'clear' => true,
+      'col' => 3,
+      'order' => 2,
+      'clear' => false,
     ),
     'current_property' => 
     array (
@@ -198,19 +198,20 @@ $region_bf60f8->add_element("Uimage", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 2,
+      'col' => 3,
       'order' => 0,
       'top' => 0,
       'row' => 12,
+      'hide' => 1,
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'row',
     ),
   ),
 ));
 
-$region_bf60f8->add_element("Unewnavigation", array (
+$region_da19e2->add_element("Unewnavigation", array (
   'columns' => '19',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -229,26 +230,26 @@ $region_bf60f8->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 650,
+         'menu-item-db-id' => 708,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Issues',
          'menu-item-url' => '{{upfront:home_url}}',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '650',
+         'menu-item-object-id' => '708',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'sub' => 
         array (
           0 => 
           (array)(array(
-             'menu-item-db-id' => 651,
-             'menu-item-parent-id' => '650',
+             'menu-item-db-id' => 709,
+             'menu-item-parent-id' => '708',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'TV',
              'menu-item-url' => '{{upfront:home_url}}/tv/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '651',
+             'menu-item-object-id' => '709',
              'menu-item-target' => '',
              'menu-item-position' => 2,
              'link' => 
@@ -260,13 +261,13 @@ $region_bf60f8->add_element("Unewnavigation", array (
           )),
           1 => 
           (array)(array(
-             'menu-item-db-id' => 652,
-             'menu-item-parent-id' => '650',
+             'menu-item-db-id' => 710,
+             'menu-item-parent-id' => '708',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Photography',
              'menu-item-url' => '{{upfront:home_url}}/photography/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '652',
+             'menu-item-object-id' => '710',
              'menu-item-target' => '',
              'menu-item-position' => 3,
              'link' => 
@@ -278,13 +279,13 @@ $region_bf60f8->add_element("Unewnavigation", array (
           )),
           2 => 
           (array)(array(
-             'menu-item-db-id' => 653,
-             'menu-item-parent-id' => '650',
+             'menu-item-db-id' => 711,
+             'menu-item-parent-id' => '708',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Tech News',
              'menu-item-url' => '{{upfront:home_url}}/tech-news/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '653',
+             'menu-item-object-id' => '711',
              'menu-item-target' => '',
              'menu-item-position' => 4,
              'link' => 
@@ -296,13 +297,13 @@ $region_bf60f8->add_element("Unewnavigation", array (
           )),
           3 => 
           (array)(array(
-             'menu-item-db-id' => 654,
-             'menu-item-parent-id' => '650',
+             'menu-item-db-id' => 712,
+             'menu-item-parent-id' => '708',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Music',
              'menu-item-url' => '{{upfront:home_url}}/music/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '654',
+             'menu-item-object-id' => '712',
              'menu-item-target' => '',
              'menu-item-position' => 5,
              'link' => 
@@ -314,13 +315,13 @@ $region_bf60f8->add_element("Unewnavigation", array (
           )),
           4 => 
           (array)(array(
-             'menu-item-db-id' => 655,
-             'menu-item-parent-id' => '650',
+             'menu-item-db-id' => 713,
+             'menu-item-parent-id' => '708',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Gallery',
              'menu-item-url' => '{{upfront:home_url}}/gallery/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '655',
+             'menu-item-object-id' => '713',
              'menu-item-target' => '',
              'menu-item-position' => 6,
              'link' => 
@@ -340,13 +341,13 @@ $region_bf60f8->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 656,
+         'menu-item-db-id' => 714,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'FAQ',
          'menu-item-url' => '{{upfront:home_url}}/faq/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '656',
+         'menu-item-object-id' => '714',
          'menu-item-target' => '',
          'menu-item-position' => 7,
          'link' => 
@@ -358,13 +359,13 @@ $region_bf60f8->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 657,
+         'menu-item-db-id' => 715,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '657',
+         'menu-item-object-id' => '715',
          'menu-item-target' => '',
          'menu-item-position' => 8,
          'link' => 
@@ -376,13 +377,13 @@ $region_bf60f8->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 658,
+         'menu-item-db-id' => 716,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '658',
+         'menu-item-object-id' => '716',
          'menu-item-target' => '',
          'menu-item-position' => 9,
          'link' => 
@@ -458,7 +459,7 @@ $region_bf60f8->add_element("Unewnavigation", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 3,
+      'col' => 2,
       'order' => 1,
       'clear' => false,
     ),
@@ -482,10 +483,10 @@ $region_bf60f8->add_element("Unewnavigation", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 3,
+      'col' => 2,
       'order' => 0,
       'top' => 0,
-      'hide' => 1,
+      'hide' => 0,
     ),
     'current_property' => 
     array (
@@ -494,7 +495,7 @@ $region_bf60f8->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_bf60f8->add_element("Login", array (
+$region_da19e2->add_element("Login", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -572,7 +573,7 @@ $region_bf60f8->add_element("Login", array (
     array (
       'edited' => true,
       'col' => 2,
-      'order' => 2,
+      'order' => 3,
       'clear' => false,
     ),
     'current_property' => 
@@ -606,7 +607,7 @@ $region_bf60f8->add_element("Login", array (
   ),
 ));
 
-$region_bf60f8->add_element("Uspacer", array (
+$region_da19e2->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -664,6 +665,6 @@ $region_bf60f8->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($region_bf60f8);
+$regions->add($region_da19e2);
 
 /* END_REGION_OUTPUT */

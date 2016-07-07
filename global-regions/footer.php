@@ -116,13 +116,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 659,
+         'menu-item-db-id' => 717,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '659',
+         'menu-item-object-id' => '717',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -134,13 +134,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 660,
+         'menu-item-db-id' => 718,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '660',
+         'menu-item-object-id' => '718',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -152,13 +152,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 661,
+         'menu-item-db-id' => 719,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '661',
+         'menu-item-object-id' => '719',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
