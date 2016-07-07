@@ -62,6 +62,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460687902587-1813',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -79,6 +80,22 @@ $main->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 5,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -163,6 +180,30 @@ $main->add_element("Uimage", array (
     'valign' => 'center',
     'isDotAlign' => false,
     'row' => 57,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'row' => 63,
+         'element_size' => 
+        (array)(array(
+           'width' => 510,
+           'height' => 281,
+        )),
+      )),
+       'current_property' => 'element_size',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'row' => 63,
+         'element_size' => 
+        (array)(array(
+           'width' => 60,
+           'height' => 285,
+        )),
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -174,34 +215,46 @@ $main->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 1,
+      'edited' => true,
+      'col' => 6,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
+      'top' => 0,
+      'row' => 63,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'row' => 63,
+    ),
+    'current_property' => 
+    array (
+      0 => 'row',
     ),
   ),
 ));
@@ -249,6 +302,18 @@ $main->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '15',
     'right_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -260,25 +325,32 @@ $main->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
+      'col' => 6,
+      'order' => 1,
+      'clear' => false,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 2,
+      'order' => 1,
       'clear' => true,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 12,
+      'col' => 6,
       'left' => 0,
       'top' => 0,
       'order' => 0,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -286,6 +358,11 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'top' => 0,
       'order' => 0,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'close_wrapper' => false,
@@ -334,6 +411,18 @@ $main->add_element("Uwidget", array (
     )),
     'title' => '',
     'row' => 11,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -345,17 +434,23 @@ $main->add_element("Uwidget", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 1,
+      'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -376,6 +471,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460687479005-1471',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -392,6 +488,22 @@ $main->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 5,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
