@@ -91,15 +91,13 @@ $main_content->add_group(array (
   'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => '',
-  'id' => 'module-group-1460434623168-1194',
+  'id' => 'module-group-1467846514690-1885',
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1460094615711-1111',
   'original_col' => 6,
   'top_padding_num' => 0,
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
-  'edited' => true,
-  'row' => 82,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -119,24 +117,6 @@ $main_content->add_group(array (
     'current_property' => 
     array (
       0 => 'order',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'row' => 50,
     ),
   ),
 ));
@@ -197,7 +177,7 @@ $main_content->add_element("PlainTxt", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467823539825-1231',
+  'wrapper_id' => 'wrapper-1467846514696-1587',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -210,7 +190,7 @@ $main_content->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'clear' => true,
-      'col' => 7,
+      'col' => 6,
       'order' => 1,
     ),
     'current_property' => 
@@ -224,7 +204,7 @@ $main_content->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -235,7 +215,8 @@ $main_content->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
-  'group' => 'module-group-1460434623168-1194',
+  'close_wrapper' => false,
+  'group' => 'module-group-1467846514690-1885',
 ));
 
 $main_content->add_element("PlainTxt", array (
@@ -250,12 +231,12 @@ $main_content->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h4 style="text-align: center;">AN UPFRONT MAGAZINE</h4>',
+    'content' => '<blockquote style="text-align: center;" class="upfront-quote-alternative">AN UPFRONT MAGAZINE</blockquote>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460093973092-1541',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'text-logo',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '110',
@@ -272,7 +253,7 @@ $main_content->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'text-logo',
+         'preset' => 'textbox-special',
       )),
     )),
     'row' => 5,
@@ -307,46 +288,28 @@ $main_content->add_element("PlainTxt", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467823539834-1502',
+  'wrapper_id' => 'wrapper-1467846514696-1587',
   'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'col' => 6,
-      'order' => 2,
-    ),
-    'mobile' => 
-    array (
-      'clear' => true,
-      'col' => 7,
-      'order' => 2,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-  ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'row' => 4,
     ),
   ),
-  'group' => 'module-group-1460434623168-1194',
+  'close_wrapper' => false,
+  'group' => 'module-group-1467846514690-1885',
 ));
 
 $main_content->add_element("Uwidget", array (
@@ -440,46 +403,27 @@ $main_content->add_element("Uwidget", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467823539838-1452',
+  'wrapper_id' => 'wrapper-1467846514696-1587',
   'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'col' => 6,
-      'order' => 3,
-    ),
-    'mobile' => 
-    array (
-      'clear' => true,
-      'col' => 7,
-      'order' => 3,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-  ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'row' => 8,
     ),
   ),
-  'group' => 'module-group-1460434623168-1194',
+  'group' => 'module-group-1467846514690-1885',
 ));
 
 $main_content->add_group(array (
@@ -1070,7 +1014,7 @@ $main_content->add_element("PlainTxt", array (
     'lock_padding' => '',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
-    'row' => 45,
+    'row' => 46,
     'padding_number' => '15',
     'left_padding_num' => '35',
     'right_padding_num' => '35',
@@ -1292,13 +1236,13 @@ $main_content->add_element("Uspacer", array (
 
 $regions->add($main_content);
 
-$categories_one = upfront_create_region(
+$categories = upfront_create_region(
 			array (
-  'name' => 'categories-one',
-  'title' => 'Categories One',
+  'name' => 'categories',
+  'title' => 'Categories',
   'type' => 'clip',
   'scope' => 'local',
-  'container' => 'categories-one',
+  'container' => 'categories',
   'position' => 1,
   'allow_sidebar' => true,
 ),
@@ -1335,7 +1279,7 @@ $categories_one = upfront_create_region(
 )
 			);
 
-$categories_one->add_element("Uspacer", array (
+$categories->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1389,7 +1333,7 @@ $categories_one->add_element("Uspacer", array (
   ),
 ));
 
-$categories_one->add_group(array (
+$categories->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1427,7 +1371,7 @@ $categories_one->add_group(array (
     array (
       'edited' => true,
       'col' => 6,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -1469,12 +1413,12 @@ $categories_one->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'background_style',
+      0 => 'use_padding',
     ),
   ),
 ));
 
-$categories_one->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1578,7 +1522,7 @@ $categories_one->add_element("PlainTxt", array (
   'group' => 'module-group-1460513611121-1688',
 ));
 
-$categories_one->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1681,7 +1625,7 @@ $categories_one->add_element("PlainTxt", array (
   'group' => 'module-group-1460513611121-1688',
 ));
 
-$categories_one->add_group(array (
+$categories->add_group(array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1719,7 +1663,7 @@ $categories_one->add_group(array (
     array (
       'edited' => true,
       'col' => 6,
-      'order' => 1,
+      'order' => 2,
       'clear' => false,
     ),
     'mobile' => 
@@ -1761,12 +1705,12 @@ $categories_one->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'background_style',
+      0 => 'use_padding',
     ),
   ),
 ));
 
-$categories_one->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1870,7 +1814,7 @@ $categories_one->add_element("PlainTxt", array (
   'group' => 'module-group-1460513632532-1773',
 ));
 
-$categories_one->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1973,7 +1917,7 @@ $categories_one->add_element("PlainTxt", array (
   'group' => 'module-group-1460513632532-1773',
 ));
 
-$categories_one->add_element("Uspacer", array (
+$categories->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2026,59 +1970,14 @@ $categories_one->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($categories_one);
-
-$categories_two = upfront_create_region(
-			array (
-  'name' => 'categories-two',
-  'title' => 'Categories Two',
-  'type' => 'clip',
-  'scope' => 'local',
-  'container' => 'categories-two',
-  'position' => 1,
-  'allow_sidebar' => true,
-),
-			array (
-  'version' => '1.0.0',
-  'row' => 37,
-  'breakpoint' => 
-  (array)(array(
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'background_type' => 'color',
-  'use_padding' => 0,
-  'sub_regions' => 
-  array (
-    0 => false,
-  ),
-  'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => 0,
-  'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
-  'bg_padding_slider' => 0,
-  'bg_padding_num' => 0,
-  'background_color' => '#ufc6',
-)
-			);
-
-$categories_two->add_element("Uspacer", array (
+$categories->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460516017000-1091 upfront-module-spacer',
-  'id' => 'module-1460516017000-1091',
+  'class' => 'module-1467836751315-1097 upfront-module-spacer',
+  'id' => 'module-1467836751315-1097',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -2086,7 +1985,7 @@ $categories_two->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1460516016999-1998',
+    'element_id' => 'spacer-object-1467836751315-1501',
     'preset' => 'default',
   ),
   'row' => 6,
@@ -2094,14 +1993,14 @@ $categories_two->add_element("Uspacer", array (
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1460516016998-1063',
+  'wrapper_id' => 'wrapper-1467836751314-1330',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 2,
       'edited' => true,
+      'col' => 2,
     ),
     'mobile' => 
     array (
@@ -2125,7 +2024,7 @@ $categories_two->add_element("Uspacer", array (
   ),
 ));
 
-$categories_two->add_group(array (
+$categories->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2134,7 +2033,7 @@ $categories_two->add_group(array (
   'class' => '',
   'id' => 'module-group-1460513695053-1217',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1460515987425-1962',
+  'wrapper_id' => 'wrapper-1467836724096-1130',
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
@@ -2163,17 +2062,16 @@ $categories_two->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'clear' => true,
       'col' => 6,
-      'order' => 1,
-      'clear' => false,
+      'order' => 3,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 1,
       'clear' => true,
+      'col' => 7,
+      'order' => 3,
     ),
     'current_property' => 
     array (
@@ -2185,33 +2083,25 @@ $categories_two->add_group(array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
       'background_position_y' => '50',
       'background_style' => 'full',
       'background_position_x' => '50',
-      'use_padding' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'background_position_y' => '50',
-      'background_style' => 'full',
-      'background_position_x' => '50',
-      'use_padding' => 1,
     ),
     'current_property' => 
     array (
-      0 => 'background_style',
+      0 => 'use_padding',
+    ),
+    'mobile' => 
+    array (
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
     ),
   ),
 ));
 
-$categories_two->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2285,7 +2175,7 @@ $categories_two->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 6,
       'order' => 1,
       'clear' => true,
     ),
@@ -2300,7 +2190,7 @@ $categories_two->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -2314,7 +2204,7 @@ $categories_two->add_element("PlainTxt", array (
   'group' => 'module-group-1460513695053-1217',
 ));
 
-$categories_two->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2388,7 +2278,7 @@ $categories_two->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -2403,7 +2293,7 @@ $categories_two->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -2417,7 +2307,7 @@ $categories_two->add_element("PlainTxt", array (
   'group' => 'module-group-1460513695053-1217',
 ));
 
-$categories_two->add_group(array (
+$categories->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2426,7 +2316,7 @@ $categories_two->add_group(array (
   'class' => '',
   'id' => 'module-group-1460513717827-1717',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1460515990840-1947',
+  'wrapper_id' => 'wrapper-1467836728896-1838',
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
@@ -2453,17 +2343,16 @@ $categories_two->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'clear' => false,
       'col' => 6,
-      'order' => 0,
-      'clear' => true,
+      'order' => 4,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
       'clear' => true,
+      'col' => 7,
+      'order' => 4,
     ),
     'current_property' => 
     array (
@@ -2475,34 +2364,25 @@ $categories_two->add_group(array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 6,
-      'order' => 1,
-      'top' => 0,
       'background_position_y' => '50',
       'background_style' => 'full',
       'background_position_x' => '50',
-      'use_padding' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'background_position_y' => '50',
-      'background_style' => 'full',
-      'background_position_x' => '50',
-      'use_padding' => 1,
     ),
     'current_property' => 
     array (
-      0 => 'background_style',
+      0 => 'use_padding',
+    ),
+    'mobile' => 
+    array (
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
     ),
   ),
 ));
 
-$categories_two->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2576,7 +2456,7 @@ $categories_two->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 6,
       'order' => 1,
       'clear' => true,
     ),
@@ -2591,7 +2471,7 @@ $categories_two->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -2605,7 +2485,7 @@ $categories_two->add_element("PlainTxt", array (
   'group' => 'module-group-1460513717827-1717',
 ));
 
-$categories_two->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2679,7 +2559,7 @@ $categories_two->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -2694,7 +2574,7 @@ $categories_two->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -2708,7 +2588,7 @@ $categories_two->add_element("PlainTxt", array (
   'group' => 'module-group-1460513717827-1717',
 ));
 
-$categories_two->add_group(array (
+$categories->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2717,7 +2597,7 @@ $categories_two->add_group(array (
   'class' => '',
   'id' => 'module-group-1460513750197-1002',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1460515994482-1973',
+  'wrapper_id' => 'wrapper-1467836731677-1320',
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
@@ -2744,17 +2624,16 @@ $categories_two->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 6,
-      'order' => 2,
       'clear' => true,
+      'col' => 6,
+      'order' => 5,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 3,
       'clear' => true,
+      'col' => 7,
+      'order' => 5,
     ),
     'current_property' => 
     array (
@@ -2766,35 +2645,25 @@ $categories_two->add_group(array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-      'top' => 0,
-      'row' => 51,
       'background_position_y' => '50',
       'background_style' => 'full',
       'background_position_x' => '50',
-      'use_padding' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'background_position_y' => '50',
-      'background_style' => 'full',
-      'background_position_x' => '50',
-      'use_padding' => 1,
     ),
     'current_property' => 
     array (
-      0 => 'background_style',
+      0 => 'use_padding',
+    ),
+    'mobile' => 
+    array (
+      'background_position_y' => '50',
+      'background_style' => 'full',
+      'background_position_x' => '50',
+      'use_padding' => 1,
     ),
   ),
 ));
 
-$categories_two->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2868,7 +2737,7 @@ $categories_two->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 6,
       'order' => 1,
       'clear' => true,
     ),
@@ -2883,7 +2752,7 @@ $categories_two->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -2897,7 +2766,7 @@ $categories_two->add_element("PlainTxt", array (
   'group' => 'module-group-1460513750197-1002',
 ));
 
-$categories_two->add_element("PlainTxt", array (
+$categories->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2971,7 +2840,7 @@ $categories_two->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -2986,7 +2855,7 @@ $categories_two->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
@@ -3000,7 +2869,7 @@ $categories_two->add_element("PlainTxt", array (
   'group' => 'module-group-1460513750197-1002',
 ));
 
-$categories_two->add_element("Uimage", array (
+$categories->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3010,7 +2879,7 @@ $categories_two->add_element("Uimage", array (
   'id' => 'module-1460505281883-1925',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive-home/issue-block-cyan-60x225-4514.jpg',
+    'src' => '{{upfront:style_url}}/images/archive-home/issue-block-cyan-60x225-6903.jpg',
     'srcFull' => '{{upfront:style_url}}/images/archive-home/issue-block-cyan.jpg',
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/issue-block-cyan.jpg',
     'image_title' => '',
@@ -3034,7 +2903,7 @@ $categories_two->add_element("Uimage", array (
     'position' => 
     (array)(array(
        'top' => 0,
-       'left' => 108.5,
+       'left' => 118.5,
     )),
     'marginTop' => 0,
     'element_size' => 
@@ -3046,7 +2915,7 @@ $categories_two->add_element("Uimage", array (
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '41',
+    'image_id' => 667,
     'align' => 'center',
     'stretch' => true,
     'vstretch' => true,
@@ -3075,7 +2944,7 @@ $categories_two->add_element("Uimage", array (
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
-    'row' => 45,
+    'row' => 51,
     'valign' => 'center',
     'isDotAlign' => false,
     'breakpoint' => 
@@ -3083,7 +2952,7 @@ $categories_two->add_element("Uimage", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 31,
+         'row' => 43,
          'element_size' => 
         (array)(array(
            'width' => 60,
@@ -3113,22 +2982,21 @@ $categories_two->add_element("Uimage", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1460515998922-1715',
+  'wrapper_id' => 'wrapper-1467836734868-1080',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 2,
-      'order' => 3,
       'clear' => false,
+      'col' => 2,
+      'order' => 6,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 4,
       'clear' => true,
+      'col' => 7,
+      'order' => 6,
     ),
     'current_property' => 
     array (
@@ -3140,36 +3008,28 @@ $categories_two->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
       'col' => 2,
-      'order' => 1,
-      'row' => 51,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'hide' => 1,
-      'row' => 220,
+      'row' => 43,
     ),
     'current_property' => 
     array (
-      0 => 'row',
+      0 => 'edited',
+    ),
+    'mobile' => 
+    array (
+      'hide' => 1,
     ),
   ),
 ));
 
-$categories_two->add_element("Uspacer", array (
+$categories->add_element("Uspacer", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467783738046-1710 upfront-module-spacer',
-  'id' => 'module-1467783738046-1710',
+  'class' => 'module-1467836941724-1165 upfront-module-spacer',
+  'id' => 'module-1467836941724-1165',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -3177,7 +3037,7 @@ $categories_two->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467783738046-1895',
+    'element_id' => 'spacer-object-1467836941723-1941',
     'preset' => 'default',
   ),
   'row' => 6,
@@ -3185,14 +3045,14 @@ $categories_two->add_element("Uspacer", array (
   'default_hide' => 1,
   'hide' => 1,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467783738046-1719',
+  'wrapper_id' => 'wrapper-1467836941723-1872',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
       'clear' => false,
-      'order' => 3,
+      'order' => 6,
       'col' => 4,
     ),
     'mobile' => 
@@ -3220,14 +3080,14 @@ $categories_two->add_element("Uspacer", array (
   ),
 ));
 
-$categories_two->add_element("Uspacer", array (
+$categories->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460516004103-1676 upfront-module-spacer',
-  'id' => 'module-1460516004103-1676',
+  'class' => 'module-1467836739155-1996 upfront-module-spacer',
+  'id' => 'module-1467836739155-1996',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -3235,7 +3095,7 @@ $categories_two->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1460516004103-1181',
+    'element_id' => 'spacer-object-1467836739155-1965',
     'preset' => 'default',
   ),
   'row' => 6,
@@ -3243,13 +3103,13 @@ $categories_two->add_element("Uspacer", array (
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1460516004101-1121',
+  'wrapper_id' => 'wrapper-1467836739155-1539',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 2,
       'edited' => true,
+      'col' => 2,
     ),
     'mobile' => 
     array (
@@ -3273,7 +3133,7 @@ $categories_two->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($categories_two);
+$regions->add($categories);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php');
 

@@ -19,12 +19,20 @@ $social_footer = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
+       'top_bg_padding_slider' => '55',
+       'top_bg_padding_num' => '55',
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_type' => 'color',
+       'top_bg_padding_num' => '30',
+       'top_bg_padding_slider' => '30',
+       'row' => 29,
     )),
+     'current_property' => 'top_bg_padding_slider',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -35,8 +43,8 @@ $social_footer = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => '70',
   'top_bg_padding_num' => '70',
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '30',
+  'bottom_bg_padding_num' => '30',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc3',
@@ -77,6 +85,22 @@ $social_footer->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 2,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -119,9 +143,9 @@ $social_footer->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 7,
       'clear' => true,
     ),
     'current_property' => 
@@ -140,10 +164,17 @@ $social_footer->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 15,
+      'top' => 0,
+      'hide' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -351,6 +382,7 @@ $social_footer->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
   ),
   'group' => 'module-group-1460682997468-1008',
@@ -389,6 +421,70 @@ $social_footer->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 4,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+));
+
+$social_footer->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1467838756440-1845',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1467838756440-1259',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'preset' => 'default',
+  ),
+  'wrapper_id' => 'wrapper-1467838756440-1168',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 1,
+  'wrapper_breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+      'clear' => false,
+      'order' => 0,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+      'hide' => 0,
+      'left' => 0,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -420,10 +516,10 @@ $social_footer->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
+      'edited' => true,
+      'col' => 2,
+      'order' => 1,
+      'clear' => false,
     ),
     'current_property' => 
     array (
@@ -441,10 +537,16 @@ $social_footer->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
+      'row' => 17,
+      'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -529,7 +631,7 @@ $social_footer->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 2,
       'order' => 1,
       'clear' => true,
     ),
@@ -551,7 +653,7 @@ $social_footer->add_element("Button", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
     ),
   ),
@@ -628,7 +730,7 @@ $social_footer->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 2,
       'order' => 2,
       'clear' => true,
     ),
@@ -650,11 +752,60 @@ $social_footer->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
+      'hide' => 1,
     ),
   ),
   'group' => 'module-group-1460683035622-1147',
+));
+
+$social_footer->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1467838772528-1111',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1467838772528-1173',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'preset' => 'default',
+  ),
+  'wrapper_id' => 'wrapper-1467838772528-1120',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 1,
+  'wrapper_breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+      'clear' => false,
+      'order' => 1,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+      'hide' => 0,
+      'left' => 0,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
 ));
 
 $social_footer->add_element("Uspacer", array (
@@ -690,6 +841,22 @@ $social_footer->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 4,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -721,10 +888,10 @@ $social_footer->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 3,
-      'clear' => true,
+      'edited' => true,
+      'col' => 2,
+      'order' => 2,
+      'clear' => false,
     ),
     'current_property' => 
     array (
@@ -742,10 +909,15 @@ $social_footer->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
+      'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -830,7 +1002,7 @@ $social_footer->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 2,
       'order' => 1,
       'clear' => true,
     ),
@@ -852,7 +1024,7 @@ $social_footer->add_element("Button", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
     ),
   ),
@@ -929,7 +1101,7 @@ $social_footer->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 2,
       'order' => 2,
       'clear' => true,
     ),
@@ -951,11 +1123,60 @@ $social_footer->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
+      'hide' => 1,
     ),
   ),
   'group' => 'module-group-1460683123879-1914',
+));
+
+$social_footer->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1467838775683-1860',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1467838775682-1247',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'preset' => 'default',
+  ),
+  'wrapper_id' => 'wrapper-1467838775682-1006',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 1,
+  'wrapper_breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+      'clear' => false,
+      'order' => 2,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+      'hide' => 0,
+      'left' => 0,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
 ));
 
 $social_footer->add_element("Uspacer", array (
@@ -991,6 +1212,22 @@ $social_footer->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 2,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));

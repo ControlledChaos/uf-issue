@@ -361,7 +361,7 @@ $featured_articles->add_element("Posts", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'row' => 58,
+    'row' => 68,
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
@@ -371,6 +371,10 @@ $featured_articles->add_element("Posts", array (
        'tablet' => 
       (array)(array(
          'preset' => 'posts-featured-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'posts-featured-mobile',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -387,8 +391,10 @@ $featured_articles->add_element("Posts", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 253,
       )),
     )),
+    'theme_style' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -428,10 +434,11 @@ $featured_articles->add_element("Posts", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 253,
     ),
   ),
 ));
