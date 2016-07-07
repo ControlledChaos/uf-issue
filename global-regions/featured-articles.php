@@ -73,10 +73,26 @@ $featured_articles->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -98,7 +114,7 @@ $featured_articles->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460516501323-1236',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -115,7 +131,15 @@ $featured_articles->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'textbox-special',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'textbox-special-for-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'textbox-special-for-mobile',
       )),
     )),
     'row' => 8,
@@ -142,7 +166,7 @@ $featured_articles->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
       'order' => 1,
       'clear' => true,
@@ -156,17 +180,18 @@ $featured_articles->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'hide' => 0,
     ),
     'mobile' => 
     array (
@@ -174,6 +199,10 @@ $featured_articles->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -207,10 +236,26 @@ $featured_articles->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -245,10 +290,26 @@ $featured_articles->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -386,6 +447,7 @@ $featured_articles->add_element("Posts", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 163,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -406,7 +468,7 @@ $featured_articles->add_element("Posts", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
       'order' => 2,
       'clear' => true,
@@ -420,17 +482,18 @@ $featured_articles->add_element("Posts", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'row' => 163,
     ),
     'mobile' => 
     array (
@@ -439,6 +502,10 @@ $featured_articles->add_element("Posts", array (
       'col' => 7,
       'order' => 0,
       'row' => 253,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -472,10 +539,26 @@ $featured_articles->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));

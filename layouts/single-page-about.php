@@ -345,6 +345,10 @@ $block_title->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'textbox-special-for-tablet',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'textbox-special-for-mobile',
+      )),
     )),
     'row' => 1.8000000000000000444089209850062616169452667236328125,
     'top_padding_use' => 'yes',
@@ -536,6 +540,10 @@ $block_banner->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'textbox-alternative',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'textbox-alternative-tablet',
+      )),
     )),
     'breakpoint' => 
     (array)(array(
@@ -636,6 +644,10 @@ $block_banner->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'textbox-alternative',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'textbox-alternative-tablet',
+      )),
     )),
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
@@ -649,6 +661,7 @@ $block_banner->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 10,
       )),
     )),
   ),
@@ -691,10 +704,11 @@ $block_banner->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 10,
     ),
   ),
 ));
@@ -889,7 +903,7 @@ $block_banner->add_group(array (
   'top_padding_slider' => '9',
   'bottom_padding_use' => 'yes',
   'bottom_padding_slider' => '8',
-  'row' => 5.5999999999999996447286321199499070644378662109375,
+  'row' => 7,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1114,7 +1128,7 @@ $block_banner->add_element("PlainTxt", array (
     'element_id' => 'text-object-1461798584814-1789',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1132,7 +1146,7 @@ $block_banner->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-special',
       )),
     )),
     'breakpoint' => 
@@ -1217,7 +1231,7 @@ $block_banner->add_element("PlainTxt", array (
     'element_id' => 'text-object-1461802497098-1514',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1234,7 +1248,7 @@ $block_banner->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-special',
       )),
     )),
     'row' => 7,
@@ -1320,7 +1334,7 @@ $block_banner->add_element("PlainTxt", array (
     'element_id' => 'text-object-1461805012451-1701',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1337,7 +1351,7 @@ $block_banner->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-special',
       )),
     )),
     'row' => 7,
@@ -1423,7 +1437,7 @@ $block_banner->add_element("PlainTxt", array (
     'element_id' => 'text-object-1461805029866-1065',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1441,7 +1455,7 @@ $block_banner->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-special',
       )),
     )),
     'breakpoint' => 
@@ -1668,6 +1682,7 @@ $main->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
+  'row' => 51,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1734,12 +1749,12 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2>Seth MacFarlane</h2><h4>Editor-in-Chief<br></h4>',
+    'content' => '<h2>Seth MacFarlane</h2><h6>Editor-in-Chief<br></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461789124573-1962',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1757,7 +1772,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'breakpoint' => 
@@ -1773,7 +1788,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 7,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1958,6 +1973,7 @@ $main->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
+  'row' => 42,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2024,19 +2040,19 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2>Alex Borstein</h2><h4>Creative Director<br></h4>',
+    'content' => '<h2>Alex Borstein</h2><h6>Creative Director<br></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811145031-1287',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 7,
+    'row' => 9,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -2047,7 +2063,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'breakpoint' => 
@@ -2063,7 +2079,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -2353,19 +2369,19 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2>Cherry Chevong</h2><h4>Fashion Editor<br></h4>',
+    'content' => '<h2>Cherry Chevong</h2><h6>Fashion Editor<br></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811178479-1592',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 7,
+    'row' => 8,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -2376,7 +2392,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'breakpoint' => 
@@ -2392,7 +2408,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 8,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -2644,19 +2660,19 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2>Steve Callaghan</h2><h4>Blogger<br></h4>',
+    'content' => '<h2>Steve Callaghan</h2><h6>Blogger<br></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811250773-1718',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 7,
+    'row' => 10,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -2667,7 +2683,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'breakpoint' => 
@@ -2683,7 +2699,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 10,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -2906,6 +2922,7 @@ $main->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
+  'row' => 72,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2972,19 +2989,19 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2>David Zuckerman</h2><h4>Webmaster</h4>',
+    'content' => '<h2>David Zuckerman</h2><h6>Webmaster</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811323080-1668',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 7,
+    'row' => 11,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -2995,7 +3012,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'breakpoint' => 
@@ -3011,7 +3028,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 11,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -3196,7 +3213,7 @@ $main->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
-  'row' => 57,
+  'row' => 61,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3249,12 +3266,12 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3>Want to join the team?</h3><h3>Drop us a line now!</h3>',
+    'content' => '<h4>Want to join the team?</h4><h4>Drop us a line now!</h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461811132343-1180',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-slim',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -3271,7 +3288,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-slim',
+         'preset' => 'textbox-alternative',
       )),
     )),
     'row' => 9,
@@ -3362,11 +3379,11 @@ $main->add_element("Ucontact", array (
     'form_subject_label' => 'Subject:',
     'form_captcha_label' => 'CAPTCHA:',
     'form_default_subject' => 'Sent from the website',
-    'form_message_label' => 'Message:',
+    'form_message_label' => 'Inquiry:',
     'form_button_text' => 'Send',
     'form_validate_when' => 'submit',
     'form_label_position' => 'over',
-    'preset' => 'default',
+    'preset' => 'contact-alternative',
     'type' => 'UcontactModel',
     'view_class' => 'UcontactView',
     'class' => 'c24 upfront-contact-form',
@@ -3396,6 +3413,14 @@ $main->add_element("Ucontact", array (
          'use_padding' => 'yes',
       )),
     )),
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'contact-alternative',
+      )),
+    )),
+    'theme_style' => '',
   ),
   'row' => 6,
   'sticky' => false,

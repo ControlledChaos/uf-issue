@@ -1030,18 +1030,27 @@ $main_content->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'textbox-alternative',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'textbox-alternative-tablet',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'textbox-alternative-tablet',
+      )),
     )),
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 24,
+         'row' => 14,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 32,
       )),
     )),
   ),
@@ -1081,14 +1090,15 @@ $main_content->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 24,
+      'row' => 14,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 32,
     ),
   ),
   'group' => 'module-group-1460434746860-1775',
@@ -1149,7 +1159,7 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1346,7 +1356,7 @@ $categories->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '90',
   'bottom_padding_num' => '50',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -1413,7 +1423,7 @@ $categories->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'use_padding',
+      0 => 'background_style',
     ),
   ),
 ));
@@ -1638,7 +1648,7 @@ $categories->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '90',
   'bottom_padding_num' => '65',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'row' => 11,
   'lock_padding' => '',
@@ -1705,7 +1715,7 @@ $categories->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'use_padding',
+      0 => 'background_style',
     ),
   ),
 ));
@@ -2037,7 +2047,7 @@ $categories->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -2320,7 +2330,7 @@ $categories->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -2370,7 +2380,7 @@ $categories->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'use_padding',
+      0 => 'background_style',
     ),
     'mobile' => 
     array (
@@ -2601,7 +2611,7 @@ $categories->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '65',
   'bottom_padding_num' => '70',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
@@ -2651,7 +2661,7 @@ $categories->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'use_padding',
+      0 => 'background_style',
     ),
     'mobile' => 
     array (

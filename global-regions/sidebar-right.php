@@ -95,7 +95,7 @@ $sidebar_right->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_color_1">FILTER BY:</span></h5>',
+    'content' => '<h6><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">FILTER BY:</span></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1467494259277-1501',
     'class' => 'c24 upfront-plain_txt',
@@ -107,7 +107,7 @@ $sidebar_right->add_element("PlainTxt", array (
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 7,
+    'row' => 6,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -188,8 +188,8 @@ $sidebar_right->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467494361640-1327 upfront-module-spacer',
-  'id' => 'module-1467494361640-1327',
+  'class' => 'module-1467931467889-1849 upfront-module-spacer',
+  'id' => 'module-1467931467889-1849',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -197,7 +197,7 @@ $sidebar_right->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467494361640-1132',
+    'element_id' => 'spacer-object-1467931467889-1546',
     'preset' => 'default',
   ),
   'row' => 6,
@@ -205,7 +205,7 @@ $sidebar_right->add_element("Uspacer", array (
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467494361639-1409',
+  'wrapper_id' => 'wrapper-1467931467888-1186',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

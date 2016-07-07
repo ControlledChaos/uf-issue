@@ -271,14 +271,14 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plaintxt',
-    'content' => '<h1 class="">404 PAGE NOT FOUND</h1>',
+    'content' => '<h2 class="">404 PAGE NOT FOUND</h2>',
     'element_id' => 'default-nav-text-object',
     'class' => 'c24',
     'type' => 'PlainTxtModel',
     'has_settings' => 1,
     'top_padding_use' => 'yes',
     'top_padding_num' => '60',
-    'preset' => 'textbox-alternative',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
@@ -296,7 +296,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'textbox-special',
       )),
     )),
     'bottom_padding_use' => 'yes',

@@ -101,7 +101,7 @@ $breadcrumbs->add_element("PlainTxt", array (
     'element_id' => 'text-object-1461788105239-1158',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -118,7 +118,7 @@ $breadcrumbs->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'textbox-special',
       )),
     )),
     'row' => 4,
@@ -670,10 +670,10 @@ $main_area->add_element("Ucontact", array (
     'form_captcha_label' => 'CAPTCHA:',
     'form_default_subject' => 'Sent from the website',
     'form_message_label' => 'Message:',
-    'form_button_text' => 'Send',
+    'form_button_text' => 'Submit',
     'form_validate_when' => 'submit',
     'form_label_position' => 'over',
-    'preset' => 'default',
+    'preset' => 'contact-alternative',
     'type' => 'UcontactModel',
     'view_class' => 'UcontactView',
     'class' => 'c24 upfront-contact-form',
@@ -701,6 +701,14 @@ $main_area->add_element("Ucontact", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+      )),
+    )),
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'contact-alternative',
       )),
     )),
   ),
@@ -890,22 +898,28 @@ $block_map->add_element("Uspacer", array (
 
 $block_map->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1467853249551-1135 upfront-module-spacer',
   'id' => 'module-1467853249551-1135',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1467853249551-1052',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1467853249551-1052',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1467853249550-1907',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1467853249550-1907',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -916,13 +930,14 @@ $block_map->add_element("Uspacer", array (
       'order' => 1,
       'col' => 3,
     ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
     'mobile' => 
     array (
       'edited' => true,
+      'col' => 3,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -1088,7 +1103,7 @@ $block_map->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1161,7 +1176,7 @@ $block_map->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 7,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1185,7 +1200,7 @@ $block_map->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1280,7 +1295,7 @@ $block_map->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1300,22 +1315,28 @@ $block_map->add_element("PlainTxt", array (
 
 $block_map->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1467853252184-1773 upfront-module-spacer',
   'id' => 'module-1467853252184-1773',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1467853252184-1199',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1467853252184-1199',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1467853252184-1095',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1467853252184-1095',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1325,13 +1346,14 @@ $block_map->add_element("Uspacer", array (
       'order' => 1,
       'col' => 3,
     ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
     'mobile' => 
     array (
       'edited' => true,
+      'col' => 3,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 

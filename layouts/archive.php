@@ -101,7 +101,7 @@ $breadcrumbs->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460688658057-1865',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -117,7 +117,7 @@ $breadcrumbs->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'textbox-special',
       )),
     )),
     'is_edited' => true,
@@ -336,7 +336,7 @@ $block_title->add_element("PlainTxt", array (
     'element_id' => 'text-object-1460688550152-1108',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'textbox-special',
     'padding_slider' => '15',
     'top_padding_num' => '11',
     'bottom_padding_num' => '58',
