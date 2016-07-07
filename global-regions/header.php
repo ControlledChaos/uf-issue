@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_da19e2 = upfront_create_region(
+$region_d515b1 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_da19e2 = upfront_create_region(
 )
 			);
 
-$region_da19e2->add_element("Uimage", array (
+$region_d515b1->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -211,7 +211,7 @@ $region_da19e2->add_element("Uimage", array (
   ),
 ));
 
-$region_da19e2->add_element("Unewnavigation", array (
+$region_d515b1->add_element("Unewnavigation", array (
   'columns' => '19',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -495,7 +495,7 @@ $region_da19e2->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_da19e2->add_element("Login", array (
+$region_d515b1->add_element("Login", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -597,7 +597,7 @@ $region_da19e2->add_element("Login", array (
       'left' => 0,
       'col' => 2,
       'order' => 0,
-      'hide' => 0,
+      'hide' => 1,
       'top' => 0,
     ),
     'current_property' => 
@@ -607,7 +607,7 @@ $region_da19e2->add_element("Login", array (
   ),
 ));
 
-$region_da19e2->add_element("Uspacer", array (
+$region_d515b1->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -665,6 +665,6 @@ $region_da19e2->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($region_da19e2);
+$regions->add($region_d515b1);
 
 /* END_REGION_OUTPUT */
