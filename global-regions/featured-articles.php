@@ -60,6 +60,7 @@ $featured_articles->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460517086375-1153',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -109,12 +110,12 @@ $featured_articles->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="">FEATURED ARTICLES</h3>',
+    'content' => '<h5 class=""><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;FEATURED ARTICLES &nbsp;</span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460516501323-1236',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-special',
+    'preset' => 'textbox-titles',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -131,11 +132,11 @@ $featured_articles->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-special',
+         'preset' => 'textbox-titles',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-special-for-tablet',
+         'preset' => 'textbox-titles',
       )),
        'mobile' => 
       (array)(array(
@@ -155,6 +156,7 @@ $featured_articles->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'textbox-titles',
   ),
   'row' => 6,
   'sticky' => false,
@@ -180,7 +182,7 @@ $featured_articles->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -202,7 +204,7 @@ $featured_articles->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'col',
     ),
   ),
 ));
@@ -224,6 +226,7 @@ $featured_articles->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460517088605-1057',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -277,6 +280,7 @@ $featured_articles->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460516542288-1926',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -339,7 +343,7 @@ $featured_articles->add_element("Posts", array (
     'pagination' => '',
     'sticky' => '',
     'posts_list' => '',
-    'thumbnail_size' => 'large',
+    'thumbnail_size' => 'medium',
     'custom_thumbnail_width' => 200,
     'custom_thumbnail_height' => 200,
     'post_parts' => 
@@ -390,9 +394,7 @@ $featured_articles->add_element("Posts", array (
     'post-part-comment_count' => '<div class="uposts-part comment_count">
 	{{comment_count||0}} Comments
 </div>',
-    'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}">
-	{{thumbnail}}
-</div>',
+    'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}"><a href="{{permalink}}" title="{{title}}">{{thumbnail}}</a></div>',
     'post-part-title' => '<div class="uposts-part title">
 	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
 </div>',
@@ -457,6 +459,7 @@ $featured_articles->add_element("Posts", array (
       )),
     )),
     'theme_style' => '',
+    'current_preset' => 'posts-featured',
   ),
   'row' => 6,
   'sticky' => false,
@@ -470,7 +473,7 @@ $featured_articles->add_element("Posts", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
@@ -482,7 +485,7 @@ $featured_articles->add_element("Posts", array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -505,7 +508,7 @@ $featured_articles->add_element("Posts", array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'col',
     ),
   ),
 ));
@@ -527,6 +530,7 @@ $featured_articles->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460516545262-1726',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

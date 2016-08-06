@@ -177,6 +177,10 @@ $breadcrumbs->add_element("PlainTxt", array (
       'top' => 0,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
 ));
 
@@ -335,12 +339,12 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3>SEARCH RESULTS</h3>',
+    'content' => '<h5><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;SEARCH RESULTS &nbsp;</span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460769715544-1674',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-special',
+    'preset' => 'textbox-titles',
     'padding_slider' => '15',
     'top_padding_num' => '11',
     'bottom_padding_num' => '58',
@@ -361,7 +365,7 @@ $block_title->add_element("PlainTxt", array (
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-special',
+         'preset' => 'textbox-titles',
       )),
        'mobile' => 
       (array)(array(
@@ -370,7 +374,7 @@ $block_title->add_element("PlainTxt", array (
     )),
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
-    'row' => -7.79999999999999982236431605997495353221893310546875,
+    'row' => 8,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -392,8 +396,9 @@ $block_title->add_element("PlainTxt", array (
          'bottom_padding_num' => '0',
       )),
     )),
+    'current_preset' => 'textbox-titles',
   ),
-  'row' => 6,
+  'row' => 8,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1190,6 +1195,10 @@ $block_content->add_element("Posts", array (
       'col' => 7,
       'order' => 0,
       'row' => 302,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

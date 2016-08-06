@@ -41,10 +41,10 @@ $social_footer = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => '70',
-  'top_bg_padding_num' => '70',
-  'bottom_bg_padding_slider' => '30',
-  'bottom_bg_padding_num' => '30',
+  'top_bg_padding_slider' => '60',
+  'top_bg_padding_num' => '60',
+  'bottom_bg_padding_slider' => '60',
+  'bottom_bg_padding_num' => '60',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc3',
@@ -68,6 +68,7 @@ $social_footer->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683136441-1829',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -131,7 +132,7 @@ $social_footer->add_group(array (
   'top_padding_slider' => '15',
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
-  'row' => 22,
+  'row' => 26,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -174,7 +175,7 @@ $social_footer->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'col',
     ),
   ),
 ));
@@ -239,6 +240,7 @@ $social_footer->add_element("Button", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'button-email',
   ),
   'row' => 6,
   'sticky' => false,
@@ -284,6 +286,10 @@ $social_footer->add_element("Button", array (
       'col' => 7,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
   'group' => 'module-group-1460682997468-1008',
 ));
@@ -300,7 +306,7 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6">SEND US AN EMAIL</span></h6>',
+    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">SEND US AN EMAIL</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682864053-1557',
     'class' => 'c24 upfront-plain_txt',
@@ -324,6 +330,10 @@ $social_footer->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'textbox-alternative',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'textbox-alternative',
+      )),
     )),
     'row' => 8,
     'breakpoint' => 
@@ -338,6 +348,7 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'textbox-alternative',
   ),
   'row' => 6,
   'sticky' => false,
@@ -384,6 +395,10 @@ $social_footer->add_element("PlainTxt", array (
       'order' => 0,
       'hide' => 1,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
   'group' => 'module-group-1460682997468-1008',
 ));
@@ -405,6 +420,7 @@ $social_footer->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683163142-1636',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -458,6 +474,7 @@ $social_footer->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1467838756440-1259',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -556,7 +573,7 @@ $social_footer->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'col',
     ),
   ),
 ));
@@ -621,6 +638,7 @@ $social_footer->add_element("Button", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'button-twitter',
   ),
   'row' => 6,
   'sticky' => false,
@@ -666,6 +684,10 @@ $social_footer->add_element("Button", array (
       'col' => 2,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
   'group' => 'module-group-1460683035622-1147',
 ));
@@ -682,7 +704,7 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6">FOLLOW US ON TWITTER</span></h6>',
+    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FOLLOW US ON TWITTER</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682946027-1860',
     'class' => 'c24 upfront-plain_txt',
@@ -720,6 +742,7 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'textbox-alternative',
   ),
   'row' => 6,
   'sticky' => false,
@@ -766,6 +789,10 @@ $social_footer->add_element("PlainTxt", array (
       'order' => 0,
       'hide' => 1,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
   'group' => 'module-group-1460683035622-1147',
 ));
@@ -787,6 +814,7 @@ $social_footer->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1467838772528-1173',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -845,6 +873,7 @@ $social_footer->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683191298-1297',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -937,7 +966,7 @@ $social_footer->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'col',
     ),
   ),
 ));
@@ -1002,6 +1031,7 @@ $social_footer->add_element("Button", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'button-facebook',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1047,6 +1077,10 @@ $social_footer->add_element("Button", array (
       'col' => 2,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
   'group' => 'module-group-1460683123879-1914',
 ));
@@ -1063,7 +1097,7 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6">LIKE US ON FACEBOOK</span></h6>',
+    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">LIKE US ON FACEBOOK</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460683021232-1759',
     'class' => 'c24 upfront-plain_txt',
@@ -1101,6 +1135,7 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'textbox-alternative',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1147,6 +1182,10 @@ $social_footer->add_element("PlainTxt", array (
       'order' => 0,
       'hide' => 1,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
   'group' => 'module-group-1460683123879-1914',
 ));
@@ -1168,6 +1207,7 @@ $social_footer->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1467838775682-1247',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1226,6 +1266,7 @@ $social_footer->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460683140837-1594',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

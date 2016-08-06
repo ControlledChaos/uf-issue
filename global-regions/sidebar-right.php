@@ -176,8 +176,12 @@ $sidebar_right->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 3.5,
+      'col' => 4,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -434,8 +438,12 @@ $sidebar_right->add_element("Uwidget", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 3.5,
+      'col' => 3,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -700,6 +708,14 @@ $sidebar_right->add_element("Uwidget", array (
       'top' => 0,
       'col' => 6,
       'edited' => true,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

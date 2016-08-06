@@ -209,6 +209,8 @@ $main->add_element("PostData", array (
 }
 ',
     'predefined_date_format' => 'M d Y',
+    'calculated_left_indent' => 0,
+    'calculated_right_indent' => 0,
   ),
   'row' => 6,
   'sticky' => false,
@@ -232,6 +234,10 @@ $main->add_element("PostData", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -248,6 +254,10 @@ $main->add_element("PostData", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'objects' => 
@@ -274,14 +284,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -453,8 +459,10 @@ $main->add_element("PostData", array (
 }
 ',
     'predefined_date_format' => 'M d Y',
+    'calculated_left_indent' => 0,
+    'calculated_right_indent' => 0,
   ),
-  'row' => 107,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -476,6 +484,10 @@ $main->add_element("PostData", array (
       'order' => 2,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -492,6 +504,10 @@ $main->add_element("PostData", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'objects' => 
@@ -518,14 +534,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
