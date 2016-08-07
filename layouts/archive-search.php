@@ -338,7 +338,7 @@ $block_title->add_element("PlainTxt", array (
     'has_settings' => 1,
     'preset' => 'textbox-titles',
     'padding_slider' => '15',
-    'top_padding_num' => '11',
+    'top_padding_num' => '13',
     'bottom_padding_num' => '58',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -353,7 +353,7 @@ $block_title->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'textbox-titles-for-tablet',
       )),
        'desktop' => 
       (array)(array(
@@ -361,7 +361,7 @@ $block_title->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'textbox-titles-for-mobile',
       )),
     )),
     'top_padding_use' => 'yes',

@@ -63,6 +63,7 @@ $main->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460687902587-1813',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -192,7 +193,7 @@ $main->add_element("Uimage", array (
            'height' => 281,
         )),
       )),
-       'current_property' => 'element_size',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -204,6 +205,12 @@ $main->add_element("Uimage", array (
         )),
       )),
     )),
+    'current_preset' => 'default',
+    'lock_padding' => 0,
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -278,7 +285,7 @@ $main->add_element("PlainTxt", array (
     'has_settings' => 1,
     'top_padding_use' => 'yes',
     'top_padding_num' => '60',
-    'preset' => 'textbox-special',
+    'preset' => 'textbox-alternative',
     'padding_slider' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
@@ -296,7 +303,15 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-special',
+         'preset' => 'textbox-alternative',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'textbox-alternative-for-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'textbox-alternative-for-mobile',
       )),
     )),
     'bottom_padding_use' => 'yes',
@@ -312,9 +327,13 @@ $main->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '40',
+         'top_padding_num' => '40',
       )),
     )),
-    'current_preset' => 'textbox-special',
+    'current_preset' => 'textbox-alternative',
   ),
   'row' => 6,
   'sticky' => false,
@@ -424,6 +443,7 @@ $main->add_element("Uwidget", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -473,6 +493,7 @@ $main->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1460687479005-1471',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

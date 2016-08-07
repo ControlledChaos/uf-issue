@@ -1,5 +1,5 @@
 <?php
-$sidebar_right_container = ( !empty($region_container) ? $region_container : "main-area" );
+$sidebar_right_container = ( !empty($region_container) ? $region_container : "block-content" );
 $sidebar_right_sub = ( !empty($region_sub) ? $region_sub: "right" );
 
 /* START_REGION_OUTPUT */
@@ -508,6 +508,8 @@ $sidebar_right->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1470525469202-1094',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -664,6 +666,18 @@ $sidebar_right->add_element("Uwidget", array (
          'label' => 'Show hierarchy',
       )),
     )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -723,6 +737,8 @@ $sidebar_right->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1470525472393-1505',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
