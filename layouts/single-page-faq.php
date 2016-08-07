@@ -48,40 +48,58 @@ $breadcrumbs = upfront_create_region(
 
 $breadcrumbs->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1470546159568-1420 upfront-module-spacer',
   'id' => 'module-1470546159568-1420',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1470546159567-1016',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1470546159567-1016',
   ),
-  'wrapper_id' => 'wrapper-1470546159567-1251',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1470546159567-1251',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $breadcrumbs->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1470545794422-1583',
   'id' => 'module-1470545794422-1583',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">Home</a> <span class="upfront_theme_color_7">/</span> FAQ</h6>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1470545794421-1299',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
@@ -91,9 +109,12 @@ $breadcrumbs->add_element("PlainTxt", array (
     'is_edited' => true,
     'row' => 5,
   ),
-  'row' => 5,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470546125278-1011',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -102,15 +123,15 @@ $breadcrumbs->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -132,22 +153,38 @@ $breadcrumbs->add_element("PlainTxt", array (
 
 $breadcrumbs->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1470546157429-1483 upfront-module-spacer',
   'id' => 'module-1470546157429-1483',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1470546157429-1501',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1470546157429-1501',
   ),
-  'wrapper_id' => 'wrapper-1470546157428-1936',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1470546157428-1936',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $regions->add($breadcrumbs);
@@ -614,12 +651,12 @@ $main_area->add_element("Uaccordion", array (
     array (
       0 => 
       (array)(array(
-         'content' => '<p class="">Lorem ipsum dolor sit amet</p><p class=""></p>',
+         'content' => '<p class="">Chartreuse man braid brooklyn small batch, pickled 90\'s venmo pabst. Everyday carry dreamcatcher kombucha flexitarian, put a bird on it gochujang biodiesel banjo tousled. Typewriter keffiyeh irony salvia art party, wolf chambray ennui. Bicycle rights drinking vinegar church-key yuccie, shoreditch bitters iPhone banjo 8-bit PBR&amp;B farm-to-table pug raw denim.</p>',
          'title' => '<p class="">How can I write for Issue Magazine?</p>',
       )),
       1 => 
       (array)(array(
-         'content' => '<p>Content</p>',
+         'content' => '<p class="">Banjo narwhal man braid, viral single-origin coffee thundercats YOLO sriracha. Jean shorts irony cardigan fap, occupy everyday carry cornhole disrupt fashion axe fanny pack street art crucifix beard. Man bun kale chips shabby chic, lumbersexual 3 wolf moon before they sold out dreamcatcher locavore polaroid VHS quinoa.</p>',
          'title' => '<p class="">Do you have an RSS feed?</p>',
       )),
       2 => 
@@ -630,17 +667,17 @@ $main_area->add_element("Uaccordion", array (
       3 => 
       (array)(array(
          'title' => '<p class="">What about international subscriptions?</p>',
-         'content' => '<p>Content 4</p>',
+         'content' => '<p class="">Put a bird on it pickled brunch yuccie next level. XOXO celiac tattooed, pug letterpress chillwave offal affogato vinyl waistcoat gluten-free. Four dollar toast ethical chillwave 3 wolf moon, intelligentsia etsy blue bottle waistcoat bitters echo park shoreditch. Tousled pabst health goth, +1 helvetica small batch <strong data-redactor-tag="strong" data-verified="redactor">food truck pour-over</strong> sustainable you probably haven\'t heard of them listicle VHS 3 wolf moon seitan vice.</p><p class="">YOLO neutra selvage flexitarian butcher helvetica. Photo booth listicle selfies, literally twee yr disrupt echo park pitchfork vice irony.<br></p>',
       )),
       4 => 
       (array)(array(
          'title' => '<p class="">Can I use an&nbsp;Issuemagazine.com photo on my blog?</p>',
-         'content' => '<p>Content 5</p>',
+         'content' => '<p class="">Banjo narwhal man braid, viral single-origin coffee thundercats YOLO sriracha. Jean shorts irony cardigan fap, occupy everyday carry cornhole disrupt fashion axe fanny pack street art crucifix beard. Man bun kale chips shabby chic, lumbersexual 3 wolf moon before they sold out dreamcatcher locavore polaroid VHS quinoa. Tacos craft beer fashion axe, cold-pressed pickled intelligentsia meggings pitchfork four dollar toast.</p>',
       )),
       5 => 
       (array)(array(
          'title' => '<p class="">Can I link to an Issuemagazine.com story on my own blog?</p>',
-         'content' => '<p>Content 6</p>',
+         'content' => '<p class="">Tousled pabst health goth, +1 helvetica small batch food truck pour-over sustainable you probably haven\'t heard of them listicle VHS 3 wolf moon seitan vice. Green juice beard hashtag cardigan freegan yr, pour-over helvetica flexitarian typewriter before they sold out gentrify jean shorts. Keytar typewriter humblebrag locavore, you probably haven\'t heard of them stumptown intelligentsia man bun farm-to-table listicle photo booth banh mi. DIY normcore post-ironic tattooed direct trade salvia, austin keffiyeh blog kinfolk distillery.</p>',
       )),
     ),
     'accordion_count' => 6,

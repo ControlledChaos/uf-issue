@@ -173,57 +173,39 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1076,
+         'menu-item-db-id' => 1095,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1076',
+         'menu-item-object-id' => '1095',
          'menu-item-target' => '',
          'menu-item-position' => 1,
-         'link' => 
-        (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
-           'target' => '',
-        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1077,
+         'menu-item-db-id' => 1096,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1077',
+         'menu-item-object-id' => '1096',
          'menu-item-target' => '',
          'menu-item-position' => 2,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/contact/',
-           'target' => '',
-        )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1078,
+         'menu-item-db-id' => 1097,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1078',
+         'menu-item-object-id' => '1097',
          'menu-item-target' => '',
          'menu-item-position' => 3,
-         'link' => 
-        (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
-           'target' => '',
-        )),
       )),
     ),
     'preset' => 'navigation-footer',
