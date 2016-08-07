@@ -86,6 +86,7 @@ $footer->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 5,
       )),
     )),
     'theme_style' => '',
@@ -113,15 +114,15 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'clear' => true,
-      'col' => 4,
+      'col' => 5,
       'order' => 0,
       'edited' => true,
     ),
     'mobile' => 
     array (
-      'clear' => true,
-      'col' => 5,
-      'order' => 0,
+      'clear' => false,
+      'col' => 6,
+      'order' => 1,
       'edited' => true,
     ),
     'current_property' => 
@@ -133,7 +134,7 @@ $footer->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 5,
       'edited' => true,
       'left' => 0,
       'top' => 0,
@@ -144,10 +145,11 @@ $footer->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'col' => 5,
+      'col' => 6,
       'left' => 0,
       'top' => 0,
       'edited' => true,
+      'row' => 5,
     ),
   ),
 ));
@@ -171,13 +173,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 949,
+         'menu-item-db-id' => 1000,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '949',
+         'menu-item-object-id' => '1000',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -189,13 +191,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 950,
+         'menu-item-db-id' => 1001,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '950',
+         'menu-item-object-id' => '1001',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -207,13 +209,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 951,
+         'menu-item-db-id' => 1002,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '951',
+         'menu-item-object-id' => '1002',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -264,6 +266,14 @@ $footer->add_element("Unewnavigation", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'right_padding_num' => '0',
+         'right_padding_use' => 'yes',
+         'top_padding_num' => '5',
+         'top_padding_use' => 'yes',
+         'left_padding_num' => '0',
+         'left_padding_use' => 'yes',
+         'bottom_padding_num' => '0',
+         'bottom_padding_use' => 'yes',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -283,15 +293,15 @@ $footer->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'clear' => false,
-      'col' => 8,
+      'col' => 7,
       'order' => 1,
       'edited' => true,
     ),
     'mobile' => 
     array (
-      'clear' => false,
-      'col' => 2,
-      'order' => 1,
+      'clear' => true,
+      'col' => 1,
+      'order' => 0,
       'edited' => true,
     ),
     'current_property' => 
@@ -303,7 +313,7 @@ $footer->add_element("Unewnavigation", array (
   array (
     'tablet' => 
     array (
-      'col' => 8,
+      'col' => 7,
       'left' => 0,
       'top' => 0,
       'edited' => true,
@@ -314,7 +324,7 @@ $footer->add_element("Unewnavigation", array (
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 1,
       'left' => 0,
       'top' => 0,
       'edited' => true,

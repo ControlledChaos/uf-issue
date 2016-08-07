@@ -136,11 +136,11 @@ $featured_articles->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'textbox-titles-for-tablet',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-special-for-mobile',
+         'preset' => 'textbox-titles-for-mobile',
       )),
     )),
     'row' => 8,
@@ -455,7 +455,7 @@ $featured_articles->add_element("Posts", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 253,
+         'row' => 235,
       )),
     )),
     'theme_style' => '',
@@ -505,7 +505,7 @@ $featured_articles->add_element("Posts", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 253,
+      'row' => 235,
     ),
     'current_property' => 
     array (
