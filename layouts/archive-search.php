@@ -24,12 +24,14 @@ $breadcrumbs = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
+     'current_property' => 'background_type',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -126,7 +128,7 @@ $breadcrumbs->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 4,
+         'row' => 5,
       )),
     )),
   ),
@@ -169,7 +171,7 @@ $breadcrumbs->add_element("PlainTxt", array (
     array (
       'col' => 7,
       'edited' => true,
-      'row' => 4,
+      'row' => 5,
     ),
   ),
 ));
@@ -231,14 +233,17 @@ $block_title = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_type' => 'color',
+       'row' => 31,
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
        'background_type' => 'color',
+       'row' => 17,
     )),
      'current_property' => 'background_type',
   )),
@@ -384,6 +389,7 @@ $block_title->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
+         'row' => 6,
       )),
     )),
     'current_preset' => 'textbox-titles',
@@ -431,6 +437,7 @@ $block_title->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 6,
     ),
     'current_property' => 
     array (
@@ -641,11 +648,11 @@ $block_title->add_element("Uimage", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 16,
+         'row' => 14,
          'element_size' => 
         (array)(array(
            'width' => 60,
-           'height' => 50,
+           'height' => 48,
         )),
       )),
        'current_property' => 'use_padding',
@@ -937,20 +944,22 @@ $block_content = upfront_create_region(
        'edited' => false,
        'col' => 24,
        'background_type' => 'color',
-       'bottom_bg_padding_slider' => '25',
-       'bottom_bg_padding_num' => '25',
+       'bottom_bg_padding_slider' => '30',
+       'bottom_bg_padding_num' => '30',
+       'top_bg_padding_num' => '10',
+       'top_bg_padding_slider' => '10',
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
        'background_type' => 'color',
-       'top_bg_padding_slider' => '0',
-       'top_bg_padding_num' => '0',
-       'bottom_bg_padding_slider' => '20',
-       'bottom_bg_padding_num' => '20',
+       'top_bg_padding_slider' => '10',
+       'top_bg_padding_num' => '10',
+       'bottom_bg_padding_slider' => '10',
+       'bottom_bg_padding_num' => '10',
     )),
-     'current_property' => 'bottom_bg_padding_num',
+     'current_property' => 'bottom_bg_padding_slider',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -1033,7 +1042,7 @@ $block_content->add_element("Posts", array (
     'pagination' => '',
     'sticky' => '',
     'posts_list' => '',
-    'thumbnail_size' => 'large',
+    'thumbnail_size' => 'thumbnail',
     'custom_thumbnail_width' => 200,
     'custom_thumbnail_height' => 200,
     'post_parts' => 
@@ -1074,8 +1083,7 @@ $block_content->add_element("Posts", array (
     'resize_featured' => '1',
     'gravatar_size' => 200,
     'preset' => 'default',
-    'post-part-date_posted' => '<div class="uposts-part date_posted">
-	Posted on <span class="datetime">{{datetime}}</span></div>',
+    'post-part-date_posted' => '<div class="uposts-part date_posted"><span class="datetime">{{datetime}}</span></div>',
     'post-part-author' => '<div class="uposts-part author">&nbsp;- By <a href="{{url}}">{{name}}</a></div>',
     'post-part-gravatar' => '<div class="uposts-part gravatar">
 	{{gravatar}}
@@ -1106,7 +1114,7 @@ $block_content->add_element("Posts", array (
 ',
     'element_id' => 'posts-object-1460769715632-1127',
     'padding_slider' => '15',
-    'top_padding_num' => '15',
+    'top_padding_num' => '0',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -1120,6 +1128,10 @@ $block_content->add_element("Posts", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '0',
+         'top_padding_num' => '0',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -1149,6 +1161,8 @@ $block_content->add_element("Posts", array (
     )),
     'current_preset' => 'default',
     'theme_style' => '',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,

@@ -22,12 +22,15 @@ $breadcrumbs = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
     )),
+     'current_property' => 'background_type',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -52,8 +55,8 @@ $breadcrumbs->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460691599722-1573 upfront-module-spacer',
-  'id' => 'module-1460691599722-1573',
+  'class' => 'module-1470607845656-1899 upfront-module-spacer',
+  'id' => 'module-1470607845656-1899',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -61,16 +64,16 @@ $breadcrumbs->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1460691599721-1738',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470607845656-1127',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1460691599720-1865',
+  'wrapper_id' => 'wrapper-1470607845656-1277',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -91,40 +94,26 @@ $breadcrumbs->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460688658058-1024',
-  'id' => 'module-1460688658058-1024',
+  'class' => 'module-1470607801668-1562',
+  'id' => 'module-1470607801668-1562',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"></a><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1">Home</span></a> /</span> Archive</h6>',
+    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">Home</a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span> Archive</h6>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1460688658057-1865',
+    'element_id' => 'text-object-1470607801668-1852',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-special',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
-    'lock_padding' => '',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'textbox-special',
-      )),
-    )),
     'is_edited' => true,
-    'row' => 3,
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '15',
+    'row' => 6,
+    'current_preset' => 'default',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -137,29 +126,26 @@ $breadcrumbs->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'textbox-special',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1460691536971-1594',
+  'wrapper_id' => 'wrapper-1470607808253-1732',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 12,
       'order' => 1,
-      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 7,
       'order' => 1,
-      'clear' => true,
     ),
     'current_property' => 
     array (
@@ -170,21 +156,15 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 0,
       'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
     ),
     'current_property' => 
     array (
       0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
 ));
@@ -195,8 +175,8 @@ $breadcrumbs->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460691597551-1206 upfront-module-spacer',
-  'id' => 'module-1460691597551-1206',
+  'class' => 'module-1470607843016-1107 upfront-module-spacer',
+  'id' => 'module-1470607843016-1107',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -204,16 +184,16 @@ $breadcrumbs->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1460691597551-1960',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470607843016-1367',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1460691597550-1897',
+  'wrapper_id' => 'wrapper-1470607843015-1713',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -246,14 +226,18 @@ $block_title = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_type' => 'color',
+       'row' => 31,
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
     )),
+     'current_property' => 'background_type',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -391,6 +375,7 @@ $block_title->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
+         'row' => 5,
       )),
     )),
     'current_preset' => 'textbox-titles',
@@ -433,10 +418,11 @@ $block_title->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 5,
     ),
     'current_property' => 
     array (
@@ -564,7 +550,7 @@ $block_title->add_element("Uimage", array (
   'id' => 'module-1460688550162-1717',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive/issue-icon-search-48x48-4018.png',
+    'src' => '{{upfront:style_url}}/images/archive/issue-icon-search-48x48-5068.png',
     'srcFull' => '{{upfront:style_url}}/images/archive/issue-icon-search.png',
     'srcOriginal' => '{{upfront:style_url}}/images/archive/issue-icon-search.png',
     'image_title' => '',
@@ -588,7 +574,7 @@ $block_title->add_element("Uimage", array (
     'position' => 
     (array)(array(
        'top' => 0,
-       'left' => 0,
+       'left' => -6,
     )),
     'marginTop' => 0,
     'element_size' => 
@@ -600,7 +586,7 @@ $block_title->add_element("Uimage", array (
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '214',
+    'image_id' => 853,
     'align' => 'center',
     'stretch' => false,
     'vstretch' => true,
@@ -631,7 +617,7 @@ $block_title->add_element("Uimage", array (
     'usingNewAppearance' => true,
     'valign' => 'center',
     'isDotAlign' => true,
-    'row' => 6,
+    'row' => 16,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -657,6 +643,12 @@ $block_title->add_element("Uimage", array (
       )),
     )),
     'current_preset' => 'default',
+    'lock_padding' => '',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'top_padding_use' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,
@@ -938,7 +930,7 @@ $block_content = upfront_create_region(
        'bottom_bg_padding_slider' => '10',
        'bottom_bg_padding_num' => '10',
     )),
-     'current_property' => 'bottom_bg_padding_num',
+     'current_property' => 'background_type',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -1091,7 +1083,7 @@ $block_content->add_element("Posts", array (
 ',
     'element_id' => 'module-1442668077434-1795-object',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '15',
+    'top_padding_num' => '0',
     'padding_slider' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
@@ -1100,7 +1092,7 @@ $block_content->add_element("Posts", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '0',
     'usingNewAppearance' => true,
     'theme_style' => '',
     'breakpoint_presets' => 
@@ -1124,12 +1116,20 @@ $block_content->add_element("Posts", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '0',
+         'top_padding_num' => '0',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 438,
+         'row' => 478,
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '0',
+         'top_padding_num' => '0',
       )),
     )),
     'current_preset' => 'default',
@@ -1175,7 +1175,7 @@ $block_content->add_element("Posts", array (
       'top' => 0,
       'order' => 0,
       'edited' => true,
-      'row' => 438,
+      'row' => 478,
     ),
     'current_property' => 
     array (
