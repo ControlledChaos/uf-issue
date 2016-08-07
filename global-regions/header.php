@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_ceafd4 = upfront_create_region(
+$region_48b259 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_ceafd4 = upfront_create_region(
 )
 			);
 
-$region_ceafd4->add_element("Uimage", array (
+$region_48b259->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -167,15 +167,15 @@ $region_ceafd4->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 6,
-      'order' => 1,
+      'col' => 2,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 4,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'current_property' => 
@@ -189,7 +189,7 @@ $region_ceafd4->add_element("Uimage", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 6,
+      'col' => 2,
       'order' => 0,
       'row' => 12,
       'top' => 0,
@@ -212,14 +212,14 @@ $region_ceafd4->add_element("Uimage", array (
   ),
 ));
 
-$region_ceafd4->add_element("Unewnavigation", array (
-  'columns' => '21',
+$region_48b259->add_element("Unewnavigation", array (
+  'columns' => '20',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460079592426-1517',
-  'id' => 'module-1460079592426-1517',
+  'class' => 'module-1470519278643-1251',
+  'id' => 'module-1470519278643-1251',
   'options' => 
   array (
     'type' => 'UnewnavigationModel',
@@ -231,26 +231,26 @@ $region_ceafd4->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 857,
+         'menu-item-db-id' => 940,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Issues',
          'menu-item-url' => '{{upfront:home_url}}',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '857',
+         'menu-item-object-id' => '940',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'sub' => 
         array (
           0 => 
           (array)(array(
-             'menu-item-db-id' => 858,
-             'menu-item-parent-id' => '857',
+             'menu-item-db-id' => 941,
+             'menu-item-parent-id' => '940',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'TV',
              'menu-item-url' => '{{upfront:home_url}}/tv/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '858',
+             'menu-item-object-id' => '941',
              'menu-item-target' => '',
              'menu-item-position' => 2,
              'link' => 
@@ -262,13 +262,13 @@ $region_ceafd4->add_element("Unewnavigation", array (
           )),
           1 => 
           (array)(array(
-             'menu-item-db-id' => 859,
-             'menu-item-parent-id' => '857',
+             'menu-item-db-id' => 942,
+             'menu-item-parent-id' => '940',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Photography',
              'menu-item-url' => '{{upfront:home_url}}/photography/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '859',
+             'menu-item-object-id' => '942',
              'menu-item-target' => '',
              'menu-item-position' => 3,
              'link' => 
@@ -280,13 +280,13 @@ $region_ceafd4->add_element("Unewnavigation", array (
           )),
           2 => 
           (array)(array(
-             'menu-item-db-id' => 860,
-             'menu-item-parent-id' => '857',
+             'menu-item-db-id' => 943,
+             'menu-item-parent-id' => '940',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Tech News',
              'menu-item-url' => '{{upfront:home_url}}/tech-news/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '860',
+             'menu-item-object-id' => '943',
              'menu-item-target' => '',
              'menu-item-position' => 4,
              'link' => 
@@ -298,13 +298,13 @@ $region_ceafd4->add_element("Unewnavigation", array (
           )),
           3 => 
           (array)(array(
-             'menu-item-db-id' => 861,
-             'menu-item-parent-id' => '857',
+             'menu-item-db-id' => 944,
+             'menu-item-parent-id' => '940',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Music',
              'menu-item-url' => '{{upfront:home_url}}/music/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '861',
+             'menu-item-object-id' => '944',
              'menu-item-target' => '',
              'menu-item-position' => 5,
              'link' => 
@@ -316,13 +316,13 @@ $region_ceafd4->add_element("Unewnavigation", array (
           )),
           4 => 
           (array)(array(
-             'menu-item-db-id' => 862,
-             'menu-item-parent-id' => '857',
+             'menu-item-db-id' => 945,
+             'menu-item-parent-id' => '940',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Gallery',
              'menu-item-url' => '{{upfront:home_url}}/gallery/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '862',
+             'menu-item-object-id' => '945',
              'menu-item-target' => '',
              'menu-item-position' => 6,
              'link' => 
@@ -342,13 +342,13 @@ $region_ceafd4->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 863,
+         'menu-item-db-id' => 946,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '863',
+         'menu-item-object-id' => '946',
          'menu-item-target' => '',
          'menu-item-position' => 7,
          'link' => 
@@ -360,13 +360,13 @@ $region_ceafd4->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 864,
+         'menu-item-db-id' => 947,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'FAQ',
          'menu-item-url' => '{{upfront:home_url}}/faq/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '864',
+         'menu-item-object-id' => '947',
          'menu-item-target' => '',
          'menu-item-position' => 8,
          'link' => 
@@ -378,13 +378,13 @@ $region_ceafd4->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 865,
+         'menu-item-db-id' => 948,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '865',
+         'menu-item-object-id' => '948',
          'menu-item-target' => '',
          'menu-item-position' => 9,
          'link' => 
@@ -404,7 +404,7 @@ $region_ceafd4->add_element("Unewnavigation", array (
     array (
       0 => 'no',
     ),
-    'element_id' => 'unewnavigation-object-1460079592424-1838',
+    'element_id' => 'unewnavigation-object-1470519278643-1968',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
@@ -412,12 +412,25 @@ $region_ceafd4->add_element("Unewnavigation", array (
     'usingNewAppearance' => true,
     'menu_id' => false,
     'menu_slug' => 'main-menu',
-    'row' => 7,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '0',
     'right_padding_num' => '15',
     'anchor' => '',
+    'current_preset' => 'navigation-header',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'navigation-header',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'navigation-header',
+      )),
+    )),
+    'row' => 6,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'left_padding_use' => 'yes',
@@ -426,51 +439,52 @@ $region_ceafd4->add_element("Unewnavigation", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 7,
+         'top_padding_num' => '14',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '15',
-         'top_padding_num' => '15',
+         'right_padding_num' => '15',
+         'right_padding_use' => 'yes',
+         'left_padding_num' => '15',
+         'left_padding_use' => 'yes',
+         'bottom_padding_num' => '0',
+         'bottom_padding_use' => 'yes',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 11,
+         'left_padding_num' => '15',
+         'left_padding_use' => 'yes',
+         'top_padding_num' => '14',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '15',
-         'top_padding_num' => '15',
+         'right_padding_num' => '15',
+         'right_padding_use' => 'yes',
+         'bottom_padding_num' => '0',
+         'bottom_padding_use' => 'yes',
       )),
     )),
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'navigation-header',
-      )),
-    )),
-    'current_preset' => 'navigation-header',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1460079733641-1153',
+  'wrapper_id' => 'wrapper-1470521398017-1420',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 6,
-      'order' => 3,
       'clear' => false,
+      'col' => 10,
+      'order' => 1,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'col' => 3,
-      'order' => 3,
       'clear' => false,
+      'col' => 3,
+      'order' => 1,
+      'edited' => true,
     ),
     'current_property' => 
     array (
@@ -481,38 +495,34 @@ $region_ceafd4->add_element("Unewnavigation", array (
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'col' => 10,
       'left' => 0,
-      'col' => 6,
-      'order' => 0,
       'top' => 0,
-      'hide' => 0,
-    ),
-    'mobile' => 
-    array (
       'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'order' => 0,
-      'top' => 0,
-      'hide' => 0,
-      'row' => 11,
+      'row' => 7,
     ),
     'current_property' => 
     array (
       0 => 'edited',
     ),
+    'mobile' => 
+    array (
+      'col' => 3,
+      'left' => 0,
+      'top' => 0,
+      'edited' => true,
+    ),
   ),
 ));
 
-$region_ceafd4->add_element("Uspacer", array (
-  'columns' => '1',
+$region_48b259->add_element("Uspacer", array (
+  'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460769118475-1358 upfront-module-spacer',
-  'id' => 'module-1460769118475-1358',
+  'class' => 'module-1470521433576-1830 upfront-module-spacer',
+  'id' => 'module-1470521433576-1830',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -520,27 +530,26 @@ $region_ceafd4->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1460769118475-1096',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470521433576-1973',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1460769118473-1439',
+  'wrapper_id' => 'wrapper-1470521433576-1716',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 1,
       'edited' => true,
+      'col' => 2,
     ),
     'mobile' => 
     array (
-      'col' => 1,
-      'edited' => true,
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -557,13 +566,9 @@ $region_ceafd4->add_element("Uspacer", array (
     array (
       0 => 'edited',
     ),
-    'mobile' => 
-    array (
-      'edited' => true,
-    ),
   ),
 ));
 
-$regions->add($region_ceafd4);
+$regions->add($region_48b259);
 
 /* END_REGION_OUTPUT */

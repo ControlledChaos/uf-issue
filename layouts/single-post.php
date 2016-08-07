@@ -166,6 +166,10 @@ $main->add_group(array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -182,6 +186,10 @@ $main->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -350,16 +358,20 @@ $main->add_element("PostData", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
+      'col' => 4,
       'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 4,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -368,15 +380,19 @@ $main->add_element("PostData", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 4,
       'order' => 0,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 7,
+      'col' => 4,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1461599929350-1532',
@@ -404,14 +420,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'new_line' => true,
@@ -563,16 +575,20 @@ $main->add_element("PostData", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
+      'col' => 4,
       'order' => 2,
-      'clear' => true,
+      'clear' => false,
     ),
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 7,
+      'col' => 3,
       'order' => 2,
-      'clear' => true,
+      'clear' => false,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -581,15 +597,19 @@ $main->add_element("PostData", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 4,
       'order' => 0,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 7,
+      'col' => 3,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1461599929350-1532',
@@ -617,14 +637,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -743,9 +759,9 @@ $main->add_element("PostData", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
+      'col' => 4,
       'order' => 3,
-      'clear' => true,
+      'clear' => false,
     ),
     'mobile' => 
     array (
@@ -753,6 +769,10 @@ $main->add_element("PostData", array (
       'col' => 7,
       'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -761,7 +781,7 @@ $main->add_element("PostData", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 4,
       'order' => 0,
     ),
     'mobile' => 
@@ -770,6 +790,10 @@ $main->add_element("PostData", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1461599929350-1532',
@@ -797,14 +821,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -966,6 +986,10 @@ $main->add_element("PostData", array (
       'order' => 2,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -982,6 +1006,10 @@ $main->add_element("PostData", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'objects' => 
@@ -1008,14 +1036,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1212,6 +1236,10 @@ $main->add_element("PostData", array (
       'order' => 3,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -1228,6 +1256,10 @@ $main->add_element("PostData", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'objects' => 
@@ -1254,14 +1286,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1673,6 +1701,10 @@ $main->add_element("PostData", array (
       'order' => 4,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -1689,6 +1721,10 @@ $main->add_element("PostData", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'objects' => 
@@ -1714,14 +1750,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'breakpoint' => 
@@ -1763,14 +1795,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 2,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 2,
-          'clear' => true,
         ),
       ),
       'new_line' => true,
@@ -1813,14 +1841,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 3,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 3,
-          'clear' => true,
         ),
       ),
       'new_line' => true,
@@ -1884,6 +1908,8 @@ $main->add_element("Uspacer", array (
 $regions->add($main);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php');
+
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

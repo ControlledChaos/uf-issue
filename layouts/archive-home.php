@@ -71,7 +71,6 @@ $main_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1460434661733-1264',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1357,7 +1356,6 @@ $main_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1460434687769-1057',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

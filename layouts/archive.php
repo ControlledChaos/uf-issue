@@ -180,6 +180,10 @@ $breadcrumbs->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
 ));
 
@@ -331,12 +335,12 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3>ARCHIVE</h3>',
+    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;ARCHIVE &nbsp;</span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460688550152-1108',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-special',
+    'preset' => 'textbox-titles',
     'padding_slider' => '15',
     'top_padding_num' => '11',
     'bottom_padding_num' => '58',
@@ -353,7 +357,7 @@ $block_title->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-special',
+         'preset' => 'textbox-titles',
       )),
        'tablet' => 
       (array)(array(
@@ -364,7 +368,7 @@ $block_title->add_element("PlainTxt", array (
          'preset' => 'textbox-special-for-mobile',
       )),
     )),
-    'row' => 9,
+    'row' => 8,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'breakpoint' => 
@@ -387,8 +391,9 @@ $block_title->add_element("PlainTxt", array (
          'bottom_padding_num' => '0',
       )),
     )),
+    'current_preset' => 'textbox-titles',
   ),
-  'row' => 6,
+  'row' => 8,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1162,6 +1167,10 @@ $block_content->add_element("Posts", array (
       'order' => 0,
       'edited' => true,
       'row' => 438,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

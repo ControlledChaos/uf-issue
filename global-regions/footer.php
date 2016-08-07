@@ -44,7 +44,7 @@ $footer = upfront_create_region(
 			);
 
 $footer->add_element("PlainTxt", array (
-  'columns' => '17',
+  'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -63,7 +63,7 @@ $footer->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '18',
-    'bottom_padding_num' => '10',
+    'bottom_padding_num' => '12',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -83,6 +83,22 @@ $footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
     )),
   ),
   'row' => 6,
@@ -104,12 +120,13 @@ $footer->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'clear' => true,
-      'col' => 7,
-      'order' => 1,
+      'col' => 5,
+      'order' => 0,
+      'edited' => true,
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -123,23 +140,26 @@ $footer->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
     'mobile' => 
     array (
-      'col' => 7,
+      'col' => 5,
+      'left' => 0,
+      'top' => 0,
+      'edited' => true,
     ),
   ),
 ));
 
 $footer->add_element("Unewnavigation", array (
-  'columns' => '7',
+  'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460602751853-1023',
-  'id' => 'module-1460602751853-1023',
+  'class' => 'module-1470520456440-1347',
+  'id' => 'module-1470520456440-1347',
   'options' => 
   array (
     'type' => 'UnewnavigationModel',
@@ -151,42 +171,60 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 866,
+         'menu-item-db-id' => 949,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '866',
+         'menu-item-object-id' => '949',
          'menu-item-target' => '',
          'menu-item-position' => 1,
+         'link' => 
+        (array)(array(
+           'type' => 'unlink',
+           'url' => '#',
+           'target' => '',
+        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 867,
+         'menu-item-db-id' => 950,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '867',
+         'menu-item-object-id' => '950',
          'menu-item-target' => '',
          'menu-item-position' => 2,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/contact/',
+           'target' => '',
+        )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 868,
+         'menu-item-db-id' => 951,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '868',
+         'menu-item-object-id' => '951',
          'menu-item-target' => '',
          'menu-item-position' => 3,
+         'link' => 
+        (array)(array(
+           'type' => 'unlink',
+           'url' => '#',
+           'target' => '',
+        )),
       )),
     ),
-    'preset' => 'navigation-footer-white',
+    'preset' => 'navigation-footer',
     'allow_sub_nav' => 
     array (
       0 => 'no',
@@ -195,31 +233,32 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 'no',
     ),
-    'element_id' => 'unewnavigation-object-1460602751851-1886',
+    'element_id' => 'unewnavigation-object-1470520456440-1201',
     'padding_slider' => '15',
     'top_padding_num' => '5',
-    'bottom_padding_num' => '5',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
-    'menu_slug' => 'footer-menu',
     'menu_id' => false,
+    'menu_slug' => 'footer-menu',
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '0',
-    'right_padding_num' => '10',
+    'right_padding_num' => '15',
     'anchor' => '',
+    'current_preset' => 'navigation-footer',
+    'theme_style' => '',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'navigation-footer-white',
+         'preset' => 'navigation-footer',
       )),
     )),
-    'row' => 2,
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '5',
+    'row' => 7,
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '5',
+    'bottom_padding_use' => 'yes',
+    'left_padding_use' => 'yes',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -232,57 +271,54 @@ $footer->add_element("Unewnavigation", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'navigation-footer-white',
-    'left_padding_use' => 'yes',
-    'right_padding_use' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1460603110402-1751',
+  'wrapper_id' => 'wrapper-1470521271113-1883',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'clear' => false,
       'col' => 8,
       'order' => 1,
-      'clear' => false,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
+      'clear' => false,
+      'col' => 2,
+      'order' => 1,
+      'edited' => true,
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'left' => 0,
       'col' => 8,
-      'order' => 0,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
       'left' => 0,
-      'col' => 7,
-      'order' => 0,
+      'top' => 0,
+      'edited' => true,
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+      'left' => 0,
+      'top' => 0,
+      'edited' => true,
+      'hide' => 1,
     ),
   ),
 ));

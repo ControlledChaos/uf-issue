@@ -52,8 +52,8 @@ $breadcrumbs->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467497431726-1401 upfront-module-spacer',
-  'id' => 'module-1467497431726-1401',
+  'class' => 'module-1470547148310-1004 upfront-module-spacer',
+  'id' => 'module-1470547148310-1004',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -61,14 +61,14 @@ $breadcrumbs->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467497431726-1451',
+    'element_id' => 'spacer-object-1470547148310-1102',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467497431726-1442',
+  'wrapper_id' => 'wrapper-1470547148310-1848',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -89,77 +89,64 @@ $breadcrumbs->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467496060021-1841',
-  'id' => 'module-1467496060021-1841',
+  'class' => 'module-1470547096746-1732',
+  'id' => 'module-1470547096746-1732',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"></a><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">Home</span></a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span></span> Music</h6>',
+    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">Home</a> <span class="upfront_theme_color_7">/ </span>Music</h6>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1467496060021-1593',
+    'element_id' => 'text-object-1470547096745-1110',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'lock_padding' => '',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'textbox-alternative',
-      )),
-    )),
-    'row' => 6,
+    'row' => 5,
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467497429329-1590',
+  'wrapper_id' => 'wrapper-1470547115007-1554',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 12,
       'order' => 1,
-      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 7,
       'order' => 1,
-      'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 0,
       'col' => 12,
-      'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 0,
       'col' => 7,
-      'order' => 0,
     ),
   ),
 ));
@@ -170,8 +157,8 @@ $breadcrumbs->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467497433363-1635 upfront-module-spacer',
-  'id' => 'module-1467497433363-1635',
+  'class' => 'module-1470547146218-1777 upfront-module-spacer',
+  'id' => 'module-1470547146218-1777',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -179,14 +166,14 @@ $breadcrumbs->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1467497433363-1913',
+    'element_id' => 'spacer-object-1470547146218-1661',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1467497433363-1771',
+  'wrapper_id' => 'wrapper-1470547146218-1259',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -294,12 +281,12 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3>MUSIC</h3>',
+    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;MUSIC &nbsp;</span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1467497429453-1338',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'textbox-titles',
     'padding_slider' => '15',
     'top_padding_num' => '11',
     'bottom_padding_num' => '58',
@@ -316,12 +303,13 @@ $block_title->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'textbox-titles',
       )),
     )),
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'row' => 10,
+    'current_preset' => 'textbox-titles',
   ),
   'row' => 6,
   'sticky' => false,
@@ -345,6 +333,10 @@ $block_title->add_element("PlainTxt", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -361,6 +353,10 @@ $block_title->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -539,6 +535,10 @@ $block_title->add_element("Uimage", array (
       'order' => 2,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -555,6 +555,10 @@ $block_title->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -653,6 +657,10 @@ $block_title->add_element("Uwidget", array (
       'order' => 3,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -669,6 +677,10 @@ $block_title->add_element("Uwidget", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -922,6 +934,10 @@ $main_area->add_element("Posts", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -938,6 +954,10 @@ $main_area->add_element("Posts", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

@@ -12,7 +12,7 @@ $social_footer = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 53,
+  'row' => 42,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -43,8 +43,8 @@ $social_footer = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => '60',
   'top_bg_padding_num' => '60',
-  'bottom_bg_padding_slider' => '60',
-  'bottom_bg_padding_num' => '60',
+  'bottom_bg_padding_slider' => '63',
+  'bottom_bg_padding_num' => '63',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc3',

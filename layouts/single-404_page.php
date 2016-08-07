@@ -314,6 +314,7 @@ $main->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'textbox-special',
   ),
   'row' => 6,
   'sticky' => false,

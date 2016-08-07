@@ -48,170 +48,106 @@ $breadcrumbs = upfront_create_region(
 
 $breadcrumbs->add_element("Uspacer", array (
   'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1461788581471-1436 upfront-module-spacer',
-  'id' => 'module-1461788581471-1436',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1470546159568-1420',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1470546159567-1016',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1461788581471-1926',
-    'preset' => 'default',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1470546159567-1251',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1461788581471-1550',
+  'hide' => 0,
+  'edited' => true,
   'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
 ));
 
 $breadcrumbs->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '0',
-  'margin_right' => '0',
   'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1461788105239-1053',
-  'id' => 'module-1461788105239-1053',
+  'class' => '',
+  'id' => 'module-1470545794422-1583',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Home</span></a> <span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">/</span> FAQ</h6>',
+    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">Home</a> <span class="upfront_theme_color_7">/</span> FAQ</h6>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1461788105239-1158',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1470545794421-1299',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-special',
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'lock_padding' => '',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'textbox-special',
-      )),
-    )),
-    'row' => 4,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'use_padding' => 'yes',
-      )),
-       'current_property' => 'use_padding',
-    )),
+    'row' => 5,
   ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1461788184032-1422',
+  'row' => 5,
+  'wrapper_id' => 'wrapper-1470546125278-1011',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 12,
       'order' => 1,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 1,
-      'clear' => true,
     ),
     'current_property' => 
     array (
       0 => 'order',
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 1,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 0,
       'col' => 12,
-      'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 0,
       'col' => 7,
-      'order' => 0,
     ),
   ),
 ));
 
 $breadcrumbs->add_element("Uspacer", array (
   'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1461788579510-1172 upfront-module-spacer',
-  'id' => 'module-1461788579510-1172',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1470546157429-1483',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1470546157429-1501',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1461788579510-1361',
-    'preset' => 'default',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1470546157428-1936',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1461788579509-1155',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $regions->add($breadcrumbs);
@@ -309,12 +245,12 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3>FAQ</h3>',
+    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;FAQ &nbsp;</span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-special',
+    'preset' => 'textbox-titles',
     'padding_slider' => '15',
     'top_padding_num' => '11',
     'bottom_padding_num' => '30',
@@ -331,7 +267,7 @@ $main_area->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-special',
+         'preset' => 'textbox-titles',
       )),
        'tablet' => 
       (array)(array(
@@ -351,6 +287,7 @@ $main_area->add_element("PlainTxt", array (
       )),
        'current_property' => 'use_padding',
     )),
+    'current_preset' => 'textbox-titles',
   ),
   'row' => 6,
   'sticky' => false,
@@ -394,6 +331,10 @@ $main_area->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -490,7 +431,7 @@ $main_area->add_element("PlainTxt", array (
     'element_id' => 'text-object-1461788467919-1184',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '40',
@@ -510,7 +451,7 @@ $main_area->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'text-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -528,8 +469,9 @@ $main_area->add_element("PlainTxt", array (
       )),
        'current_property' => 'use_padding',
     )),
+    'current_preset' => 'default',
   ),
-  'row' => 22,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -571,6 +513,10 @@ $main_area->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -764,6 +710,10 @@ $main_area->add_element("Uaccordion", array (
       'col' => 7,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
 ));
 
@@ -880,8 +830,8 @@ $sidebar_right->add_element("Uwidget", array (
       )),
     )),
     'padding_slider' => '15',
-    'top_padding_num' => '23',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '10',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'lock_padding' => '',
@@ -959,6 +909,10 @@ $sidebar_right->add_element("Uwidget", array (
       )),
        'current_property' => 'use_padding',
     )),
+    'current_preset' => 'widget-alternative',
+    'top_padding_slider' => '10',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -994,7 +948,7 @@ $sidebar_right->add_element("Uwidget", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -1003,6 +957,10 @@ $sidebar_right->add_element("Uwidget", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -1055,7 +1013,7 @@ $sidebar_right->add_group(array (
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1466893505276-1415',
   'original_col' => 6,
-  'top_padding_num' => '25',
+  'top_padding_num' => '20',
   'bottom_padding_num' => '25',
   'use_padding' => 'yes',
   'edited' => true,
@@ -1067,11 +1025,11 @@ $sidebar_right->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'top_padding_use' => 'yes',
-  'top_padding_slider' => '25',
+  'top_padding_slider' => '20',
   'bottom_padding_use' => 'yes',
   'bottom_padding_slider' => '25',
   'lock_padding' => '',
-  'row' => 45,
+  'row' => 39,
   'href' => '{{upfront:home_url}}/contact/',
   'linkTarget' => false,
   'new_line' => true,
@@ -1102,7 +1060,7 @@ $sidebar_right->add_group(array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -1111,6 +1069,10 @@ $sidebar_right->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -1276,7 +1238,7 @@ $sidebar_right->add_element("Uimage", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -1285,6 +1247,10 @@ $sidebar_right->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1466893545608-1404',
@@ -1340,15 +1306,15 @@ $sidebar_right->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 style="text-align: center;">CONTACT US NOW</h5>',
+    'content' => '<h3 style="text-align: center;"><span style="color:rgb(131, 142, 141)">CONTACT US NOW</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1466890533010-1688',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
-    'top_padding_num' => '5',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '5',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -1363,7 +1329,7 @@ $sidebar_right->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -1375,6 +1341,10 @@ $sidebar_right->add_element("PlainTxt", array (
       )),
        'current_property' => 'use_padding',
     )),
+    'current_preset' => 'default',
+    'top_padding_slider' => '0',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '5',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1390,7 +1360,7 @@ $sidebar_right->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 2,
-      'clear' => false,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -1410,7 +1380,7 @@ $sidebar_right->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -1419,6 +1389,10 @@ $sidebar_right->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1466893545608-1404',
@@ -1591,6 +1565,10 @@ $sidebar_right->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
