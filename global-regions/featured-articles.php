@@ -449,7 +449,7 @@ $featured_articles->add_element("Posts", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 163,
+         'row' => 56,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -497,7 +497,7 @@ $featured_articles->add_element("Posts", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 163,
+      'row' => 56,
     ),
     'mobile' => 
     array (

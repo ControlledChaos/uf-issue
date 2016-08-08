@@ -113,6 +113,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1461009814861-1726',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -211,6 +213,19 @@ $main->add_element("PostData", array (
     'predefined_date_format' => 'M d Y',
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
+    'current_preset' => 'title-only',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -290,6 +305,8 @@ $main->add_element("PostData", array (
           'col' => 7,
         ),
       ),
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -298,6 +315,7 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
+          'use_padding' => 'yes',
         ),
         'mobile' => 
         array (
@@ -305,6 +323,11 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'use_padding' => 'yes',
+        ),
+        'current_property' => 
+        array (
+          0 => 'use_padding',
         ),
       ),
     ),
@@ -327,6 +350,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1461009818081-1776',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -363,6 +388,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1461010235848-1292',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -400,7 +427,7 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'content-only',
+    'preset' => 'indent-content-only',
     'row' => 107,
     'type_parts' => 
     array (
@@ -434,7 +461,15 @@ $main->add_element("PostData", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'content-only',
+         'preset' => 'indent-content-only',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'indent-content-only-for-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'indent-content-only-for-mobile',
       )),
     )),
     'static-date_posted-use-typography' => 'yes',
@@ -461,6 +496,20 @@ $main->add_element("PostData", array (
     'predefined_date_format' => 'M d Y',
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
+    'current_preset' => 'indent-content-only',
+    'theme_style' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -540,6 +589,8 @@ $main->add_element("PostData", array (
           'col' => 7,
         ),
       ),
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -548,6 +599,8 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'mobile' => 
         array (
@@ -555,6 +608,12 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 0,
+        ),
+        'current_property' => 
+        array (
+          0 => 'use_padding',
         ),
       ),
     ),
@@ -577,6 +636,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1461010239148-1931',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
