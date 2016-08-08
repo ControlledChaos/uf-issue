@@ -455,7 +455,7 @@ $featured_articles->add_element("Posts", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 235,
+         'row' => 48,
       )),
     )),
     'theme_style' => '',
@@ -505,7 +505,7 @@ $featured_articles->add_element("Posts", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 235,
+      'row' => 48,
     ),
     'current_property' => 
     array (
