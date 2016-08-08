@@ -721,7 +721,7 @@ $sidebar_left->add_element("Uimage", array (
   'id' => 'module-1466893370411-1369',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/sidebar-left/issue-art-poster-190x240-5091.jpg',
+    'src' => '{{upfront:style_url}}/images/global-regions/sidebar-left/issue-art-poster-195x277-4498.jpg',
     'srcFull' => '{{upfront:style_url}}/images/global-regions/sidebar-left/issue-art-poster.jpg',
     'srcOriginal' => '{{upfront:style_url}}/images/global-regions/sidebar-left/issue-art-poster.jpg',
     'image_title' => '',
@@ -734,8 +734,8 @@ $sidebar_left->add_element("Uimage", array (
     'image_status' => 'ok',
     'size' => 
     (array)(array(
-       'width' => 190,
-       'height' => 270,
+       'width' => 195,
+       'height' => 277,
     )),
     'fullSize' => 
     (array)(array(
@@ -744,22 +744,22 @@ $sidebar_left->add_element("Uimage", array (
     )),
     'position' => 
     (array)(array(
-       'top' => 15,
-       'left' => -2.5,
+       'top' => 0,
+       'left' => 0,
     )),
     'marginTop' => 0,
     'element_size' => 
     (array)(array(
        'width' => 195,
-       'height' => 240,
+       'height' => 277,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '389',
+    'image_id' => '39',
     'align' => 'center',
-    'stretch' => false,
+    'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
     'is_locked' => true,
@@ -787,8 +787,8 @@ $sidebar_left->add_element("Uimage", array (
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'valign' => 'center',
-    'isDotAlign' => true,
-    'row' => 54,
+    'isDotAlign' => false,
+    'row' => 62,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -803,7 +803,7 @@ $sidebar_left->add_element("Uimage", array (
     )),
     'current_preset' => 'default',
   ),
-  'row' => 6,
+  'row' => 62,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
