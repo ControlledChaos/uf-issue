@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_cbd310 = upfront_create_region(
+$region_f6ac61 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_cbd310 = upfront_create_region(
 )
 			);
 
-$region_cbd310->add_element("Uimage", array (
+$region_f6ac61->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -212,7 +212,7 @@ $region_cbd310->add_element("Uimage", array (
   ),
 ));
 
-$region_cbd310->add_element("Unewnavigation", array (
+$region_f6ac61->add_element("Unewnavigation", array (
   'columns' => '20',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -231,114 +231,168 @@ $region_cbd310->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1086,
+         'menu-item-db-id' => 15,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Issues',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1086',
+         'menu-item-object-id' => '15',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'sub' => 
         array (
           0 => 
           (array)(array(
-             'menu-item-db-id' => 1087,
-             'menu-item-parent-id' => '1086',
+             'menu-item-db-id' => 16,
+             'menu-item-parent-id' => '15',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'TV',
              'menu-item-url' => '{{upfront:home_url}}/tv/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '1087',
+             'menu-item-object-id' => '16',
              'menu-item-target' => '',
              'menu-item-position' => 2,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/tv/',
+               'target' => '',
+            )),
           )),
           1 => 
           (array)(array(
-             'menu-item-db-id' => 1088,
-             'menu-item-parent-id' => '1086',
+             'menu-item-db-id' => 17,
+             'menu-item-parent-id' => '15',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Photography',
              'menu-item-url' => '{{upfront:home_url}}/photography/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '1088',
+             'menu-item-object-id' => '17',
              'menu-item-target' => '',
              'menu-item-position' => 3,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/photography/',
+               'target' => '',
+            )),
           )),
           2 => 
           (array)(array(
-             'menu-item-db-id' => 1089,
-             'menu-item-parent-id' => '1086',
+             'menu-item-db-id' => 18,
+             'menu-item-parent-id' => '15',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Tech News',
              'menu-item-url' => '{{upfront:home_url}}/tech-news/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '1089',
+             'menu-item-object-id' => '18',
              'menu-item-target' => '',
              'menu-item-position' => 4,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/tech-news/',
+               'target' => '',
+            )),
           )),
           3 => 
           (array)(array(
-             'menu-item-db-id' => 1090,
-             'menu-item-parent-id' => '1086',
+             'menu-item-db-id' => 19,
+             'menu-item-parent-id' => '15',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Music',
              'menu-item-url' => '{{upfront:home_url}}/music/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '1090',
+             'menu-item-object-id' => '19',
              'menu-item-target' => '',
              'menu-item-position' => 5,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/music/',
+               'target' => '',
+            )),
           )),
           4 => 
           (array)(array(
-             'menu-item-db-id' => 1091,
-             'menu-item-parent-id' => '1086',
+             'menu-item-db-id' => 20,
+             'menu-item-parent-id' => '15',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Gallery',
              'menu-item-url' => '{{upfront:home_url}}/gallery/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '1091',
+             'menu-item-object-id' => '20',
              'menu-item-target' => '',
              'menu-item-position' => 6,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/gallery/',
+               'target' => '',
+            )),
           )),
         ),
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/blog/',
+           'target' => '',
+        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1092,
+         'menu-item-db-id' => 21,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1092',
+         'menu-item-object-id' => '21',
          'menu-item-target' => '',
          'menu-item-position' => 7,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/about/',
+           'target' => '',
+        )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1093,
+         'menu-item-db-id' => 22,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'FAQ',
          'menu-item-url' => '{{upfront:home_url}}/faq/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1093',
+         'menu-item-object-id' => '22',
          'menu-item-target' => '',
          'menu-item-position' => 8,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/faq/',
+           'target' => '',
+        )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 1094,
+         'menu-item-db-id' => 23,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1094',
+         'menu-item-object-id' => '23',
          'menu-item-target' => '',
          'menu-item-position' => 9,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/contact/',
+           'target' => '',
+        )),
       )),
     ),
     'preset' => 'navigation-header',
@@ -461,7 +515,7 @@ $region_cbd310->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_cbd310->add_element("Uspacer", array (
+$region_f6ac61->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -515,6 +569,6 @@ $region_cbd310->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($region_cbd310);
+$regions->add($region_f6ac61);
 
 /* END_REGION_OUTPUT */

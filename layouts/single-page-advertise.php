@@ -15,7 +15,7 @@ $breadcrumbs = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 7,
+  'row' => 6,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -97,7 +97,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">Home</a> <span class="upfront_theme_color_7">/</span> FAQ</h6>',
+    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">Home</a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span> Advertiste</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470545794421-1299',
     'class' => 'c24 upfront-plain_txt',
@@ -307,7 +307,7 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;FAQ &nbsp;</span></h5>',
+    'content' => '<h5><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;ADVERTISE&nbsp;&nbsp;</span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
@@ -461,8 +461,8 @@ $main_area->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1466824604102-1980 upfront-module-spacer',
-  'id' => 'module-1466824604102-1980',
+  'class' => 'module-1470613399190-1593 upfront-module-spacer',
+  'id' => 'module-1470613399190-1593',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -470,16 +470,16 @@ $main_area->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1466824604101-1061',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470613399190-1782',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1466824604101-1954',
+  'wrapper_id' => 'wrapper-1470613399190-1185',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -506,7 +506,7 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><span style="color:rgb(131, 142, 141)">Chambray bitters Blue Bottle ugh, Portland wolf Truffaut sriracha 90\'s before they sold out trust fund selvage. Forage fanny pack DIY roof party 8-bit, narwhal XOXO Truffaut banjo ugh master cleanse banh mi PBR&amp;B authentic plaid. Pour-over lomo Williamsburg swag, actually cardigan synth bespoke direct trade.</span></p>',
+    'content' => '<p class=""><span style="color:rgb(131, 142, 141)">Chambray bitters Blue Bottle ugh, Portland wolf Truffaut sriracha 90\'s before they sold out trust fund selvage. Forage fanny pack DIY roof party 8-bit, narwhal XOXO Truffaut banjo ugh master cleanse banh mi PBR&amp;B authentic plaid. Pour-over lomo Williamsburg swag, actually cardigan synth bespoke direct trade.</span></p><p class=""><span style="color:rgb(131, 142, 141)">For details of rates email </span><a target="_self" data-upfront-link-type="email" href="mailto:advertise@issuemag.com">advertise@issuemag.com</a><br></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788467919-1184',
     'class' => 'c24 upfront-plain_txt',
@@ -523,7 +523,7 @@ $main_area->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'row' => 22,
+    'row' => 37,
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '40',
     'theme_style' => '',
@@ -551,6 +551,7 @@ $main_area->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_slider' => '35',
          'top_padding_num' => '35',
@@ -563,7 +564,7 @@ $main_area->add_element("PlainTxt", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1466824601804-1725',
+  'wrapper_id' => 'wrapper-1470613397479-1037',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -614,8 +615,8 @@ $main_area->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1466824764175-1768 upfront-module-spacer',
-  'id' => 'module-1466824764175-1768',
+  'class' => 'module-1470613400743-1439 upfront-module-spacer',
+  'id' => 'module-1470613400743-1439',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -623,16 +624,16 @@ $main_area->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1466824764174-1190',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470613400743-1208',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1466824764173-1867',
+  'wrapper_id' => 'wrapper-1470613400743-1227',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -652,8 +653,8 @@ $main_area->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1466891446561-1566 upfront-module-spacer',
-  'id' => 'module-1466891446561-1566',
+  'class' => 'module-1470613679392-1950 upfront-module-spacer',
+  'id' => 'module-1470613679392-1950',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -661,16 +662,16 @@ $main_area->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1466891446560-1636',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470613679392-1163',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1466891446560-1295',
+  'wrapper_id' => 'wrapper-1470613679392-1187',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -685,58 +686,44 @@ $main_area->add_element("Uspacer", array (
   ),
 ));
 
-$main_area->add_element("Uaccordion", array (
+$main_area->add_element("Ucontact", array (
   'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1466822570571-1312',
-  'id' => 'module-1466822570571-1312',
+  'class' => 'module-1470613230608-1252',
+  'id' => 'module-1470613230608-1252',
   'options' => 
   array (
-    'type' => 'UaccordionModel',
-    'view_class' => 'UaccordionView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-accordion',
-    'accordion' => 
+    'form_add_title' => 
     array (
-      0 => 
-      (array)(array(
-         'content' => '<p class="">Chartreuse man braid brooklyn small batch, pickled 90\'s venmo pabst. Everyday carry dreamcatcher kombucha flexitarian, put a bird on it gochujang biodiesel banjo tousled. Typewriter keffiyeh irony salvia art party, wolf chambray ennui. Bicycle rights drinking vinegar church-key yuccie, shoreditch bitters iPhone banjo 8-bit PBR&amp;B farm-to-table pug raw denim.</p>',
-         'title' => '<p class="">How can I write for Issue Magazine?</p>',
-      )),
-      1 => 
-      (array)(array(
-         'content' => '<p class="">Banjo narwhal man braid, viral single-origin coffee thundercats YOLO sriracha. Jean shorts irony cardigan fap, occupy everyday carry cornhole disrupt fashion axe fanny pack street art crucifix beard. Man bun kale chips shabby chic, lumbersexual 3 wolf moon before they sold out dreamcatcher locavore polaroid VHS quinoa.</p>',
-         'title' => '<p class="">Do you have an RSS feed?</p>',
-      )),
-      2 => 
-      (array)(array(
-         'title' => '<p class="">I have a question about my magazine subscription. Who do I contact?</p>',
-         'content' => '<p class="">For all queries about your magazine subscription, please email <a target="_self" data-upfront-link-type="email" href="mailto:subscriptions@issuemag.com">subscriptions@issuemag.com</a>.</p>',
-      )),
-      3 => 
-      (array)(array(
-         'title' => '<p class="">What about international subscriptions?</p>',
-         'content' => '<p class="">Put a bird on it pickled brunch yuccie next level. XOXO celiac tattooed, pug letterpress chillwave offal affogato vinyl waistcoat gluten-free. Four dollar toast ethical chillwave 3 wolf moon, intelligentsia etsy blue bottle waistcoat bitters echo park shoreditch. Tousled pabst health goth, +1 helvetica small batch <strong data-redactor-tag="strong" data-verified="redactor">food truck pour-over</strong> sustainable you probably haven\'t heard of them listicle VHS 3 wolf moon seitan vice.</p><p class="">YOLO neutra selvage flexitarian butcher helvetica. Photo booth listicle selfies, literally twee yr disrupt echo park pitchfork vice irony.<br></p>',
-      )),
-      4 => 
-      (array)(array(
-         'title' => '<p class="">Can I use an&nbsp;Issuemagazine.com photo on my blog?</p>',
-         'content' => '<p class="">Banjo narwhal man braid, viral single-origin coffee thundercats YOLO sriracha. Jean shorts irony cardigan fap, occupy everyday carry cornhole disrupt fashion axe fanny pack street art crucifix beard. Man bun kale chips shabby chic, lumbersexual 3 wolf moon before they sold out dreamcatcher locavore polaroid VHS quinoa. Tacos craft beer fashion axe, cold-pressed pickled intelligentsia meggings pitchfork four dollar toast.</p>',
-      )),
-      5 => 
-      (array)(array(
-         'title' => '<p class="">Can I link to an Issuemagazine.com story on my own blog?</p>',
-         'content' => '<p class="">Tousled pabst health goth, +1 helvetica small batch food truck pour-over sustainable you probably haven\'t heard of them listicle VHS 3 wolf moon seitan vice. Green juice beard hashtag cardigan freegan yr, pour-over helvetica flexitarian typewriter before they sold out gentrify jean shorts. Keytar typewriter humblebrag locavore, you probably haven\'t heard of them stumptown intelligentsia man bun farm-to-table listicle photo booth banh mi. DIY normcore post-ironic tattooed direct trade salvia, austin keffiyeh blog kinfolk distillery.</p>',
-      )),
     ),
-    'accordion_count' => 6,
-    'accordion_fixed_width' => 'auto',
-    'id_slug' => 'uaccordion',
-    'preset' => 'default',
-    'element_id' => 'uaccordion-object-1466822570570-1212',
+    'form_title' => 'Contact form',
+    'form_name_label' => 'Company',
+    'form_email_label' => 'Email',
+    'form_email_to' => '',
+    'show_subject' => 
+    array (
+      0 => 'true',
+    ),
+    'show_captcha' => 
+    array (
+    ),
+    'form_subject_label' => 'Where to Advertise?',
+    'form_captcha_label' => 'CAPTCHA:',
+    'form_default_subject' => 'Sent from the website',
+    'form_message_label' => 'Extra Notes',
+    'form_button_text' => 'Send',
+    'form_validate_when' => 'submit',
+    'form_label_position' => 'over',
+    'preset' => 'contact-alternative',
+    'type' => 'UcontactModel',
+    'view_class' => 'UcontactView',
+    'class' => 'c24 upfront-contact-form',
+    'has_settings' => 1,
+    'id_slug' => 'ucontact',
+    'element_id' => 'ucontact-object-1470613230607-1236',
     'padding_slider' => '15',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -747,6 +734,16 @@ $main_area->add_element("Uaccordion", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
+    'current_preset' => 'contact-alternative',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'contact-alternative',
+      )),
+    )),
+    'row' => 42,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -759,29 +756,26 @@ $main_area->add_element("Uaccordion", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1466891443842-1212',
+  'wrapper_id' => 'wrapper-1470613676287-1268',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 12,
       'order' => 3,
-      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'clear' => true,
       'col' => 7,
       'order' => 3,
-      'clear' => true,
     ),
     'current_property' => 
     array (
@@ -792,21 +786,15 @@ $main_area->add_element("Uaccordion", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 0,
       'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
     ),
     'current_property' => 
     array (
       0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
 ));
@@ -817,8 +805,8 @@ $main_area->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1466891530769-1543 upfront-module-spacer',
-  'id' => 'module-1466891530769-1543',
+  'class' => 'module-1470613682823-1280 upfront-module-spacer',
+  'id' => 'module-1470613682823-1280',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -826,16 +814,16 @@ $main_area->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1466891530769-1802',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470613682823-1845',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1466891530768-1437',
+  'wrapper_id' => 'wrapper-1470613682822-1392',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

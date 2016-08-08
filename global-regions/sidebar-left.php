@@ -23,11 +23,13 @@ $sidebar_left = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'hide' => 1,
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'hide' => 1,
     )),
   )),
   'background_type' => 'color',
@@ -35,11 +37,11 @@ $sidebar_left = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '45',
+  'bottom_bg_padding_num' => '45',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
-  'background_color' => '#ffffff',
+  'background_color' => 'rgba(0,0,0,0)',
 )
 			);
 
@@ -87,8 +89,8 @@ $sidebar_left->add_element("Uwidget", array (
       )),
     )),
     'padding_slider' => '15',
-    'top_padding_num' => '23',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '10',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'lock_padding' => '',
@@ -158,6 +160,22 @@ $sidebar_left->add_element("Uwidget", array (
     )),
     'top_padding_use' => 'yes',
     'row' => 47,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
+    'current_preset' => 'widget-alternative',
+    'top_padding_slider' => '10',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -193,7 +211,7 @@ $sidebar_left->add_element("Uwidget", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -202,6 +220,10 @@ $sidebar_left->add_element("Uwidget", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -222,6 +244,8 @@ $sidebar_left->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1466825544792-1506',
+    'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -253,9 +277,9 @@ $sidebar_left->add_group(array (
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1466893505276-1415',
   'original_col' => 6,
-  'top_padding_num' => '25',
+  'top_padding_num' => '20',
   'bottom_padding_num' => '25',
-  'use_padding' => 1,
+  'use_padding' => 'yes',
   'edited' => true,
   'background_color' => 'rgba(240,246,245,1)',
   'background_style' => 'full',
@@ -265,12 +289,12 @@ $sidebar_left->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'top_padding_use' => 'yes',
-  'top_padding_slider' => '25',
+  'top_padding_slider' => '20',
   'bottom_padding_use' => 'yes',
   'bottom_padding_slider' => '25',
   'lock_padding' => '',
-  'row' => 45,
-  'href' => '{{upfront:home_url}}',
+  'row' => 39,
+  'href' => '{{upfront:home_url}}/contact/',
   'linkTarget' => false,
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -300,7 +324,7 @@ $sidebar_left->add_group(array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -309,6 +333,10 @@ $sidebar_left->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -329,6 +357,8 @@ $sidebar_left->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1466893505277-1984',
+    'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -431,6 +461,19 @@ $sidebar_left->add_element("Uimage", array (
     'valign' => 'center',
     'isDotAlign' => false,
     'row' => 16,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -465,7 +508,7 @@ $sidebar_left->add_element("Uimage", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -474,6 +517,10 @@ $sidebar_left->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1466893545608-1404',
@@ -495,6 +542,8 @@ $sidebar_left->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1466893442329-1955',
+    'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -528,15 +577,15 @@ $sidebar_left->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h4 style="text-align: center;">SUBSCRIBE T<span>ODAY</span></h4>',
+    'content' => '<h3 style="text-align: center;"><span style="color:rgb(131, 142, 141)">CONTACT US NOW</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1466890533010-1688',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'text-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
-    'top_padding_num' => '5',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '5',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -551,10 +600,26 @@ $sidebar_left->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'text-alternative',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
+    'current_preset' => 'default',
+    'top_padding_slider' => '0',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '5',
   ),
   'row' => 6,
   'sticky' => false,
@@ -570,7 +635,7 @@ $sidebar_left->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 2,
-      'clear' => false,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -590,7 +655,7 @@ $sidebar_left->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
     ),
     'mobile' => 
@@ -599,6 +664,10 @@ $sidebar_left->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1466893545608-1404',
@@ -620,6 +689,8 @@ $sidebar_left->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1466893547953-1180',
+    'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -718,6 +789,19 @@ $sidebar_left->add_element("Uimage", array (
     'valign' => 'center',
     'isDotAlign' => true,
     'row' => 54,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -763,6 +847,10 @@ $sidebar_left->add_element("Uimage", array (
       'col' => 7,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
 ));
 
@@ -782,6 +870,8 @@ $sidebar_left->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1466894068570-1645',
+    'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

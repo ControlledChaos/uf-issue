@@ -15,7 +15,7 @@ $breadcrumbs = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 13,
+  'row' => 6,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -25,8 +25,9 @@ $breadcrumbs = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 7,
     )),
   )),
   'background_type' => 'color',
@@ -121,6 +122,7 @@ $breadcrumbs->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 6,
       )),
     )),
     'lock_padding' => 0,
@@ -179,6 +181,8 @@ $breadcrumbs->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
+      'edited' => true,
+      'row' => 6,
     ),
   ),
 ));
@@ -251,7 +255,7 @@ $block_title = upfront_create_region(
        'bottom_bg_padding_num' => '20',
        'bottom_bg_padding_slider' => '20',
     )),
-     'current_property' => 'bottom_bg_padding_slider',
+     'current_property' => 'background_type',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -328,7 +332,7 @@ $block_title->add_element("PlainTxt", array (
     'has_settings' => 1,
     'preset' => 'textbox-titles',
     'padding_slider' => '15',
-    'top_padding_num' => '11',
+    'top_padding_num' => '13',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -368,6 +372,10 @@ $block_title->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
       )),
     )),
     'current_preset' => 'textbox-titles',
@@ -832,7 +840,7 @@ $block_banner->add_element("Uimage", array (
            'height' => 95,
         )),
       )),
-       'current_property' => 'element_size',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
