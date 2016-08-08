@@ -998,7 +998,7 @@ $main_area->add_element("Posts", array (
     'class' => 'c24 uposts-object',
     'id_slug' => 'posts',
     'display_type' => 'list',
-    'list_type' => 'taxonomy',
+    'list_type' => 'generic',
     'offset' => 1,
     'taxonomy' => 'category',
     'term' => '57',
