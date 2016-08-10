@@ -12,7 +12,7 @@ $social_footer = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 42,
+  'row' => 52,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -54,7 +54,7 @@ $social_footer = upfront_create_region(
 			);
 
 $social_footer->add_element("Uspacer", array (
-  'columns' => '2',
+  'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -83,11 +83,11 @@ $social_footer->add_element("Uspacer", array (
   array (
     'tablet' => 
     array (
-      'col' => 2,
+      'col' => 4,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 4,
       'edited' => true,
     ),
     'current_property' => 
@@ -134,7 +134,7 @@ $social_footer->add_group(array (
   'top_padding_slider' => '15',
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
-  'row' => 26,
+  'row' => 25,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -211,7 +211,7 @@ $social_footer->add_element("Button", array (
     )),
     'padding_slider' => '15',
     'top_padding_num' => '12',
-    'bottom_padding_num' => '16',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'lock_padding' => '',
@@ -243,6 +243,7 @@ $social_footer->add_element("Button", array (
       )),
     )),
     'current_preset' => 'button-email',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -308,14 +309,14 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">SEND US AN EMAIL</span></p>',
+    'content' => '<p style="text-align: center;"><font color="#ffffff">GET IN TOUCH</font><span></span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682864053-1557',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'preset' => 'textbox-alternative',
     'padding_slider' => '15',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -351,6 +352,8 @@ $social_footer->add_element("PlainTxt", array (
       )),
     )),
     'current_preset' => 'textbox-alternative',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -406,13 +409,13 @@ $social_footer->add_element("PlainTxt", array (
 ));
 
 $social_footer->add_element("Uspacer", array (
-  'columns' => '4',
+  'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460683163142-1334 upfront-module-spacer',
-  'id' => 'module-1460683163142-1334',
+  'class' => 'module-1470788757803-1803 upfront-module-spacer',
+  'id' => 'module-1470788757803-1803',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -420,41 +423,25 @@ $social_footer->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1460683163142-1636',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470788757802-1872',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1460683163141-1579',
+  'wrapper_id' => 'wrapper-1470788757801-1923',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 2,
     ),
     'mobile' => 
     array (
-      'col' => 4,
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'mobile' => 
-    array (
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
+      'col' => 2,
     ),
   ),
 ));
@@ -474,7 +461,7 @@ $social_footer->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
-  'row' => 23,
+  'row' => 25,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -550,7 +537,7 @@ $social_footer->add_element("Button", array (
     )),
     'padding_slider' => '15',
     'top_padding_num' => '12',
-    'bottom_padding_num' => '16',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'lock_padding' => '',
@@ -582,6 +569,7 @@ $social_footer->add_element("Button", array (
       )),
     )),
     'current_preset' => 'button-twitter',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -654,7 +642,7 @@ $social_footer->add_element("PlainTxt", array (
     'has_settings' => 1,
     'preset' => 'textbox-alternative',
     'padding_slider' => '15',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -690,6 +678,8 @@ $social_footer->add_element("PlainTxt", array (
       )),
     )),
     'current_preset' => 'textbox-alternative',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -745,13 +735,13 @@ $social_footer->add_element("PlainTxt", array (
 ));
 
 $social_footer->add_element("Uspacer", array (
-  'columns' => '4',
+  'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460683191299-1533 upfront-module-spacer',
-  'id' => 'module-1460683191299-1533',
+  'class' => 'module-1470788766677-1955 upfront-module-spacer',
+  'id' => 'module-1470788766677-1955',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -759,41 +749,25 @@ $social_footer->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1460683191298-1297',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1470788766677-1285',
     'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1460683191298-1299',
+  'wrapper_id' => 'wrapper-1470788766677-1625',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 2,
     ),
     'mobile' => 
     array (
-      'col' => 4,
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'mobile' => 
-    array (
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
+      'col' => 2,
     ),
   ),
 ));
@@ -813,7 +787,7 @@ $social_footer->add_group(array (
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'edited' => true,
-  'row' => 19,
+  'row' => 25,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -888,7 +862,7 @@ $social_footer->add_element("Button", array (
     )),
     'padding_slider' => '15',
     'top_padding_num' => '12',
-    'bottom_padding_num' => '16',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'lock_padding' => '',
@@ -920,6 +894,7 @@ $social_footer->add_element("Button", array (
       )),
     )),
     'current_preset' => 'button-facebook',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -992,7 +967,7 @@ $social_footer->add_element("PlainTxt", array (
     'has_settings' => 1,
     'preset' => 'textbox-alternative',
     'padding_slider' => '15',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -1014,7 +989,7 @@ $social_footer->add_element("PlainTxt", array (
          'preset' => 'textbox-alternative-for-tablet',
       )),
     )),
-    'row' => 8,
+    'row' => 6,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -1028,6 +1003,8 @@ $social_footer->add_element("PlainTxt", array (
       )),
     )),
     'current_preset' => 'textbox-alternative',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1083,7 +1060,7 @@ $social_footer->add_element("PlainTxt", array (
 ));
 
 $social_footer->add_element("Uspacer", array (
-  'columns' => '2',
+  'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1111,11 +1088,11 @@ $social_footer->add_element("Uspacer", array (
   array (
     'tablet' => 
     array (
-      'col' => 2,
+      'col' => 4,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 4,
       'edited' => true,
     ),
     'current_property' => 

@@ -98,7 +98,7 @@ $main = upfront_create_region(
 			);
 
 $main->add_element("Uspacer", array (
-  'columns' => '4',
+  'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -127,17 +127,17 @@ $main->add_element("Uspacer", array (
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 2,
     ),
     'mobile' => 
     array (
-      'col' => 4,
+      'col' => 2,
     ),
   ),
 ));
 
 $main->add_element("PostData", array (
-  'columns' => '16',
+  'columns' => '20',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -279,7 +279,7 @@ $main->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '16',
+      'columns' => '20',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -335,7 +335,7 @@ $main->add_element("PostData", array (
 ));
 
 $main->add_element("Uspacer", array (
-  'columns' => '4',
+  'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -363,11 +363,11 @@ $main->add_element("Uspacer", array (
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 2,
     ),
     'mobile' => 
     array (
-      'col' => 4,
+      'col' => 2,
     ),
   ),
 ));
@@ -427,8 +427,8 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'indent-content-only',
-    'row' => 107,
+    'preset' => 'content-only',
+    'row' => 49,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -461,15 +461,15 @@ $main->add_element("PostData", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'indent-content-only',
+         'preset' => 'content-only',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'indent-content-only-for-tablet',
+         'preset' => 'content-only',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'indent-content-only-for-mobile',
+         'preset' => 'content-only',
       )),
     )),
     'static-date_posted-use-typography' => 'yes',
@@ -496,7 +496,7 @@ $main->add_element("PostData", array (
     'predefined_date_format' => 'M d Y',
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
-    'current_preset' => 'indent-content-only',
+    'current_preset' => 'content-only',
     'theme_style' => '',
     'breakpoint' => 
     (array)(array(
@@ -510,6 +510,8 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
     )),
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,

@@ -81,6 +81,7 @@ $footer->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 6,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -100,6 +101,10 @@ $footer->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'default',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'textbox-default-center',
+      )),
     )),
   ),
   'row' => 6,
@@ -114,15 +119,15 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'clear' => true,
-      'col' => 5,
+      'col' => 12,
       'order' => 0,
       'edited' => true,
     ),
     'mobile' => 
     array (
-      'clear' => false,
-      'col' => 6,
-      'order' => 1,
+      'clear' => true,
+      'col' => 7,
+      'order' => 0,
       'edited' => true,
     ),
     'current_property' => 
@@ -134,10 +139,11 @@ $footer->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 5,
+      'col' => 12,
       'edited' => true,
       'left' => 0,
       'top' => 0,
+      'row' => 6,
     ),
     'current_property' => 
     array (
@@ -145,7 +151,7 @@ $footer->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'col' => 6,
+      'col' => 7,
       'left' => 0,
       'top' => 0,
       'edited' => true,
@@ -266,19 +272,30 @@ $footer->add_element("Unewnavigation", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'right_padding_num' => '0',
+         'right_padding_num' => '15',
          'right_padding_use' => 'yes',
-         'top_padding_num' => '5',
+         'top_padding_num' => '0',
          'top_padding_use' => 'yes',
-         'left_padding_num' => '0',
+         'left_padding_num' => '15',
          'left_padding_use' => 'yes',
-         'bottom_padding_num' => '0',
+         'bottom_padding_num' => '12',
          'bottom_padding_use' => 'yes',
+         'lock_padding' => '',
+         'top_padding_slider' => '0',
+         'row' => 4,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'right_padding_num' => '5',
+         'right_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_use' => 'yes',
+         'bottom_padding_num' => '12',
+         'bottom_padding_use' => 'yes',
+         'left_padding_num' => '5',
+         'left_padding_use' => 'yes',
       )),
     )),
   ),
@@ -292,16 +309,16 @@ $footer->add_element("Unewnavigation", array (
   array (
     'tablet' => 
     array (
-      'clear' => false,
-      'col' => 7,
+      'clear' => true,
+      'col' => 12,
       'order' => 1,
       'edited' => true,
     ),
     'mobile' => 
     array (
       'clear' => true,
-      'col' => 1,
-      'order' => 0,
+      'col' => 7,
+      'order' => 1,
       'edited' => true,
     ),
     'current_property' => 
@@ -313,10 +330,11 @@ $footer->add_element("Unewnavigation", array (
   array (
     'tablet' => 
     array (
-      'col' => 7,
+      'col' => 12,
       'left' => 0,
       'top' => 0,
       'edited' => true,
+      'row' => 4,
     ),
     'current_property' => 
     array (
@@ -324,11 +342,11 @@ $footer->add_element("Unewnavigation", array (
     ),
     'mobile' => 
     array (
-      'col' => 1,
+      'col' => 7,
       'left' => 0,
       'top' => 0,
       'edited' => true,
-      'hide' => 1,
+      'hide' => 0,
     ),
   ),
 ));

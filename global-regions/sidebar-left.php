@@ -159,7 +159,7 @@ $sidebar_left->add_element("Uwidget", array (
       )),
     )),
     'top_padding_use' => 'yes',
-    'row' => 47,
+    'row' => 12,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -177,7 +177,7 @@ $sidebar_left->add_element("Uwidget", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
   ),
-  'row' => 6,
+  'row' => 12,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -803,7 +803,7 @@ $sidebar_left->add_element("Uimage", array (
     )),
     'current_preset' => 'default',
   ),
-  'row' => 62,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
