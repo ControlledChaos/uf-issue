@@ -635,7 +635,7 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FOLLOW US ON TWITTER</span></p>',
+    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FOLLOW US ON</span></p><p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">TWITTER</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682946027-1860',
     'class' => 'c24 upfront-plain_txt',
@@ -960,7 +960,7 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">LIKE US ON FACEBOOK</span></p>',
+    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">LIKE US ON</span></p><p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FACEBOOK</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460683021232-1759',
     'class' => 'c24 upfront-plain_txt',

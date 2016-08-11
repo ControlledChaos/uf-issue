@@ -334,7 +334,7 @@ $featured_articles->add_element("Posts", array (
     'class' => 'c24 uposts-object',
     'id_slug' => 'posts',
     'display_type' => 'list',
-    'list_type' => 'generic',
+    'list_type' => 'taxonomy',
     'offset' => '1',
     'taxonomy' => '',
     'term' => '',
