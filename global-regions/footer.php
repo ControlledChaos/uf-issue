@@ -63,7 +63,7 @@ $footer->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '18',
-    'bottom_padding_num' => '12',
+    'bottom_padding_num' => '18',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -179,39 +179,57 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 89,
+         'menu-item-db-id' => 167,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '89',
+         'menu-item-object-id' => '167',
          'menu-item-target' => '',
          'menu-item-position' => 1,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/advertise/',
+           'target' => '',
+        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 90,
+         'menu-item-db-id' => 168,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '90',
+         'menu-item-object-id' => '168',
          'menu-item-target' => '',
          'menu-item-position' => 2,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/contact/',
+           'target' => '',
+        )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 91,
+         'menu-item-db-id' => 169,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '91',
+         'menu-item-object-id' => '169',
          'menu-item-target' => '',
          'menu-item-position' => 3,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/terms-of-use/',
+           'target' => '',
+        )),
       )),
     ),
     'preset' => 'navigation-footer',
