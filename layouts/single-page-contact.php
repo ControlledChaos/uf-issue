@@ -1496,30 +1496,40 @@ $block_map = upfront_create_region(
 
 $block_map->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1470799497369-1998 upfront-module-spacer',
   'id' => 'module-1470799497369-1998',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1470799497369-1687',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1470799497369-1687',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1470799497368-1154',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1470799497368-1154',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
     ),
     'current_property' => 
     array (
@@ -1541,6 +1551,10 @@ $block_map->add_element("Uspacer", array (
 
 $block_map->add_group(array (
   'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1470799208006-1773',
   'type' => 'ModuleGroup',
@@ -1548,7 +1562,7 @@ $block_map->add_group(array (
   'original_col' => 24,
   'top_padding_num' => 0,
   'bottom_padding_num' => 0,
-  'use_padding' => 1,
+  'use_padding' => 'yes',
   'background_color' => 'rgba(222,120,85,0.9)',
   'background_style' => 'full',
   'background_default' => 'hide',
@@ -1571,15 +1585,15 @@ $block_map->add_group(array (
       'order' => 0,
       'edited' => true,
     ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1593,7 +1607,7 @@ $block_map->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'edited',
+      0 => 'col',
     ),
     'mobile' => 
     array (
@@ -1681,15 +1695,15 @@ $block_map->add_element("PlainTxt", array (
       'col' => 6,
       'order' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1785,15 +1799,15 @@ $block_map->add_element("PlainTxt", array (
       'col' => 6,
       'order' => 2,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1832,7 +1846,7 @@ $block_map->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Head Office</span></span></p>',
+    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Head Office</span></span></p><p style="text-align: center;" rel="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">888 Madison Ave</span></span></p><p style="text-align: center;" rel="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">New York, NY 10173, USA<br></span></span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1467848905632-1229',
     'class' => 'c24 upfront-plain_txt',
@@ -1884,7 +1898,7 @@ $block_map->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
   ),
-  'row' => 4,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1899,221 +1913,31 @@ $block_map->add_element("PlainTxt", array (
       'col' => 6,
       'order' => 3,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 3,
     ),
-  ),
-  'breakpoint' => 
-  array (
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-    'tablet' => 
-    array (
-      'col' => 6,
-      'edited' => false,
-    ),
-  ),
-  'group' => 'module-group-1470799208006-1773',
-));
-
-$block_map->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_top' => '0',
-  'class' => '',
-  'id' => 'module-1470798610345-1815',
-  'options' => 
-  array (
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6">888 Madison Ave</span></p>',
-    'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
-    'element_id' => 'text-object-1470798610345-1237',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'id_slug' => 'plain_text',
-    'preset' => 'textbox-alternative',
-    'padding_slider' => '15',
-    'top_padding_num' => '0',
-    'bottom_padding_num' => '5',
-    'use_padding' => 'yes',
-    'usingNewAppearance' => true,
-    'is_edited' => true,
-    'lock_padding' => '',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'current_preset' => 'textbox-alternative',
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'textbox-alternative',
-      )),
-    )),
-    'row' => 4,
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'use_padding' => 'yes',
-      )),
-       'current_property' => 'use_padding',
-       'mobile' => 
-      (array)(array(
-         'use_padding' => 'yes',
-      )),
-    )),
-  ),
-  'row' => 4,
-  'wrapper_id' => 'wrapper-1470799208017-1066',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'col' => 6,
-      'order' => 4,
-    ),
     'current_property' => 
     array (
       0 => 'order',
     ),
-    'mobile' => 
-    array (
-      'clear' => true,
-      'col' => 7,
-      'order' => 4,
-    ),
   ),
   'breakpoint' => 
   array (
-    'tablet' => 
+    'mobile' => 
     array (
-      'col' => 6,
       'edited' => false,
+      'col' => 7,
     ),
     'current_property' => 
     array (
       0 => 'col',
     ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'edited' => false,
-    ),
-  ),
-  'group' => 'module-group-1470799208006-1773',
-));
-
-$block_map->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_top' => '0',
-  'class' => '',
-  'id' => 'module-1470799134242-1964',
-  'options' => 
-  array (
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">New York, NY 10173, USA</span></p>',
-    'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
-    'element_id' => 'text-object-1470799134241-1921',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'id_slug' => 'plain_text',
-    'preset' => 'textbox-alternative',
-    'padding_slider' => '15',
-    'top_padding_num' => '0',
-    'bottom_padding_num' => '15',
-    'use_padding' => 'yes',
-    'usingNewAppearance' => true,
-    'is_edited' => true,
-    'lock_padding' => '',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'current_preset' => 'textbox-alternative',
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'textbox-alternative',
-      )),
-    )),
-    'row' => 7,
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'use_padding' => 'yes',
-      )),
-       'current_property' => 'use_padding',
-       'mobile' => 
-      (array)(array(
-         'use_padding' => 'yes',
-      )),
-    )),
-  ),
-  'row' => 7,
-  'wrapper_id' => 'wrapper-1470799208019-1623',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'col' => 6,
-      'order' => 5,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-    'mobile' => 
-    array (
-      'clear' => true,
-      'col' => 7,
-      'order' => 5,
-    ),
-  ),
-  'breakpoint' => 
-  array (
     'tablet' => 
     array (
       'col' => 6,
-      'edited' => false,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
       'edited' => false,
     ),
   ),
@@ -2122,23 +1946,29 @@ $block_map->add_element("PlainTxt", array (
 
 $block_map->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1470799684819-1614 upfront-module-spacer',
   'id' => 'module-1470799684819-1614',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1470799684819-1171',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1470799684819-1171',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1470799684818-1844',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1470799684818-1844',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2146,6 +1976,10 @@ $block_map->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 6,
+    ),
+    'mobile' => 
+    array (
       'col' => 6,
     ),
     'current_property' => 
@@ -2171,29 +2005,39 @@ $block_map->add_element("Uspacer", array (
 
 $block_map->add_element("Uspacer", array (
   'columns' => '17',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1470799501225-1012 upfront-module-spacer',
   'id' => 'module-1470799501225-1012',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1470799501225-1339',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1470799501225-1339',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1470799501224-1394',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1470799501224-1394',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
+      'col' => 12,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
     'current_property' => 
     array (
