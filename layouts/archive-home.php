@@ -2074,8 +2074,10 @@ $categories->add_element("PlainTxt", array (
          'left_padding_use' => 'yes',
          'right_padding_num' => '35',
          'right_padding_use' => 'yes',
-         'bottom_padding_num' => '5',
+         'bottom_padding_num' => '0',
          'bottom_padding_use' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_slider' => '0',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -2412,8 +2414,10 @@ $categories->add_element("PlainTxt", array (
          'left_padding_use' => 'yes',
          'right_padding_num' => '35',
          'right_padding_use' => 'yes',
-         'bottom_padding_num' => '5',
+         'bottom_padding_num' => '0',
          'bottom_padding_use' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_slider' => '0',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -2527,7 +2531,7 @@ $categories->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -2829,10 +2833,12 @@ $categories->add_element("PlainTxt", array (
          'right_padding_use' => 'yes',
          'top_padding_num' => '15',
          'top_padding_use' => 'yes',
-         'bottom_padding_num' => '5',
+         'bottom_padding_num' => '0',
          'bottom_padding_use' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_slider' => '0',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -3144,14 +3150,15 @@ $categories->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '5',
-         'bottom_padding_num' => '5',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
          'top_padding_num' => '10',
          'left_padding_num' => '35',
          'right_padding_num' => '35',
          'top_padding_use' => 'yes',
          'left_padding_use' => 'yes',
          'right_padding_use' => 'yes',
+         'lock_padding' => '',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -3470,8 +3477,10 @@ $categories->add_element("PlainTxt", array (
          'right_padding_use' => 'yes',
          'top_padding_num' => '15',
          'top_padding_use' => 'yes',
-         'bottom_padding_num' => '5',
+         'bottom_padding_num' => '0',
          'bottom_padding_use' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_slider' => '0',
       )),
        'current_property' => 'use_padding',
        'mobile' => 

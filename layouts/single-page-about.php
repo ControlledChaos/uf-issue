@@ -958,38 +958,45 @@ $about_subnav = upfront_create_region(
 
 $about_subnav->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1471847745154-1048 upfront-module-spacer',
   'id' => 'module-1471847745154-1048',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1471847745154-1853',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1471847745154-1853',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1471847745153-1054',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1471847745153-1054',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
+      'col' => 2,
     ),
     'mobile' => 
     array (
       'edited' => true,
+      'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -1011,23 +1018,29 @@ $about_subnav->add_element("Uspacer", array (
 
 $about_subnav->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1471847799522-1137 upfront-module-spacer',
   'id' => 'module-1471847799522-1137',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1471847799521-1753',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1471847799521-1753',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1471847799521-1076',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1471847799521-1076',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1038,13 +1051,14 @@ $about_subnav->add_element("Uspacer", array (
       'order' => 2,
       'col' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
     'mobile' => 
     array (
       'edited' => true,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -1124,7 +1138,6 @@ $about_subnav->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1471845911654-1573',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1228,7 +1241,6 @@ $about_subnav->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470539865050-1640',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1332,7 +1344,6 @@ $about_subnav->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470539865053-1404',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1435,7 +1446,6 @@ $about_subnav->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470539865054-1030',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1540,7 +1550,6 @@ $about_subnav->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470539865056-1587',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1590,23 +1599,29 @@ $about_subnav->add_element("PlainTxt", array (
 
 $about_subnav->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1471847796866-1264 upfront-module-spacer',
   'id' => 'module-1471847796866-1264',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1471847796865-1220',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1471847796865-1220',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1471847796865-1985',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1471847796865-1985',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1616,13 +1631,14 @@ $about_subnav->add_element("Uspacer", array (
       'order' => 6,
       'col' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
     'mobile' => 
     array (
       'edited' => true,
+      'col' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -1647,37 +1663,44 @@ $about_subnav->add_element("Uspacer", array (
 
 $about_subnav->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1471847756123-1801 upfront-module-spacer',
   'id' => 'module-1471847756123-1801',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1471847756123-1407',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1471847756123-1407',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1471847756122-1758',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1471847756122-1758',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
+      'col' => 2,
     ),
     'mobile' => 
     array (
       'edited' => true,
+      'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -1852,7 +1875,7 @@ $main->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'bottom_padding_num',
+      0 => 'col',
     ),
     'mobile' => 
     array (
@@ -1991,12 +2014,12 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Editor-in-Chief</span></p>',
+    'content' => '<h4><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Editor-in-Chief</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470526520904-1610',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '20',
@@ -2008,13 +2031,13 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'theme_style' => '',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -2708,7 +2731,7 @@ $main->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'bottom_padding_num',
+      0 => 'col',
     ),
     'mobile' => 
     array (
@@ -2849,7 +2872,7 @@ $main->add_element("PlainTxt", array (
     'element_id' => 'text-object-1470534421512-1911',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '20',
@@ -2861,13 +2884,13 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'theme_style' => '',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -3691,7 +3714,7 @@ $main->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'bottom_padding_num',
+      0 => 'col',
     ),
     'mobile' => 
     array (
@@ -3827,12 +3850,12 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p><span class="upfront_theme_color_1">Fashion Editor</span></p>',
+    'content' => '<h4><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Fashion Editor</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470535656002-1032',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '20',
@@ -3844,13 +3867,13 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'theme_style' => '',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -4640,7 +4663,7 @@ $main->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'bottom_padding_num',
+      0 => 'col',
     ),
     'mobile' => 
     array (
@@ -4776,12 +4799,12 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p><span class="upfront_theme_color_1">Blogger</span></p>',
+    'content' => '<h4><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Blogger</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470535948158-1568',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '20',
@@ -4793,13 +4816,13 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'theme_style' => '',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -5809,7 +5832,7 @@ $main->add_group(array (
   'original_col' => 24,
   'top_padding_num' => 0,
   'bottom_padding_num' => 0,
-  'use_padding' => '',
+  'use_padding' => 'yes',
   'edited' => true,
   'background_color' => 'rgba(0,0,0,0)',
   'background_style' => 'full',
@@ -5858,7 +5881,7 @@ $main->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'bottom_padding_num',
+      0 => 'col',
     ),
     'mobile' => 
     array (
@@ -5994,12 +6017,12 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p><span class="upfront_theme_color_1">Webmaster</span></p>',
+    'content' => '<h4><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Webmaster</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470536986369-1297',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '20',
@@ -6011,13 +6034,13 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'theme_style' => '',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
