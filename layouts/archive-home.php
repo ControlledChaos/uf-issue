@@ -1460,7 +1460,13 @@ $main_content->add_element("PlainTxt", array (
 <div class="plain-text-container nosortable">
 
 
+<div class="plain-text-container nosortable">
+
+
 <h3 class="upfront-quote-alternative" style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>"NEIL ARMSTRONG, THAT SPACEMAN, HE WENT TO THE MOON BUT HE AIN\'T BEEN BACK. IT CAN\'T HAVE BEEN THAT GOOD."<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></h3><div class="plain-text-container nosortable">
+
+
+</div>
 
 
 </div>
@@ -1682,7 +1688,7 @@ $main_content->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 style="text-align: center;"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">KARL PILKINGTON</span></h5>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">KARL PILKINGTON</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460434738836-1580',
     'class' => 'c24 upfront-plain_txt',
@@ -2142,7 +2148,7 @@ $categories->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Water cooler goos</span></h5>',
+    'content' => '<h4><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Water cooler goos</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460513586689-1976',
     'class' => 'c24 upfront-plain_txt',
@@ -2481,7 +2487,7 @@ $categories->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Hipster cameras</span></h5>',
+    'content' => '<h4><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Hipster cameras</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460513614785-1061',
     'class' => 'c24 upfront-plain_txt',
@@ -2900,7 +2906,7 @@ $categories->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">10 Must see features</span></h5>',
+    'content' => '<h4><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">10 Must see features</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460513666237-1258',
     'class' => 'c24 upfront-plain_txt',
@@ -3221,7 +3227,7 @@ $categories->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">The Latest Creations</span></h5>',
+    'content' => '<h4><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">The Latest Creations</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460513697734-1636',
     'class' => 'c24 upfront-plain_txt',
@@ -3540,7 +3546,7 @@ $categories->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">For the love of</span></h5>',
+    'content' => '<h4><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">For the love of</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460513730495-1351',
     'class' => 'c24 upfront-plain_txt',

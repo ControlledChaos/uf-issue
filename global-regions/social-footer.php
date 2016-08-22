@@ -663,7 +663,7 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FOLLOW US ON&nbsp;</span>TWITTER</span><span data-redactor-tag="span"></span></h4>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FOLLOW US ON&nbsp;</span>TWITTER</span><span data-redactor-tag="span" data-verified="redactor"></span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682946027-1860',
     'class' => 'c24 upfront-plain_txt',
@@ -1005,7 +1005,7 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">LIKE US ON&nbsp;</span>FACEBOOK</span><span data-redactor-tag="span"></span></h4>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">LIKE US ON&nbsp;</span>FACEBOOK</span><span data-redactor-tag="span" data-verified="redactor"></span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460683021232-1759',
     'class' => 'c24 upfront-plain_txt',
