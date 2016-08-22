@@ -43,8 +43,29 @@ $footer = upfront_create_region(
 )
 			);
 
+$footer->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1471836713622-1328',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1471836713621-1636',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1471836713619-1302',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
 $footer->add_element("PlainTxt", array (
-  'columns' => '16',
+  'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -55,7 +76,7 @@ $footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">2016 © INCSUB</span></h6>',
+    'content' => '<h6 style="text-align: justify;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">2016 © INCSUB</span></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470499667631-1877',
     'class' => 'c24 upfront-plain_txt',
@@ -113,21 +134,21 @@ $footer->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470500096817-1623',
-  'new_line' => true,
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'clear' => true,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'edited' => true,
     ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'edited' => true,
     ),
     'current_property' => 
@@ -156,6 +177,7 @@ $footer->add_element("PlainTxt", array (
       'top' => 0,
       'edited' => true,
       'row' => 5,
+      'hide' => 1,
     ),
   ),
 ));
@@ -305,20 +327,21 @@ $footer->add_element("Unewnavigation", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470521271113-1883',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'clear' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'edited' => true,
     ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'edited' => true,
     ),
     'current_property' => 
@@ -349,6 +372,26 @@ $footer->add_element("Unewnavigation", array (
       'hide' => 0,
     ),
   ),
+));
+
+$footer->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1471836756508-1618',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1471836756508-1496',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1471836756507-1480',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $regions->add($footer);
