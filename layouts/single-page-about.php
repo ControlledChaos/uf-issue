@@ -1914,7 +1914,7 @@ $main->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
-    'bottom_padding_num' => '10',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -1946,7 +1946,7 @@ $main->add_element("PlainTxt", array (
     )),
     'current_preset' => 'default',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '10',
+    'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
   ),
@@ -2041,11 +2041,11 @@ $main->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -2767,7 +2767,7 @@ $main->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
-    'bottom_padding_num' => '10',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -2799,7 +2799,7 @@ $main->add_element("PlainTxt", array (
     )),
     'current_preset' => 'default',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '10',
+    'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
   ),
@@ -3742,7 +3742,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2><span class="upfront_theme_color_0">Cherry Chevong</span></h2>',
+    'content' => '<h2><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Cherry Chevong</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811178479-1592',
     'class' => 'c24 upfront-plain_txt',
@@ -3750,7 +3750,7 @@ $main->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -3782,7 +3782,7 @@ $main->add_element("PlainTxt", array (
     )),
     'current_preset' => 'default',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '15',
+    'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
   ),
@@ -3877,11 +3877,11 @@ $main->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -4699,7 +4699,7 @@ $main->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
-    'bottom_padding_num' => '10',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -4731,7 +4731,7 @@ $main->add_element("PlainTxt", array (
     )),
     'current_preset' => 'default',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '10',
+    'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
   ),
@@ -4826,11 +4826,11 @@ $main->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -5917,7 +5917,7 @@ $main->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
-    'bottom_padding_num' => '10',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -5949,7 +5949,7 @@ $main->add_element("PlainTxt", array (
     )),
     'current_preset' => 'default',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '10',
+    'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
   ),
@@ -6044,11 +6044,11 @@ $main->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -6818,6 +6818,8 @@ $main->add_group(array (
     'mobile' => 
     array (
       'col' => 7,
+      'edited' => true,
+      'row' => 50,
     ),
   ),
 ));
@@ -6860,11 +6862,11 @@ $main->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'row' => 4,
