@@ -116,9 +116,9 @@ $main_content->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'current_property' => 
@@ -480,7 +480,7 @@ $main_content->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'row' => 23,
@@ -504,15 +504,18 @@ $main_content->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'bottom_padding_num' => '30',
+         'bottom_padding_num' => '20',
          'bottom_padding_use' => 'yes',
-         'top_padding_num' => '15',
+         'top_padding_num' => '0',
          'top_padding_use' => 'yes',
          'left_padding_num' => '15',
          'left_padding_use' => 'yes',
          'right_padding_num' => '15',
          'right_padding_use' => 'yes',
          'row' => 5,
+         'lock_padding' => '',
+         'top_padding_slider' => '0',
+         'bottom_padding_slider' => '20',
       )),
     )),
     'current_preset' => 'default',
@@ -795,9 +798,9 @@ $main_content->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 1,
       'clear' => true,
     ),
     'current_property' => 
@@ -1164,9 +1167,9 @@ $main_content->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'current_property' => 
@@ -1192,6 +1195,7 @@ $main_content->add_group(array (
       'col' => 7,
       'order' => 0,
       'row' => 77,
+      'top' => 0,
     ),
     'current_property' => 
     array (
@@ -1522,7 +1526,7 @@ $main_content->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -1726,6 +1730,10 @@ $main_content->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '25',
+         'bottom_padding_num' => '25',
       )),
     )),
     'current_preset' => 'default',
@@ -2164,7 +2172,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'row' => 11,
@@ -2190,6 +2198,14 @@ $categories->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'bottom_padding_num' => '0',
+         'bottom_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'left_padding_num' => '35',
+         'right_padding_num' => '35',
+         'top_padding_use' => 'yes',
+         'left_padding_use' => 'yes',
+         'right_padding_use' => 'yes',
       )),
     )),
     'current_preset' => 'default',
@@ -2491,7 +2507,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'row' => 8,
@@ -2505,7 +2521,7 @@ $categories->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -2810,7 +2826,7 @@ $categories->add_element("PlainTxt", array (
          'bottom_padding_num' => '5',
          'bottom_padding_use' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -2914,7 +2930,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'row' => 7,
@@ -3235,7 +3251,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -3554,7 +3570,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'top_padding_use' => 'yes',

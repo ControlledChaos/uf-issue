@@ -17,11 +17,12 @@ $social_footer = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
        'background_type' => 'color',
        'top_bg_padding_slider' => '55',
        'top_bg_padding_num' => '55',
+       'row' => 48,
     )),
      'mobile' => 
     (array)(array(
@@ -30,11 +31,11 @@ $social_footer = upfront_create_region(
        'background_type' => 'color',
        'top_bg_padding_num' => '30',
        'top_bg_padding_slider' => '30',
-       'row' => 18,
-       'bottom_bg_padding_num' => '30',
-       'bottom_bg_padding_slider' => '30',
+       'row' => 10,
+       'bottom_bg_padding_num' => '20',
+       'bottom_bg_padding_slider' => '20',
     )),
-     'current_property' => 'bottom_bg_padding_slider',
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -78,17 +79,16 @@ $social_footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1460683136440-1896',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 5,
     ),
     'mobile' => 
     array (
-      'col' => 4,
+      'col' => 5,
       'edited' => true,
     ),
     'current_property' => 
@@ -434,16 +434,15 @@ $social_footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1470788757801-1923',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 2,
+      'col' => 1,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 1,
       'edited' => true,
     ),
     'current_property' => 
@@ -477,7 +476,7 @@ $social_footer->add_group(array (
   'original_col' => 24,
   'top_padding_num' => 0,
   'bottom_padding_num' => 0,
-  'use_padding' => '',
+  'use_padding' => 'yes',
   'edited' => true,
   'row' => 25,
   'background_color' => 'rgba(0,0,0,0)',
@@ -788,16 +787,15 @@ $social_footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1470788766677-1625',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 2,
+      'col' => 1,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 1,
       'edited' => true,
     ),
     'current_property' => 
@@ -1135,16 +1133,15 @@ $social_footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1460683140836-1018',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 5,
     ),
     'mobile' => 
     array (
-      'col' => 4,
+      'col' => 5,
       'edited' => true,
     ),
     'current_property' => 
