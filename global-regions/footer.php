@@ -238,27 +238,39 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 233521,
+         'menu-item-db-id' => 233705,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '233521',
+         'menu-item-object-id' => '233705',
          'menu-item-target' => '',
          'menu-item-position' => 1,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/advertise/',
+           'target' => '',
+        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 233523,
+         'menu-item-db-id' => 233706,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '233523',
+         'menu-item-object-id' => '233706',
          'menu-item-target' => '',
          'menu-item-position' => 2,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/terms-of-use/',
+           'target' => '',
+        )),
       )),
     ),
     'preset' => 'navigation-footer',
@@ -272,7 +284,7 @@ $footer->add_element("Unewnavigation", array (
     ),
     'element_id' => 'unewnavigation-object-1470520456440-1201',
     'padding_slider' => '15',
-    'top_padding_num' => '6',
+    'top_padding_num' => '9',
     'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -333,6 +345,7 @@ $footer->add_element("Unewnavigation", array (
          'top_padding_slider' => '5',
       )),
     )),
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
