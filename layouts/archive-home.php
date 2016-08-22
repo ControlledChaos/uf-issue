@@ -109,9 +109,9 @@ $main_content->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
@@ -493,6 +493,12 @@ $main_content->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '65',
+         'bottom_padding_num' => '67',
+         'top_padding_num' => '',
+         'left_padding_num' => '',
+         'right_padding_num' => '',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -782,9 +788,9 @@ $main_content->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
-      'order' => 2,
+      'order' => 1,
       'clear' => false,
     ),
     'mobile' => 
@@ -803,10 +809,11 @@ $main_content->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 6,
       'order' => 1,
+      'row' => 81,
     ),
     'mobile' => 
     array (
@@ -920,7 +927,7 @@ $main_content->add_element("Uimage", array (
     'right_padding_num' => '15',
     'anchor' => '',
   ),
-  'row' => 45,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -935,15 +942,15 @@ $main_content->add_element("Uimage", array (
       'col' => 6,
       'order' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1068,7 +1075,7 @@ $main_content->add_element("Uimage", array (
     'anchor' => '',
     'top_padding_use' => 'yes',
   ),
-  'row' => 45,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1083,15 +1090,15 @@ $main_content->add_element("Uimage", array (
       'col' => 6,
       'order' => 2,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1150,9 +1157,9 @@ $main_content->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -1175,7 +1182,8 @@ $main_content->add_group(array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 62,
+      'row' => 54,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -1280,6 +1288,10 @@ $main_content->add_element("Uimage", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '25',
+         'bottom_padding_num' => '25',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -1300,9 +1312,9 @@ $main_content->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
@@ -1380,7 +1392,13 @@ $main_content->add_element("PlainTxt", array (
 <div class="plain-text-container nosortable">
 
 
-<h3 class="upfront-quote-alternative" style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">"NEIL ARMSTRONG, THAT SPACEMAN, HE WENT TO THE MOON BUT HE AIN\'T BEEN BACK. IT CAN\'T HAVE BEEN THAT GOOD."</span></h3><div class="plain-text-container nosortable">
+<div class="plain-text-container nosortable">
+
+
+<h3 class="upfront-quote-alternative" style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>"NEIL ARMSTRONG, THAT SPACEMAN, HE WENT TO THE MOON BUT HE AIN\'T BEEN BACK. IT CAN\'T HAVE BEEN THAT GOOD."<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></h3><div class="plain-text-container nosortable">
+
+
+</div>
 
 
 </div>
@@ -1447,7 +1465,7 @@ $main_content->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
     )),
     'breakpoint' => 
@@ -1477,9 +1495,9 @@ $main_content->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -1571,6 +1589,10 @@ $main_content->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '25',
+         'bottom_padding_num' => '25',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -1591,9 +1613,9 @@ $main_content->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -1612,10 +1634,11 @@ $main_content->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -1904,7 +1927,7 @@ $categories->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -2001,7 +2024,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
@@ -2017,6 +2040,15 @@ $categories->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+         'top_padding_num' => '0',
+         'top_padding_use' => 'yes',
+         'left_padding_num' => '35',
+         'left_padding_use' => 'yes',
+         'right_padding_num' => '35',
+         'right_padding_use' => 'yes',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -2144,7 +2176,11 @@ $categories->add_group(array (
       'background_position_y' => '50',
       'background_style' => 'full',
       'background_position_x' => '50',
-      'use_padding' => 1,
+      'use_padding' => 'yes',
+      'lock_padding' => '',
+      'bottom_padding_use' => 'yes',
+      'bottom_padding_slider' => '55',
+      'bottom_padding_num' => '55',
     ),
     'mobile' => 
     array (
@@ -2159,7 +2195,7 @@ $categories->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'bottom_padding_num',
     ),
   ),
 ));
@@ -2621,7 +2657,7 @@ $categories->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -2721,7 +2757,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
@@ -2738,6 +2774,14 @@ $categories->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'left_padding_num' => '35',
+         'left_padding_use' => 'yes',
+         'right_padding_num' => '35',
+         'right_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_use' => 'yes',
+         'bottom_padding_num' => '0',
+         'bottom_padding_use' => 'yes',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -2923,6 +2967,15 @@ $categories->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '5',
+         'bottom_padding_num' => '5',
+         'top_padding_num' => '10',
+         'left_padding_num' => '35',
+         'right_padding_num' => '35',
+         'top_padding_use' => 'yes',
+         'left_padding_use' => 'yes',
+         'right_padding_use' => 'yes',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -3024,7 +3077,7 @@ $categories->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
@@ -3041,6 +3094,14 @@ $categories->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'left_padding_num' => '35',
+         'left_padding_use' => 'yes',
+         'right_padding_num' => '35',
+         'right_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'bottom_padding_num' => '0',
+         'top_padding_use' => 'yes',
+         'bottom_padding_use' => 'yes',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
