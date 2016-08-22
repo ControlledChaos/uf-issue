@@ -12,7 +12,7 @@ $social_footer = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 52,
+  'row' => 54,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -45,8 +45,8 @@ $social_footer = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => '60',
   'top_bg_padding_num' => '60',
-  'bottom_bg_padding_slider' => '63',
-  'bottom_bg_padding_num' => '63',
+  'bottom_bg_padding_slider' => '0',
+  'bottom_bg_padding_num' => '0',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc3',
@@ -309,12 +309,12 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><font color="#ffffff">GET IN TOUCH</font><span></span></p>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">GET IN TOUCH</span><span data-redactor-tag="span" data-verified="redactor"></span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682864053-1557',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '10',
     'bottom_padding_num' => '15',
@@ -331,7 +331,7 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -351,7 +351,7 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '10',
   ),
@@ -459,9 +459,20 @@ $social_footer->add_group(array (
   'original_col' => 24,
   'top_padding_num' => 0,
   'bottom_padding_num' => 0,
-  'use_padding' => 'yes',
+  'use_padding' => '',
   'edited' => true,
   'row' => 25,
+  'background_color' => 'rgba(0,0,0,0)',
+  'background_style' => 'full',
+  'background_default' => 'hide',
+  'background_position_y' => 50,
+  'background_position_x' => 50,
+  'background_type' => 'color',
+  'anchor' => '',
+  'top_padding_use' => false,
+  'top_padding_slider' => '15',
+  'bottom_padding_use' => false,
+  'bottom_padding_slider' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -635,12 +646,12 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FOLLOW US ON</span></p><p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">TWITTER</span></p>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FOLLOW US ON&nbsp;</span>TWITTER</span><span data-redactor-tag="span"></span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460682946027-1860',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '10',
     'bottom_padding_num' => '15',
@@ -657,7 +668,7 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -677,7 +688,7 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '10',
   ),
@@ -960,12 +971,12 @@ $social_footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">LIKE US ON</span></p><p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">FACEBOOK</span></p>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">LIKE US ON&nbsp;</span>FACEBOOK</span><span data-redactor-tag="span"></span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460683021232-1759',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '10',
     'bottom_padding_num' => '15',
@@ -982,7 +993,7 @@ $social_footer->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -1002,7 +1013,7 @@ $social_footer->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '10',
   ),
