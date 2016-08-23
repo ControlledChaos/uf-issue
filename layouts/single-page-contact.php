@@ -362,7 +362,7 @@ $block_title->add_element("PlainTxt", array (
     )),
     'current_preset' => 'box-title',
   ),
-  'row' => 7,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -616,23 +616,29 @@ $main_area->add_element("Uspacer", array (
 
 $main_area->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1471925169666-1440 upfront-module-spacer',
   'id' => 'module-1471925169666-1440',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1471925169666-1734',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1471925169666-1734',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1471925169665-1335',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1471925169665-1335',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -640,6 +646,10 @@ $main_area->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 1,
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
       'col' => 3,
     ),
     'current_property' => 
@@ -675,7 +685,7 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 style="text-transform: none; margin-bottom: 0px; text-align: right;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2">Got a story?​<br>​Or just want to drop us a line?</span></h1>',
+    'content' => '<h1 style="text-transform: none; margin-bottom: 0px; text-align: right;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span class="upfront_theme_color_4">Got a story?​<br>​Or just want to drop us a line?</span></span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470544032183-1593',
     'class' => 'c24 upfront-plain_txt',
@@ -1497,7 +1507,7 @@ $block_map->add_group(array (
     ),
     'current_property' => 
     array (
-      0 => 'bottom_padding_num',
+      0 => 'col',
     ),
     'mobile' => 
     array (
