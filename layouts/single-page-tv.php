@@ -317,15 +317,15 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 class=""><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;TV &nbsp;</span></h5>',
+    'content' => '<h2 class=""><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;TV &nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-titles',
+    'preset' => 'box-title',
     'padding_slider' => '15',
     'top_padding_num' => '13',
-    'bottom_padding_num' => '58',
+    'bottom_padding_num' => '40',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -339,15 +339,15 @@ $block_title->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'box-title',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-tablet',
+         'preset' => 'box-title',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-mobile',
+         'preset' => 'box-title',
       )),
     )),
     'row' => 1.8000000000000000444089209850062616169452667236328125,
@@ -355,7 +355,7 @@ $block_title->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '40',
     'right_padding_use' => 'yes',
-    'current_preset' => 'textbox-titles',
+    'current_preset' => 'box-title',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -374,7 +374,6 @@ $block_title->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
@@ -631,7 +630,7 @@ $block_title->add_element("Uimage", array (
            'height' => 50,
         )),
       )),
-       'current_property' => 'element_size',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
