@@ -22,8 +22,9 @@ $main = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 90,
     )),
      'mobile' => 
     (array)(array(
@@ -278,7 +279,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plaintxt',
-    'content' => '<h1 class="">404 PAGE NOT FOUND</h1>',
+    'content' => '<h1 class="" style="text-align: center;">404 PAGE NOT&nbsp;​FOUND</h1>',
     'element_id' => 'default-nav-text-object',
     'class' => 'c24',
     'type' => 'PlainTxtModel',
@@ -323,7 +324,7 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
