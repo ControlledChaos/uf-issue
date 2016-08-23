@@ -348,11 +348,11 @@ $block_title->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-mobile',
+         'preset' => 'box-title',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-tablet',
+         'preset' => 'box-title',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -379,7 +379,6 @@ $block_title->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
-         'lock_padding' => '',
          'row' => 4,
       )),
     )),
@@ -1115,7 +1114,7 @@ $main_area->add_element("Posts", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'preset' => 'posts-default-tablet',
+         'preset' => 'default',
       )),
        'desktop' => 
       (array)(array(
@@ -1193,6 +1192,8 @@ $main_area->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1471929126010-1940',
   'default_hide' => 1,
