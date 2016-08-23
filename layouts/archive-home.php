@@ -193,11 +193,11 @@ $main_content->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'bottom_padding_use' => 'yes',
@@ -638,7 +638,7 @@ $main_content->add_element("Uimage", array (
     'right_padding_num' => '15',
     'anchor' => '',
   ),
-  'row' => 45,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -691,6 +691,10 @@ $main_content->add_element("Uimage", array (
 
 $main_content->add_group(array (
   'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1471913131580-1195',
   'type' => 'ModuleGroup',
@@ -698,7 +702,7 @@ $main_content->add_group(array (
   'original_col' => 6,
   'top_padding_num' => 0,
   'bottom_padding_num' => 0,
-  'use_padding' => 1,
+  'use_padding' => 'yes',
   'background_color' => '#ufc1',
   'background_style' => 'full',
   'background_default' => 'hide',
@@ -729,18 +733,20 @@ $main_content->add_group(array (
 $main_content->add_element("PlainTxt", array (
   'columns' => '3',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1471913046250-1513',
   'id' => 'module-1471913046250-1513',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h5 style="text-align: right;">NO.</h5>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1471913046250-1843',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '30',
@@ -769,9 +775,12 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 15,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1471913162167-1340',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -781,15 +790,15 @@ $main_content->add_element("PlainTxt", array (
       'col' => 3,
       'order' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 4,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -815,18 +824,20 @@ $main_content->add_element("PlainTxt", array (
 $main_content->add_element("PlainTxt", array (
   'columns' => '3',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1471912230167-1544',
   'id' => 'module-1471912230167-1544',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h5 style="text-align: left;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">02</span></h5>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1471912230167-1844',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
@@ -854,9 +865,12 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 15,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1471913161309-1665',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -865,15 +879,15 @@ $main_content->add_element("PlainTxt", array (
       'col' => 3,
       'order' => 2,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => false,
       'col' => 3,
       'order' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -994,7 +1008,7 @@ $main_content->add_element("Uimage", array (
     'anchor' => '',
     'top_padding_use' => 'yes',
   ),
-  'row' => 45,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

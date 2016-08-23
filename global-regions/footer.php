@@ -166,7 +166,7 @@ $footer->add_element("PlainTxt", array (
     )),
     'bottom_padding_slider' => '15',
   ),
-  'row' => 9,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

@@ -136,11 +136,11 @@ $featured_articles->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-tablet',
+         'preset' => 'box-title',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-mobile',
+         'preset' => 'box-title',
       )),
     )),
     'row' => 8,
