@@ -307,12 +307,12 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;FAQ &nbsp;</span></h5>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;FAQ &nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-titles',
+    'preset' => 'box-title',
     'padding_slider' => '15',
     'top_padding_num' => '13',
     'bottom_padding_num' => '30',
@@ -329,7 +329,7 @@ $main_area->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'box-title',
       )),
        'tablet' => 
       (array)(array(
@@ -340,7 +340,7 @@ $main_area->add_element("PlainTxt", array (
          'preset' => 'textbox-titles-for-mobile',
       )),
     )),
-    'row' => 1.8000000000000000444089209850062616169452667236328125,
+    'row' => 11,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '40',
@@ -365,9 +365,9 @@ $main_area->add_element("PlainTxt", array (
          'bottom_padding_num' => '0',
       )),
     )),
-    'current_preset' => 'textbox-titles',
+    'current_preset' => 'box-title',
   ),
-  'row' => 6,
+  'row' => 11,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -506,7 +506,7 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><span style="color:rgb(131, 142, 141)">Chambray bitters Blue Bottle ugh, Portland wolf Truffaut sriracha 90\'s before they sold out trust fund selvage. Forage fanny pack DIY roof party 8-bit, narwhal XOXO Truffaut banjo ugh master cleanse banh mi PBR&amp;B authentic plaid. Pour-over lomo Williamsburg swag, actually cardigan synth bespoke direct trade.</span></p>',
+    'content' => '<h2 class=""><span style="color:rgb(131, 142, 141)" rel="color:rgb(131, 142, 141)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(131, 142, 141)">Chambray bitters Blue Bottle ugh, Portland wolf Truffaut sriracha 90\'s before they sold out trust fund selvage. Forage fanny pack DIY roof party 8-bit, narwhal XOXO Truffaut banjo ugh master cleanse banh mi PBR&amp;B authentic plaid. Pour-over lomo Williamsburg swag, actually cardigan synth bespoke direct trade.</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788467919-1184',
     'class' => 'c24 upfront-plain_txt',

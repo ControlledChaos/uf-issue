@@ -177,7 +177,7 @@ $sidebar_left->add_element("Uwidget", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
