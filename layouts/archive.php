@@ -323,15 +323,15 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;ARCHIVE &nbsp;</span></h5>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;ARCHIVE &nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460688550152-1108',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-titles',
+    'preset' => 'box-title',
     'padding_slider' => '15',
     'top_padding_num' => '13',
-    'bottom_padding_num' => '58',
+    'bottom_padding_num' => '40',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -345,18 +345,18 @@ $block_title->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'box-title',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-tablet',
+         'preset' => 'box-title',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-mobile',
+         'preset' => 'box-title',
       )),
     )),
-    'row' => 8,
+    'row' => 12,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'breakpoint' => 
@@ -378,9 +378,10 @@ $block_title->add_element("PlainTxt", array (
          'row' => 5,
       )),
     )),
-    'current_preset' => 'textbox-titles',
+    'current_preset' => 'box-title',
+    'bottom_padding_slider' => '40',
   ),
-  'row' => 6,
+  'row' => 12,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1120,12 +1121,13 @@ $block_content->add_element("Posts", array (
          'top_padding_use' => 'yes',
          'top_padding_slider' => '0',
          'top_padding_num' => '0',
+         'row' => 168,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'row' => 478,
+         'row' => 266,
          'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_slider' => '0',
@@ -1167,6 +1169,8 @@ $block_content->add_element("Posts", array (
       'left' => 0,
       'top' => 0,
       'order' => 0,
+      'edited' => true,
+      'row' => 168,
     ),
     'mobile' => 
     array (
@@ -1175,7 +1179,7 @@ $block_content->add_element("Posts", array (
       'top' => 0,
       'order' => 0,
       'edited' => true,
-      'row' => 478,
+      'row' => 266,
     ),
     'current_property' => 
     array (
