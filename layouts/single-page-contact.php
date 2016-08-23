@@ -304,12 +304,12 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;CONTACT &nbsp;</span></h5>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;CONTACT &nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-titles',
+    'preset' => 'box-title',
     'padding_slider' => '15',
     'top_padding_num' => '13',
     'bottom_padding_num' => '30',
@@ -326,7 +326,7 @@ $block_title->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'box-title',
       )),
        'tablet' => 
       (array)(array(
@@ -337,7 +337,7 @@ $block_title->add_element("PlainTxt", array (
          'preset' => 'textbox-titles-for-mobile',
       )),
     )),
-    'row' => 1.8000000000000000444089209850062616169452667236328125,
+    'row' => 7,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '40',
@@ -362,9 +362,9 @@ $block_title->add_element("PlainTxt", array (
          'bottom_padding_num' => '0',
       )),
     )),
-    'current_preset' => 'textbox-titles',
+    'current_preset' => 'box-title',
   ),
-  'row' => 6,
+  'row' => 7,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -682,68 +682,59 @@ $main_area->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467839905397-1851',
-  'id' => 'module-1467839905397-1851',
+  'class' => 'module-1470544032183-1686',
+  'id' => 'module-1470544032183-1686',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 style="text-align: right;">Got a story?​</h3>',
+    'content' => '<h1 style="text-transform: none; margin-bottom: 0px; text-align: right;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2">Got a story?​<br>​Or just want to drop us a line?</span></h1>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1467839905396-1994',
+    'element_id' => 'text-object-1470544032183-1593',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
-    'top_padding_num' => '80',
-    'bottom_padding_num' => '0',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
+    'is_edited' => true,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
+    'current_preset' => 'default',
     'theme_style' => '',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
          'preset' => 'textbox-alternative-for-mobile',
       )),
     )),
-    'is_edited' => true,
-    'row' => 22,
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '80',
+    'top_padding_slider' => '15',
+    'row' => 22,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
-         'top_padding_use' => 'yes',
-         'top_padding_slider' => '15',
-         'top_padding_num' => '15',
-         'row' => 8,
+         'row' => 6,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'top_padding_use' => 'yes',
-         'top_padding_slider' => '15',
-         'top_padding_num' => '15',
-         'row' => 8,
+         'row' => 13,
       )),
     )),
-    'current_preset' => 'textbox-alternative',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -772,95 +763,6 @@ $main_area->add_element("PlainTxt", array (
       0 => 'edited',
     ),
   ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'row' => 8,
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'row' => 8,
-      'col' => 6,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'close_wrapper' => false,
-));
-
-$main_area->add_element("PlainTxt", array (
-  'columns' => '7',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1470544032183-1686',
-  'id' => 'module-1470544032183-1686',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 style="text-align: right;">Or just want to drop us a line?</h3>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1470544032183-1593',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'preset' => 'textbox-alternative',
-    'padding_slider' => '15',
-    'top_padding_num' => '0',
-    'bottom_padding_num' => '15',
-    'use_padding' => 'yes',
-    'usingNewAppearance' => true,
-    'is_edited' => true,
-    'lock_padding' => '',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'current_preset' => 'textbox-alternative',
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'textbox-alternative',
-      )),
-       'mobile' => 
-      (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
-      )),
-    )),
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
-    'row' => 22,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'use_padding' => 'yes',
-         'row' => 6,
-      )),
-       'current_property' => 'use_padding',
-       'mobile' => 
-      (array)(array(
-         'use_padding' => 'yes',
-         'row' => 13,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1467840438474-1207',
   'breakpoint' => 
   array (
     'tablet' => 
@@ -1560,7 +1462,7 @@ $block_map->add_group(array (
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1470799139875-1468',
   'original_col' => 24,
-  'top_padding_num' => 0,
+  'top_padding_num' => '45',
   'bottom_padding_num' => 0,
   'use_padding' => 'yes',
   'background_color' => 'rgba(222,120,85,0.9)',
@@ -1570,12 +1472,13 @@ $block_map->add_group(array (
   'background_position_x' => 50,
   'background_type' => 'color',
   'anchor' => '',
-  'top_padding_use' => false,
-  'top_padding_slider' => '15',
+  'top_padding_use' => 'yes',
+  'top_padding_slider' => '45',
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
   'row' => 51,
   'edited' => true,
+  'lock_padding' => '',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1622,128 +1525,13 @@ $block_map->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1467840438601-1835',
-  'id' => 'module-1467840438601-1835',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<blockquote class="upfront-quote-alternative"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">ISSUE</span></blockquote>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1467840438601-1213',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'preset' => 'textbox-alternative',
-    'padding_slider' => '15',
-    'top_padding_num' => 25,
-    'bottom_padding_num' => '0',
-    'use_padding' => 'yes',
-    'usingNewAppearance' => true,
-    'is_edited' => true,
-    'lock_padding' => '',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'theme_style' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'textbox-alternative',
-      )),
-       'tablet' => 
-      (array)(array(
-         'preset' => 'textbox-alternative-for-tablet',
-      )),
-       'mobile' => 
-      (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
-      )),
-    )),
-    'row' => 10,
-    'bottom_padding_use' => 'yes',
-    'top_padding_use' => 'yes',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'use_padding' => 'yes',
-      )),
-       'current_property' => 'use_padding',
-       'mobile' => 
-      (array)(array(
-         'use_padding' => 'yes',
-         'row' => 12,
-      )),
-    )),
-    'current_preset' => 'textbox-alternative',
-    'top_padding_slider' => '20',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1470799380931-1280',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'col' => 6,
-      'order' => 1,
-    ),
-    'mobile' => 
-    array (
-      'clear' => true,
-      'col' => 7,
-      'order' => 1,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'row' => 12,
-      'left' => 0,
-      'top' => 0,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-    'tablet' => 
-    array (
-      'col' => 6,
-      'edited' => false,
-      'left' => 0,
-      'top' => 0,
-    ),
-  ),
-  'group' => 'module-group-1470799208006-1773',
-));
-
-$block_map->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
   'class' => 'module-1467845253754-1127',
   'id' => 'module-1467845253754-1127',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="upfront-quote-alternative" style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><strong data-redactor-tag="strong" data-verified="redactor">MAGAZINE</strong></span></p>',
+    'content' => '<p class="upfront-quote-alternative" style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><strong data-redactor-tag="strong" data-verified="redactor">ISSUE<br>​MAGAZINE​</strong></span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1467845253754-1141',
     'class' => 'c24 upfront-plain_txt',
@@ -1797,13 +1585,13 @@ $block_map->add_element("PlainTxt", array (
     array (
       'clear' => true,
       'col' => 6,
-      'order' => 2,
+      'order' => 1,
     ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 1,
     ),
     'current_property' => 
     array (
@@ -1846,12 +1634,12 @@ $block_map->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Head Office</span></span></p><p style="text-align: center;" rel="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">888 Madison Ave</span></span></p><p style="text-align: center;" rel="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">New York, NY 10173, USA<br></span></span></p>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span></span><span class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">Head Office&nbsp;<br>​</span></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">888 Madison Ave&nbsp;<br>​​</span></span><span>New York, NY 10173, USA</span></span><span></span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1467848905632-1229',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '0',
     'bottom_padding_num' => '5',
@@ -1868,7 +1656,7 @@ $block_map->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -1892,7 +1680,7 @@ $block_map->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
@@ -1911,13 +1699,13 @@ $block_map->add_element("PlainTxt", array (
     array (
       'clear' => true,
       'col' => 6,
-      'order' => 3,
+      'order' => 2,
     ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
-      'order' => 3,
+      'order' => 2,
     ),
     'current_property' => 
     array (
