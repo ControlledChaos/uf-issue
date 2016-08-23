@@ -333,11 +333,11 @@ $main_area->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-tablet',
+         'preset' => 'box-title',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-mobile',
+         'preset' => 'box-title',
       )),
     )),
     'row' => 11,
@@ -350,7 +350,6 @@ $main_area->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '25',
          'bottom_padding_num' => '25',
@@ -359,7 +358,6 @@ $main_area->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
@@ -367,7 +365,7 @@ $main_area->add_element("PlainTxt", array (
     )),
     'current_preset' => 'box-title',
   ),
-  'row' => 11,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -547,13 +545,14 @@ $main_area->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'top_padding_num',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '35',
-         'top_padding_num' => '35',
+         'top_padding_slider' => '20',
+         'top_padding_num' => '20',
+         'lock_padding' => '',
       )),
     )),
     'current_preset' => 'default',
@@ -703,7 +702,7 @@ $main_area->add_element("Uaccordion", array (
     array (
       0 => 
       (array)(array(
-         'content' => '<p class="">Chartreuse man braid brooklyn small batch, pickled 90\'s venmo pabst. Everyday carry dreamcatcher kombucha flexitarian, put a bird on it gochujang biodiesel banjo tousled. Typewriter keffiyeh irony salvia art party, wolf chambray ennui. Bicycle rights drinking vinegar church-key yuccie, shoreditch bitters iPhone banjo 8-bit PBR&amp;B farm-to-table pug raw denim.</p>',
+         'content' => '<p class="">Chartreuse man braid brooklyn small batch, pickled 90\'s venmo pabst. Everyday carry dreamcatcher kombucha flexitarian, put a bird on it gochujang biodiesel banjo tousled. Typewriter keffiyeh irony salvia art party, wolf chambray ennui. Bicycle rights drinking vinegar church-key yuccie, shoreditch bitters iPhone banjo 8-bit PBR&amp;B farm-to-table&nbsp;</p>',
          'title' => '<p class="">How can I write for Issue Magazine?</p>',
       )),
       1 => 
@@ -752,6 +751,9 @@ $main_area->add_element("Uaccordion", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '40',
+         'bottom_padding_num' => '40',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
