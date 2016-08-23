@@ -207,7 +207,7 @@ $main_content->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'top_padding_num',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -330,13 +330,14 @@ $main_content->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '105',
-         'bottom_padding_num' => '102',
+         'bottom_padding_slider' => '85',
+         'bottom_padding_num' => '85',
          'top_padding_num' => '',
          'left_padding_num' => '',
          'right_padding_num' => '',
+         'lock_padding' => '',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'bottom_padding_num',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -939,7 +940,7 @@ $main_content->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'top_padding_num',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -1139,7 +1140,7 @@ $main_content->add_element("Uimage", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'element_size',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -1257,10 +1258,15 @@ $main_content->add_group(array (
       'order' => 0,
       'row' => 77,
       'top' => 0,
+      'use_padding' => 'yes',
+      'lock_padding' => '',
+      'bottom_padding_use' => 'yes',
+      'bottom_padding_slider' => '45',
+      'bottom_padding_num' => '45',
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'bottom_padding_num',
     ),
   ),
 ));
