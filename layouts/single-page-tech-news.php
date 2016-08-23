@@ -317,7 +317,7 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_bg_color_6">&nbsp;&nbsp;TECH NEWS &nbsp;</span></h5>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;TECH NEWS &nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1467497429453-1338',
     'class' => 'c24 upfront-plain_txt',
@@ -633,7 +633,7 @@ $block_title->add_element("Uimage", array (
            'height' => 50,
         )),
       )),
-       'current_property' => 'element_size',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -968,6 +968,7 @@ $main_area->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1467498204971-1477',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -983,7 +984,7 @@ $main_area->add_element("Uspacer", array (
 ));
 
 $main_area->add_element("Posts", array (
-  'columns' => '17',
+  'columns' => '15',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1085,7 +1086,7 @@ $main_area->add_element("Posts", array (
     'usingNewAppearance' => true,
     'lock_padding' => '',
     'padding_number' => '15',
-    'left_padding_num' => '15',
+    'left_padding_num' => '5',
     'right_padding_num' => '15',
     'anchor' => '',
     'post_type' => 'post',
@@ -1114,7 +1115,7 @@ $main_area->add_element("Posts", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'preset' => 'posts-default-tablet',
+         'preset' => 'default',
       )),
        'desktop' => 
       (array)(array(
@@ -1125,6 +1126,7 @@ $main_area->add_element("Posts", array (
          'preset' => 'posts-default-mobile',
       )),
     )),
+    'left_padding_use' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1132,6 +1134,7 @@ $main_area->add_element("Posts", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1467498199269-1042',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1174,6 +1177,28 @@ $main_area->add_element("Posts", array (
       0 => 'col',
     ),
   ),
+));
+
+$main_area->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1471930875687-1351',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1471930875687-1140',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
+  ),
+  'wrapper_id' => 'wrapper-1471930875686-1362',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $regions->add($main_area);
