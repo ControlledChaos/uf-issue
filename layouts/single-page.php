@@ -337,7 +337,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'use_padding',
         ),
       ),
     ),
@@ -515,6 +515,7 @@ $main->add_element("PostData", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 117,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -555,10 +556,11 @@ $main->add_element("PostData", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'row' => 117,
     ),
     'mobile' => 
     array (

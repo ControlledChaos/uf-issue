@@ -172,7 +172,7 @@ $featured_articles->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
@@ -196,6 +196,7 @@ $featured_articles->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 0,
       'hide' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -476,7 +477,7 @@ $featured_articles->add_element("Posts", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 3,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
