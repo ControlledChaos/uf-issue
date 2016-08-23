@@ -973,7 +973,6 @@ $block_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1460692944250-1622',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1091,7 +1090,7 @@ $block_content->add_element("Posts", array (
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_number' => '15',
-    'left_padding_num' => '15',
+    'left_padding_num' => '5',
     'right_padding_num' => '15',
     'anchor' => '',
     'top_padding_slider' => '0',
@@ -1136,6 +1135,7 @@ $block_content->add_element("Posts", array (
       )),
     )),
     'current_preset' => 'default',
+    'left_padding_use' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1143,7 +1143,6 @@ $block_content->add_element("Posts", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1442668095508-1224',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1192,22 +1191,38 @@ $block_content->add_element("Posts", array (
 
 $block_content->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1471929844195-1910 upfront-module-spacer',
   'id' => 'module-1471929844195-1910',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1471929844195-1400',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1471929844195-1400',
   ),
-  'wrapper_id' => 'wrapper-1471929844195-1009',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1471929844195-1009',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
 ));
 
 $regions->add($block_content);

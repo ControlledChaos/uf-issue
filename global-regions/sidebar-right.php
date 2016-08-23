@@ -1,5 +1,5 @@
 <?php
-$sidebar_right_container = ( !empty($region_container) ? $region_container : "block-content" );
+$sidebar_right_container = ( !empty($region_container) ? $region_container : "main-area" );
 $sidebar_right_sub = ( !empty($region_sub) ? $region_sub: "right" );
 
 /* START_REGION_OUTPUT */
@@ -104,7 +104,6 @@ $sidebar_right->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1467494271576-1314',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -175,7 +174,6 @@ $sidebar_right->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1467931467888-1186',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -332,7 +330,6 @@ $sidebar_right->add_element("Uwidget", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1466825510397-1171',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -404,7 +401,6 @@ $sidebar_right->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1467506590521-1967',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -572,7 +568,6 @@ $sidebar_right->add_element("Uwidget", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470525465701-1073',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -634,7 +629,6 @@ $sidebar_right->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1470525472393-1358',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

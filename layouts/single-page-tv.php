@@ -1081,7 +1081,7 @@ $main_area->add_element("Posts", array (
     'usingNewAppearance' => true,
     'lock_padding' => '',
     'padding_number' => '15',
-    'left_padding_num' => '15',
+    'left_padding_num' => '5',
     'right_padding_num' => '15',
     'anchor' => '',
     'theme_style' => '',
@@ -1093,7 +1093,7 @@ $main_area->add_element("Posts", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'posts-default-tablet',
+         'preset' => 'default',
       )),
        'mobile' => 
       (array)(array(
@@ -1120,6 +1120,7 @@ $main_area->add_element("Posts", array (
          'top_padding_num' => '0',
       )),
     )),
+    'left_padding_use' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,
