@@ -381,7 +381,7 @@ $block_title->add_element("PlainTxt", array (
     'current_preset' => 'box-title',
     'bottom_padding_slider' => '40',
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -973,6 +973,7 @@ $block_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1460692944250-1622',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -988,7 +989,7 @@ $block_content->add_element("Uspacer", array (
 ));
 
 $block_content->add_element("Posts", array (
-  'columns' => '17',
+  'columns' => '15',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1142,6 +1143,7 @@ $block_content->add_element("Posts", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1442668095508-1224',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1186,6 +1188,26 @@ $block_content->add_element("Posts", array (
       0 => 'col',
     ),
   ),
+));
+
+$block_content->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1471929844195-1910',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1471929844195-1400',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1471929844195-1009',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $regions->add($block_content);

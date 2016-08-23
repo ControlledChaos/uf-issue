@@ -238,13 +238,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 234083,
+         'menu-item-db-id' => 234242,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '234083',
+         'menu-item-object-id' => '234242',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -256,13 +256,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 234086,
+         'menu-item-db-id' => 234243,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '234086',
+         'menu-item-object-id' => '234243',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
