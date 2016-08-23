@@ -307,12 +307,12 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;ADVERTISE&nbsp;&nbsp;</span></h5>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;ADVERTISE&nbsp;&nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-titles',
+    'preset' => 'box-title',
     'padding_slider' => '15',
     'top_padding_num' => '13',
     'bottom_padding_num' => '30',
@@ -329,18 +329,18 @@ $main_area->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'box-title',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-tablet',
+         'preset' => 'box-title',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-mobile',
+         'preset' => 'box-title',
       )),
     )),
-    'row' => 1.8000000000000000444089209850062616169452667236328125,
+    'row' => 11,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '40',
@@ -350,7 +350,6 @@ $main_area->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '25',
          'bottom_padding_num' => '25',
@@ -359,15 +358,14 @@ $main_area->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
       )),
     )),
-    'current_preset' => 'textbox-titles',
+    'current_preset' => 'box-title',
   ),
-  'row' => 6,
+  'row' => 11,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -506,7 +504,7 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><span style="color:rgb(131, 142, 141)">Chambray bitters Blue Bottle ugh, Portland wolf Truffaut sriracha 90\'s before they sold out trust fund selvage. Forage fanny pack DIY roof party 8-bit, narwhal XOXO Truffaut banjo ugh master cleanse banh mi PBR&amp;B authentic plaid. Pour-over lomo Williamsburg swag, actually cardigan synth bespoke direct trade.</span></p><p class=""><span style="color:rgb(131, 142, 141)">For details of rates email </span><a target="_self" data-upfront-link-type="email" href="mailto:advertise@issuemag.com">advertise@issuemag.com</a><br></p>',
+    'content' => '<h2 class=""><span class="upfront_theme_color_4">Chambray bitters Blue Bottle ugh, Portland wolf Truffaut sriracha 90\'s before they sold out trust fund selvage. Forage fanny pack DIY roof party 8-bit, narwhal XOXO Truffaut banjo ugh master cleanse banh mi PBR&amp;B authentic plaid.&nbsp;</span></h2><p class=""><span style="color:rgb(131, 142, 141)" rel="color:rgb(131, 142, 141)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(131, 142, 141)">For details of rates email </span><a target="_self" data-upfront-link-type="email" href="mailto:advertise@issuemag.com">advertise@issuemag.com</a><br></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788467919-1184',
     'class' => 'c24 upfront-plain_txt',
@@ -607,83 +605,7 @@ $main_area->add_element("PlainTxt", array (
       0 => 'col',
     ),
   ),
-));
-
-$main_area->add_element("Uspacer", array (
-  'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1470613400743-1439 upfront-module-spacer',
-  'id' => 'module-1470613400743-1439',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24 upfront-object-spacer',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1470613400743-1208',
-    'current_preset' => 'default',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1470613400743-1227',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
-));
-
-$main_area->add_element("Uspacer", array (
-  'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1470613679392-1950 upfront-module-spacer',
-  'id' => 'module-1470613679392-1950',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24 upfront-object-spacer',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1470613679392-1163',
-    'current_preset' => 'default',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1470613679392-1187',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
+  'close_wrapper' => false,
 ));
 
 $main_area->add_element("Ucontact", array (
@@ -762,26 +684,7 @@ $main_area->add_element("Ucontact", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1470613676287-1268',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'col' => 12,
-      'order' => 3,
-    ),
-    'mobile' => 
-    array (
-      'clear' => true,
-      'col' => 7,
-      'order' => 3,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-  ),
+  'wrapper_id' => 'wrapper-1470613397479-1037',
   'breakpoint' => 
   array (
     'tablet' => 
@@ -805,8 +708,8 @@ $main_area->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1470613682823-1280 upfront-module-spacer',
-  'id' => 'module-1470613682823-1280',
+  'class' => 'module-1470613400743-1439 upfront-module-spacer',
+  'id' => 'module-1470613400743-1439',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -814,7 +717,7 @@ $main_area->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1470613682823-1845',
+    'element_id' => 'spacer-object-1470613400743-1208',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
@@ -823,7 +726,7 @@ $main_area->add_element("Uspacer", array (
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1470613682822-1392',
+  'wrapper_id' => 'wrapper-1470613400743-1227',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
