@@ -2026,7 +2026,6 @@ $main->add_element("Ugallery", array (
     'lockPadding' => 'yes',
     'lightbox_show_close' => 
     array (
-      0 => 'true',
     ),
     'lightbox_show_image_count' => 
     array (
@@ -2037,7 +2036,7 @@ $main->add_element("Ugallery", array (
       0 => 'true',
     ),
     'lightbox_active_area_bg' => 'rgba(255,255,255,1)',
-    'lightbox_overlay_bg' => 'rgba(0,0,0,0.2)',
+    'lightbox_overlay_bg' => 'rgba(0, 0, 0, 0.75)',
     'styles' => '',
     'element_id' => 'ugallery-object-1470616524450-1957',
     'padding_slider' => '15',
