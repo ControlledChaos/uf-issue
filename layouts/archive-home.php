@@ -105,6 +105,17 @@ $main_content->add_group(array (
   'use_padding' => 'yes',
   'row' => 81,
   'edited' => true,
+  'background_color' => '#ffffff',
+  'background_style' => 'full',
+  'background_default' => 'hide',
+  'background_position_y' => 50,
+  'background_position_x' => 50,
+  'background_type' => 'color',
+  'anchor' => '',
+  'top_padding_use' => false,
+  'top_padding_slider' => '15',
+  'bottom_padding_use' => false,
+  'bottom_padding_slider' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -218,12 +229,12 @@ $main_content->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 style="text-align: center;">ISSUE<span data-redactor-tag="span"></span></h1>',
+    'content' => '<h5 style="text-align: center;">ISSUE<span data-redactor-tag="span" data-verified="redactor"></span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1460079592266-1883',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '30',
     'bottom_padding_num' => '0',
@@ -239,7 +250,7 @@ $main_content->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-alternative',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -265,7 +276,7 @@ $main_content->add_element("PlainTxt", array (
       )),
     )),
     'theme_style' => '',
-    'current_preset' => 'textbox-alternative',
+    'current_preset' => 'default',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '30',
   ),
