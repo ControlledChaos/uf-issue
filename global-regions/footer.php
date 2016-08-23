@@ -165,7 +165,7 @@ $footer->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
