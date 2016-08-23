@@ -239,13 +239,21 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
+<<<<<<< HEAD
          'menu-item-db-id' => 233792,
+=======
+         'menu-item-db-id' => 1021,
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
+<<<<<<< HEAD
          'menu-item-object-id' => '233792',
+=======
+         'menu-item-object-id' => '1021',
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -257,13 +265,21 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
+<<<<<<< HEAD
          'menu-item-db-id' => 233793,
+=======
+         'menu-item-db-id' => 1022,
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
+<<<<<<< HEAD
          'menu-item-object-id' => '233793',
+=======
+         'menu-item-object-id' => '1022',
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
