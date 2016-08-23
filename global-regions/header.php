@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_e23ef6 = upfront_create_region(
+$region_a8e211 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,21 +43,23 @@ $region_e23ef6 = upfront_create_region(
 )
 			);
 
-$region_e23ef6->add_element("PlainTxt", array (
+$region_a8e211->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1471919100681-1961',
   'id' => 'module-1471919100681-1961',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><strong data-redactor-tag="strong" data-verified="redactor">IM</strong></a></span></h4>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1471919100680-1298',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'preset' => 'logo',
     'padding_slider' => '15',
     'top_padding_num' => '0',
@@ -98,9 +100,12 @@ $region_e23ef6->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 12,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1471919133960-1180',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -111,16 +116,16 @@ $region_e23ef6->add_element("PlainTxt", array (
       'order' => 0,
       'edited' => true,
     ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 2,
       'order' => 0,
       'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -146,7 +151,7 @@ $region_e23ef6->add_element("PlainTxt", array (
   ),
 ));
 
-$region_e23ef6->add_element("Unewnavigation", array (
+$region_a8e211->add_element("Unewnavigation", array (
   'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -239,7 +244,6 @@ $region_e23ef6->add_element("Unewnavigation", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470521398017-1420',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -285,6 +289,6 @@ $region_e23ef6->add_element("Unewnavigation", array (
   ),
 ));
 
-$regions->add($region_e23ef6);
+$regions->add($region_a8e211);
 
 /* END_REGION_OUTPUT */

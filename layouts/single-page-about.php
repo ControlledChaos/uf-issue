@@ -325,15 +325,15 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;<span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">ABOUT</span> &nbsp;</span></h5>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;<span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">ABOUT</span> &nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'textbox-titles',
+    'preset' => 'box-title',
     'padding_slider' => '15',
     'top_padding_num' => '13',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '45',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -347,40 +347,43 @@ $block_title->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'textbox-titles',
+         'preset' => 'box-title',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-tablet',
+         'preset' => 'box-title',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-titles-for-mobile',
+         'preset' => 'box-title',
       )),
     )),
-    'row' => 1.8000000000000000444089209850062616169452667236328125,
+    'row' => 10,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '15',
+    'bottom_padding_slider' => '45',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '15',
+         'bottom_padding_num' => '15',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
       )),
     )),
-    'current_preset' => 'textbox-titles',
+    'current_preset' => 'box-title',
   ),
-  'row' => 6,
+  'row' => 10,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -682,12 +685,20 @@ $block_banner->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '45',
+         'bottom_padding_num' => '45',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'bottom_padding_num',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
          'row' => 9,
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '45',
+         'bottom_padding_num' => '45',
       )),
     )),
     'current_preset' => 'default',
@@ -842,6 +853,10 @@ $block_banner->add_element("Uimage", array (
            'width' => 510,
            'height' => 95,
         )),
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -929,8 +944,10 @@ $about_subnav = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 4,
+       'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
@@ -938,6 +955,7 @@ $about_subnav = upfront_create_region(
        'col' => 24,
        'hide' => 1,
     )),
+     'current_property' => 'background_type',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -1117,7 +1135,7 @@ $about_subnav->add_element("PlainTxt", array (
          'use_padding' => 'yes',
          'row' => 6,
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
