@@ -383,7 +383,7 @@ $block_title->add_element("PlainTxt", array (
     )),
     'current_preset' => 'box-title',
   ),
-  'row' => 10,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -690,7 +690,7 @@ $block_banner->add_element("PlainTxt", array (
          'bottom_padding_slider' => '45',
          'bottom_padding_num' => '45',
       )),
-       'current_property' => 'bottom_padding_num',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -1135,7 +1135,7 @@ $about_subnav->add_element("PlainTxt", array (
          'use_padding' => 'yes',
          'row' => 6,
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
