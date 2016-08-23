@@ -293,7 +293,7 @@ $main_content->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -315,7 +315,7 @@ $main_content->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
   ),
   'group' => 'module-group-1467846514690-1885',
@@ -544,7 +544,7 @@ $main_content->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -566,7 +566,7 @@ $main_content->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
   ),
   'group' => 'module-group-1467846514690-1885',
@@ -769,6 +769,68 @@ $main_content->add_element("Uwidget", array (
     ),
   ),
   'group' => 'module-group-1467846514690-1885',
+));
+
+$main_content->add_group(array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => '',
+  'id' => 'module-group-1460508734193-1588',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1460433335182-1879',
+  'original_col' => 6,
+  'top_padding_num' => 0,
+  'bottom_padding_num' => 0,
+  'use_padding' => 'yes',
+  'row' => 71,
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 6,
+      'order' => 1,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 6,
+      'order' => 1,
+      'row' => 81,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'hide' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
 ));
 
 $main_content->add_group(array (
