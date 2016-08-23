@@ -12,7 +12,7 @@ $footer = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 8,
+  'row' => 5,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -121,11 +121,11 @@ $footer->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '18',
-    'bottom_padding_num' => '18',
+    'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 5,
+    'row' => 9,
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -164,6 +164,7 @@ $footer->add_element("PlainTxt", array (
          'preset' => 'textbox-default-center',
       )),
     )),
+    'bottom_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -238,13 +239,21 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 233726,
+<<<<<<< HEAD
+         'menu-item-db-id' => 233792,
+=======
+         'menu-item-db-id' => 1021,
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '233726',
+<<<<<<< HEAD
+         'menu-item-object-id' => '233792',
+=======
+         'menu-item-object-id' => '1021',
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -256,13 +265,21 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 233727,
+<<<<<<< HEAD
+         'menu-item-db-id' => 233793,
+=======
+         'menu-item-db-id' => 1022,
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '233727',
+<<<<<<< HEAD
+         'menu-item-object-id' => '233793',
+=======
+         'menu-item-object-id' => '1022',
+>>>>>>> 6823f760143dab6c04b4f1b6af402ebf889acac0
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -284,7 +301,7 @@ $footer->add_element("Unewnavigation", array (
     ),
     'element_id' => 'unewnavigation-object-1470520456440-1201',
     'padding_slider' => '15',
-    'top_padding_num' => '9',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -346,6 +363,7 @@ $footer->add_element("Unewnavigation", array (
       )),
     )),
     'top_padding_slider' => '10',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
