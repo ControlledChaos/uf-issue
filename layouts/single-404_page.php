@@ -285,7 +285,7 @@ $main->add_element("PlainTxt", array (
     'has_settings' => 1,
     'top_padding_use' => 'yes',
     'top_padding_num' => '60',
-    'preset' => 'textbox-alternative',
+    'preset' => 'default',
     'padding_slider' => '15',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
@@ -311,7 +311,7 @@ $main->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'textbox-alternative-for-mobile',
+         'preset' => 'default',
       )),
     )),
     'bottom_padding_use' => 'yes',
@@ -323,11 +323,10 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_slider' => '40',
          'top_padding_num' => '40',
@@ -353,7 +352,7 @@ $main->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
       'edited' => true,
     ),
