@@ -365,7 +365,7 @@ $main_area->add_element("PlainTxt", array (
     )),
     'current_preset' => 'box-title',
   ),
-  'row' => 11,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -671,11 +671,19 @@ $main_area->add_element("Ucontact", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '80',
+         'bottom_padding_num' => '80',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'bottom_padding_num',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '80',
+         'bottom_padding_num' => '80',
       )),
     )),
   ),
