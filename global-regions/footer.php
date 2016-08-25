@@ -236,6 +236,30 @@ $footer->add_element("Unewnavigation", array (
     'id_slug' => 'unewnavigation',
     'menu_items' => 
     array (
+      0 => 
+      (array)(array(
+         'menu-item-db-id' => 75,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'ADVERTISE',
+         'menu-item-url' => '{{upfront:home_url}}/advertise/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '75',
+         'menu-item-target' => '',
+         'menu-item-position' => 1,
+      )),
+      1 => 
+      (array)(array(
+         'menu-item-db-id' => 78,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'TERMS OF USE',
+         'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '78',
+         'menu-item-target' => '',
+         'menu-item-position' => 2,
+      )),
     ),
     'preset' => 'navigation-footer',
     'allow_sub_nav' => 
