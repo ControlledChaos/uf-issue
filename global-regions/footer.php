@@ -238,39 +238,27 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 99,
+         'menu-item-db-id' => 75,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '99',
+         'menu-item-object-id' => '75',
          'menu-item-target' => '',
          'menu-item-position' => 1,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/advertise/',
-           'target' => '',
-        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 100,
+         'menu-item-db-id' => 78,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '100',
+         'menu-item-object-id' => '78',
          'menu-item-target' => '',
          'menu-item-position' => 2,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/terms-of-use/',
-           'target' => '',
-        )),
       )),
     ),
     'preset' => 'navigation-footer',
