@@ -206,9 +206,11 @@ $social_footer->add_element("Button", array (
     'element_id' => 'button-object-1460680028529-1018',
     'link' => 
     (array)(array(
-       'type' => 'unlink',
-       'url' => '',
+       'type' => 'entry',
+       'url' => '{{upfront:home_url}}/contact/',
        'target' => '',
+       'object' => 'page',
+       'object_id' => 12,
     )),
     'padding_slider' => '15',
     'top_padding_num' => '12',
@@ -559,9 +561,9 @@ $social_footer->add_element("Button", array (
     'element_id' => 'button-object-1460682864301-1815',
     'link' => 
     (array)(array(
-       'type' => 'unlink',
-       'url' => '',
-       'target' => '',
+       'type' => 'external',
+       'url' => 'http://twitter.com',
+       'target' => '_blank',
     )),
     'padding_slider' => '15',
     'top_padding_num' => '12',
@@ -901,9 +903,9 @@ $social_footer->add_element("Button", array (
     'element_id' => 'button-object-1460683003070-1532',
     'link' => 
     (array)(array(
-       'type' => 'unlink',
-       'url' => '',
-       'target' => '',
+       'type' => 'external',
+       'url' => 'http://facebook.com',
+       'target' => '_blank',
     )),
     'padding_slider' => '15',
     'top_padding_num' => '12',
