@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_c68b2b = upfront_create_region(
+$region_8d367a = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_c68b2b = upfront_create_region(
 )
 			);
 
-$region_c68b2b->add_element("PlainTxt", array (
+$region_8d367a->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -151,7 +151,7 @@ $region_c68b2b->add_element("PlainTxt", array (
   ),
 ));
 
-$region_c68b2b->add_element("Unewnavigation", array (
+$region_8d367a->add_element("Unewnavigation", array (
   'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -263,73 +263,73 @@ $region_c68b2b->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 234282,
+         'menu-item-db-id' => 234331,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Gallery',
-         'menu-item-url' => '{{upfront:home_url}}/gallery/',
+         'menu-item-url' => 'http://issue.dev/gallery/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '234282',
+         'menu-item-object-id' => '234331',
          'menu-item-target' => '',
          'menu-item-position' => 6,
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/gallery/',
+           'type' => 'external',
+           'url' => 'http://issue.dev/gallery/',
            'target' => '',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 234283,
+         'menu-item-db-id' => 234332,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
-         'menu-item-url' => '{{upfront:home_url}}/about/',
+         'menu-item-url' => 'http://issue.dev/about/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '234283',
+         'menu-item-object-id' => '234332',
          'menu-item-target' => '',
          'menu-item-position' => 7,
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/about/',
+           'type' => 'external',
+           'url' => 'http://issue.dev/about/',
            'target' => '',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 234284,
+         'menu-item-db-id' => 234333,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'FAQ',
-         'menu-item-url' => '{{upfront:home_url}}/faq/',
+         'menu-item-url' => 'http://issue.dev/faq/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '234284',
+         'menu-item-object-id' => '234333',
          'menu-item-target' => '',
          'menu-item-position' => 8,
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/faq/',
+           'type' => 'external',
+           'url' => 'http://issue.dev/faq/',
            'target' => '',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 234285,
+         'menu-item-db-id' => 234334,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact',
-         'menu-item-url' => '{{upfront:home_url}}/contact/',
+         'menu-item-url' => 'http://issue.dev/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '234285',
+         'menu-item-object-id' => '234334',
          'menu-item-target' => '',
          'menu-item-position' => 9,
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/contact/',
+           'type' => 'external',
+           'url' => 'http://issue.dev/contact/',
            'target' => '',
         )),
       )),
@@ -369,7 +369,7 @@ $region_c68b2b->add_element("Unewnavigation", array (
          'preset' => 'navigation-header',
       )),
     )),
-    'row' => 10,
+    'row' => 8,
     'top_padding_use' => 'yes',
     'bottom_padding_use' => 'yes',
     'left_padding_use' => 'yes',
@@ -454,6 +454,6 @@ $region_c68b2b->add_element("Unewnavigation", array (
   ),
 ));
 
-$regions->add($region_c68b2b);
+$regions->add($region_8d367a);
 
 /* END_REGION_OUTPUT */
