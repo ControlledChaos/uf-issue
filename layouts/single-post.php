@@ -1271,7 +1271,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'hide',
         ),
       ),
     ),
