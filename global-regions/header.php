@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_2d84f8 = upfront_create_region(
+$region_649d37 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_2d84f8 = upfront_create_region(
 )
 			);
 
-$region_2d84f8->add_element("PlainTxt", array (
+$region_649d37->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -151,7 +151,7 @@ $region_2d84f8->add_element("PlainTxt", array (
   ),
 ));
 
-$region_2d84f8->add_element("Unewnavigation", array (
+$region_649d37->add_element("Unewnavigation", array (
   'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -168,6 +168,171 @@ $region_2d84f8->add_element("Unewnavigation", array (
     'id_slug' => 'unewnavigation',
     'menu_items' => 
     array (
+      0 => 
+      (array)(array(
+         'menu-item-db-id' => 235363,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'Issues',
+         'menu-item-url' => '{{upfront:home_url}}/blog/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '235363',
+         'menu-item-target' => '',
+         'menu-item-position' => 1,
+         'sub' => 
+        array (
+          0 => 
+          (array)(array(
+             'menu-item-db-id' => 235364,
+             'menu-item-parent-id' => '235363',
+             'menu-item-type' => 'custom',
+             'menu-item-title' => 'TV',
+             'menu-item-url' => '{{upfront:home_url}}/tv/',
+             'menu-item-object' => 'custom',
+             'menu-item-object-id' => '235364',
+             'menu-item-target' => '',
+             'menu-item-position' => 2,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/tv/',
+               'target' => '',
+            )),
+          )),
+          1 => 
+          (array)(array(
+             'menu-item-db-id' => 235365,
+             'menu-item-parent-id' => '235363',
+             'menu-item-type' => 'custom',
+             'menu-item-title' => 'Photography',
+             'menu-item-url' => '{{upfront:home_url}}/photography/',
+             'menu-item-object' => 'custom',
+             'menu-item-object-id' => '235365',
+             'menu-item-target' => '',
+             'menu-item-position' => 3,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/photography/',
+               'target' => '',
+            )),
+          )),
+          2 => 
+          (array)(array(
+             'menu-item-db-id' => 235366,
+             'menu-item-parent-id' => '235363',
+             'menu-item-type' => 'custom',
+             'menu-item-title' => 'Tech News',
+             'menu-item-url' => '{{upfront:home_url}}/tech-news/',
+             'menu-item-object' => 'custom',
+             'menu-item-object-id' => '235366',
+             'menu-item-target' => '',
+             'menu-item-position' => 4,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/tech-news/',
+               'target' => '',
+            )),
+          )),
+          3 => 
+          (array)(array(
+             'menu-item-db-id' => 235367,
+             'menu-item-parent-id' => '235363',
+             'menu-item-type' => 'custom',
+             'menu-item-title' => 'Music',
+             'menu-item-url' => '{{upfront:home_url}}/music/',
+             'menu-item-object' => 'custom',
+             'menu-item-object-id' => '235367',
+             'menu-item-target' => '',
+             'menu-item-position' => 5,
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/music/',
+               'target' => '',
+            )),
+          )),
+        ),
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/blog/',
+           'target' => '',
+        )),
+      )),
+      1 => 
+      (array)(array(
+         'menu-item-db-id' => 235368,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'Gallery',
+         'menu-item-url' => 'http://issue.dev/gallery/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '235368',
+         'menu-item-target' => '',
+         'menu-item-position' => 6,
+         'link' => 
+        (array)(array(
+           'type' => 'external',
+           'url' => 'http://issue.dev/gallery/',
+           'target' => '',
+        )),
+      )),
+      2 => 
+      (array)(array(
+         'menu-item-db-id' => 235369,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'About',
+         'menu-item-url' => 'http://issue.dev/about/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '235369',
+         'menu-item-target' => '',
+         'menu-item-position' => 7,
+         'link' => 
+        (array)(array(
+           'type' => 'external',
+           'url' => 'http://issue.dev/about/',
+           'target' => '',
+        )),
+      )),
+      3 => 
+      (array)(array(
+         'menu-item-db-id' => 235370,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'FAQ',
+         'menu-item-url' => 'http://issue.dev/faq/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '235370',
+         'menu-item-target' => '',
+         'menu-item-position' => 8,
+         'link' => 
+        (array)(array(
+           'type' => 'external',
+           'url' => 'http://issue.dev/faq/',
+           'target' => '',
+        )),
+      )),
+      4 => 
+      (array)(array(
+         'menu-item-db-id' => 235371,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'Contact',
+         'menu-item-url' => 'http://issue.dev/contact/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '235371',
+         'menu-item-target' => '',
+         'menu-item-position' => 9,
+         'link' => 
+        (array)(array(
+           'type' => 'external',
+           'url' => 'http://issue.dev/contact/',
+           'target' => '',
+        )),
+      )),
     ),
     'preset' => 'navigation-header',
     'allow_sub_nav' => 
@@ -289,6 +454,6 @@ $region_2d84f8->add_element("Unewnavigation", array (
   ),
 ));
 
-$regions->add($region_2d84f8);
+$regions->add($region_649d37);
 
 /* END_REGION_OUTPUT */
