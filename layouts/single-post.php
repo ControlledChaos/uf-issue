@@ -230,10 +230,18 @@ $post_featured_image->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'breakpoint' => 
@@ -329,6 +337,7 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461599976322-1901',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -364,81 +373,8 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_group(array (
-  'columns' => '4',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1461599929350-1532',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1461599654191-1517',
-  'original_col' => 24,
-  'top_padding_num' => '15',
-  'bottom_padding_num' => '0',
-  'use_padding' => 'yes',
-  'row' => 13,
-  'edited' => true,
-  'lock_padding' => '',
-  'top_padding_use' => 'yes',
-  'top_padding_slider' => '15',
-  'bottom_padding_use' => 'yes',
-  'bottom_padding_slider' => '0',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 0,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 1,
-      'clear' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-      'top' => 0,
-      'use_padding' => 'yes',
-      'lock_padding' => '',
-      'top_padding_use' => 'yes',
-      'top_padding_slider' => '0',
-      'top_padding_num' => '0',
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'top' => 0,
-      'row' => 8,
-    ),
-    'current_property' => 
-    array (
-      0 => 'top_padding_num',
-    ),
-  ),
-));
-
 $main->add_element("PostData", array (
-  'columns' => '4',
+  'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -527,7 +463,7 @@ $main->add_element("PostData", array (
     ),
     'display_name' => 'first_last',
     'element_id' => 'post-data-object-1461599654454-1003',
-    'top_padding_num' => '10',
+    'top_padding_num' => 25,
     'bottom_padding_num' => '10',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -582,8 +518,8 @@ $main->add_element("PostData", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1461599929354-1486',
-  'new_line' => true,
+  'wrapper_id' => 'wrapper-1461599654191-1517',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -597,7 +533,7 @@ $main->add_element("PostData", array (
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'current_property' => 
@@ -609,7 +545,7 @@ $main->add_element("PostData", array (
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 12,
       'order' => 0,
@@ -617,7 +553,7 @@ $main->add_element("PostData", array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
@@ -629,12 +565,12 @@ $main->add_element("PostData", array (
       0 => 'edited',
     ),
   ),
-  'group' => 'module-group-1461599929350-1532',
+  'close_wrapper' => false,
   'objects' => 
   array (
     0 => 
     array (
-      'columns' => '4',
+      'columns' => '3',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -654,10 +590,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -693,7 +637,7 @@ $main->add_element("PostData", array (
 ));
 
 $main->add_element("PostData", array (
-  'columns' => '4',
+  'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -810,34 +754,13 @@ $main->add_element("PostData", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1461599929355-1562',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 1,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 1,
-      'clear' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
+  'wrapper_id' => 'wrapper-1461599654191-1517',
+  'edited' => true,
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 12,
       'order' => 0,
@@ -845,7 +768,7 @@ $main->add_element("PostData", array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
@@ -856,12 +779,11 @@ $main->add_element("PostData", array (
       0 => 'edited',
     ),
   ),
-  'group' => 'module-group-1461599929350-1532',
   'objects' => 
   array (
     0 => 
     array (
-      'columns' => '4',
+      'columns' => '3',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -881,10 +803,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -920,65 +850,26 @@ $main->add_element("PostData", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1461599983922-1618 upfront-module-spacer',
-  'id' => 'module-1461599983922-1618',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1472176176324-1541',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1472176176324-1538',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1461599983922-1499',
-    'current_preset' => 'default',
-    'preset' => 'default',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1472176176323-1476',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1461599983922-1479',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-      'edited' => true,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-    ),
-  ),
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $main->add_element("PostData", array (
-  'columns' => '15',
+  'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1093,6 +984,7 @@ $main->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461599971282-1384',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1143,7 +1035,7 @@ $main->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '15',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -1163,10 +1055,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -1226,6 +1126,7 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461602466611-1703',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1285,6 +1186,7 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1472096888462-1740',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1407,6 +1309,7 @@ $main->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1472096875465-1960',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1466,10 +1369,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'row' => 142,
@@ -1483,7 +1394,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'hide',
+          0 => 'col',
         ),
         'mobile' => 
         array (
@@ -1520,6 +1431,7 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1472096882579-1035',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1534,7 +1446,7 @@ $main->add_element("Uspacer", array (
 ));
 
 $main->add_element("Uspacer", array (
-  'columns' => '7',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1558,6 +1470,7 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461713685689-1134',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1594,7 +1507,7 @@ $main->add_element("Uspacer", array (
 ));
 
 $main->add_element("PostData", array (
-  'columns' => '15',
+  'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1910,6 +1823,7 @@ $main->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461713452376-1161',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1957,7 +1871,7 @@ $main->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '15',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -1976,10 +1890,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -2011,7 +1933,7 @@ $main->add_element("PostData", array (
     ),
     1 => 
     array (
-      'columns' => '15',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -2030,10 +1952,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 2,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -2067,7 +1997,7 @@ $main->add_element("PostData", array (
     ),
     2 => 
     array (
-      'columns' => '15',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -2086,10 +2016,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 3,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 3,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -2148,6 +2086,7 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1461713687996-1991',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
