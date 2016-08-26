@@ -52,6 +52,209 @@ $post_featured_image = upfront_create_region(
 )
 			);
 
+$post_featured_image->add_element("PostData", array (
+  'columns' => '24',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1472147124096-1881',
+  'id' => 'module-1472147124096-1881',
+  'options' => 
+  array (
+    'type' => 'PostDataModel',
+    'view_class' => 'PostDataView',
+    'has_settings' => 1,
+    'class' => 'c24 upost-data-object upost-data-object-author',
+    'id_slug' => 'post-data',
+    'data_type' => 'author',
+    'preset' => 'author-only',
+    'row' => 19,
+    'type_parts' => 
+    array (
+      0 => 'author',
+      1 => 'gravatar',
+      2 => 'author_email',
+      3 => 'author_url',
+      4 => 'author_bio',
+    ),
+    'gravatar_size' => '90',
+    'post-part-author' => '<div class="upostdata-part author"><a href="{{url}}" {{target}}>{{name}}</a></div>',
+    'post-part-gravatar' => '<div class="upostdata-part gravatar">
+	{{gravatar}}
+</div>',
+    'post-part-author_email' => '<div class="upostdata-part author author-email">
+	<a href="mailto:{{email}}">{{email_string}}</a>
+</div>',
+    'post-part-author_url' => '<div class="upostdata-part author author-url">
+	<a href="{{url}}" rel="author external">{{url_string}}</a>
+</div>',
+    'post-part-author_bio' => '<div class="upostdata-part author author-bio">
+	{{bio}}
+</div>',
+    'static-gravatar-border-width' => '1',
+    'static-gravatar-border-type' => 'solid',
+    'static-gravatar-border-color' => 'rgb(0, 0, 0)',
+    'static-author-use-typography' => 'yes',
+    'static-author-font-family' => 'Lato',
+    'static-author-weight' => '700',
+    'static-author-fontstyle' => '700 normal',
+    'static-author-style' => 'normal',
+    'static-author-font-size' => '14',
+    'static-author-line-height' => '1.45',
+    'static-author-font-color' => 'rgb(37, 37, 37)',
+    'static-author_email-use-typography' => 'yes',
+    'static-author_email-font-family' => 'Lato',
+    'static-author_email-weight' => '300',
+    'static-author_email-fontstyle' => '300 normal',
+    'static-author_email-style' => 'normal',
+    'static-author_email-font-size' => '14',
+    'static-author_email-line-height' => '1.45',
+    'static-author_email-font-color' => '#ufc7',
+    'static-author_url-use-typography' => 'yes',
+    'static-author_url-font-family' => 'Lato',
+    'static-author_url-weight' => '300',
+    'static-author_url-fontstyle' => '300 normal',
+    'static-author_url-style' => 'normal',
+    'static-author_url-font-size' => '14',
+    'static-author_url-line-height' => '1.45',
+    'static-author_url-font-color' => '#ufc7',
+    'static-author_bio-use-typography' => '',
+    'static-author_bio-font-family' => 'Lato',
+    'static-author_bio-weight' => '300',
+    'static-author_bio-fontstyle' => '300 normal',
+    'static-author_bio-style' => 'normal',
+    'static-author_bio-font-size' => '22',
+    'static-author_bio-line-height' => '1.4',
+    'static-author_bio-font-color' => 'rgba(45,45,45,1)',
+    'preset_style' => '',
+    'static-gravatar-lock' => 'yes',
+    'static-gravatar-use-radius' => 'yes',
+    'static-gravatar-radius1' => '100',
+    'static-gravatar-radius2' => '100',
+    'static-gravatar-radius3' => '100',
+    'static-gravatar-radius4' => '100',
+    'static-gravatar-radius' => '100',
+    'static-gravatar-radius_number' => '100',
+    'target' => 
+    array (
+      0 => '_blank',
+    ),
+    'display_name' => 'first_last',
+    'element_id' => 'post-data-object-1472147124089-1488',
+    'top_padding_num' => '90',
+    'bottom_padding_num' => '0',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'current_preset' => 'author-only',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'author-only',
+      )),
+    )),
+    'top_padding_use' => 'yes',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1472150629195-1169',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => true,
+      'col' => 12,
+      'order' => 1,
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 12,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+  'objects' => 
+  array (
+    0 => 
+    array (
+      'columns' => '24',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
+      'class' => 'upfront-post-data-part part-author',
+      'view_class' => 'PostDataPartView',
+      'part_type' => 'author',
+      'wrapper_id' => 'wrapper-1472147124082-1062',
+      'type' => 'PostDataPartModel',
+      'id_slug' => 'post-data-part',
+      'element_id' => 'post-data-part-object-1472147124082-1532',
+      'padding_slider' => '15',
+      'use_padding' => 'yes',
+      'row' => 1,
+      'wrapper_breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+        ),
+      ),
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+        ),
+        'current_property' => 
+        array (
+          0 => 'col',
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+        ),
+      ),
+    ),
+  ),
+));
+
 $regions->add($post_featured_image);
 
 $main = upfront_create_region(
@@ -450,19 +653,11 @@ $main->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 3,
-          'clear' => true,
-          'order' => 1,
+          'col' => 12,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -473,7 +668,7 @@ $main->add_element("PostData", array (
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 3,
+          'col' => 12,
           'order' => 0,
           'use_padding' => 'yes',
           'row' => 6,
@@ -490,7 +685,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'col',
         ),
       ),
     ),
@@ -602,6 +797,13 @@ $main->add_element("PostData", array (
       )),
     )),
     'bottom_padding_slider' => '0',
+    'theme_preset' => 'true',
+    'hidden_parts' => 
+    array (
+      0 => 'date_posted',
+      1 => 'title',
+    ),
+    'left_indent' => '5',
   ),
   'row' => 6,
   'sticky' => false,
@@ -678,19 +880,11 @@ $main->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 3,
-          'clear' => true,
-          'order' => 1,
+          'col' => 12,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -701,7 +895,7 @@ $main->add_element("PostData", array (
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 3,
+          'col' => 12,
           'order' => 0,
           'use_padding' => 'yes',
         ),
@@ -717,7 +911,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'col',
         ),
       ),
     ),
@@ -885,6 +1079,13 @@ $main->add_element("PostData", array (
          'row' => 8,
       )),
     )),
+    'theme_preset' => 'true',
+    'hidden_parts' => 
+    array (
+      0 => 'date_posted',
+      1 => 'title',
+    ),
+    'left_indent' => '5',
   ),
   'row' => 6,
   'sticky' => false,
@@ -962,18 +1163,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -1001,7 +1194,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'col',
         ),
       ),
     ),
@@ -1109,18 +1302,21 @@ $main->add_element("Uspacer", array (
 $main->add_element("PostData", array (
   'columns' => '20',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-post_data_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1472101927458-1557',
   'id' => 'module-1472101927458-1557',
   'options' => 
   array (
-    'data_type' => 'post_data',
-    'row' => 40,
     'type' => 'PostDataModel',
     'view_class' => 'PostDataView',
     'has_settings' => 1,
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
+    'data_type' => 'post_data',
+    'preset' => 'indent-content-only',
+    'row' => 96,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -1137,7 +1333,6 @@ $main->add_element("PostData", array (
     'post-part-content' => '<div class="upostdata-part content">
 	{{content}}
 </div>',
-    'preset' => 'indent-content-only',
     'static-date_posted-use-typography' => 'yes',
     'static-date_posted-font-family' => 'Lato',
     'static-date_posted-weight' => '300',
@@ -1198,8 +1393,19 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
     )),
+    'theme_preset' => 'true',
+    'hidden_parts' => 
+    array (
+      0 => 'date_posted',
+      1 => 'title',
+    ),
+    'left_indent' => '5',
   ),
-  'row' => 40,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1472096875465-1960',
   'wrapper_breakpoint' => 
   array (
@@ -1239,7 +1445,11 @@ $main->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '24',
+      'columns' => '20',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-content',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
@@ -1255,21 +1465,14 @@ $main->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'clear' => true,
           'col' => 12,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
         'mobile' => 
         array (
-          'clear' => true,
           'col' => 7,
-          'order' => 1,
         ),
       ),
+      'row' => 142,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1280,7 +1483,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
@@ -1773,18 +1976,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -1806,16 +2001,17 @@ $main->add_element("PostData", array (
           'col' => 7,
           'order' => 0,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'col',
         ),
       ),
     ),
     1 => 
     array (
-      'columns' => '24',
+      'columns' => '15',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -1834,22 +2030,15 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 2,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
       'preset' => 'default',
+      'row' => 3611,
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1868,16 +2057,17 @@ $main->add_element("PostData", array (
           'col' => 7,
           'order' => 0,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'col',
         ),
       ),
     ),
     2 => 
     array (
-      'columns' => '24',
+      'columns' => '15',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -1896,18 +2086,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 3,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 3,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'current_preset' => 'default',
@@ -1930,10 +2112,11 @@ $main->add_element("PostData", array (
           'col' => 7,
           'order' => 0,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'col',
         ),
       ),
     ),
