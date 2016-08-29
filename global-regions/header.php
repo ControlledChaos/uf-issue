@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_98aa97 = upfront_create_region(
+$region_14d941 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_98aa97 = upfront_create_region(
 )
 			);
 
-$region_98aa97->add_element("PlainTxt", array (
+$region_14d941->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -151,7 +151,7 @@ $region_98aa97->add_element("PlainTxt", array (
   ),
 ));
 
-$region_98aa97->add_element("Unewnavigation", array (
+$region_14d941->add_element("Unewnavigation", array (
   'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -267,15 +267,15 @@ $region_98aa97->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Gallery',
-         'menu-item-url' => 'http://issue.dev/gallery/',
+         'menu-item-url' => '{{upfront:home_url}}/gallery-2/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '235420',
          'menu-item-target' => '',
          'menu-item-position' => 6,
          'link' => 
         (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/gallery/',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/gallery-2/',
            'target' => '',
         )),
       )),
@@ -285,15 +285,15 @@ $region_98aa97->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
-         'menu-item-url' => 'http://issue.dev/about/',
+         'menu-item-url' => '{{upfront:home_url}}/about-2/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '235421',
          'menu-item-target' => '',
          'menu-item-position' => 7,
          'link' => 
         (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/about/',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/about-2/',
            'target' => '',
         )),
       )),
@@ -303,15 +303,15 @@ $region_98aa97->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'FAQ',
-         'menu-item-url' => 'http://issue.dev/faq/',
+         'menu-item-url' => '{{upfront:home_url}}/faq-2/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '235422',
          'menu-item-target' => '',
          'menu-item-position' => 8,
          'link' => 
         (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/faq/',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/faq-2/',
            'target' => '',
         )),
       )),
@@ -321,15 +321,15 @@ $region_98aa97->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact',
-         'menu-item-url' => 'http://issue.dev/contact/',
+         'menu-item-url' => '{{upfront:home_url}}/contact-2/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '235423',
          'menu-item-target' => '',
          'menu-item-position' => 9,
          'link' => 
         (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/contact/',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/contact-2/',
            'target' => '',
         )),
       )),
@@ -454,6 +454,6 @@ $region_98aa97->add_element("Unewnavigation", array (
   ),
 ));
 
-$regions->add($region_98aa97);
+$regions->add($region_14d941);
 
 /* END_REGION_OUTPUT */
