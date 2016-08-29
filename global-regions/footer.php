@@ -71,7 +71,6 @@ $footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1471836713619-1302',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -172,7 +171,6 @@ $footer->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470500096817-1623',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -249,6 +247,12 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-object-id' => '235424',
          'menu-item-target' => '',
          'menu-item-position' => 1,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/advertise/',
+           'target' => '',
+        )),
       )),
       1 => 
       (array)(array(
@@ -261,6 +265,12 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-object-id' => '235427',
          'menu-item-target' => '',
          'menu-item-position' => 2,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/terms-of-use/',
+           'target' => '',
+        )),
       )),
     ),
     'preset' => 'navigation-footer',
@@ -343,7 +353,6 @@ $footer->add_element("Unewnavigation", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470521271113-1883',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -415,7 +424,6 @@ $footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1471836756507-1480',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
