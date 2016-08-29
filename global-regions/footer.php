@@ -71,6 +71,7 @@ $footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1471836713619-1302',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -102,7 +103,7 @@ $footer->add_element("Uspacer", array (
 ));
 
 $footer->add_element("PlainTxt", array (
-  'columns' => '13',
+  'columns' => '15',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -171,6 +172,7 @@ $footer->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470500096817-1623',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -220,7 +222,7 @@ $footer->add_element("PlainTxt", array (
 ));
 
 $footer->add_element("Unewnavigation", array (
-  'columns' => '8',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -247,50 +249,8 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-object-id' => '235424',
          'menu-item-target' => '',
          'menu-item-position' => 1,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/advertise/',
-           'target' => '',
-        )),
       )),
       1 => 
-      (array)(array(
-         'menu-item-db-id' => 235425,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'ADVERTISE',
-         'menu-item-url' => 'http://issue.dev/advertise/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '235425',
-         'menu-item-target' => '',
-         'menu-item-position' => 2,
-         'link' => 
-        (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/advertise/',
-           'target' => '',
-        )),
-      )),
-      2 => 
-      (array)(array(
-         'menu-item-db-id' => 235426,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'TERMS OF USE',
-         'menu-item-url' => 'http://issue.dev/terms-of-use/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '235426',
-         'menu-item-target' => '',
-         'menu-item-position' => 3,
-         'link' => 
-        (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/terms-of-use/',
-           'target' => '',
-        )),
-      )),
-      3 => 
       (array)(array(
          'menu-item-db-id' => 235427,
          'menu-item-parent-id' => '0',
@@ -300,13 +260,7 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '235427',
          'menu-item-target' => '',
-         'menu-item-position' => 4,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/terms-of-use/',
-           'target' => '',
-        )),
+         'menu-item-position' => 2,
       )),
     ),
     'preset' => 'navigation-footer',
@@ -389,6 +343,7 @@ $footer->add_element("Unewnavigation", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470521271113-1883',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -460,6 +415,7 @@ $footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1471836756507-1480',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

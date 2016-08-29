@@ -337,7 +337,7 @@ $main_content->add_element("PlainTxt", array (
          'right_padding_num' => '',
          'lock_padding' => '',
       )),
-       'current_property' => 'bottom_padding_num',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
