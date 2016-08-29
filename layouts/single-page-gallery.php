@@ -1987,6 +1987,9 @@ $main->add_element("Ugallery", array (
            'target' => '',
         )),
          'linkTarget' => '',
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery-img-005-1024x683.jpg',
+         'imageLinkTarget' => '',
       )),
     ),
     'elementSize' => 
