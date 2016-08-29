@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_5baa4b = upfront_create_region(
+$region_3a6744 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_5baa4b = upfront_create_region(
 )
 			);
 
-$region_5baa4b->add_element("PlainTxt", array (
+$region_3a6744->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -151,7 +151,7 @@ $region_5baa4b->add_element("PlainTxt", array (
   ),
 ));
 
-$region_5baa4b->add_element("Unewnavigation", array (
+$region_3a6744->add_element("Unewnavigation", array (
   'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -192,12 +192,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
              'menu-item-object-id' => '235416',
              'menu-item-target' => '',
              'menu-item-position' => 2,
-             'link' => 
-            (array)(array(
-               'type' => 'entry',
-               'url' => '{{upfront:home_url}}/tv/',
-               'target' => '',
-            )),
           )),
           1 => 
           (array)(array(
@@ -210,12 +204,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
              'menu-item-object-id' => '235417',
              'menu-item-target' => '',
              'menu-item-position' => 3,
-             'link' => 
-            (array)(array(
-               'type' => 'entry',
-               'url' => '{{upfront:home_url}}/photography/',
-               'target' => '',
-            )),
           )),
           2 => 
           (array)(array(
@@ -228,12 +216,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
              'menu-item-object-id' => '235418',
              'menu-item-target' => '',
              'menu-item-position' => 4,
-             'link' => 
-            (array)(array(
-               'type' => 'entry',
-               'url' => '{{upfront:home_url}}/tech-news/',
-               'target' => '',
-            )),
           )),
           3 => 
           (array)(array(
@@ -246,20 +228,8 @@ $region_5baa4b->add_element("Unewnavigation", array (
              'menu-item-object-id' => '235419',
              'menu-item-target' => '',
              'menu-item-position' => 5,
-             'link' => 
-            (array)(array(
-               'type' => 'entry',
-               'url' => '{{upfront:home_url}}/music/',
-               'target' => '',
-            )),
           )),
         ),
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/blog/',
-           'target' => '',
-        )),
       )),
       1 => 
       (array)(array(
@@ -272,12 +242,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
          'menu-item-object-id' => '235420',
          'menu-item-target' => '',
          'menu-item-position' => 6,
-         'link' => 
-        (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/gallery/',
-           'target' => '',
-        )),
       )),
       2 => 
       (array)(array(
@@ -290,12 +254,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
          'menu-item-object-id' => '235421',
          'menu-item-target' => '',
          'menu-item-position' => 7,
-         'link' => 
-        (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/about/',
-           'target' => '',
-        )),
       )),
       3 => 
       (array)(array(
@@ -308,12 +266,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
          'menu-item-object-id' => '235422',
          'menu-item-target' => '',
          'menu-item-position' => 8,
-         'link' => 
-        (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/faq/',
-           'target' => '',
-        )),
       )),
       4 => 
       (array)(array(
@@ -326,12 +278,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
          'menu-item-object-id' => '235423',
          'menu-item-target' => '',
          'menu-item-position' => 9,
-         'link' => 
-        (array)(array(
-           'type' => 'external',
-           'url' => 'http://issue.dev/contact/',
-           'target' => '',
-        )),
       )),
     ),
     'preset' => 'navigation-header',
@@ -454,6 +400,6 @@ $region_5baa4b->add_element("Unewnavigation", array (
   ),
 ));
 
-$regions->add($region_5baa4b);
+$regions->add($region_3a6744);
 
 /* END_REGION_OUTPUT */
