@@ -346,7 +346,7 @@ $featured_articles->add_element("Posts", array (
     'pagination' => '',
     'sticky' => '',
     'posts_list' => '',
-    'thumbnail_size' => 'medium',
+    'thumbnail_size' => 'thumbnail',
     'custom_thumbnail_width' => 200,
     'custom_thumbnail_height' => 200,
     'post_parts' => 

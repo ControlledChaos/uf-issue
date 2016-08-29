@@ -2048,7 +2048,7 @@ $categories->add_group(array (
   'original_col' => 24,
   'top_padding_num' => '90',
   'bottom_padding_num' => '50',
-  'use_padding' => 'yes',
+  'use_padding' => 1,
   'edited' => true,
   'lock_padding' => '',
   'top_padding_use' => 'yes',
