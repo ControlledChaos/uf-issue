@@ -2144,7 +2144,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;">Selfies street art Pitchfork, leggings tofu literally swag before they sold out typewriter Neutra actually. Lo-fi brunch sustainable vegan, hashtag art party paleo iPhone Wes Anderson pop-up. Tattooed pug post-ironic put a bird on it American Apparel PBR&amp;B,</p>',
+    'content' => '<p class="" style="text-align: left;"><span class="upfront_theme_color_4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation per seacula quarta decima et quinta decima ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461805045901-1601',
     'class' => 'c24 upfront-plain_txt',
@@ -2834,7 +2834,7 @@ $main->add_element("PlainTxt", array (
     array (
       'clear' => true,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'edited' => true,
     ),
     'mobile' => 
@@ -2885,7 +2885,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p><span class="upfront_theme_color_1">Creative Director</span></p>',
+    'content' => '<h4><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Creative Director</span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470534421512-1911',
     'class' => 'c24 upfront-plain_txt',
@@ -2950,7 +2950,7 @@ $main->add_element("PlainTxt", array (
     array (
       'clear' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'edited' => true,
     ),
     'mobile' => 
@@ -2997,7 +2997,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;">Farm-to-table dreamcatcher locavore butcher. Mustache salvia Portland, you pr obably haven\'t heard of them single-origin coffee banh mi Godard High Life. Flannel whatever seitan dreamcatcher. Tattooed quinoa squid irony banh mi viral, VHS 3 wolf moon.</p>',
+    'content' => '<p class="" style="text-align: left;"><span class="upfront_theme_color_4">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811148124-1355',
     'class' => 'c24 upfront-plain_txt',
@@ -3041,7 +3041,7 @@ $main->add_element("PlainTxt", array (
     array (
       'clear' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'edited' => true,
     ),
     'mobile' => 
@@ -3443,7 +3443,7 @@ $main->add_element("Uspacer", array (
     array (
       'edited' => true,
       'clear' => false,
-      'order' => 6,
+      'order' => 7,
       'col' => 4,
     ),
     'current_property' => 
@@ -3499,7 +3499,7 @@ $main->add_element("Uspacer", array (
     array (
       'edited' => true,
       'clear' => false,
-      'order' => 6,
+      'order' => 7,
       'col' => 9,
     ),
     'mobile' => 
@@ -3980,7 +3980,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;">American Apparel biodiesel farm-to-table, literally bicycle rights tote bag artisan tofu typewriter post-ironic butcher. Disrupt slow-carb four loko, fashion axe irony artisan deep v mumblecore direct trade Pitchfork readymade banjo. Vinyl fanny pack ethical Austin deep v scenester. Umami lo-fi sriracha street art aesthetic raw denim fap. Viral sustainable Vice narwhal ethical photo booth, pickled distillery cardigan wolf.</p>',
+    'content' => '<p class="" style="text-align: left;"><span class="upfront_theme_color_4">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811181415-1512',
     'class' => 'c24 upfront-plain_txt',
@@ -4007,12 +4007,12 @@ $main->add_element("PlainTxt", array (
     'lock_padding' => '',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '10',
-    'row' => 44,
+    'row' => 74,
     'current_preset' => 'default',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
   ),
-  'row' => 6,
+  'row' => 74,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -4929,7 +4929,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;">8-bit distillery single-origin coffee, VHS chia hella cred cray Truffaut. Freegan literally post-ironic, scenester put a bird on it organic Blue Bottle viral sriracha semiotics banh mi Thundercats raw denim. Messenger bag single-origin coffee banh mi, next level flexitarian skateboard bicycle rights slow-carb typewriter.</p>',
+    'content' => '<p class="" style="text-align: left;"><span class="upfront_theme_color_4">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula.</span> </p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811253316-1268',
     'class' => 'c24 upfront-plain_txt',
@@ -6149,7 +6149,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;">Bicycle rights narwhal you probably haven\'t heard of them blog, keffiyeh skateboard synth salvia Intelligentsia ennui jean shorts hashtag deep v. Drinking vinegar trust fund occupy, disrupt chillwave pour-over cray. Odd Future hashtag Brooklyn ethical, wayfarers polaroid direct trade chambray. Wes Anderson cardigan. Odd Future post-ironic plaid, fap salvia Pinterest Thundercats hella craft beer.</p>',
+    'content' => '<p class="" style="text-align: left;"><span class="upfront_theme_color_4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1461811326196-1112',
     'class' => 'c24 upfront-plain_txt',
@@ -6179,8 +6179,9 @@ $main->add_element("PlainTxt", array (
     'current_preset' => 'default',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
+    'row' => 49,
   ),
-  'row' => 6,
+  'row' => 49,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
