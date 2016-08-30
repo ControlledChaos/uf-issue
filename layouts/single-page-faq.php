@@ -307,7 +307,7 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;FAQ &nbsp;</span></h2>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;<span class="upfront_theme_color_1">FAQ</span> &nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
@@ -504,14 +504,14 @@ $main_area->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_4">Chambray bitters Blue Bottle ugh, Portland wolf Truffaut sriracha 90\'s before they sold out trust fund selvage. Forage fanny pack DIY roof party 8-bit, narwhal XOXO Truffaut banjo ugh master cleanse banh mi PBR&amp;B authentic plaid.</span></h2>',
+    'content' => '<h2 class=""><span class="upfront_theme_color_4" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_4"><span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. </span><br></span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788467919-1184',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'preset' => 'default',
     'padding_slider' => '15',
-    'top_padding_num' => '15',
+    'top_padding_num' => '0',
     'bottom_padding_num' => '40',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -536,7 +536,7 @@ $main_area->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
-    'top_padding_use' => '',
+    'top_padding_use' => 'yes',
     'left_padding_use' => '',
     'right_padding_use' => '',
     'breakpoint' => 
@@ -545,7 +545,7 @@ $main_area->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'top_padding_num',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -556,8 +556,9 @@ $main_area->add_element("PlainTxt", array (
       )),
     )),
     'current_preset' => 'default',
+    'top_padding_slider' => '0',
   ),
-  'row' => 37,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
