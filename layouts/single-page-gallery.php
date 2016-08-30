@@ -310,7 +310,7 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;GALLERY &nbsp;</span></h2>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;<span class="upfront_theme_color_1">GALLERY </span>&nbsp;</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788328004-1600',
     'class' => 'c24 upfront-plain_txt',
@@ -533,6 +533,7 @@ $block_banner->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1466810717445-1561',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -559,7 +560,7 @@ $block_banner->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><span style="color:rgb(131, 142, 141)" rel="color:rgb(131, 142, 141)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(131, 142, 141)">Computer skateboard Carles, occaecat Pinterest hashtag assumenda PBR&amp;B. Quis authentic scenester cupidatat incididunt, brunch letterpress yoyo veniam flexitarian Carles anim freegan elit deep v.</span></p>',
+    'content' => '<p class=""><span style="color:rgb(131, 142, 141)" rel="color:rgb(131, 142, 141)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(131, 142, 141)">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.&nbsp;</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1461788467919-1184',
     'class' => 'c24 upfront-plain_txt',
@@ -607,6 +608,7 @@ $block_banner->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1461805628938-1010',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -663,7 +665,7 @@ $block_banner->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><span style="color:rgb(131, 142, 141)">VHS lo-fi viral magna, incididunt 3 wolf moon literally. Truffaut kale chips seitan, ex small batch chia keytar Portland ennui leggings butcher Schlitz church-key Banksy hashtag. Gluten-free Williamsburg et sriracha.</span></p>',
+    'content' => '<p class=""><span style="color:rgb(131, 142, 141)" rel="color:rgb(131, 142, 141)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(131, 142, 141)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaconsequat.</span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1466810605642-1964',
     'class' => 'c24 upfront-plain_txt',
@@ -709,6 +711,7 @@ $block_banner->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1466810712461-1415',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -778,6 +781,7 @@ $block_banner->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1466810719886-1574',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
