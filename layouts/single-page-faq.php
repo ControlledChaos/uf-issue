@@ -703,12 +703,12 @@ $main_area->add_element("Uaccordion", array (
     array (
       0 => 
       (array)(array(
-         'content' => '<p class="">Chartreuse man braid brooklyn small batch, pickled 90\'s venmo pabst. Everyday carry dreamcatcher kombucha flexitarian, put a bird on it gochujang biodiesel banjo tousled. Typewriter keffiyeh irony salvia art party, wolf chambray ennui. Bicycle rights drinking vinegar church-key yuccie, shoreditch bitters iPhone banjo 8-bit PBR&amp;B farm-to-table&nbsp;</p>',
+         'content' => '<p class="">Uis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.&nbsp;</p>',
          'title' => '<p class="">How can I write for Issue Magazine?</p>',
       )),
       1 => 
       (array)(array(
-         'content' => '<p class="">Banjo narwhal man braid, viral single-origin coffee thundercats YOLO sriracha. Jean shorts irony cardigan fap, occupy everyday carry cornhole disrupt fashion axe fanny pack street art crucifix beard. Man bun kale chips shabby chic, lumbersexual 3 wolf moon before they sold out dreamcatcher locavore polaroid VHS quinoa.</p>',
+         'content' => '<p class="">Est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>',
          'title' => '<p class="">Do you have an RSS feed?</p>',
       )),
       2 => 
@@ -719,17 +719,17 @@ $main_area->add_element("Uaccordion", array (
       3 => 
       (array)(array(
          'title' => '<p class="">What about international subscriptions?</p>',
-         'content' => '<p class="">Put a bird on it pickled brunch yuccie next level. XOXO celiac tattooed, pug letterpress chillwave offal affogato vinyl waistcoat gluten-free. Four dollar toast ethical chillwave 3 wolf moon, intelligentsia etsy blue bottle waistcoat bitters echo park shoreditch. Tousled pabst health goth, +1 helvetica small batch <strong data-redactor-tag="strong" data-verified="redactor">food truck pour-over</strong> sustainable you probably haven\'t heard of them listicle VHS 3 wolf moon seitan vice.</p><p class="">YOLO neutra selvage flexitarian butcher helvetica. Photo booth listicle selfies, literally twee yr disrupt echo park pitchfork vice irony.<br></p>',
+         'content' => '<p class="">Delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>',
       )),
       4 => 
       (array)(array(
          'title' => '<p class="">Can I use an&nbsp;Issuemagazine.com photo on my blog?</p>',
-         'content' => '<p class="">Banjo narwhal man braid, viral single-origin coffee thundercats YOLO sriracha. Jean shorts irony cardigan fap, occupy everyday carry cornhole disrupt fashion axe fanny pack street art crucifix beard. Man bun kale chips shabby chic, lumbersexual 3 wolf moon before they sold out dreamcatcher locavore polaroid VHS quinoa. Tacos craft beer fashion axe, cold-pressed pickled intelligentsia meggings pitchfork four dollar toast.</p>',
+         'content' => '<p class="">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>',
       )),
       5 => 
       (array)(array(
          'title' => '<p class="">Can I link to an Issuemagazine.com story on my own blog?</p>',
-         'content' => '<p class="">Tousled pabst health goth, +1 helvetica small batch food truck pour-over sustainable you probably haven\'t heard of them listicle VHS 3 wolf moon seitan vice. Green juice beard hashtag cardigan freegan yr, pour-over helvetica flexitarian typewriter before they sold out gentrify jean shorts. Keytar typewriter humblebrag locavore, you probably haven\'t heard of them stumptown intelligentsia man bun farm-to-table listicle photo booth banh mi. DIY normcore post-ironic tattooed direct trade salvia, austin keffiyeh blog kinfolk distillery.</p>',
+         'content' => '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum.<span class="redactor-invisible-space">​</span></p><table class=""><tbody><tr></tr></tbody></table>',
       )),
     ),
     'accordion_count' => 6,
