@@ -1005,7 +1005,7 @@ $main_area->add_element("Posts", array (
     'id_slug' => 'posts',
     'display_type' => 'list',
     'list_type' => 'generic',
-    'offset' => '1',
+    'offset' => 1,
     'taxonomy' => 'category',
     'term' => '1',
     'content' => 'excerpt',
