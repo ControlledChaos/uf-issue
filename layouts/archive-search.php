@@ -1043,7 +1043,7 @@ $block_content->add_element("Posts", array (
     'pagination' => '',
     'sticky' => '',
     'posts_list' => '',
-    'thumbnail_size' => 'thumbnail',
+    'thumbnail_size' => 'medium',
     'custom_thumbnail_width' => 200,
     'custom_thumbnail_height' => 200,
     'post_parts' => 
@@ -1138,7 +1138,6 @@ $block_content->add_element("Posts", array (
       (array)(array(
          'use_padding' => 'yes',
          'row' => 222,
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_slider' => '0',
          'top_padding_num' => '0',

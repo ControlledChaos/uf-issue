@@ -1012,7 +1012,7 @@ $block_content->add_element("Posts", array (
     'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
-    'thumbnail_size' => 'thumbnail',
+    'thumbnail_size' => 'medium',
     'custom_thumbnail_width' => '180',
     'custom_thumbnail_height' => '180',
     'post_parts' => 
@@ -1205,6 +1205,8 @@ $block_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1471929844195-1400',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
