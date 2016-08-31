@@ -1108,7 +1108,7 @@ $main->add_element("PostData", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -1122,7 +1122,7 @@ $main->add_element("PostData", array (
     ),
     'left_indent' => '5',
   ),
-  'row' => 112,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

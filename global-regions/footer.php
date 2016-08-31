@@ -238,13 +238,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 235604,
+         'menu-item-db-id' => 235653,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '235604',
+         'menu-item-object-id' => '235653',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -256,13 +256,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 235605,
+         'menu-item-db-id' => 235655,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '235605',
+         'menu-item-object-id' => '235655',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -274,13 +274,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 235608,
+         'menu-item-db-id' => 235658,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '235608',
+         'menu-item-object-id' => '235658',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -292,13 +292,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 235607,
+         'menu-item-db-id' => 235661,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '235607',
+         'menu-item-object-id' => '235661',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
