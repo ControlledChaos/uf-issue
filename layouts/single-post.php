@@ -1037,7 +1037,7 @@ $main->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
     'preset' => 'indent-content-only',
-    'row' => 96,
+    'row' => 112,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -1122,7 +1122,7 @@ $main->add_element("PostData", array (
     ),
     'left_indent' => '5',
   ),
-  'row' => 6,
+  'row' => 112,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

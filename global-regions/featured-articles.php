@@ -49,7 +49,7 @@ $featured_articles->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460517086376-1584',
+  'class' => 'module-1460517086376-1584 upfront-module-spacer',
   'id' => 'module-1460517086376-1584',
   'options' => 
   array (
@@ -218,7 +218,7 @@ $featured_articles->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460517088606-1000',
+  'class' => 'module-1460517088606-1000 upfront-module-spacer',
   'id' => 'module-1460517088606-1000',
   'options' => 
   array (
@@ -272,7 +272,7 @@ $featured_articles->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460516542288-1275',
+  'class' => 'module-1460516542288-1275 upfront-module-spacer',
   'id' => 'module-1460516542288-1275',
   'options' => 
   array (
@@ -523,7 +523,7 @@ $featured_articles->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1460516545263-1449',
+  'class' => 'module-1460516545263-1449 upfront-module-spacer',
   'id' => 'module-1460516545263-1449',
   'options' => 
   array (
