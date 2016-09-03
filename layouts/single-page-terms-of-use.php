@@ -47,7 +47,7 @@ $page_feat_image = upfront_create_region(
   'background_default' => 'image',
   'background_position_y' => '50',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/single-page-terms-of-use/issue-no-feature-img.jpg',
+  'background_image' => '{{upfront:style_url}}/images/single-page-terms-of-use/img-new-york.jpg',
   'background_image_ratio' => 0.560000000000000053290705182007513940334320068359375,
 )
 			);

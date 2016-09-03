@@ -112,9 +112,9 @@ $main->add_element("Uimage", array (
   'id' => 'module-1460686607272-1042',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-404_page/issue-oops-268x281-4429.png',
-    'srcFull' => '{{upfront:style_url}}/images/single-404_page/issue-oops.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-404_page/issue-oops.png',
+    'src' => '{{upfront:style_url}}/images/single-404_page/img-oops-268x281-4429.png',
+    'srcFull' => '{{upfront:style_url}}/images/single-404_page/img-oops.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-404_page/img-oops.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,

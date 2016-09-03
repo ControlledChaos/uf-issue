@@ -552,9 +552,9 @@ $block_title->add_element("Uimage", array (
   'id' => 'module-1467496060023-1893',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-tech-news/Issue_Sprites-60x50-3934.png',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-tech-news/Issue_Sprites.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-tech-news/Issue_Sprites.png',
+    'src' => '{{upfront:style_url}}/images/single-page-tech-news/i-icons-60x50-3934.png',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-tech-news/i-icons.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-tech-news/i-icons.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,

@@ -391,9 +391,9 @@ $sidebar_left->add_element("Uimage", array (
   'id' => 'module-1466890533011-1850',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/sidebar-left/Issue_Sprites-105x50-4790.png',
-    'srcFull' => '{{upfront:style_url}}/images/global-regions/sidebar-left/Issue_Sprites.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/sidebar-left/Issue_Sprites.png',
+    'src' => '{{upfront:style_url}}/images/global-regions/sidebar-left/i-icons-105x50-4790.png',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/sidebar-left/i-icons.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/sidebar-left/i-icons.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,
@@ -802,9 +802,9 @@ $sidebar_left->add_element("Uimage", array (
   'id' => 'module-1466893370411-1369',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/sidebar-left/issue-art-poster-195x277-4498.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/global-regions/sidebar-left/issue-art-poster.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/sidebar-left/issue-art-poster.jpg',
+    'src' => '{{upfront:style_url}}/images/global-regions/sidebar-left/img-poster-195x277-4498.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/sidebar-left/img-poster.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/sidebar-left/img-poster.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,

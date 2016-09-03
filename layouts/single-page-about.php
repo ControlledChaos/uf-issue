@@ -518,7 +518,7 @@ $block_banner = upfront_create_region(
   'background_default' => 'hide',
   'background_position_y' => '50',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/single-page-about/issue-bg-about.jpg',
+  'background_image' => '{{upfront:style_url}}/images/single-page-about/img-camera.jpg',
   'background_image_ratio' => 0.2300000000000000099920072216264088638126850128173828125,
 )
 			);
@@ -765,9 +765,9 @@ $block_banner->add_element("Uimage", array (
   'id' => 'module-1461788328006-1559',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-about/issue-bg-about-1080x250-2597.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-about/issue-bg-about.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-about/issue-bg-about.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-about/img-camera-1080x250-2597.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-about/img-camera.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-about/img-camera.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,

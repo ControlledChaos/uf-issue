@@ -576,9 +576,9 @@ $block_title->add_element("Uimage", array (
   'id' => 'module-1460769715553-1246',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive-search/issue-icon-search-48x48-8203.png',
-    'srcFull' => '{{upfront:style_url}}/images/archive-search/issue-icon-search.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-search/issue-icon-search.png',
+    'src' => '{{upfront:style_url}}/images/archive-search/i-search-48x48-8203.png',
+    'srcFull' => '{{upfront:style_url}}/images/archive-search/i-search.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-search/i-search.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,

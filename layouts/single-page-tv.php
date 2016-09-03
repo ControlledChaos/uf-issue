@@ -549,9 +549,9 @@ $block_title->add_element("Uimage", array (
   'id' => 'module-1467493986757-1901',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-tv/Issue_Sprites-60x50-8688.png',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-tv/Issue_Sprites.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-tv/Issue_Sprites.png',
+    'src' => '{{upfront:style_url}}/images/single-page-tv/i-icons-60x50-8688.png',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-tv/i-icons.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-tv/i-icons.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,

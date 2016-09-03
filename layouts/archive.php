@@ -551,9 +551,9 @@ $block_title->add_element("Uimage", array (
   'id' => 'module-1460688550162-1717',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive/issue-icon-search-48x48-5068.png',
-    'srcFull' => '{{upfront:style_url}}/images/archive/issue-icon-search.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive/issue-icon-search.png',
+    'src' => '{{upfront:style_url}}/images/archive/i-search-48x48-5068.png',
+    'srcFull' => '{{upfront:style_url}}/images/archive/i-search.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive/i-search.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,
