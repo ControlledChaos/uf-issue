@@ -116,6 +116,9 @@ $main_content->add_group(array (
   'top_padding_slider' => '15',
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -575,6 +578,8 @@ $main_content->add_group(array (
   'bottom_padding_use' => 'yes',
   'bottom_padding_slider' => '50',
   'lock_padding' => '',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1245,6 +1250,8 @@ $main_content->add_group(array (
   'lock_padding' => '',
   'row' => 90,
   'edited' => true,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1398,6 +1405,8 @@ $main_content->add_element("Uimage", array (
       )),
     )),
     'current_preset' => 'default',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2067,6 +2076,8 @@ $categories->add_group(array (
   'background_image_ratio' => 1,
   'href' => '{{upfront:home_url}}/tv/',
   'linkTarget' => false,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2403,6 +2414,8 @@ $categories->add_group(array (
   'background_image_ratio' => 0.40000000000000002220446049250313080847263336181640625,
   'href' => '{{upfront:home_url}}/photography/',
   'linkTarget' => false,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2835,6 +2848,8 @@ $categories->add_group(array (
   'background_position' => '50% 50%',
   'href' => '{{upfront:home_url}}/tech-news/',
   'linkTarget' => false,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3157,6 +3172,8 @@ $categories->add_group(array (
   'background_image_ratio' => 1,
   'href' => '{{upfront:home_url}}/gallery/',
   'linkTarget' => false,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3479,6 +3496,8 @@ $categories->add_group(array (
   'background_image_ratio' => 1,
   'href' => '{{upfront:home_url}}/music/',
   'linkTarget' => false,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

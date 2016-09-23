@@ -136,6 +136,9 @@ $social_footer->add_group(array (
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
   'row' => 25,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -492,6 +495,9 @@ $social_footer->add_group(array (
   'top_padding_slider' => '15',
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -834,6 +840,9 @@ $social_footer->add_group(array (
   'use_padding' => 'yes',
   'edited' => true,
   'row' => 25,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
