@@ -24,7 +24,7 @@ class Uf_issue extends Upfront_ChildTheme {
 	}
 
 	public function populate_pages() {
-		
+
 	}
 
 	protected function add_actions_filters() {
@@ -62,3 +62,5 @@ class Uf_issue extends Upfront_ChildTheme {
 }
 
 Uf_issue::serve();
+
+if (file_exists(dirname(__FILE__) . '/compat/compat.php')) require_once(dirname(__FILE__) . '/compat/compat.php');
