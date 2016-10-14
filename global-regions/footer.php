@@ -238,13 +238,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 60,
+         'menu-item-db-id' => 24,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '60',
+         'menu-item-object-id' => '24',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -256,13 +256,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 61,
+         'menu-item-db-id' => 25,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '61',
+         'menu-item-object-id' => '25',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -329,7 +329,7 @@ $footer->add_element("Unewnavigation", array (
          'top_padding_slider' => '10',
          'row' => 4,
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -350,7 +350,7 @@ $footer->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 9,
+         'menu_id' => 3,
          'menu_slug' => 'footer-menu',
       )),
     )),
