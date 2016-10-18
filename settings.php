@@ -19,7 +19,11 @@ body.upfront #page {
 }
 /* WooCommerce Element - Button */
 .woocommerce ul.products li.product .button,
-.woocommerce div.product form.cart .button {
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
     display: block;
     padding: 10px 15px;
     border-radius: 4px;
@@ -35,11 +39,17 @@ body.upfront #page {
 }
 .woocommerce ul.products li.product:hover .button,
 .woocommerce ul.products li.product .button:hover,
-.woocommerce div.product form.cart .button:hover {
+.woocommerce div.product form.cart .button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
     background: #e78e6f;
+    color: #ufc6;
 }
 /* WooCommerce Element - Select */
-.woocommerce .woocommerce-ordering select {
+.woocommerce .woocommerce-ordering select,
+.woocommerce div.product form.cart .variations select {
     width: 210px;
     padding: 8px 15px 10px;
     border: 1px solid #edf3f2;
@@ -58,8 +68,12 @@ body.upfront #page {
     -moz-transition: 0.2s ease-in;
     -webkit-transition: 0.2s ease-in;
 }
-.woocommerce .woocommerce-ordering select:hover {
+.woocommerce .woocommerce-ordering select:hover,
+.woocommerce div.product form.cart .variations select:hover {
     border: 1px solid #b5cdc9
+}
+.woocommerce div.product form.cart .variations select {
+    background-position: 159px -1330px;
 }
 /* WooCommerce Element - Input */
 .woocommerce .quantity .qty {
