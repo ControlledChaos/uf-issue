@@ -25,6 +25,7 @@ body.upfront #page {
 .woocommerce button.button,
 .woocommerce input.button {
     display: block;
+    margin-left: auto;
     padding: 10px 15px;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -76,7 +77,10 @@ body.upfront #page {
     background-position: 159px -1330px;
 }
 /* WooCommerce Element - Input */
-.woocommerce .quantity .qty {
+.woocommerce .quantity .qty,
+#add_payment_method table.cart td.actions .coupon .input-text,
+.woocommerce-cart table.cart td.actions .coupon .input-text,
+.woocommerce-checkout table.cart td.actions .coupon .input-text {
     padding: 8px 15px 10px;
     border: 1px solid #edf3f2;
     border-radius: 0;
@@ -263,6 +267,11 @@ body.upfront #page {
 /* WooCommerce - Product Page */
 .woocommerce div.product form.cart div.quantity {
     margin: 4px 15px 0 0;
+}
+/* WooCommerce - Cart Page */
+div#page .woocommerce table.shop_table td a,
+div#page .woocommerce table.shop_table td a:visited {
+    border-bottom: 0 !important;
 }',
 	'layout_properties' => '[{"name":"version","value":"1.0.0"},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":1080},{"name":"background_color","value":"rgba(243,243,243,1)"},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}}]',
 	'theme_colors' => '{"colors":[{"color":"#2e3332","prev":"#2e3332","highlight":"#2e3332","shade":"#2e3332","selected":"","luminance":"","alpha":"1"},{"color":"#de7854","prev":"#de7854","highlight":"#de7854","shade":"#de7854","selected":"","luminance":"","alpha":"1"},{"color":"#5aadaa","prev":"#5aadaa","highlight":"#5aadaa","shade":"#5aadaa","selected":"","luminance":"","alpha":"1"},{"color":"#373d3c","prev":"#373d3c","highlight":"#373d3c","shade":"#373d3c","selected":"","luminance":"","alpha":"1"},{"color":"#7c8a87","prev":"#7c8a87","highlight":"#7c8a87","shade":"#7c8a87","selected":"","luminance":"","alpha":"1"},{"color":"#a4b2b0","prev":"#a4b2b0","highlight":"#a4b2b0","shade":"#a4b2b0","selected":"","luminance":"","alpha":"1"},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#b96446","prev":"#b96446","highlight":"#b96446","shade":"#b96446","selected":"","luminance":"","alpha":"1"},{"color":"#c5d6d3","prev":"#c5d6d3","highlight":"#c5d6d3","shade":"#c5d6d3","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
