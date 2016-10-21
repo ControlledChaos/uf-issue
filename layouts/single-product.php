@@ -10,7 +10,7 @@ $product_featured_image = upfront_create_region(
   'type' => 'clip',
   'scope' => 'local',
   'container' => 'product-featured-image',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
@@ -48,6 +48,74 @@ $product_featured_image = upfront_create_region(
   'background_size_percent' => '100',
 )
 			);
+
+$product_featured_image->add_element("PlainTxt", array (
+  'columns' => '24',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1477036417789-1663',
+  'options' => 
+  array (
+    'content' => '<h6 class="" style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"></a><span class="upfront_theme_color_1"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">Home</a> / <a href="{{upfront:home_url}}/shop/" target="_self" data-upfront-link-type="entry">Shop</a> /</span> Product</h6>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1477036417789-1321',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'anchor' => '',
+    'current_preset' => 'default',
+    'row' => 6,
+  ),
+  'row' => 6,
+  'wrapper_id' => 'wrapper-1477036427813-1269',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => true,
+      'col' => 12,
+      'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 1,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 12,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+));
 
 $regions->add($product_featured_image);
 
@@ -214,7 +282,7 @@ $main->add_element("PostData", array (
     'right_padding_use' => 'yes',
     'right_padding_slider' => 15,
   ),
-  'row' => 215,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

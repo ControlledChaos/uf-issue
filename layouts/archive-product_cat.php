@@ -100,7 +100,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">Home</a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span> Archive</h6>',
+    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"></a><span class="upfront_theme_color_7"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">Home</a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span></span><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"></span> Shop</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470607801668-1852',
     'class' => 'c24 upfront-plain_txt',
@@ -128,7 +128,7 @@ $breadcrumbs->add_element("PlainTxt", array (
     )),
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'lock_padding' => 0,
+    'lock_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
