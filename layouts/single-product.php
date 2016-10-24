@@ -52,18 +52,20 @@ $product_featured_image = upfront_create_region(
 $product_featured_image->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1477036417789-1663',
   'id' => 'module-1477036417789-1663',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h6 class="" style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"></a><span class="upfront_theme_color_1"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">Home</a> / <a href="{{upfront:home_url}}/shop/" target="_self" data-upfront-link-type="entry">Shop</a> /</span> Product</h6>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1477036417789-1321',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
@@ -77,8 +79,24 @@ $product_featured_image->add_element("PlainTxt", array (
     'anchor' => '',
     'current_preset' => 'default',
     'row' => 6,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1477036427813-1269',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -89,15 +107,15 @@ $product_featured_image->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -174,6 +192,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1476896008758-1364',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -211,7 +231,7 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'product-content',
+    'preset' => 'content-only',
     'row' => 215,
     'type_parts' => 
     array (
@@ -266,12 +286,20 @@ $main->add_element("PostData", array (
     ),
     'left_indent' => '5',
     'anchor' => '',
-    'current_preset' => 'product-content',
+    'current_preset' => 'content-only',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'product-content',
+         'preset' => 'content-only',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'indent-content-only-for-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'indent-content-only-for-mobile',
       )),
     )),
     'theme_style' => '',
@@ -281,6 +309,38 @@ $main->add_element("PostData", array (
     'bottom_padding_slider' => 15,
     'right_padding_use' => 'yes',
     'right_padding_slider' => 15,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'left_padding_use' => 'yes',
+         'left_padding_slider' => 15,
+         'left_padding_num' => 15,
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => 15,
+         'bottom_padding_num' => 15,
+         'right_padding_use' => 'yes',
+         'right_padding_slider' => 15,
+         'right_padding_num' => 15,
+         'lock_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'left_padding_use' => 'yes',
+         'left_padding_slider' => 15,
+         'left_padding_num' => 15,
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => 15,
+         'bottom_padding_num' => 15,
+         'right_padding_use' => 'yes',
+         'right_padding_slider' => 15,
+         'right_padding_num' => 15,
+         'lock_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -345,18 +405,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -365,19 +417,25 @@ $main->add_element("PostData", array (
       'bottom_padding_num' => 15,
       'lock_padding' => '',
       'row' => 215,
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
       ),
     ),
@@ -400,6 +458,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1476896011479-1950',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -421,8 +481,6 @@ $main->add_element("Uspacer", array (
 ));
 
 $regions->add($main);
-
-if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'featured-articles.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php');
 
