@@ -1,5 +1,5 @@
 <?php
-$sidebar_left_container = ( !empty($region_container) ? $region_container : "block-content" );
+$sidebar_left_container = ( !empty($region_container) ? $region_container : "main" );
 $sidebar_left_sub = ( !empty($region_sub) ? $region_sub: "right" );
 
 /* START_REGION_OUTPUT */
@@ -893,7 +893,7 @@ $sidebar_left->add_element("Uimage", array (
     'current_preset' => 'default',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'lock_padding' => 0,
+    'lock_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
