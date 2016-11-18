@@ -63,10 +63,16 @@ a.mp_button-mini-cart:hover {
     color: #ufc6;
 }
 /* MarketPress - Select2 */
-.content div.mp_select2 {
+.content div.mp_select2,
+.content div.mp_select2_search {
     width: 100%;
 }
-div.mp_select2 .select2-choice {
+.mp_checkout_section_content div.select2-container .select2-choice {
+    height: auto;
+    line-height: initial;
+}
+div.mp_select2 .select2-choice,
+div.mp_select2_search .select2-choice {
     height: auto;
     padding: 8px 40px 10px 15px;
     border: 1px solid #edf3f2;
@@ -80,7 +86,11 @@ div.mp_select2 .select2-choice {
     -moz-transition: 0.2s linear;
     -webkit-transition: 0.2s linear;
 }
-div.mp_select2 .select2-choice:hover {
+div.mp_select2_search .select2-choice {
+    padding: 7px 40px 9px 15px;
+}
+div.mp_select2 .select2-choice:hover,
+div.mp_select2_search .select2-choice:hover {
     border: 1px solid #b5cdc9;
 }
 div.mp_select2.select2-dropdown-open .select2-choice, div.mp_select2_search.select2-dropdown-open .select2-choice {
@@ -109,7 +119,8 @@ div.mp_select2.select2-drop-auto-width, div.mp_select2_search.select2-drop-auto-
     -webkit-border-radius: 0;
     background: #edf3f2;
 }
-div.mp_select2 .select2-results li {
+div.mp_select2 .select2-results li,
+div.mp_select2_search .select2-results li {
     color: rgba(101, 128, 140, 0.7);
     font: 400 14px/15px "Lato", Arial, sans-serif;
 }
