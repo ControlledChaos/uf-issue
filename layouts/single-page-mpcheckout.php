@@ -117,6 +117,10 @@ $breadcrumbs->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -334,6 +338,10 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'mp-checkout-for-tablet',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mp-checkout-for-mobile',
+      )),
     )),
     'static-date_posted-use-typography' => 'yes',
     'static-date_posted-font-family' => 'Lato',
@@ -520,6 +528,10 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -613,6 +625,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -665,6 +678,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
