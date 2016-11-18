@@ -58,6 +58,8 @@ $breadcrumbs->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479448123520-1234',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -107,6 +109,15 @@ $breadcrumbs->add_element("PlainTxt", array (
     'usingNewAppearance' => true,
     'is_edited' => true,
     'row' => 5,
+    'current_preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -166,6 +177,8 @@ $breadcrumbs->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479448121361-1662',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -243,6 +256,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479448359021-1849',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -300,6 +315,14 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'box-title',
       )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
     )),
   ),
   'row' => 6,
@@ -360,6 +383,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479448362272-1069',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -396,6 +421,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479448143349-1250',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -467,6 +494,10 @@ $main->add_element("PostData", array (
        'desktop' => 
       (array)(array(
          'preset' => 'mp-cart',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'mp-cart-for-tablet',
       )),
     )),
     'static-date_posted-use-typography' => 'yes',
@@ -647,6 +678,14 @@ $main->add_element("PostData", array (
       1 => 'date_posted',
     ),
     'left_indent' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -730,16 +769,19 @@ $main->add_element("PostData", array (
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
       'lock_padding' => '',
+      'current_preset' => 'default',
+      'preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
@@ -766,6 +808,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479448146066-1912',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
