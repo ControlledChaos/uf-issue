@@ -117,6 +117,10 @@ $breadcrumbs->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -323,6 +327,10 @@ $main->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -498,6 +506,10 @@ $main->add_element("PostData", array (
        'tablet' => 
       (array)(array(
          'preset' => 'mp-cart-for-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mp-cart-for-mobile',
       )),
     )),
     'static-date_posted-use-typography' => 'yes',
@@ -685,6 +697,10 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -786,6 +802,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
