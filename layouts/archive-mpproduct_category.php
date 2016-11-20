@@ -100,7 +100,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1">Home</span></a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span> Products</h6>',
+    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Home</span></a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span>&nbsp;<a href="{{upfront:home_url}}/store/" target="_self" data-upfront-link-type="entry"><span class="upfront_theme_color_1">Store</span></a> <span class="upfront_theme_color_7">/</span>&nbsp;Products</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470607801668-1852',
     'class' => 'c24 upfront-plain_txt',
