@@ -295,7 +295,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2><span class="upfront_theme_bg_color_6"></span><span class="upfront_theme_color_1"><span class="upfront_theme_bg_color_6">&nbsp;Cart&nbsp;</span></span></h2>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6"></span><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;CART&nbsp;</span></span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1479448011821-1984',
     'class' => 'c24 upfront-plain_txt',
@@ -766,18 +766,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
