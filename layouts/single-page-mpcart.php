@@ -93,7 +93,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 class="" style="text-align: right;"><span class="upfront_theme_color_7"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"><span class="upfront_theme_color_1">Home</span></a> / <a href="{{upfront:home_url}}/store/" target="_self" data-upfront-link-type="entry"><span class="upfront_theme_color_1">Store</span></a> / <a href="{{upfront:home_url}}/store/products/" target="_self" data-upfront-link-type="entry"><span class="upfront_theme_color_1">Products</span></a> /</span>&nbsp;Cart</h6>',
+    'content' => '<h6 class="" style="text-align: right;"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Home</span></a> / <a target="_self" data-upfront-link-type="entry" href="{{upfront:home_url}}/store/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Store</span></a>&nbsp;/</span>&nbsp;Cart</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1479447943582-1277',
     'class' => 'c24 upfront-plain_txt',
