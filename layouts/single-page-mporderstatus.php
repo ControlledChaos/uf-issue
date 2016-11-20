@@ -10,7 +10,7 @@ $breadrumbs = upfront_create_region(
   'type' => 'clip',
   'scope' => 'local',
   'container' => 'breadrumbs',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
@@ -44,40 +44,58 @@ $breadrumbs = upfront_create_region(
 
 $breadrumbs->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1479454182694-1458 upfront-module-spacer',
   'id' => 'module-1479454182694-1458',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1479454182693-1383',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1479454182693-1383',
   ),
-  'wrapper_id' => 'wrapper-1479454182693-1054',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1479454182693-1054',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $breadrumbs->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1479454041768-1438',
   'id' => 'module-1479454041768-1438',
   'options' => 
   array (
-    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"><span class="upfront_theme_color_1">Home</span></a> <span class="upfront_theme_color_7">/</span> <a href="{{upfront:home_url}}/store/" target="_self" data-upfront-link-type="entry"><span class="upfront_theme_color_1">Store</span></a> <span class="upfront_theme_color_7">/</span> Order Status</h6>',
-    'type' => 'PlainTxtModel',
     'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Home</span></a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span> <a target="_self" data-upfront-link-type="entry" href="{{upfront:home_url}}/store/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Store</span></a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span> Order Status</h6>',
+    'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1479454041768-1881',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'preset' => 'default',
     'padding_slider' => '15',
     'top_padding_num' => '15',
@@ -90,9 +108,12 @@ $breadrumbs->add_element("PlainTxt", array (
     'is_edited' => true,
     'row' => 5,
   ),
-  'row' => 5,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1479454085145-1666',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -101,15 +122,15 @@ $breadrumbs->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -131,22 +152,38 @@ $breadrumbs->add_element("PlainTxt", array (
 
 $breadrumbs->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1479454181025-1066 upfront-module-spacer',
   'id' => 'module-1479454181025-1066',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1479454181025-1477',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1479454181025-1477',
   ),
-  'wrapper_id' => 'wrapper-1479454181024-1104',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1479454181024-1104',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $regions->add($breadrumbs);
@@ -184,7 +221,7 @@ $main = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_num' => '40',
+  'top_bg_padding_num' => '0',
   'bottom_bg_padding_num' => '70',
   'bg_padding_num' => 0,
 )
@@ -192,27 +229,43 @@ $main = upfront_create_region(
 
 $main->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1479454184891-1480 upfront-module-spacer',
   'id' => 'module-1479454184891-1480',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1479454184891-1828',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1479454184891-1828',
   ),
-  'wrapper_id' => 'wrapper-1479454184891-1958',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1479454184891-1958',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $main->add_element("PostData", array (
-  'columns' => '22',
+  'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -227,7 +280,7 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'default',
+    'preset' => 'mp-order-status',
     'row' => 40,
     'type_parts' => 
     array (
@@ -247,13 +300,13 @@ $main->add_element("PostData", array (
 	{{content}}
 </div>',
     'element_id' => 'post-data-object-1467787537271-1215',
-    'top_padding_num' => 15,
+    'top_padding_num' => '0',
     'bottom_padding_num' => 15,
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'left_padding_num' => 15,
     'right_padding_num' => 15,
-    'lock_padding' => 0,
+    'lock_padding' => '',
     'static-date_posted-use-typography' => 'yes',
     'static-date_posted-font-family' => 'Lato',
     'static-date_posted-weight' => '300',
@@ -432,6 +485,17 @@ $main->add_element("PostData", array (
       1 => 'title',
     ),
     'left_indent' => '0',
+    'anchor' => '',
+    'current_preset' => 'mp-order-status',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'mp-order-status',
+      )),
+    )),
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -439,7 +503,6 @@ $main->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1467787553104-1347',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -478,7 +541,7 @@ $main->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '22',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -497,25 +560,17 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
       'left_padding_num' => 15,
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
-      'lock_padding' => 0,
+      'lock_padding' => '',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -534,7 +589,7 @@ $main->add_element("PostData", array (
     ),
     1 => 
     array (
-      'columns' => '22',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -553,18 +608,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 2,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -590,7 +637,7 @@ $main->add_element("PostData", array (
     ),
     2 => 
     array (
-      'columns' => '22',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -609,18 +656,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 3,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 3,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -649,25 +688,45 @@ $main->add_element("PostData", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1479454187321-1702 upfront-module-spacer',
   'id' => 'module-1479454187321-1702',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1479454187321-1986',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1479454187321-1986',
   ),
-  'wrapper_id' => 'wrapper-1479454187321-1741',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1479454187321-1741',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $regions->add($main);
+
+$region_container = 'main';
+$region_sub = 'right';
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'sidebar-left.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'sidebar-left.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'social-footer.php');
 
