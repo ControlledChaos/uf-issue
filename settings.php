@@ -64,7 +64,8 @@ a.mp_button-mini-cart:hover {
 }
 /* MarketPress - Select2 */
 .content div.mp_select2,
-.content div.mp_select2_search {
+.content div.mp_select2_search,
+.mp_products_filter .mp_select2 {
     width: 100%;
 }
 .mp_checkout_section_content div.select2-container .select2-choice {
