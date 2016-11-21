@@ -513,7 +513,7 @@ $main->add_element("PostData", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'mp-products',
+         'preset' => 'mp-products-for-tablet',
       )),
        'mobile' => 
       (array)(array(
@@ -720,7 +720,7 @@ $main->add_element("PostData", array (
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
