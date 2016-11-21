@@ -278,6 +278,8 @@ $block_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479609000102-1597',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -356,7 +358,7 @@ $block_content->add_element("PlainTxt", array (
          'bottom_padding_slider' => '25',
          'bottom_padding_num' => '25',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -427,6 +429,8 @@ $block_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479609002424-1061',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -603,11 +607,11 @@ $block_content->add_element("Posts", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'posts-default-tablet',
+         'preset' => 'mp-archive-for-tablet',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'posts-default-mobile',
+         'preset' => 'mp-archive-for-mobile',
       )),
     )),
     'row' => 119,

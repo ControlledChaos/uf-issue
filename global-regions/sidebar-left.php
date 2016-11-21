@@ -1,5 +1,5 @@
 <?php
-$sidebar_left_container = ( !empty($region_container) ? $region_container : "main" );
+$sidebar_left_container = ( !empty($region_container) ? $region_container : "block-content" );
 $sidebar_left_sub = ( !empty($region_sub) ? $region_sub: "right" );
 
 /* START_REGION_OUTPUT */
