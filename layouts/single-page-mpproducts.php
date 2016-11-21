@@ -58,6 +58,8 @@ $breadcrumbs->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479617865355-1050',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -115,7 +117,7 @@ $breadcrumbs->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -180,6 +182,8 @@ $breadcrumbs->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1479617862784-1423',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -330,7 +334,7 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -509,7 +513,7 @@ $main->add_element("PostData", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'mp-products-for-tablet',
+         'preset' => 'mp-products',
       )),
        'mobile' => 
       (array)(array(
@@ -817,6 +821,7 @@ $main->add_element("PostData", array (
         array (
           'col' => 7,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
       ),
     ),
