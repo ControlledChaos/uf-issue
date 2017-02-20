@@ -43,6 +43,7 @@ $footer = upfront_create_region(
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc0',
+  'region_role' => 'contentinfo',
 )
 			);
 
@@ -238,41 +239,29 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 327,
+         'menu-item-db-id' => 101,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '327',
+         'menu-item-object-id' => '101',
          'menu-item-target' => '',
          'menu-item-position' => 1,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/advertise/',
-           'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
-        )),
+         'menu-item-classes' => '',
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 328,
+         'menu-item-db-id' => 102,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '328',
+         'menu-item-object-id' => '102',
          'menu-item-target' => '',
          'menu-item-position' => 2,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/terms-of-use/',
-           'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
-        )),
+         'menu-item-classes' => '',
       )),
     ),
     'preset' => 'navigation-footer',
@@ -351,7 +340,7 @@ $footer->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 33,
+         'menu_id' => 7,
          'menu_slug' => 'footer-menu',
       )),
     )),

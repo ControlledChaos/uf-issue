@@ -51,6 +51,7 @@ $social_footer = upfront_create_region(
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc3',
+  'region_role' => 'complementary',
 )
 			);
 
