@@ -249,6 +249,13 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/advertise/',
+           'target' => '',
+           'display_url' => '{{upfront:home_url}}/...',
+        )),
       )),
       1 => 
       (array)(array(
@@ -262,6 +269,13 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'menu-item-classes' => '',
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/terms-of-use/',
+           'target' => '',
+           'display_url' => '{{upfront:home_url}}/...',
+        )),
       )),
     ),
     'preset' => 'navigation-footer',
