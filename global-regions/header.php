@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_97087f = upfront_create_region(
+$region_4e16c7 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -44,7 +44,7 @@ $region_97087f = upfront_create_region(
 )
 			);
 
-$region_97087f->add_element("PlainTxt", array (
+$region_4e16c7->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -152,7 +152,7 @@ $region_97087f->add_element("PlainTxt", array (
   ),
 ));
 
-$region_97087f->add_element("Unewnavigation", array (
+$region_4e16c7->add_element("Unewnavigation", array (
   'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -171,13 +171,13 @@ $region_97087f->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 92,
+         'menu-item-db-id' => 149,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Issues',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '92',
+         'menu-item-object-id' => '149',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
@@ -185,13 +185,13 @@ $region_97087f->add_element("Unewnavigation", array (
         array (
           0 => 
           (array)(array(
-             'menu-item-db-id' => 93,
-             'menu-item-parent-id' => '92',
+             'menu-item-db-id' => 150,
+             'menu-item-parent-id' => '149',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'TV',
              'menu-item-url' => '{{upfront:home_url}}/tv/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '93',
+             'menu-item-object-id' => '150',
              'menu-item-target' => '',
              'menu-item-position' => 2,
              'menu-item-classes' => '',
@@ -200,18 +200,18 @@ $region_97087f->add_element("Unewnavigation", array (
                'type' => 'entry',
                'url' => '{{upfront:home_url}}/tv/',
                'target' => '',
-               'display_url' => '{{upfront:home_url}}/...',
+               'display_url' => 'http://issue.uf-coursepre...',
             )),
           )),
           1 => 
           (array)(array(
-             'menu-item-db-id' => 94,
-             'menu-item-parent-id' => '92',
+             'menu-item-db-id' => 151,
+             'menu-item-parent-id' => '149',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Photography',
              'menu-item-url' => '{{upfront:home_url}}/photography/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '94',
+             'menu-item-object-id' => '151',
              'menu-item-target' => '',
              'menu-item-position' => 3,
              'menu-item-classes' => '',
@@ -220,18 +220,18 @@ $region_97087f->add_element("Unewnavigation", array (
                'type' => 'entry',
                'url' => '{{upfront:home_url}}/photography/',
                'target' => '',
-               'display_url' => '{{upfront:home_url}}/...',
+               'display_url' => 'http://issue.uf-coursepre...',
             )),
           )),
           2 => 
           (array)(array(
-             'menu-item-db-id' => 95,
-             'menu-item-parent-id' => '92',
+             'menu-item-db-id' => 152,
+             'menu-item-parent-id' => '149',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Tech News',
              'menu-item-url' => '{{upfront:home_url}}/tech-news/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '95',
+             'menu-item-object-id' => '152',
              'menu-item-target' => '',
              'menu-item-position' => 4,
              'menu-item-classes' => '',
@@ -240,18 +240,18 @@ $region_97087f->add_element("Unewnavigation", array (
                'type' => 'entry',
                'url' => '{{upfront:home_url}}/tech-news/',
                'target' => '',
-               'display_url' => '{{upfront:home_url}}/...',
+               'display_url' => 'http://issue.uf-coursepre...',
             )),
           )),
           3 => 
           (array)(array(
-             'menu-item-db-id' => 96,
-             'menu-item-parent-id' => '92',
+             'menu-item-db-id' => 153,
+             'menu-item-parent-id' => '149',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Music',
              'menu-item-url' => '{{upfront:home_url}}/music/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '96',
+             'menu-item-object-id' => '153',
              'menu-item-target' => '',
              'menu-item-position' => 5,
              'menu-item-classes' => '',
@@ -260,18 +260,18 @@ $region_97087f->add_element("Unewnavigation", array (
                'type' => 'entry',
                'url' => '{{upfront:home_url}}/music/',
                'target' => '',
-               'display_url' => '{{upfront:home_url}}/...',
+               'display_url' => 'http://issue.uf-coursepre...',
             )),
           )),
           4 => 
           (array)(array(
-             'menu-item-db-id' => 97,
-             'menu-item-parent-id' => '92',
+             'menu-item-db-id' => 154,
+             'menu-item-parent-id' => '149',
              'menu-item-type' => 'custom',
              'menu-item-title' => 'Gallery',
              'menu-item-url' => '{{upfront:home_url}}/gallery/',
              'menu-item-object' => 'custom',
-             'menu-item-object-id' => '97',
+             'menu-item-object-id' => '154',
              'menu-item-target' => '',
              'menu-item-position' => 6,
              'menu-item-classes' => '',
@@ -280,7 +280,7 @@ $region_97087f->add_element("Unewnavigation", array (
                'type' => 'entry',
                'url' => '{{upfront:home_url}}/gallery/',
                'target' => '',
-               'display_url' => '{{upfront:home_url}}/...',
+               'display_url' => 'http://issue.uf-coursepre...',
             )),
           )),
         ),
@@ -289,18 +289,18 @@ $region_97087f->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
+           'display_url' => 'http://issue.uf-coursepre...',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 98,
+         'menu-item-db-id' => 155,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '98',
+         'menu-item-object-id' => '155',
          'menu-item-target' => '',
          'menu-item-position' => 7,
          'menu-item-classes' => '',
@@ -309,18 +309,18 @@ $region_97087f->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/about/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
+           'display_url' => 'http://issue.uf-coursepre...',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 99,
+         'menu-item-db-id' => 156,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'FAQ',
          'menu-item-url' => '{{upfront:home_url}}/faq/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '99',
+         'menu-item-object-id' => '156',
          'menu-item-target' => '',
          'menu-item-position' => 8,
          'menu-item-classes' => '',
@@ -329,18 +329,18 @@ $region_97087f->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/faq/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
+           'display_url' => 'http://issue.uf-coursepre...',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 100,
+         'menu-item-db-id' => 157,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact',
          'menu-item-url' => '{{upfront:home_url}}/contact/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '100',
+         'menu-item-object-id' => '157',
          'menu-item-target' => '',
          'menu-item-position' => 9,
          'menu-item-classes' => '',
@@ -349,7 +349,7 @@ $region_97087f->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/contact/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
+           'display_url' => 'http://issue.uf-coursepre...',
         )),
       )),
     ),
@@ -426,7 +426,7 @@ $region_97087f->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 6,
+         'menu_id' => 14,
          'menu_slug' => 'main-menu',
       )),
     )),
@@ -482,6 +482,6 @@ $region_97087f->add_element("Unewnavigation", array (
   ),
 ));
 
-$regions->add($region_97087f);
+$regions->add($region_4e16c7);
 
 /* END_REGION_OUTPUT */

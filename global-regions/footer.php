@@ -239,13 +239,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 101,
+         'menu-item-db-id' => 158,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '101',
+         'menu-item-object-id' => '158',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
@@ -254,18 +254,18 @@ $footer->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/advertise/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
+           'display_url' => 'http://issue.uf-coursepre...',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 102,
+         'menu-item-db-id' => 159,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '102',
+         'menu-item-object-id' => '159',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'menu-item-classes' => '',
@@ -274,7 +274,7 @@ $footer->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/terms-of-use/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/...',
+           'display_url' => 'http://issue.uf-coursepre...',
         )),
       )),
     ),
@@ -354,7 +354,7 @@ $footer->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 7,
+         'menu_id' => 15,
          'menu_slug' => 'footer-menu',
       )),
     )),
