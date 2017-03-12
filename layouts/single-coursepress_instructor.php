@@ -203,7 +203,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 140,
+  'row' => 127,
   'background_type' => 'color',
   'background_color' => '#ufc6',
   'version' => '1.0.0',
@@ -286,7 +286,7 @@ $main->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
     'preset' => 'cp-instructor',
-    'row' => 40,
+    'row' => 120,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -349,7 +349,7 @@ $main->add_element("PostData", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 120,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -412,10 +412,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => '15',
@@ -460,10 +468,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 2,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
