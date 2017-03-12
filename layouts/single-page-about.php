@@ -99,7 +99,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">Home</a> <span class="upfront_theme_color_7">/</span> About</h6>',
+    'content' => '<h6 style="text-align: right;"><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">Home</span></span></a> <span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">/</span> About</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1470547254023-1581',
     'class' => 'c24 upfront-plain_txt',
@@ -126,7 +126,7 @@ $breadcrumbs->add_element("PlainTxt", array (
          'row' => 6,
       )),
     )),
-    'lock_padding' => 0,
+    'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
@@ -876,8 +876,8 @@ $block_banner->add_element("Uimage", array (
     )),
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1158,8 +1158,8 @@ $about_subnav->add_element("PlainTxt", array (
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1264,8 +1264,8 @@ $about_subnav->add_element("PlainTxt", array (
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1370,8 +1370,8 @@ $about_subnav->add_element("PlainTxt", array (
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1475,8 +1475,8 @@ $about_subnav->add_element("PlainTxt", array (
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1582,8 +1582,8 @@ $about_subnav->add_element("PlainTxt", array (
     'left_padding_use' => 'yes',
     'right_padding_use' => 'yes',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3063,8 +3063,8 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
     'left_padding_num' => '15',
     'right_padding_num' => '15',
   ),
@@ -4059,8 +4059,8 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
     'left_padding_num' => '15',
     'right_padding_num' => '15',
   ),
@@ -6251,8 +6251,8 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'row' => 49,
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
     'left_padding_num' => '15',
     'right_padding_num' => '15',
   ),
