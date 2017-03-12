@@ -398,62 +398,6 @@ $main->add_element("PostData", array (
       'margin_right' => '0',
       'margin_top' => '0',
       'margin_bottom' => '0',
-      'class' => 'upfront-post-data-part part-title',
-      'view_class' => 'PostDataPartView',
-      'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1467787537270-1335',
-      'type' => 'PostDataPartModel',
-      'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1467787537270-1762',
-      'padding_slider' => 15,
-      'use_padding' => 'yes',
-      'wrapper_breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'col' => 12,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'mobile' => 
-        array (
-          'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
-        ),
-      ),
-      'top_padding_num' => '15',
-      'left_padding_num' => '15',
-      'right_padding_num' => '15',
-      'bottom_padding_num' => '15',
-      'lock_padding' => '',
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'col' => 12,
-        ),
-        'current_property' => 
-        array (
-          0 => 'col',
-        ),
-        'mobile' => 
-        array (
-          'col' => 7,
-        ),
-      ),
-    ),
-    1 => 
-    array (
-      'columns' => '20',
-      'margin_left' => '0',
-      'margin_right' => '0',
-      'margin_top' => '0',
-      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-content',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
@@ -469,13 +413,13 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'clear' => true,
-          'order' => 2,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
           'clear' => true,
-          'order' => 2,
+          'order' => 1,
         ),
         'current_property' => 
         array (
