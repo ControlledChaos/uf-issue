@@ -576,7 +576,7 @@ $block_banner->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 style="text-align: center;"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">BLOGGING COURSES</span></span></h1>',
+    'content' => '<h1 style="text-align: center;"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">BLOGACADEMY</span></span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1489270767433-1630',
     'class' => 'c24 upfront-plain_txt',
@@ -869,6 +869,422 @@ $orange_block = upfront_create_region(
 )
 			);
 
+$orange_block->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1489291323015-1674',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1489291323015-1062',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1489291323015-1055',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
+$orange_block->add_element("PlainTxt", array (
+  'columns' => '4',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1489290871424-1009',
+  'options' => 
+  array (
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><strong data-redactor-tag="strong" data-verified="redactor">BEING<br>CREATIVE</strong></span></h6>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1489290871424-1615',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '0',
+    'right_padding_num' => '0',
+    'bottom_padding_num' => '15',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'anchor' => '',
+    'current_preset' => 'default',
+    'row' => 8,
+    'left_padding_use' => 'yes',
+    'left_padding_slider' => '0',
+    'right_padding_use' => 'yes',
+    'right_padding_slider' => '0',
+  ),
+  'row' => 8,
+  'wrapper_id' => 'wrapper-1489291158393-1717',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => true,
+      'col' => 4,
+      'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 1,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 4,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+));
+
+$orange_block->add_element("PlainTxt", array (
+  'columns' => '4',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1489291286396-1233',
+  'options' => 
+  array (
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><strong data-redactor-tag="strong" data-verified="redactor"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">SPEAK YOUR<br>​</span>TRUTH</strong></span></h6>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'object-1489291286396-1173',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '0',
+    'right_padding_num' => '0',
+    'bottom_padding_num' => '15',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'anchor' => '',
+    'current_preset' => 'default',
+    'row' => 5,
+    'left_padding_use' => 'yes',
+    'left_padding_slider' => '0',
+    'right_padding_use' => 'yes',
+    'right_padding_slider' => '0',
+  ),
+  'row' => 5,
+  'wrapper_id' => 'wrapper-1489291287625-1091',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'col' => 4,
+      'order' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 2,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 4,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+));
+
+$orange_block->add_element("PlainTxt", array (
+  'columns' => '4',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1489291289737-1111',
+  'options' => 
+  array (
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"></span></span><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><strong data-redactor-tag="strong" data-verified="redactor"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6">MEANINGFUL<br>​</span>WRITINGS</strong></span></h6>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'object-1489291289737-1393',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '0',
+    'right_padding_num' => '0',
+    'bottom_padding_num' => '15',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'anchor' => '',
+    'current_preset' => 'default',
+    'row' => 5,
+    'left_padding_use' => 'yes',
+    'left_padding_slider' => '0',
+    'right_padding_use' => 'yes',
+    'right_padding_slider' => '0',
+  ),
+  'row' => 5,
+  'wrapper_id' => 'wrapper-1489291290538-1694',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'col' => 4,
+      'order' => 3,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 3,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 4,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+));
+
+$orange_block->add_element("PlainTxt", array (
+  'columns' => '4',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1489291304936-1288',
+  'options' => 
+  array (
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><strong data-redactor-tag="strong" data-verified="redactor">LOREM<br>IPSUM</strong></span></h6>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'object-1489291304937-1059',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '0',
+    'right_padding_num' => '0',
+    'bottom_padding_num' => '15',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'anchor' => '',
+    'current_preset' => 'default',
+    'row' => 5,
+    'left_padding_use' => 'yes',
+    'left_padding_slider' => '0',
+    'right_padding_use' => 'yes',
+    'right_padding_slider' => '0',
+  ),
+  'row' => 5,
+  'wrapper_id' => 'wrapper-1489291305759-1832',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => true,
+      'col' => 6,
+      'order' => 4,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 4,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+));
+
+$orange_block->add_element("PlainTxt", array (
+  'columns' => '4',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1489291307254-1970',
+  'options' => 
+  array (
+    'content' => '<h6 style="text-align: center;"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><strong data-redactor-tag="strong" data-verified="redactor">LOREM<br>IPSUM</strong></span></h6>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'object-1489291307254-1429',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '0',
+    'right_padding_num' => '0',
+    'bottom_padding_num' => '15',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'anchor' => '',
+    'current_preset' => 'default',
+    'row' => 5,
+    'left_padding_use' => 'yes',
+    'left_padding_slider' => '0',
+    'right_padding_use' => 'yes',
+    'right_padding_slider' => '0',
+  ),
+  'row' => 5,
+  'wrapper_id' => 'wrapper-1489291308065-1941',
+  'edited' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'col' => 6,
+      'order' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'col' => 7,
+      'order' => 5,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+));
+
+$orange_block->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1489291326918-1859',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1489291326918-1468',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1489291326917-1404',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+));
+
 $regions->add($orange_block);
 
 $main = upfront_create_region(
@@ -1119,10 +1535,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -1142,7 +1566,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'lock_padding',
+          0 => 'col',
         ),
         'mobile' => 
         array (
