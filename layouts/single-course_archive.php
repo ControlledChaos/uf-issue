@@ -304,7 +304,7 @@ $block_title->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2><span class="upfront_theme_bg_color_6"><span class="upfront_theme_bg_color_6">&nbsp;<span class="upfront_theme_bg_color_7"><span class="upfront_theme_bg_color_7"><span class="upfront_theme_bg_color_6"><span class="upfront_theme_bg_color_6"><span class="upfront_theme_color_7"><span class="upfront_theme_color_7">ALL COURSES</span></span></span></span></span></span>&nbsp;</span></span></h2>',
+    'content' => '<h2><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6"><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6">&nbsp;&nbsp;<span class="upfront_theme_bg_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_7"><span class="upfront_theme_bg_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_7"><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6"><span class="upfront_theme_bg_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_bg_color_6"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">ALL COURSES&nbsp;</span></span></span></span></span></span></span></span>&nbsp;</span></span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1489270268388-1992',
     'class' => 'c24 upfront-plain_txt',
@@ -482,7 +482,7 @@ $block_banner->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_3" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_3"><span class="upfront_theme_color_3" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_3"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">ENLIGHT YOURSELF WITH OUR</span></span></span></span></h4>',
+    'content' => '<h4 style="text-align: center;"><span class="upfront_theme_color_3" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_3"><span class="upfront_theme_color_3" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_3"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">AMAZE YOURSELF WITH OUR</span></span></span></span></h4>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1489270428451-1119',
     'class' => 'c24 upfront-plain_txt',
@@ -814,7 +814,7 @@ $block_banner->add_element("Uimage", array (
     ),
     'current_property' => 
     array (
-      0 => 'row',
+      0 => 'col',
     ),
     'mobile' => 
     array (
