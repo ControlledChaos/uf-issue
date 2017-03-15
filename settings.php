@@ -266,9 +266,8 @@ div.mp_select2 ul.select2-results .select2-highlighted, div.mp_select2_search ul
 }
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__topbar .bbm-modal__title {
     margin: 0;
-    color: #ufc1;
-    font: 300 20px/28px "Lato", "Open Sans", Arial, sans-serif;
-    text-transform: uppercase;
+    color: #ufc4;
+    font: 300 24px/1.3em "Lato", sans-serif;
 }
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p {
     margin: 0 0 15px;
@@ -279,17 +278,19 @@ div.mp_select2 ul.select2-results .select2-highlighted, div.mp_select2_search ul
     margin: 0;
 }
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a {
-    border-bottom: 2px solid #ufc4;
-    color: #ufc4;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ufc1;
+    color: #ufc1;
     font: 500 14px/32px "Lato", "Open Sans", Arial, sans-serif;
     text-decoration: none;
-    transition: border-bottom 0.2s ease-in;
-    -moz-transition: border-bottom 0.2s ease-in;
-    -webkit-transition: border-bottom 0.2s ease-in
+    text-transform: uppercase;
+    transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in
 }
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a:hover {
-    border-bottom: 1px solid #ufc5;
-    color: #ufc5;
+    border-bottom: 2px solid #ufc7;
+    color: #ufc7;
 }
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar {
     padding: 0;
