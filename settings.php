@@ -244,6 +244,55 @@ div.mp_select2 ul.select2-results .select2-highlighted, div.mp_select2_search ul
     border-color: #e78e6f;
     background: #e78e6f;
     color: #ufc6;
+}
+/* CoursePress - Modals */
+.cp-mask {
+    background: rgba(0,0,0,0.2);
+}
+.cp-mask .bbm-wrapper {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container {
+    border: 2px solid #ufc1;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: #ufc6;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__topbar {
+    margin-bottom: 15px;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__topbar .bbm-modal__title {
+    margin: 0;
+    color: #ufc1;
+    font: 300 20px/28px "Lato", "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p {
+    margin: 0 0 15px;
+    color: #ufc3;
+    font: 300 16px/32px "Lato", "Open Sans", Arial, sans-serif
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p:last-child {
+    margin: 0;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a {
+    border-bottom: 2px solid #ufc4;
+    color: #ufc4;
+    font: 500 14px/32px "Lato", "Open Sans", Arial, sans-serif;
+    text-decoration: none;
+    transition: border-bottom 0.2s ease-in;
+    -moz-transition: border-bottom 0.2s ease-in;
+    -webkit-transition: border-bottom 0.2s ease-in
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a:hover {
+    border-bottom: 1px solid #ufc5;
+    color: #ufc5;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar {
+    padding: 0;
 }',
 	'layout_properties' => '[{"name":"version","value":"1.0.0"},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":1080},{"name":"background_color","value":"rgba(243,243,243,1)"},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}}]',
 	'theme_colors' => '{"colors":[{"color":"#2e3332","prev":"#2e3332","highlight":"#2e3332","shade":"#2e3332","selected":"","luminance":"","alpha":"1"},{"color":"#de7854","prev":"#de7854","highlight":"#de7854","shade":"#de7854","selected":"","luminance":"","alpha":"1"},{"color":"#5aadaa","prev":"#5aadaa","highlight":"#5aadaa","shade":"#5aadaa","selected":"","luminance":"","alpha":"1"},{"color":"#373d3c","prev":"#373d3c","highlight":"#373d3c","shade":"#373d3c","selected":"","luminance":"","alpha":"1"},{"color":"#7c8a87","prev":"#7c8a87","highlight":"#7c8a87","shade":"#7c8a87","selected":"","luminance":"","alpha":"1"},{"color":"#a4b2b0","prev":"#a4b2b0","highlight":"#a4b2b0","shade":"#a4b2b0","selected":"","luminance":"","alpha":"1"},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#b96446","prev":"#b96446","highlight":"#b96446","shade":"#b96446","selected":"","luminance":"","alpha":"1"},{"color":"#c5d6d3","prev":"#c5d6d3","highlight":"#c5d6d3","shade":"#c5d6d3","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
