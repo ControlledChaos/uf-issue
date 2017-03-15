@@ -92,7 +92,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">Home</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> <a href="{{upfront:home_url}}/contact/" target="_self" data-upfront-link-type="entry" data-upfront-link-title="Contact"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">All Courses</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> Course Discussion</h6>',
+    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">Home</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> <a href="{{upfront:home_url}}/courses/" target="_self" data-upfront-link-type="entry" data-upfront-link-title="Courses"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">All Courses</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> Course Discussion</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1489517186574-1232',
     'class' => 'c24 upfront-plain_txt',
