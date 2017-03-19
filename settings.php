@@ -254,7 +254,8 @@ div.mp_select2 ul.select2-results .select2-highlighted, div.mp_select2_search ul
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
 }
-.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container {
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container,
+.cp-mask .cp-alert-container {
     border: 2px solid #ufc1;
     border-radius: 0;
     -moz-border-radius: 0;
@@ -269,12 +270,14 @@ div.mp_select2 ul.select2-results .select2-highlighted, div.mp_select2_search ul
     color: #ufc4;
     font: 300 24px/1.3em "Lato", sans-serif;
 }
-.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p {
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p,
+.cp-mask .cp-alert-container p {
     margin: 0 0 15px;
     color: #ufc3;
     font: 300 16px/32px "Lato", "Open Sans", Arial, sans-serif
 }
-.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p:last-child {
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p:last-child,
+.cp-mask .cp-alert-container p:last-child {
     margin: 0;
 }
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a {
@@ -291,6 +294,29 @@ div.mp_select2 ul.select2-results .select2-highlighted, div.mp_select2_search ul
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a:hover {
     border-bottom: 2px solid #ufc7;
     color: #ufc7;
+}
+.cp-mask .cp-alert-container button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 0;
+    background: #ufc1;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #ufc6;
+    font: 400 14px/1.4 "Lato", Arial, sans-serif;
+    transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+.cp-mask .cp-alert-container button:hover {
+    background: #e78e6f;
+}
+.cp-mask .cp-alert-container button.button-cancel {
+    background: #ufc4;
+}
+.cp-mask .cp-alert-container button.button-cancel:hover {
+    background: #ufc5;
 }
 .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar {
     padding: 0;
