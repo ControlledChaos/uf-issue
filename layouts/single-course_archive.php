@@ -764,7 +764,7 @@ $block_banner->add_element("Uimage", array (
            'height' => 95,
         )),
       )),
-       'current_property' => 'element_size',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -885,6 +885,8 @@ $orange_block->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1489291323015-1062',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -898,10 +900,26 @@ $orange_block->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -943,6 +961,18 @@ $orange_block->add_element("PlainTxt", array (
     'left_padding_slider' => '0',
     'right_padding_use' => 'yes',
     'right_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -955,8 +985,9 @@ $orange_block->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'clear' => true,
-      'col' => 4,
-      'order' => 1,
+      'col' => 3,
+      'order' => 0,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -966,18 +997,21 @@ $orange_block->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 3,
+      'edited' => true,
+      'left' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
     'mobile' => 
     array (
@@ -1023,6 +1057,18 @@ $orange_block->add_element("PlainTxt", array (
     'left_padding_slider' => '0',
     'right_padding_use' => 'yes',
     'right_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1035,8 +1081,9 @@ $orange_block->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'clear' => false,
-      'col' => 4,
-      'order' => 2,
+      'col' => 3,
+      'order' => 1,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1046,18 +1093,21 @@ $orange_block->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 3,
+      'edited' => true,
+      'left' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
     'mobile' => 
     array (
@@ -1103,6 +1153,18 @@ $orange_block->add_element("PlainTxt", array (
     'left_padding_slider' => '0',
     'right_padding_use' => 'yes',
     'right_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1115,8 +1177,9 @@ $orange_block->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'clear' => false,
-      'col' => 4,
-      'order' => 3,
+      'col' => 2,
+      'order' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1126,18 +1189,21 @@ $orange_block->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 2,
+      'edited' => true,
+      'left' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
     'mobile' => 
     array (
@@ -1183,6 +1249,18 @@ $orange_block->add_element("PlainTxt", array (
     'left_padding_slider' => '0',
     'right_padding_use' => 'yes',
     'right_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1194,9 +1272,10 @@ $orange_block->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'clear' => true,
-      'col' => 6,
-      'order' => 4,
+      'clear' => false,
+      'col' => 2,
+      'order' => 3,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1206,18 +1285,21 @@ $orange_block->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 6,
+      'col' => 2,
+      'edited' => true,
+      'left' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
     'mobile' => 
     array (
@@ -1263,6 +1345,18 @@ $orange_block->add_element("PlainTxt", array (
     'left_padding_slider' => '0',
     'right_padding_use' => 'yes',
     'right_padding_slider' => '0',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1275,8 +1369,9 @@ $orange_block->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'clear' => false,
-      'col' => 6,
-      'order' => 5,
+      'col' => 2,
+      'order' => 4,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1286,18 +1381,21 @@ $orange_block->add_element("PlainTxt", array (
     ),
     'current_property' => 
     array (
-      0 => 'order',
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 6,
+      'col' => 2,
+      'edited' => true,
+      'left' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
-      0 => 'col',
+      0 => 'edited',
     ),
     'mobile' => 
     array (
@@ -1322,6 +1420,8 @@ $orange_block->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1489291326918-1468',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1334,10 +1434,26 @@ $orange_block->add_element("Uspacer", array (
     'tablet' => 
     array (
       'col' => 2,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -1615,7 +1731,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
