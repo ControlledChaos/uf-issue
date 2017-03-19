@@ -72,17 +72,16 @@ $footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1471836713619-1302',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 2,
+      'col' => 1,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 1,
       'edited' => true,
     ),
     'current_property' => 
@@ -173,7 +172,6 @@ $footer->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470500096817-1623',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -367,7 +365,6 @@ $footer->add_element("Unewnavigation", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1470521271113-1883',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -439,7 +436,6 @@ $footer->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1471836756507-1480',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
