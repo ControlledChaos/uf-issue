@@ -59,6 +59,8 @@ $breadcrumbs->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1489277100706-1236',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -111,6 +113,19 @@ $breadcrumbs->add_element("PlainTxt", array (
     'usingNewAppearance' => true,
     'is_edited' => true,
     'row' => 5,
+    'current_preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -170,6 +185,8 @@ $breadcrumbs->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1489277098872-1914',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -218,15 +235,18 @@ $main = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'top_bg_padding_num' => '0',
+       'bottom_bg_padding_num' => '20',
     )),
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'sub_regions' => 
   array (
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_num' => '50',
-  'bottom_bg_padding_num' => '80',
+  'top_bg_padding_num' => '20',
+  'bottom_bg_padding_num' => '70',
   'bg_padding_num' => 0,
   'region_role' => 'main',
 )
@@ -248,6 +268,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1489276329758-1883',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -347,6 +369,26 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'cp-course',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'cp-course-mobile',
+      )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'row' => 744,
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '13',
+         'top_padding_num' => '13',
+      )),
     )),
   ),
   'row' => 6,
@@ -387,6 +429,8 @@ $main->add_element("PostData", array (
     'mobile' => 
     array (
       'col' => 7,
+      'edited' => true,
+      'row' => 744,
     ),
   ),
   'objects' => 
@@ -425,19 +469,23 @@ $main->add_element("PostData", array (
       'lock_padding' => '',
       'bottom_padding_use' => 'yes',
       'bottom_padding_slider' => '40',
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'use_padding',
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -473,19 +521,23 @@ $main->add_element("PostData", array (
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
       'lock_padding' => '',
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -508,6 +560,8 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1489276333852-1577',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
