@@ -120,7 +120,7 @@ $breadcrumbs->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -373,6 +373,10 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'cp-course-mobile',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'cp-course-tablet',
+      )),
     )),
     'breakpoint' => 
     (array)(array(
@@ -480,7 +484,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
