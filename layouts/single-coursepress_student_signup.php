@@ -187,11 +187,11 @@ $main = upfront_create_region(
   array (
     0 => false,
   ),
-  'bg_padding_type' => 'equal',
-  'top_bg_padding_num' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_num' => '20',
+  'bottom_bg_padding_num' => '70',
   'bg_padding_num' => 0,
-  'region_role' => false,
+  'region_role' => 'main',
 )
 			);
 
