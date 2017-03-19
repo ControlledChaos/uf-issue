@@ -72,7 +72,7 @@ $breadcrumbs->add_element("PlainTxt", array (
   'id' => 'module-1489906152519-1757',
   'options' => 
   array (
-    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">Home</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> <a href="{{upfront:home_url}}/courses/" target="_self" data-upfront-link-type="entry" data-upfront-link-title="Courses"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">All Courses</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> Student&nbsp;Signup</h6>',
+    'content' => '<h6 style="text-align: right;"><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">Home</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> <a href="{{upfront:home_url}}/contact/" target="_self" data-upfront-link-type="entry" data-upfront-link-title="Contact"><span class="upfront_theme_color_1"><span class="upfront_theme_color_1">All Courses</span></span></a> <span class="upfront_theme_color_7"><span class="upfront_theme_color_7">/</span></span> Student&nbsp;Signup</h6>',
     'type' => 'PlainTxtModel',
     'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1489906152519-1661',
@@ -350,7 +350,7 @@ $main->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
     'preset' => 'cp-signup',
-    'row' => 40,
+    'row' => 257,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -416,7 +416,7 @@ $main->add_element("PostData", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '40',
   ),
-  'row' => 6,
+  'row' => 257,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -499,7 +499,7 @@ $main->add_element("PostData", array (
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
       'lock_padding' => '',
-      'row' => 321,
+      'row' => 249,
       'breakpoint' => 
       array (
         'tablet' => 
