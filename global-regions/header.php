@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_00bd82 = upfront_create_region(
+$region_dff091 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -44,7 +44,7 @@ $region_00bd82 = upfront_create_region(
 )
 			);
 
-$region_00bd82->add_element("PlainTxt", array (
+$region_dff091->add_element("PlainTxt", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -152,7 +152,7 @@ $region_00bd82->add_element("PlainTxt", array (
   ),
 ));
 
-$region_00bd82->add_element("Unewnavigation", array (
+$region_dff091->add_element("Unewnavigation", array (
   'columns' => '22',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -482,6 +482,6 @@ $region_00bd82->add_element("Unewnavigation", array (
   ),
 ));
 
-$regions->add($region_00bd82);
+$regions->add($region_dff091);
 
 /* END_REGION_OUTPUT */
