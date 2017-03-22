@@ -119,7 +119,7 @@ $footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1470499667631-1877',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'preset' => 'default',
+    'preset' => 'textbox-default-center',
     'padding_slider' => '15',
     'top_padding_num' => '18',
     'bottom_padding_num' => '18',
