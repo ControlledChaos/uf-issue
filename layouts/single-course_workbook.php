@@ -308,7 +308,7 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'cp-workbook-tablet',
+    'preset' => 'cp-workbook',
     'row' => 151,
     'type_parts' => 
     array (
