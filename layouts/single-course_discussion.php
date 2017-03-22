@@ -121,6 +121,10 @@ $breadcrumbs->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -231,7 +235,10 @@ $main = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'top_bg_padding_num' => '0',
+       'bottom_bg_padding_num' => '40',
     )),
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'sub_regions' => 
   array (
@@ -374,6 +381,10 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -490,10 +501,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -509,6 +528,7 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
@@ -517,6 +537,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
