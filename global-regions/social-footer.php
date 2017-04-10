@@ -217,7 +217,7 @@ $social_footer->add_element("Button", array (
        'target' => '',
        'object' => 'page',
        'object_id' => 12,
-       'display_url' => 'http://issue.uf-coursepre...',
+       'display_url' => '{{upfront:home_url}}/contact/',
     )),
     'padding_slider' => '15',
     'top_padding_num' => '12',

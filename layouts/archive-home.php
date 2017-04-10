@@ -503,8 +503,8 @@ $main_content->add_element("Uwidget", array (
     )),
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -988,8 +988,8 @@ $main_content->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '20',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1204,8 +1204,8 @@ $main_content->add_element("Uimage", array (
     'anchor' => '',
     'top_padding_use' => 'yes',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1426,8 +1426,8 @@ $main_content->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3919,8 +3919,8 @@ $categories->add_element("Uimage", array (
     'anchor' => '',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
