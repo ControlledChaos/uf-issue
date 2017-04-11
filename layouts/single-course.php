@@ -394,6 +394,7 @@ $main->add_element("PostData", array (
          'top_padding_num' => '13',
       )),
     )),
+    'theme_style' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -446,60 +447,6 @@ $main->add_element("PostData", array (
       'margin_right' => '0',
       'margin_top' => '0',
       'margin_bottom' => '0',
-      'class' => 'upfront-post-data-part part-title',
-      'view_class' => 'PostDataPartView',
-      'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1467787537270-1335',
-      'type' => 'PostDataPartModel',
-      'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1467787537270-1762',
-      'padding_slider' => 15,
-      'use_padding' => 'yes',
-      'wrapper_breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'col' => 12,
-        ),
-        'mobile' => 
-        array (
-          'col' => 7,
-        ),
-      ),
-      'top_padding_num' => '15',
-      'left_padding_num' => '15',
-      'right_padding_num' => '15',
-      'bottom_padding_num' => '40',
-      'lock_padding' => '',
-      'bottom_padding_use' => 'yes',
-      'bottom_padding_slider' => '40',
-      'current_preset' => 'default',
-      'preset' => 'default',
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'col' => 12,
-          'use_padding' => 'yes',
-        ),
-        'current_property' => 
-        array (
-          0 => 'lock_padding',
-        ),
-        'mobile' => 
-        array (
-          'col' => 7,
-          'use_padding' => 'yes',
-        ),
-      ),
-    ),
-    1 => 
-    array (
-      'columns' => '20',
-      'margin_left' => '0',
-      'margin_right' => '0',
-      'margin_top' => '0',
-      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-content',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
@@ -514,10 +461,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -533,15 +488,17 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'lock_padding',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
           'col' => 7,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
       ),
     ),

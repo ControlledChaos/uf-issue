@@ -239,42 +239,22 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 550,
+         'menu-item-db-id' => 203,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'ADVERTISE',
-         'menu-item-url' => '{{upfront:home_url}}/advertise/',
+         'menu-item-title' => 'Terms &amp; Privacy',
+         'menu-item-url' => '{{upfront:home_url}}/terms/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '550',
+         'menu-item-object-id' => '203',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/advertise/',
+           'url' => '{{upfront:home_url}}/terms/',
            'target' => '',
-           'display_url' => 'http://issue.uf-coursepre...',
-        )),
-      )),
-      1 => 
-      (array)(array(
-         'menu-item-db-id' => 551,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'TERMS OF USE',
-         'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '551',
-         'menu-item-target' => '',
-         'menu-item-position' => 2,
-         'menu-item-classes' => '',
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/terms-of-use/',
-           'target' => '',
-           'display_url' => 'http://issue.uf-coursepre...',
+           'display_url' => '{{upfront:home_url}}/terms/',
         )),
       )),
     ),
@@ -354,7 +334,7 @@ $footer->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 63,
+         'menu_id' => 8,
          'menu_slug' => 'footer-menu',
       )),
     )),
